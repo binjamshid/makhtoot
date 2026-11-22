@@ -36,10 +36,8 @@ final class FreeExportUITests: XCTestCase {
         XCTAssertTrue(svg.waitForExistence(timeout: 10))
         svg.tap()
 
-        let shareAction = app.buttons.matching(
-            NSPredicate(format: "label IN %@", ["نسخ", "Copy", "Save to Files", "حفظ في الملفات"])
-        ).firstMatch
-        XCTAssertTrue(shareAction.waitForExistence(timeout: 15), app.debugDescription)
+        let shareSheet = app.otherElements["ActivityListView"]
+        XCTAssertTrue(shareSheet.waitForExistence(timeout: 15), app.debugDescription)
         XCTAssertFalse(app.buttons["استعادة المشتريات"].exists)
     }
 }
