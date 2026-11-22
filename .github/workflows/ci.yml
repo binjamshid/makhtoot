@@ -47,7 +47,7 @@ jobs:
         run: bash Scripts/check-localization.sh
       - name: Design-token ratchet (no raw colors bypassing MKTheme)
         run: bash Scripts/check-design-tokens.sh
-      - name: StoreKit product-id contract mirror
+      - name: Legacy package StoreKit fixture IDs
         run: bash Scripts/check-storekit-ids.sh
       - name: Stub-source audit (D-229(3))
         run: bash Scripts/stub-source-audit.sh

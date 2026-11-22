@@ -7,19 +7,12 @@ import PhotosUI
 import SwiftUI
 import UIKit
 
-/// T8's canvas-size preset chooser: social/story/messaging-status/wallpaper/
-/// print ratios at ≈2 MP baseline (BRIEF export presets), plus a
-/// premium-gated "أبعاد مخصصة" (custom dimensions) row. Free-tier tapping
-/// custom routes to the paywall with context
-/// `.premiumFeatureTap(.customCanvas)` (packet T8 accept criterion) instead
-/// of showing the numeric fields.
+/// Canvas presets, custom dimensions and projects sized from a photo.
 struct NewProjectSheet: View {
     @Environment(\.mkTheme) private var theme
     @Environment(\.dismiss) private var dismiss
 
-    let isPremium: Bool
     var onCreate: (MKCanvasSpec) -> Void
-    var onRequestPaywall: () -> Void
     /// P5.3: "start from a photo" ، creates the project at a canvas size
     /// derived from the picked photo's own aspect ratio, then hands the
     /// raw bytes + extension back so the caller (`ProjectBrowserView`) can
@@ -106,32 +99,23 @@ struct NewProjectSheet: View {
         }
     }
 
-    /// P5.3: gated the SAME way `customCard` gates "أبعاد مخصصة" immediately
-    /// above ، tapping while free routes to the paywall instead of opening
-    /// the system picker at all (`BackgroundImageSheet`'s own doc comment
-    /// documents why the picker needs a plain `Button` in front of it
-    /// rather than presenting directly off the tap).
     private var photoCard: some View {
         Button {
-            if isPremium {
-                showsPhotoPicker = true
-            } else {
-                onRequestPaywall()
-            }
+            showsPhotoPicker = true
         } label: {
             VStack(spacing: theme.spacing.sm) {
                 RoundedRectangle(cornerRadius: theme.radius.card, style: theme.radius.style)
                     .fill(theme.canvasBackdrop)
                     .aspectRatio(1, contentMode: .fit)
                     .overlay {
-                        Image(systemName: isPremium ? "photo.badge.plus" : "lock.fill")
+                        Image(systemName: "photo.badge.plus")
                             .font(.system(size: cardIconSize))
                             .foregroundStyle(theme.inkMuted)
                     }
                 Text(photoLabel)
                     .mkTypeStyle(theme.typeRamp.style(for: .callout))
                     .foregroundStyle(theme.ink)
-                Text(isPremium ? photoSubtitlePremium : customSubtitleFree)
+                Text(photoSubtitle)
                     .mkTypeStyle(theme.typeRamp.style(for: .caption))
                     .foregroundStyle(theme.inkMuted)
                     .multilineTextAlignment(.center)
@@ -197,25 +181,21 @@ struct NewProjectSheet: View {
 
     private var customCard: some View {
         Button {
-            if isPremium {
-                showsCustomFields.toggle()
-            } else {
-                onRequestPaywall()
-            }
+            showsCustomFields.toggle()
         } label: {
             VStack(spacing: theme.spacing.sm) {
                 RoundedRectangle(cornerRadius: theme.radius.card, style: theme.radius.style)
                     .fill(theme.canvasBackdrop)
                     .aspectRatio(1, contentMode: .fit)
                     .overlay {
-                        Image(systemName: isPremium ? "slider.horizontal.3" : "lock.fill")
+                        Image(systemName: "slider.horizontal.3")
                             .font(.system(size: cardIconSize))
                             .foregroundStyle(theme.inkMuted)
                     }
                 Text(customLabel)
                     .mkTypeStyle(theme.typeRamp.style(for: .callout))
                     .foregroundStyle(theme.ink)
-                Text(isPremium ? customSubtitlePremium : customSubtitleFree)
+                Text(customSubtitle)
                     .mkTypeStyle(theme.typeRamp.style(for: .caption))
                     .foregroundStyle(theme.inkMuted)
                     .multilineTextAlignment(.center)
@@ -287,14 +267,9 @@ struct NewProjectSheet: View {
         "أبعاد مخصصة"
     }
 
-    private var customSubtitlePremium: String {
+    private var customSubtitle: String {
         // Latin gloss: enter exact width and height
         "أدخل العرض والارتفاع بدقة"
-    }
-
-    private var customSubtitleFree: String {
-        // Latin gloss: premium feature
-        "ميزة مميزة"
     }
 
     private var photoLabel: String {
@@ -302,7 +277,7 @@ struct NewProjectSheet: View {
         "ابدأ من صورة"
     }
 
-    private var photoSubtitlePremium: String {
+    private var photoSubtitle: String {
         // Latin gloss: use a photo as the background
         "استخدم صورة كخلفية"
     }
@@ -330,6 +305,6 @@ struct NewProjectSheet: View {
 }
 
 #Preview {
-    NewProjectSheet(isPremium: true, onCreate: { _ in }, onRequestPaywall: {}, onCreateFromPhoto: { _, _ in })
+    NewProjectSheet(onCreate: { _ in }, onCreateFromPhoto: { _, _ in })
         .environment(\.mkTheme, HibrTheme.default)
 }

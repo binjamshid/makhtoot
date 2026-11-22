@@ -13,7 +13,6 @@ import UIKit
 /// docs/impl-log/WS-12.md §5).
 struct GeneralSettingsView: View {
     @Environment(\.mkTheme) private var theme
-    @Environment(AppContainer.self) private var container
     /// 2026-07-29 crash-report defensive fix: this view previously declared
     /// its own `@Environment(AppNavigationModel.self)` solely to call
     /// `resetOnboarding()` from the button below. Every other reader of
@@ -44,8 +43,6 @@ struct GeneralSettingsView: View {
     @State private var currentIconName: String?
     @State private var isSwitchingIcon = false
     @State private var iconSwitchErrorText: String?
-    @State private var showsIconPaywall = false
-    @State private var entitlementState: MKEntitlementState = .free
 
     private let canvasPresets: [(id: String, label: String)] = [
         ("social.square",    "مربع ، ١٠٨٠×١٠٨٠"),   // square
@@ -59,7 +56,7 @@ struct GeneralSettingsView: View {
     /// design-system theme"): `id == nil` is the PRIMARY asset-catalog
     /// icon (hibr, the app's default theme ، `setAlternateIconName(nil)`
     /// always resets to this exact icon, so hibr needs no loose alternate
-    /// files of its own). The other four are premium-gated alternates,
+    /// files of its own). The other four are alternate icons,
     /// each a loose-file set at the bundle root named
     /// `AppIcon-<ThemeName><size>@<scale>x.png` (`Makhtoot/AltIcons/`),
     /// declared in `Info.plist`'s `CFBundleAlternateIcons`/
@@ -67,14 +64,13 @@ struct GeneralSettingsView: View {
     private struct AppIconOption: Identifiable {
         let id: String?
         let displayName: String
-        let isPremium: Bool
     }
     private let appIconOptions: [AppIconOption] = [
-        AppIconOption(id: nil, displayName: "حِبر (افتراضي)", isPremium: false),
-        AppIconOption(id: "Naqsh", displayName: "نَقش", isPremium: true),
-        AppIconOption(id: "Raml", displayName: "رمل", isPremium: true),
-        AppIconOption(id: "Tayf", displayName: "طيف", isPremium: true),
-        AppIconOption(id: "Kufi", displayName: "كوفي", isPremium: true),
+        AppIconOption(id: nil, displayName: "حِبر (افتراضي)"),
+        AppIconOption(id: "Naqsh", displayName: "نَقش"),
+        AppIconOption(id: "Raml", displayName: "رمل"),
+        AppIconOption(id: "Tayf", displayName: "طيف"),
+        AppIconOption(id: "Kufi", displayName: "كوفي"),
     ]
 
     var body: some View {
@@ -167,13 +163,6 @@ struct GeneralSettingsView: View {
             if MKFeatureFlags.default.alternateAppIcons {
                 currentIconName = UIApplication.shared.alternateIconName
             }
-            entitlementState = container.entitlementProvider.state
-            for await state in await container.entitlementResolver.states() {
-                entitlementState = state
-            }
-        }
-        .sheet(isPresented: $showsIconPaywall) {
-            PaywallView(context: .settingsUpgrade) { showsIconPaywall = false }
         }
     }
 
@@ -213,19 +202,14 @@ struct GeneralSettingsView: View {
     @ViewBuilder
     private func appIconRow(_ option: AppIconOption) -> some View {
         let isCurrent = currentIconName == option.id
-        let isLocked = option.isPremium && !entitlementState.grantsPremiumAccess
         Button {
-            guard !isLocked else { showsIconPaywall = true; return }
             switchIcon(to: option.id)
         } label: {
             HStack {
                 Text(option.displayName)
                     .foregroundStyle(theme.ink)
                 Spacer()
-                if isLocked {
-                    Image(systemName: "lock.fill")
-                        .foregroundStyle(theme.primary)
-                } else if isCurrent {
+                if isCurrent {
                     Image(systemName: "checkmark")
                         .foregroundStyle(theme.primary)
                 }
@@ -277,17 +261,17 @@ struct GeneralSettingsView: View {
     }
 
     // EU-7: replay onboarding. Latin gloss: "replay the intro screens" /
-    // "returns you to the four intro screens shown on first use."
+    // "returns you to the intro screens shown on first use."
     private var resetOnboardingLabel: String { "إعادة عرض الجولة التعريفية" }
     private var resetOnboardingFooter: String {
-        "يعيدك هذا إلى شاشات التعريف الأربع التي تظهر عند أول استخدام للتطبيق."
+        "يعيدك هذا إلى شاشات التعريف التي تظهر عند أول استخدام للتطبيق."
     }
 
     // Latin gloss: app icon
     private var appIconSectionHeader: String { "أيقونة التطبيق" }
     private var appIconSectionFooter: String {
-        // Latin gloss: changing the icon requires system approval, and other icons besides the default require a premium subscription.
-        "تغيير الأيقونة يتطلب موافقة النظام، والأيقونات الأخرى غير الافتراضية تتطلب اشتراكًا مميزًا."
+        // Latin gloss: changing the icon requires system approval.
+        "تغيير الأيقونة يتطلب موافقة النظام."
     }
     private var iconSwitchFailureText: String {
         // Latin gloss: could not change the app icon

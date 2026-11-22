@@ -116,8 +116,6 @@ enum class MkExportFormatOption {
     JPEG, PNG, PDF_RASTER, SVG, PDF_VECTOR;
     val id: MkExportFormatOption
         get() = throw MkNotYetPorted("app.MkExportFormatOption.id")
-    val isPremium: Boolean
-        get() = throw MkNotYetPorted("app.MkExportFormatOption.isPremium")
     val displayName: String
         get() = throw MkNotYetPorted("app.MkExportFormatOption.displayName")
     val purposeText: String
@@ -126,7 +124,7 @@ enum class MkExportFormatOption {
 }
 
 @androidx.compose.runtime.Composable
-fun MkExportFormatSheet(viewModel: MkEditorViewModel, entitlementProvider: MkEntitlementProviding, canvasSize: MkSize, onPaywall: () -> Unit, onExported: (java.net.URI) -> Unit, size: Any? = null, width: Any? = null, height: Any? = null, percent: Any? = null, url: java.net.URI? = null) { }
+fun MkExportFormatSheet(viewModel: MkEditorViewModel, entitlementProvider: MkEntitlementProviding, canvasSize: MkSize, onExported: (java.net.URI) -> Unit, size: Any? = null, width: Any? = null, height: Any? = null, percent: Any? = null, url: java.net.URI? = null) { }
 @androidx.compose.runtime.Composable
 fun MkExportFormatSheet_row(kind: MkExportFormatOption) { }
 fun MkExportFormatSheet_dimensionsText(kind: MkExportFormatOption): String { throw MkNotYetPorted("app.MkExportFormatSheet.dimensionsText") }
@@ -144,8 +142,6 @@ val MkExportFormatSheet_cancelLabel: String
     get() = throw MkNotYetPorted("app.MkExportFormatSheet.cancelLabel")
 val MkExportFormatSheet_exportingText: String
     get() = throw MkNotYetPorted("app.MkExportFormatSheet.exportingText")
-val MkExportFormatSheet_premiumLockLabel: String
-    get() = throw MkNotYetPorted("app.MkExportFormatSheet.premiumLockLabel")
 
 data class MkShareSheet(
     val items: List<Any>

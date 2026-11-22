@@ -63,12 +63,12 @@ From the same directory, use the following command to investigate APK assembly. 
 
 ## Accounts and hosted services
 
-- The local package and Android module checks require no store or cloud accounts. The shared Xcode scheme references a checked-in StoreKit configuration for local purchase testing.
-- Physical Apple device signing and live CloudKit testing require appropriate signing and capabilities. To test live purchases or sync in a fork, use your own project identifiers, signing setup, and corresponding App Store Connect and iCloud configuration.
-- The premium font downloader takes a catalog URL. A hosted catalog requires its own endpoint, while local work can exercise bundled fonts.
-- The Android port plans to use Play Billing and Google Drive. Live testing of those integrations requires your own service setup once the app has those paths implemented.
+- The local package and Android module checks require no store or cloud accounts. The app uses a free-access provider for implemented features. StoreKit test fixtures remain in source for the legacy package contracts.
+- Physical Apple device signing and live CloudKit testing require appropriate signing and capabilities. To test project sync in a fork, use your own project identifiers, signing setup and iCloud configuration, then opt in to project sync on a device signed in to iCloud.
+- The checked-in font catalog uses bundled delivery. A fork that enables hosted font delivery needs its own HTTPS endpoint.
+- The Android scaffold follows the free-access policy. Its Google Drive project-sync implementation is still pending.
 
-[Local StoreKit configuration](../Makhtoot/Config/Makhtoot.storekit) · [iOS entitlements](../Makhtoot/Config/Makhtoot.entitlements) · [Premium font delivery](../MakhtootKit/Sources/MKFonts/MKPremiumDelivery.swift) · [Platform decisions](../FOUNDATION.md)
+[iOS entitlements](../Makhtoot/Config/Makhtoot.entitlements) · [Font delivery configuration](../MakhtootKit/Sources/MKFonts/MKPremiumDelivery.swift) · [Platform decisions](../FOUNDATION.md#current-access-policy-d-328)
 
 ## Export fixture checks
 

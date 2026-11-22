@@ -780,13 +780,7 @@ final class EditorViewModel {
     /// thing that touches it from outside `runExport(_:coordinator:
     /// entitlement:)`.
     private var exportCancellationToken: MKExportCancellationToken?
-    /// EU-4: every export method used to `catch { return nil }`, so a
-    /// failed export silently did nothing ، the share sheet just never
-    /// appeared, with no explanation. Each export method's `catch` block
-    /// now populates this (via `Self.userFacingExportErrorMessage(for:)`)
-    /// so `EditorScene` can show a specific, Arabic alert instead, same
-    /// `Optional`-property-drives-an-`.alert` convention as
-    /// `decomposeFidelityNotice`/`pendingRevertPreflight` above.
+    /// The export sheet presents this message when an export fails or is cancelled.
     var exportFailureMessage: String?
 
     /// Bound to the export sheet's Cancel button (`EditorScene
@@ -799,14 +793,7 @@ final class EditorViewModel {
         exportCancellationToken?.cancel()
     }
 
-    /// EU-4: the shared progress/cancellation/error-surfacing wrapper every
-    /// export method below now routes a single `MKExportCoordinator.export(
-    /// ...)` call through, instead of each duplicating the same begin/
-    /// consume-progress/cleanup/catch boilerplate five times over. Does
-    /// NOT fire the UX-4 success haptic ، that stays at each caller (only
-    /// `exportForSharing`/`exportPNGForSharing` fire it, matching Wave 1's
-    /// original, narrower UX-4 scope; this helper must not silently widen
-    /// it to all five formats).
+    /// Runs an export with progress reporting and cancellation.
     private func runExport(
         _ request: MKExportRequest,
         coordinator: MKExportCoordinator,
@@ -856,10 +843,16 @@ final class EditorViewModel {
         case .cancelled:
             // Latin gloss: export was cancelled
             return "تم إلغاء التصدير"
+        case .blocked(.transparentBackgroundNotSupported):
+            // Latin gloss: this format does not support a transparent background
+            return "هذه الصيغة لا تدعم الخلفية الشفافة"
+        case .blocked(.invalidTargetSize), .degenerateTargetSize:
+            // Latin gloss: the export dimensions are invalid
+            return "أبعاد التصدير غير صالحة"
         case .blocked:
-            // Latin gloss: this format requires Makhtoot Premium
-            return "هذه الصيغة تتطلب اشتراك مخطوط المميز"
-        case .degenerateTargetSize, .renderingProducedNoImage:
+            // Latin gloss: an error occurred while exporting
+            return "حدث خطأ أثناء التصدير"
+        case .renderingProducedNoImage:
             // Latin gloss: this design could not be rendered for export
             return "تعذّر رسم هذا التصميم للتصدير"
         case .encodingFailed:
@@ -871,45 +864,10 @@ final class EditorViewModel {
         }
     }
 
-    /// Exports the current scene as a JPEG via `MKExportCoordinator` and
-    /// returns the URL for sharing via `UIActivityViewController`.
-    ///
-    /// **FC-2 + P-4 (AUDIT_2026-07-28.md):** this used to render directly
-    /// via a raw `MKSnapshotRenderer.render(...)` call at `scale: 2` ،
-    /// materialising the WHOLE canvas as one bitmap in one allocation (a
-    /// 2048×2048 canvas became a 67 MB `CGImage` plus a full `UIImage`
-    /// copy plus the encoded `Data`, all resident at once ، a plausible
-    /// OOM on the app's most-tapped button) ، and never went anywhere near
-    /// `MKExportGate`/`MKFreeTierBudget`/`FallbackNote`, unlike every other
-    /// export path. Routing through the real coordinator fixes both at
-    /// once: `MKTiledRasterExporter` (already used by
-    /// `exportPDFRasterForSharing`/PDF-print) replaces the single-
-    /// allocation render, and the D-229 gate/2 MP free-tier clamp/
-    /// `FallbackNote` surfacing now all actually run.
-    ///
-    /// JPEG stays free-tier (D-118: `MKExportFormat.jpeg.isFreeTierFormat
-    /// == true`), so this uses a free-tier-ELIGIBLE `.preset` target
-    /// (mirroring `exportPDFRasterForSharing`'s own `"social.square"`
-    /// pattern below) rather than `.custom(pixelSize:)` ،
-    /// `MKExportGate.evaluate`'s `.custom` case unconditionally blocks
-    /// free users regardless of format (`ExportGateTests.swift:~102-104`),
-    /// so a raw `.custom` target here would silently paywall a format that
-    /// is supposed to stay free.
-    ///
-    /// S-5: writes land under `ExportTempDirectory.shared.directoryURL`
-    /// (a dedicated `tmp/MKExports/` subdirectory, purged at editor
-    /// open/close below) instead of the bare system temp root, so repeated
-    /// exports while iterating on a design no longer accumulate forever.
-    ///
-    /// EU-4: routed through `runExport(_:coordinator:entitlement:)` for
-    /// progress/cancellation/error surfacing ، see that method's own doc
-    /// comment. A failed export no longer just returns `nil` silently;
-    /// `exportFailureMessage` is populated for `EditorScene`'s alert.
-    func exportForSharing(entitlement: any MKEntitlementProviding) async -> URL? {
-        let request = MKExportRequest(
-            format: .jpegDefault,
-            target: .preset(id: "social.square")
-        )
+    /// Exports using the scene's font and asset providers. The coordinator
+    /// retains its existing font embedding rules and handles tiled rendering.
+    func exportForSharing(_ request: MKExportRequest, entitlement: any MKEntitlementProviding) async -> URL? {
+        guard !isExporting else { return nil }
         let coordinator = MKExportCoordinator(
             renderer: MKSnapshotRenderer(fonts: fontProvider, assets: assetProvider),
             fonts: fontProvider,
@@ -917,109 +875,14 @@ final class EditorViewModel {
         )
         let url = await runExport(request, coordinator: coordinator, entitlement: entitlement)
         if url != nil {
-            // UX-4: confirmation channel for a share sheet the user can't
-            // watch land (it's presented a beat later, off this `Task`).
-            UINotificationFeedbackGenerator().notificationOccurred(.success)
+            switch request.format {
+            case .jpeg, .pngOpaque, .pngAlpha:
+                UINotificationFeedbackGenerator().notificationOccurred(.success)
+            case .pdfRaster, .pdfVectorRGB, .pdfVectorCMYK, .svg:
+                break
+            }
         }
         return url
-    }
-
-    /// Exports the current scene as a PNG via `MKExportCoordinator` and
-    /// returns the URL for sharing via `UIActivityViewController`.
-    /// Premium-gated (D-118: opaque/alpha PNG are both premium formats) —
-    /// the caller must verify entitlement before calling this method, same
-    /// contract `exportSVGForSharing`/`exportPDFVectorForSharing` already
-    /// use.
-    ///
-    /// **FC-2 + P-4:** see `exportForSharing()`'s doc comment immediately
-    /// above for the full defect this also fixes (raw-renderer OOM risk +
-    /// total gate bypass) ، identical root cause, PNG's own symptom (audit
-    /// wording): a free user exporting a 2048×2048 canvas as PNG received
-    /// 4096×4096 (16.7 MP, over 8× the free ceiling) while the SAME
-    /// user's PDF-raster export was correctly clamped to 2 MP. Unlike
-    /// JPEG, PNG is premium-only, so — mirroring `exportSVGForSharing`'s
-    /// existing pattern exactly, not JPEG's `.preset` workaround — this
-    /// safely uses `.custom(pixelSize: canvasSize)`: the caller-side
-    /// entitlement pre-check (`EditorScene`'s PNG button, same pattern its
-    /// SVG/PDF-vector buttons already use) keeps a free user from ever
-    /// reaching this method, and the gate's own `.custom` free-tier block
-    /// is therefore never the thing actually protecting this path — belt
-    /// and suspenders, matching every other premium export format here.
-    ///
-    /// S-5: same `ExportTempDirectory`-routed write as `exportForSharing()`.
-    /// EU-4: routed through `runExport(_:coordinator:entitlement:)`, see
-    /// that method's own doc comment.
-    func exportPNGForSharing(entitlement: any MKEntitlementProviding) async -> URL? {
-        let canvasSize = session.scene.canvas.size
-        let request = MKExportRequest(
-            format: .pngOpaque,
-            target: .custom(pixelSize: canvasSize)
-        )
-        let coordinator = MKExportCoordinator(
-            renderer: MKSnapshotRenderer(fonts: fontProvider, assets: assetProvider),
-            fonts: fontProvider,
-            assets: assetProvider
-        )
-        let url = await runExport(request, coordinator: coordinator, entitlement: entitlement)
-        if url != nil {
-            UINotificationFeedbackGenerator().notificationOccurred(.success)
-        }
-        return url
-    }
-
-    /// Exports the current scene as SVG via `MKExportCoordinator` and returns
-    /// the URL for sharing. Premium-gated — the caller must verify entitlement
-    /// before calling this method.
-    /// EU-4: routed through `runExport(_:coordinator:entitlement:)`, see
-    /// that method's own doc comment.
-    func exportSVGForSharing(entitlement: any MKEntitlementProviding) async -> URL? {
-        let canvasSize = session.scene.canvas.size
-        let request = MKExportRequest(
-            format: .svg,
-            target: .custom(pixelSize: canvasSize)
-        )
-        let coordinator = MKExportCoordinator(fonts: fontProvider, assets: assetProvider)
-        return await runExport(request, coordinator: coordinator, entitlement: entitlement)
-    }
-
-    /// Exports the current scene as a vector PDF (sRGB) via
-    /// `MKExportCoordinator` and returns the URL for sharing. Premium-gated —
-    /// the caller must verify entitlement before calling this method.
-    /// EU-4: routed through `runExport(_:coordinator:entitlement:)`, see
-    /// that method's own doc comment.
-    func exportPDFVectorForSharing(entitlement: any MKEntitlementProviding) async -> URL? {
-        let canvasSize = session.scene.canvas.size
-        let request = MKExportRequest(
-            format: .pdfVectorRGB,
-            target: .custom(pixelSize: canvasSize)
-        )
-        let coordinator = MKExportCoordinator(fonts: fontProvider, assets: assetProvider)
-        return await runExport(request, coordinator: coordinator, entitlement: entitlement)
-    }
-
-    /// Exports the current scene as a raster PDF (free tier) via
-    /// `MKExportCoordinator` and returns the URL for sharing.
-    /// Uses a free-tier-eligible preset so free users are not blocked.
-    /// EU-4: routed through `runExport(_:coordinator:entitlement:)`, see
-    /// that method's own doc comment.
-    func exportPDFRasterForSharing(entitlement: any MKEntitlementProviding) async -> URL? {
-        let request = MKExportRequest(
-            format: .pdfRaster,
-            target: .preset(id: "social.square")
-        )
-        // FC-1: explicit `fonts:`/`renderer:` (not the coordinator's own
-        // defaults, which independently fall back to a fresh
-        // `SystemFontStubProvider()` **and** `MKEmptyAssetProvider()` ،
-        // `MKExportCoordinator.init`'s own default-parameter list) so this
-        // raster export path both honors bold/italic AND stops silently
-        // dropping background images, a second, previously-unreachable bug
-        // this same wiring fixes (AUDIT_2026-07-28.md FC-1 "Do" step 3).
-        let coordinator = MKExportCoordinator(
-            renderer: MKSnapshotRenderer(fonts: fontProvider, assets: assetProvider),
-            fonts: fontProvider,
-            assets: assetProvider
-        )
-        return await runExport(request, coordinator: coordinator, entitlement: entitlement)
     }
 
     func close() async {
@@ -1535,18 +1398,7 @@ final class EditorViewModel {
 
     // MARK: - Asset Placement (WS-14/P3.2)
 
-    /// Places a browser-selected asset via `MKAssetBrowserModel.select(_:)`
-    /// ، the browser model's OWN entitlement gate (`entitlement.isEntitled
-    /// (.premiumAssets)`) runs BEFORE this method ever sees a node to
-    /// insert, so `.premiumRequired` never reaches `session.perform`.
-    /// Premium enforcement therefore lives at this command layer, not only
-    /// in the sheet's disabled/locked cell styling ، matching the
-    /// export-format precedent (`EditorScene`'s `exportSVGForSharing`/
-    /// `exportPDFVectorForSharing` call sites, which check
-    /// `container.entitlementProvider.isEntitled(.premiumExportFormats)`
-    /// before ever calling the exporter, not just via a greyed-out menu
-    /// row) of gating before the mutating call, so undo/redo can never
-    /// resurrect a placement that was never actually allowed to happen.
+    /// Places a browser-selected asset through the model's placement API.
     ///
     /// Both `.placed`/`.placedPattern` hand back a ready-made `MKNode` with
     /// the FULL geometry already inlined (WS-14's self-contained-document
@@ -1576,28 +1428,13 @@ final class EditorViewModel {
 
     // MARK: - Background image (P5.3, Bug 2)
 
-    /// Outcome of a background-image ingest attempt ، mirrors
-    /// `MKAssetBrowserModel.PlacementOutcome`'s `.premiumRequired` shape
-    /// exactly (same paywall-routing precedent), plus a `.failed` case for
-    /// a genuinely undecodable file (a `.fileImporter`-picked non-image, a
-    /// corrupt Photos asset, etc.).
     enum BackgroundImageOutcome: Sendable, Equatable {
         case set
-        case premiumRequired
         case failed
     }
 
-    /// The SINGLE entry point every UI surface (`ToolRailView`'s "صورة
-    /// الخلفية" sheet, `NewProjectSheet`'s "ابدأ من صورة") must go through
-    /// to set a canvas background image ، entitlement is checked HERE,
-    /// BEFORE any command is ever created, so undo/redo can never
-    /// resurrect a background image a free user was never allowed to set
-    /// in the first place (matching the `placeAsset`/P3.2 precedent
-    /// documented on that method above: gate at the command layer, not
-    /// only the button). `BackgroundDrawer`'s own doc comment notes the
-    /// RENDERER deliberately does not gate `.image` backgrounds ("premium
-    /// content the renderer does not gate") ، this method is where that
-    /// gate actually lives.
+    /// Sets the canvas background for both the background sheet and the
+    /// new-project photo import.
     ///
     /// Ingest pipeline: downscale to canvas × 2 (`MKFoundation
     /// .MKImageDownscale.downscaledPNG`, the P14 hardening pass's own
@@ -1613,9 +1450,7 @@ final class EditorViewModel {
     /// this feature needs no new `NSPrivacyAccessedAPICategory` entry in
     /// `PrivacyInfo.xcprivacy` beyond what's already declared.
     @discardableResult
-    func setBackgroundImage(data: Data, entitlement: any MKEntitlementProviding) async -> BackgroundImageOutcome {
-        guard entitlement.isEntitled(.photoBackgrounds) else { return .premiumRequired }
-
+    func setBackgroundImage(data: Data) async -> BackgroundImageOutcome {
         let canvasSize = session.scene.canvas.size
         let maxPixelSize = CGSize(width: canvasSize.width * 2, height: canvasSize.height * 2)
         guard let downscaled = MKImageDownscale.downscaledPNG(data, maxPixelSize: maxPixelSize) else { return .failed }
@@ -1636,21 +1471,13 @@ final class EditorViewModel {
         }
     }
 
-    /// Toggles the ALREADY-SET background image between cover/contain
-    /// (§2.5's "Fit" control) ، free-tier gated the same way `set` is: a
-    /// free user could only ever reach this with a `.image` background
-    /// already present via a legitimately-entitled prior set, but this
-    /// still checks (never trust a caller to have gated upstream, matching
-    /// every other command-layer gate in this file).
-    func toggleBackgroundImageFit(entitlement: any MKEntitlementProviding) {
-        guard entitlement.isEntitled(.photoBackgrounds), let currentFit = inspector.backgroundImageFitValue else { return }
+    /// Toggles an existing background image between cover and contain.
+    func toggleBackgroundImageFit() {
+        guard let currentFit = inspector.backgroundImageFitValue else { return }
         inspector.setBackgroundImageFit(currentFit == .cover ? .contain : .cover)
     }
 
-    /// §2.5's "Remove" control ، reverts to a solid color. Ungated (removal
-    /// is never the premium action; a free user with a background image
-    /// already set, e.g. from a downgraded subscription, must still be
-    /// able to clear it).
+    /// Reverts to a solid-color background.
     func removeBackgroundImage() {
         inspector.removeBackgroundImage()
     }

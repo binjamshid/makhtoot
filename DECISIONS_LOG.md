@@ -1,6 +1,9 @@
 # Makhtoot (مخطوط) — DECISIONS_LOG.md
 
 > Private source materials cited here are omitted from this source edition. The checked-in decisions and specifications describe the project.
+> [D-328](#d-328--free-access-for-all-implemented-features) governs current feature
+> access. Earlier decisions describe the access model at the time they were recorded.
+
 ## Durable Architecture Decision Records — Run 1
 
 This log is the full-rationale expansion of every decision in FOUNDATION.md (D-100…D-126,
@@ -1671,3 +1674,31 @@ Supersedes: none. **Amends D-225** (founder-confirmed 2026-07-17) on iOS only, b
 | D-327 | FD-05 granted for iOS; referral activated in Release (amends D-225) | accepted/founder 2026-08-07 | high (mechanism) / low (product call) |
 
 *End of DECISIONS_LOG.md Part III — 2 records (D-326–D-327), 2026-08-07.*
+
+---
+
+## D-328 — Free access for all implemented features
+
+- **Date** · 2026-11-22
+- **Status** · Accepted
+- **Context** · The owner directed that all implemented Makhtoot features be free and
+  that access no longer depend on subscriptions, one-time purchases, trials, or
+  referral rewards.
+- **Decision** · iPhone and iPad use a local free-access provider at the existing
+  editor, export, font, and sync boundaries. Keep existing access contracts and
+  saved-document fields for compatibility. Remove the paywall, in-app purchase and
+  trial flows, and referral trial rewards from the app. Retain an Apple Account link
+  for managing subscriptions from earlier App Store versions. Project sync
+  requires a saved opt-in and an available iCloud account. Continue to enforce font
+  licenses and technical resource limits. Apply the same nonbilling policy to the
+  Android scaffold and remove its trial backup configuration.
+- **Precedence** · Supersedes paid-access requirements in D-112, D-113, D-118–D-119,
+  D-121–D-124, D-215–D-217 and their implementation refinements, including D-225,
+  D-228–D-229 and D-327. Supersedes the billing, trial, referral, and paid-access
+  portions of the Android design in D-310–D-313 and D-321. The proposed
+  cross-platform subscription identity service in D-326 is superseded by this
+  policy.
+- **Verification** · Exercise a first launch, open an existing document with
+  legacy access flags, and verify unrestricted access to the implemented editing,
+  font, import, and export paths. Verify that project sync stays off until a user
+  enables it, and that Settings links to Apple for earlier subscriptions.

@@ -2,7 +2,7 @@
 <resources>
     <string name="mk_foundation_error_invalid_value">قيمة غير صالحة</string>
     <string name="mk_foundation_error_not_found">الملف غير موجود</string>
-    <string name="mk_foundation_error_premium_required">هذه الميزة تتطلب الاشتراك المميز</string>
+    <string name="mk_foundation_error_premium_required">هذه الميزة غير متاحة</string>
     <string name="mk_foundation_error_read_failed">تعذّرت قراءة الملف</string>
     <string name="mk_foundation_error_unsupported_format">صيغة الملف غير مدعومة</string>
     <string name="mk_foundation_error_write_failed">فشل حفظ الملف</string>

@@ -54,15 +54,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <!-- Mirrors the LaunchAction's own StoreKitConfigurationFileReference
-           (WS-10 T11) below: a UI test's app-under-test is launched per
-           THIS action's settings, not LaunchAction's, so
-           PremiumExportPaywallGateUITests needs its own copy of this
-           reference to get the same offline local-StoreKit-config
-           behavior interactive runs already have. -->
-      <StoreKitConfigurationFileReference
-         identifier = "../../../Makhtoot/Config/Makhtoot.storekit">
-      </StoreKitConfigurationFileReference>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -74,20 +65,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <!-- WS-10 T11: local StoreKit configuration for Debug launches
-           (purchase/restore/grace/billing-retry simulation without a
-           sandbox Apple ID). Path is container-relative from this
-           .xcscheme file's own location
-           (Makhtoot.xcodeproj/xcshareddata/xcschemes/) up to the repo
-           root, then into Makhtoot/Config/ where the file physically
-           lives (same directory as Info.plist) — the canonical copy is
-           MakhtootKit/Sources/MKStore/Makhtoot.storekit (SPM package
-           resource, used by MKStoreTests); this is a deliberate second
-           copy for the Xcode scheme, kept in sync by hand (documented in
-           docs/impl-log/WS-10.md). -->
-      <StoreKitConfigurationFileReference
-         identifier = "../../../Makhtoot/Config/Makhtoot.storekit">
-      </StoreKitConfigurationFileReference>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference

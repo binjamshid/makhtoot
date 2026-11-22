@@ -41,11 +41,6 @@ struct ProjectBrowserView: View {
     /// `.conflictCopy`/`.needsAppUpdate` project states, not only a literal
     /// sync error) now surfaces the specific detail message here.
     @State private var syncErrorAlertTarget: SyncErrorAlertTarget?
-    /// WS-10 T9/scope-item-3 "trial chip/banners" ، subscribed via
-    /// `container.entitlementResolver.states()` in the `.task` below, so
-    /// this reflects live grace/billing-retry/trial changes without a
-    /// manual foreground-refresh round trip.
-    @State private var entitlementState: MKEntitlementState = .free
 
     var onOpenSettings: () -> Void
 
@@ -60,10 +55,6 @@ struct ProjectBrowserView: View {
     private struct SyncErrorAlertTarget: Identifiable {
         let id: MKProjectID
         let message: String
-    }
-
-    private var isPremium: Bool {
-        container.entitlementProvider.state != .free
     }
 
     var body: some View {
@@ -178,30 +169,6 @@ struct ProjectBrowserView: View {
                 }
                 #endif
             }
-            .task {
-                // WS-10: live entitlement subscription for the trial/grace/
-                // billing-retry banner ، separate `.task` from the one
-                // above so a `viewModel` reload never restarts this stream.
-                entitlementState = container.entitlementProvider.state
-                for await state in await container.entitlementResolver.states() {
-                    entitlementState = state
-                }
-            }
-            // T14 scene-phase glue: on foreground, re-run `LaunchReconciler`
-            // against on-disk state (catches packages that
-            // appeared/disappeared while backgrounded, e.g. an iCloud Drive
-            // download finishing) and reload the grid. Entitlement
-            // re-resolution on foreground (the packet's other T14 bullet,
-            // WS-10 T5/ARCHITECTURE §19.3 "evaluated on: launch, foreground,
-            // KVS change") is now wired: `container.entitlementResolver`
-            // exists (WS-10 T16 stub retirement) and re-runs its full
-            // StoreKit + trial resolution, broadcasting any change on its
-            // `states()` stream to every subscriber (font lock, export
-            // gate, this view's own `isPremium`). Background-triggered
-            // autosave flush is still not wired here: there is no live
-            // `MakhtootDocument` open anywhere in this slice (the editor is
-            // still `EditorPlaceholderView`, WS-06/07 not yet landed), so
-            // "flush on background" has nothing to flush.
             // Thumbnails are written out of band ، by the editor's detached
             // render task, after dismissal ، so the grid has to be told,
             // not left to notice. See
@@ -209,22 +176,15 @@ struct ProjectBrowserView: View {
             .onReceive(NotificationCenter.default.publisher(for: .mkProjectThumbnailUpdated)) { _ in
                 thumbnailReloadToken &+= 1
             }
+            // Refresh packages and thumbnails that changed in the background.
             .onChange(of: scenePhase) { _, newPhase in
                 guard newPhase == .active else { return }
-                Task {
-                    await container.entitlementResolver.resolve()
-                }
                 thumbnailReloadToken &+= 1
                 Task { await viewModel?.refreshFromDisk() }
             }
             .sheet(isPresented: $showsNewProjectSheet) {
                 NewProjectSheet(
-                    isPremium: isPremium,
                     onCreate: { canvas in createProject(canvas: canvas) },
-                    onRequestPaywall: {
-                        showsNewProjectSheet = false
-                        nav.presentPaywall(.premiumFeatureTap(.customCanvas))
-                    },
                     onCreateFromPhoto: { canvas, data in
                         createProjectFromPhoto(canvas: canvas, data: data)
                     }
@@ -323,7 +283,6 @@ struct ProjectBrowserView: View {
         if let viewModel {
             VStack(spacing: 0) {
                 titleHeading
-                entitlementBanner
                 if !viewModel.isSearching {
                     folderChips(viewModel)
                 }
@@ -361,53 +320,6 @@ struct ProjectBrowserView: View {
             .padding(.top, theme.spacing.sm)
             .padding(.bottom, theme.spacing.xs)
             .accessibilityAddTraits(.isHeader)
-    }
-
-    // MARK: - Entitlement banner (WS-10)
-
-    @ViewBuilder
-    private var entitlementBanner: some View {
-        switch entitlementState {
-        case .trial(let daysLeft):
-            trialChip(daysLeft: daysLeft)
-        case .inGracePeriod:
-            gracePeriodBanner
-        case .inBillingRetry:
-            billingRetryBanner
-        case .lifetime, .subscribed, .free:
-            EmptyView()
-        }
-    }
-
-    private func trialChip(daysLeft: Int) -> some View {
-        let ordinal = MKRTLUtilities.toArabicIndicDigits(String(daysLeft))
-        return HStack(spacing: theme.spacing.sm) {
-            Image(systemName: "clock.badge.checkmark")
-                .foregroundStyle(theme.primary)
-            Text("تجربة مجانية ، \(ordinal) أيام متبقية") // trial ، N days left
-                .mkTypeStyle(theme.typeRamp.style(for: .footnote))
-                .foregroundStyle(theme.inkMuted)
-            Spacer(minLength: 0)
-            Button(upgradeChipLabel) {
-                nav.presentPaywall(.settingsUpgrade)
-            }
-            .mkTypeStyle(theme.typeRamp.style(for: .footnote))
-            .foregroundStyle(theme.primary)
-        }
-        .padding(.horizontal, theme.spacing.md)
-        .padding(.vertical, theme.spacing.xs)
-    }
-
-    private var gracePeriodBanner: some View {
-        MKBanner(message: gracePeriodBannerCopy, severity: .warning)
-            .padding(.horizontal, theme.spacing.md)
-            .padding(.top, theme.spacing.xs)
-    }
-
-    private var billingRetryBanner: some View {
-        MKBanner(message: billingRetryBannerCopy, severity: .destructive)
-            .padding(.horizontal, theme.spacing.md)
-            .padding(.top, theme.spacing.xs)
     }
 
     // MARK: - Folders (T5)
@@ -500,14 +412,6 @@ struct ProjectBrowserView: View {
                     .overlay(alignment: .topLeading) {
                         syncBadge(for: project.id)
                             .padding(theme.spacing.xs)
-                    }
-                    .overlay(alignment: .topTrailing) {
-                        if project.premiumContentPresent && !isPremium {
-                            Image(systemName: "lock.fill")
-                                .font(.caption)
-                                .foregroundStyle(theme.primary)
-                                .padding(theme.spacing.xs)
-                        }
                     }
                     .overlay {
                         RoundedRectangle(cornerRadius: theme.radius.card, style: theme.radius.style)
@@ -665,21 +569,6 @@ struct ProjectBrowserView: View {
     private var browserTitle: String {
         // Latin gloss: projects (browser screen title)
         "المشاريع"
-    }
-
-    private var upgradeChipLabel: String {
-        // Latin gloss: upgrade
-        "الترقية"
-    }
-
-    private var gracePeriodBannerCopy: String {
-        // T9 canonical grace-period banner copy.
-        "توجد مشكلة في الدفع ، جدّد وسيلة الدفع للاستمرار"
-    }
-
-    private var billingRetryBannerCopy: String {
-        // T9: stronger billing-retry banner (rendered `.destructive`).
-        "توجد مشكلة في الدفع ، جدّد وسيلة الدفع للاستمرار"
     }
 
     private var newProjectLabel: String {

@@ -5,7 +5,7 @@ import net.binjamshid.makhtoot.mk.foundation.geometry.MkSize
 import net.binjamshid.makhtoot.mk.model.MkCanvasSpec
 
 @androidx.compose.runtime.Composable
-fun MkNewProjectSheet(isPremium: Boolean, onCreate: (MkCanvasSpec) -> Unit, onRequestPaywall: () -> Unit, onCreateFromPhoto: (MkCanvasSpec, ByteArray) -> Unit, customWidthText: String = "1080", customHeightText: String = "1080", showsCustomFields: Boolean = false, photoPickerItem: PhotosPickerItem? = null, showsPhotoPicker: Boolean = false, isIngestingPhoto: Boolean = false, cardIconSize: Double = 26.0, presets: List<Preset>? = null, columns: List<String>? = null, pixelSize: Any? = null, canvasSize: Any? = null, currentArea: Any? = null, scale: Any? = null, width: Any? = null, height: Any? = null) { }
+fun MkNewProjectSheet(onCreate: (MkCanvasSpec) -> Unit, onCreateFromPhoto: (MkCanvasSpec, ByteArray) -> Unit, customWidthText: String = "1080", customHeightText: String = "1080", showsCustomFields: Boolean = false, photoPickerItem: PhotosPickerItem? = null, showsPhotoPicker: Boolean = false, isIngestingPhoto: Boolean = false, cardIconSize: Double = 26.0, presets: List<Preset>? = null, columns: List<String>? = null, pixelSize: Any? = null, canvasSize: Any? = null, currentArea: Any? = null, scale: Any? = null, width: Any? = null, height: Any? = null) { }
 suspend fun MkNewProjectSheet_ingestPhoto(item: PhotosPickerItem) { throw MkNotYetPorted("app.MkNewProjectSheet.ingestPhoto") }
 @androidx.compose.runtime.Composable
 fun MkNewProjectSheet_presetCard(preset: Preset) { }
@@ -22,14 +22,12 @@ val MkNewProjectSheet_cancelLabel: String
     get() = throw MkNotYetPorted("app.MkNewProjectSheet.cancelLabel")
 val MkNewProjectSheet_customLabel: String
     get() = throw MkNotYetPorted("app.MkNewProjectSheet.customLabel")
-val MkNewProjectSheet_customSubtitlePremium: String
-    get() = throw MkNotYetPorted("app.MkNewProjectSheet.customSubtitlePremium")
-val MkNewProjectSheet_customSubtitleFree: String
-    get() = throw MkNotYetPorted("app.MkNewProjectSheet.customSubtitleFree")
+val MkNewProjectSheet_customSubtitle: String
+    get() = throw MkNotYetPorted("app.MkNewProjectSheet.customSubtitle")
 val MkNewProjectSheet_photoLabel: String
     get() = throw MkNotYetPorted("app.MkNewProjectSheet.photoLabel")
-val MkNewProjectSheet_photoSubtitlePremium: String
-    get() = throw MkNotYetPorted("app.MkNewProjectSheet.photoSubtitlePremium")
+val MkNewProjectSheet_photoSubtitle: String
+    get() = throw MkNotYetPorted("app.MkNewProjectSheet.photoSubtitle")
 val MkNewProjectSheet_widthLabel: String
     get() = throw MkNotYetPorted("app.MkNewProjectSheet.widthLabel")
 val MkNewProjectSheet_heightLabel: String

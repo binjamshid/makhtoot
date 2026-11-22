@@ -12,15 +12,15 @@
 -->
 <resources>
 
-    <!-- New-project sheet: premium-gated custom canvas dimensions (Latin gloss: custom dimensions) -->
+    <!-- New-project sheet: custom canvas dimensions (Latin gloss: custom dimensions) -->
     <string name="custom_dimensions_label">أبعاد مخصصة</string>
-    <!-- Custom-dimensions subtitle for premium users (Latin gloss: enter exact width and height) -->
-    <string name="custom_dimensions_subtitle_premium">أدخل العرض والارتفاع بدقة</string>
+    <!-- Custom-dimensions subtitle -->
+    <string name="custom_dimensions_subtitle">أدخل العرض والارتفاع بدقة</string>
     <!-- Project context-menu action (Latin gloss: rename) -->
     <string name="rename">إعادة تسمية</string>
     <!-- Rename-project prompt title (Latin gloss: rename project) -->
     <string name="rename_project_title">إعادة تسمية المشروع</string>
-    <!-- Close button (settings sheet, paywall) (Latin gloss: close) -->
+    <!-- Close button (Latin gloss: close) -->
     <string name="close">إغلاق</string>
     <!-- Cancel button (delete-confirmation dialog) (Latin gloss: cancel) -->
     <string name="cancel">إلغاء</string>
@@ -28,7 +28,7 @@
     <string name="create">إنشاء</string>
     <!-- Project browser empty-state title (Latin gloss: start your first design) -->
     <string name="empty_state_start_first_design">ابدأ أول تصميم لك</string>
-    <!-- Onboarding primary CTA — always skips to the browser without purchase (Latin gloss: start designing) -->
+    <!-- Onboarding primary CTA (Latin gloss: start designing) -->
     <string name="start_designing_cta">ابدأ التصميم</string>
     <!-- New-folder prompt text field placeholder (Latin gloss: folder name) -->
     <string name="folder_name_placeholder">اسم المجلد</string>
@@ -38,10 +38,6 @@
     <string name="settings_title">الإعدادات</string>
     <!-- Custom canvas height field label (Latin gloss: height) -->
     <string name="height_label">الارتفاع</string>
-    <!-- Settings row title (Latin gloss: subscription) -->
-    <string name="subscription_row_title">الاشتراك</string>
-    <!-- Paywall placeholder title (Latin gloss: premium plans) -->
-    <string name="premium_plans_title">الباقات المميزة</string>
     <!-- Browser search field prompt (Latin gloss: search projects) -->
     <string name="search_projects_prompt">البحث في المشاريع</string>
     <!-- Settings row title — Q66 licensing route (Latin gloss: licensing) -->
@@ -88,8 +84,6 @@
     <string name="delete_folder_confirm_message">سيُحذف المجلد، وستنتقل مشاريعه إلى (الكل)</string>
     <!-- Delete-confirmation dialog message — WS-13 packet §5 T7 exact copy (Latin gloss: the project will be permanently deleted from this device) -->
     <string name="delete_project_confirm_message">سيُحذف المشروع نهائيًا من هذا الجهاز</string>
-    <!-- Onboarding secondary link opening the paywall placeholder (Latin gloss: view plans) -->
-    <string name="view_plans_link">عرض الباقات</string>
     <!-- Orphaned-project label — package missing on disk, record still indexed (Latin gloss: not available on this device) -->
     <string name="not_available_on_device_label">غير متاح على هذا الجهاز</string>
     <!-- Project context-menu action (Latin gloss: open) -->
@@ -112,8 +106,6 @@
     <string name="debug_design_gallery_title">معرض عناصر التصميم</string>
     <!-- New-project canvas preset: post 4:5, 1080×1350 (Latin gloss: post 4:5) -->
     <string name="canvas_preset_post_4x5">منشور ٤:٥</string>
-    <!-- Custom-dimensions subtitle for free-tier users, routes to paywall on tap (Latin gloss: premium feature) -->
-    <string name="premium_feature_label">ميزة مميزة</string>
     <!-- Project context-menu action (Latin gloss: move to folder) -->
     <string name="move_to_folder_action">نقل إلى مجلد</string>
 
@@ -162,7 +154,7 @@
     <string name="mk_app_app_name_value">مخطوط ، Makhtoot</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:260 -->
     <string name="mk_app_appearance_section">المظهر</string>
-    <!-- Makhtoot/AppShell/Scenes/Editor/EditorTourModel.swift:36; Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:418; Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:180 -->
+    <!-- Makhtoot/AppShell/Scenes/Editor/EditorTourModel.swift:36; Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:418 -->
     <string name="mk_app_arrange_mode_label">الترتيب الحر</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:317 -->
     <string name="mk_app_attach_mark_hint">اضغط على حرف لإرفاق الحركة به ، اضغط هنا للإلغاء</string>
@@ -174,8 +166,6 @@
     <string name="mk_app_autosave">يُظهر مؤشرًا صغيرًا عند كل حفظ تلقائي.</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:269 -->
     <string name="mk_app_autosave_section">الحفظ التلقائي</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:273 -->
-    <string name="mk_app_awaiting_family_approval_banner">بانتظار موافقة العائلة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:455 -->
     <string name="mk_app_background_color">لون الخلفية</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/BackgroundImageSheet.swift:224; Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:457 -->
@@ -186,8 +176,6 @@
     <string name="mk_app_baseline_theme_full_name">حِبر ، حِبر وقرطاس</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/PathOptionsPopoverView.swift:121 -->
     <string name="mk_app_below">تحت</string>
-    <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:677; Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:682; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:259; +1 more -->
-    <string name="mk_app_billing_problem_renew_payment_message">توجد مشكلة في الدفع ، جدّد وسيلة الدفع للاستمرار</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:262 -->
     <string name="mk_app_brand_mark">شعار العلامة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ArrangeToolbarView.swift:147 -->
@@ -222,8 +210,8 @@
     <string name="mk_app_center_on_the_path">وسط</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/BackgroundImageSheet.swift:237 -->
     <string name="mk_app_change_image">تغيير الصورة</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:290 -->
-    <string name="mk_app_changing_the_icon_requires_system_approval_and_other_icons_b">تغيير الأيقونة يتطلب موافقة النظام، والأيقونات الأخرى غير الافتراضية تتطلب اشتراكًا مميزًا.</string>
+    <!-- App icon settings footer -->
+    <string name="mk_app_icon_system_approval_footer">يتطلب تغيير الأيقونة موافقة النظام.</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FontBrowserSheet.swift:61 -->
     <string name="mk_app_choose_font_title">اختر الخط</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/BackgroundImageSheet.swift:229 -->
@@ -246,38 +234,6 @@
     <string name="mk_app_commercial">تجاري</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:162 -->
     <string name="mk_app_commercial_use">الاستخدام التجاري</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:181 -->
-    <string name="mk_app_compare_row_arrange_premium_value">تحكّم بكل حرف وحركة على حدة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:195 -->
-    <string name="mk_app_compare_row_canvas_size_feature_name">أبعاد اللوحة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:196 -->
-    <string name="mk_app_compare_row_canvas_size_free_value">المقاسات الجاهزة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:196 -->
-    <string name="mk_app_compare_row_canvas_size_premium_value">أي مقاس مخصص تريده</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:186 -->
-    <string name="mk_app_compare_row_export_feature_name">التصدير</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:187 -->
-    <string name="mk_app_compare_row_export_free_value">PNG و JPEG</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:187 -->
-    <string name="mk_app_compare_row_export_premium_value">إضافةً إلى SVG و PDF متجهي</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:192 -->
-    <string name="mk_app_compare_row_font_import_feature_name">استيراد الخطوط</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:193 -->
-    <string name="mk_app_compare_row_font_import_premium_value">أضف خطوطك الشخصية</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:177; Makhtoot/AppShell/Scenes/Settings/FontManagementView.swift:228; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:238 -->
-    <string name="mk_app_compare_row_fonts_feature_name">الخطوط</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:178 -->
-    <string name="mk_app_compare_row_fonts_free_value">الخطوط الأساسية المضمّنة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:178 -->
-    <string name="mk_app_compare_row_fonts_premium_value">أكثر من ٢٠ خطًا عربيًا أصيلاً</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:183 -->
-    <string name="mk_app_compare_row_pathtext_feature_name">النص على المسار</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:184 -->
-    <string name="mk_app_compare_row_pathtext_premium_value">كتابة منحنية ودائرية</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:189 -->
-    <string name="mk_app_compare_row_sync_feature_name">مزامنة iCloud</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:190 -->
-    <string name="mk_app_compare_row_sync_premium_value">مشاريعك على كل أجهزتك</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:151 -->
     <string name="mk_app_consent">إيقاف هذا المفتاح في أي وقت يُوقف الجمع ويحذف البيانات المحلية فورًا.</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:157 -->
@@ -336,8 +292,6 @@
     <string name="mk_app_disclosure_section">ما نجمعه</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:316 -->
     <string name="mk_app_discretionary_on">اختياري</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:374 -->
-    <string name="mk_app_done_premium_features_are_now_unlocked">تم ، تم فتح المزايا المميزة الآن</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/TextInsertSheet.swift:351 -->
     <string name="mk_app_each_new_line_becomes_a_separate_line_on_the_canvas">كل سطر جديد يصبح سطرًا مستقلًا على اللوحة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/TextInsertSheet.swift:407 -->
@@ -356,14 +310,10 @@
     <string name="mk_app_export_was_cancelled">تم إلغاء التصدير</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:1047 -->
     <string name="mk_app_exporting">جارٍ التصدير…</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:268 -->
-    <string name="mk_app_failed">تعذّرت استعادة المشتريات. حاول مرة أخرى.</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:159 -->
     <string name="mk_app_family">العائلة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FontSettingsSheet.swift:881; Makhtoot/AppShell/Scenes/Editor/MKAssetBrowserSheet.swift:193 -->
     <string name="mk_app_favourites_tab">المفضلة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:323 -->
-    <string name="mk_app_feature">الميزة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:406 -->
     <string name="mk_app_fill">التعبئة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FormSelectorPopoverView.swift:110 -->
@@ -398,10 +348,6 @@
     <string name="mk_app_for_sharing_on_social_media">للنشر على وسائل التواصل</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:160 -->
     <string name="mk_app_foundry">المؤلف / مصدر الخط</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:325 -->
-    <string name="mk_app_free">المجاني</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:251 -->
-    <string name="mk_app_free_status_label">مجاني</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:259; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:237 -->
     <string name="mk_app_general_settings_nav_title">عام</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:309 -->
@@ -432,10 +378,6 @@
     <string name="mk_app_import_from_files">استيراد من الملفات</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicensingView.swift:119 -->
     <string name="mk_app_imported">خطوط مستوردة</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:247 -->
-    <string name="mk_app_in_billing_retry">إعادة محاولة الدفع</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:246 -->
-    <string name="mk_app_in_grace_period">مشكلة في الدفع</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FormSelectorPopoverView.swift:108 -->
     <string name="mk_app_initial">بادئ</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/TextInsertSheet.swift:423 -->
@@ -466,8 +408,6 @@
     <string name="mk_app_last_sync_error">آخر خطأ:</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:153 -->
     <string name="mk_app_last_upload">آخر رفع:</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:436 -->
-    <string name="mk_app_later">لاحقًا</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:169 -->
     <string name="mk_app_latin">يدعم الحروف اللاتينية</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:691; Makhtoot/AppShell/Scenes/Editor/LayersPanelView.swift:32; Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:426 -->
@@ -488,8 +428,6 @@
     <string name="mk_app_license_type">نوع الترخيص</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/SupportSettingsView.swift:82 -->
     <string name="mk_app_licensing">التراخيص وحقوق الخطوط</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:244 -->
-    <string name="mk_app_lifetime">مدى الحياة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:438 -->
     <string name="mk_app_ligatures">الوصلات</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:434 -->
@@ -500,8 +438,6 @@
     <string name="mk_app_lock">قفل/فتح</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FontSettingsSheet.swift:539 -->
     <string name="mk_app_manage_fonts_ellipsis_action">إدارة الخطوط…</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:431; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:256 -->
-    <string name="mk_app_manage_subscription">إدارة الاشتراك</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FormSelectorPopoverView.swift:109 -->
     <string name="mk_app_medial">وسطي</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/MergeDesignSheet.swift:91 -->
@@ -536,14 +472,8 @@
     <string name="mk_app_no_highlight_label">بدون تظليل</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/MergeDesignSheet.swift:96 -->
     <string name="mk_app_no_other_projects_to_merge">لا توجد مشاريع أخرى لدمجها</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:269 -->
-    <string name="mk_app_no_previous_purchases_banner">لا توجد مشتريات سابقة</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:154 -->
     <string name="mk_app_no_upload_yet">لم يُرفع أي بيانات بعد.</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:334 -->
-    <string name="mk_app_not_included_spoken_label">غير متاح</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:267 -->
-    <string name="mk_app_nothing_to_restore">لا توجد مشتريات سابقة.</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicensingView.swift:120 -->
     <string name="mk_app_nothing_to_show">لا توجد خطوط مسجّلة.</string>
     <!-- Makhtoot/AppShell/Support/MKArabicRelativeDate.swift:21 -->
@@ -592,19 +522,15 @@
     <string name="mk_app_place_the_cursor_after_an_arabic_letter_to_add_a_diacritic_m">ضع المؤشر بعد حرف عربي لإضافة حركة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:372 -->
     <string name="mk_app_position">الموضع</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:327 -->
-    <string name="mk_app_premium_column_label">المميّز</string>
-    <!-- Makhtoot/AppShell/Scenes/Editor/MKAssetBrowserSheet.swift:276 -->
-    <string name="mk_app_premium_element_tapping_opens_the_subscription_screen">عنصر مميز — يفتح النقر شاشة الاشتراك</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/LicensingView.swift:118 -->
-    <string name="mk_app_premium_fonts_section_header">خطوط مميزة</string>
+    <!-- Licensing and font management catalog section -->
+    <string name="mk_app_catalog_fonts_section_header">خطوط الكتالوج</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/TextInsertSheet.swift:359 -->
     <string name="mk_app_preview">معاينة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FormSelectorPopoverView.swift:126 -->
     <string name="mk_app_previous_form">الشكل السابق</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:146; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:236 -->
     <string name="mk_app_privacy_nav_title">الخصوصية</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:358; Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:160 -->
+    <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:160 -->
     <string name="mk_app_privacy_policy">سياسة الخصوصية</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:151 -->
     <string name="mk_app_prohibited">محظور</string>
@@ -638,12 +564,6 @@
     <string name="mk_app_remove_from_favorites">إزالة من المفضلة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/BackgroundImageSheet.swift:249 -->
     <string name="mk_app_remove_image">إزالة الصورة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:348 -->
-    <string name="mk_app_renews_automatically_cancel_anytime_from_settings">يتجدد تلقائيًا. يمكنك الإلغاء في أي وقت من الإعدادات.</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:49 -->
-    <string name="mk_app_requires_internet_connection_banner">يتطلب الاتصال بالإنترنت</string>
-    <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:1051 -->
-    <string name="mk_app_requires_makhtoot_premium">يتطلب اشتراك مخطوط المميز</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:163 -->
     <string name="mk_app_reserved_names">الأسماء المحجوزة</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:281 -->
@@ -652,12 +572,8 @@
     <string name="mk_app_reset_onboarding_footer">يعيدك هذا إلى شاشات التعريف الأربع التي تظهر عند أول استخدام للتطبيق.</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:452 -->
     <string name="mk_app_restart_tour">إعادة الجولة التعريفية</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:353; Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:257 -->
-    <string name="mk_app_restore_purchases">استعادة المشتريات</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ArrangeToolbarView.swift:151 -->
     <string name="mk_app_restore_the_join">إعادة الارتباط</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:266 -->
-    <string name="mk_app_restored_premium">تمت استعادة المشتريات.</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/PathEditToolbarView.swift:93; Makhtoot/AppShell/Scenes/Editor/PathOptionsPopoverView.swift:141 -->
     <string name="mk_app_reverse_direction">قلب الاتجاه</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ArrangeToolbarView.swift:179 -->
@@ -682,8 +598,6 @@
     <string name="mk_app_select_an_object_to_edit_its_properties">اختر عنصرًا لتعديل خصائصه</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:431 -->
     <string name="mk_app_send_back">إرسال للخلف</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:343 -->
-    <string name="mk_app_seven_day_trial_disclosure">٧ أيام مجانًا داخل التطبيق عند أول استخدام</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ArrangeToolbarView.swift:139 -->
     <string name="mk_app_shapes_glyph_level">أشكال</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/GeneralSettingsView.swift:270 -->
@@ -700,8 +614,6 @@
     <string name="mk_app_skip">تخطى</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:334 -->
     <string name="mk_app_solid_fill_selected_label">مُحدد</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:379 -->
-    <string name="mk_app_something_went_wrong">حدث خطأ ما.</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:164 -->
     <string name="mk_app_source_repo">المستودع المصدر</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/PathOptionsPopoverView.swift:129 -->
@@ -716,8 +628,6 @@
     <string name="mk_app_start_from_a_photo">ابدأ من صورة</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/PathOptionsPopoverView.swift:109 -->
     <string name="mk_app_start_position_on_the_path">موضع البداية على المسار</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:245 -->
-    <string name="mk_app_subscribed">مفعّل</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:235; Makhtoot/AppShell/Scenes/Settings/SyncSettingsView.swift:138 -->
     <string name="mk_app_sync">المزامنة</string>
     <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:823 -->
@@ -726,15 +636,15 @@
     <string name="mk_app_sync_status">الحالة:</string>
     <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:828 -->
     <string name="mk_app_sync_status_label">حالة المزامنة</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SyncSettingsView.swift:143 -->
-    <string name="mk_app_sync_subscribers_only_footer">المزامنة متاحة للمشتركين فقط. تُزامَن مشاريعك على جميع أجهزتك.</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SyncSettingsView.swift:140 -->
-    <string name="mk_app_sync_toggle">مزامنة المشاريع عبر iCloud</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SyncSettingsView.swift:139 -->
-    <string name="mk_app_sync_via_icloud_section_header">المزامنة عبر iCloud</string>
+    <!-- Opt-in project sync footer -->
+    <string name="mk_app_sync_projects_footer">عند تفعيل المزامنة، تُزامَن مشاريعك على أجهزتك التي تعمل بنظام Android.</string>
+    <!-- Project sync toggle -->
+    <string name="mk_app_sync_toggle">مزامنة المشاريع عبر Google Drive</string>
+    <!-- Project sync section -->
+    <string name="mk_app_sync_via_drive_section_header">المزامنة عبر Google Drive</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/LicenseFontDetailView.swift:167 -->
     <string name="mk_app_tashkeel">يدعم التشكيل</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:363; Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:161 -->
+    <!-- Makhtoot/AppShell/Scenes/Settings/PrivacyConsentView.swift:161 -->
     <string name="mk_app_terms_of_use">شروط الاستخدام</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FontSettingsSheet.swift:528 -->
     <string name="mk_app_text_color">لون النص</string>
@@ -758,8 +668,6 @@
     <string name="mk_app_this_font_provides_no_bold_weight">هذا الخط لا يوفّر وزنًا عريضًا</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorViewModel.swift:870 -->
     <string name="mk_app_this_format_is_not_supported_yet">هذه الصيغة غير مدعومة حاليًا</string>
-    <!-- Makhtoot/AppShell/Scenes/Editor/EditorViewModel.swift:861 -->
-    <string name="mk_app_this_format_requires_makhtoot_premium">هذه الصيغة تتطلب اشتراك مخطوط المميز</string>
     <!-- Makhtoot/AppShell/Navigation/RootShellView.swift:239 -->
     <string name="mk_app_this_project_could_not_be_imported_check_available_storage_o">تعذّر استيراد هذا المشروع ، تحقّق من المساحة المتوفرة على جهازك وحاول مرة أخرى</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:109 -->
@@ -786,14 +694,6 @@
     <string name="mk_app_traits">التنسيق</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/InspectorPanelView.swift:380 -->
     <string name="mk_app_transform">التحويل</string>
-    <!-- Makhtoot/AppShell/Scenes/Onboarding/OnboardingView.swift:163 -->
-    <string name="mk_app_trial">بدأت تجربتك المجانية لأسبوع</string>
-    <!-- Makhtoot/AppShell/Scenes/Onboarding/OnboardingView.swift:167 -->
-    <string name="mk_app_trial_all_premium_free_days_remaining">كل المزايا المميزة مجانًا لمدة %1$d أيام أخرى ، بدون أي عملية شراء</string>
-    <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:387 -->
-    <string name="mk_app_trial_days_remaining_banner">تجربة مجانية ، %1$d أيام متبقية</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:250 -->
-    <string name="mk_app_trial_days_remaining_status">تجريبي ، %1$d أيام متبقية</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/EditorScene.swift:701 -->
     <string name="mk_app_undo">تراجع</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ToolRailView.swift:434 -->
@@ -802,16 +702,8 @@
     <string name="mk_app_unicode_range_count_format">%1$d نطاق يونيكود</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/FontBrowserSheet.swift:130; Makhtoot/AppShell/Scenes/Settings/FontManagementView.swift:255 -->
     <string name="mk_app_uninstall_font_action">إلغاء التثبيت</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:199; Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:199 -->
-    <string name="mk_app_unlimited_value">غير محدودة</string>
     <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserViewModel.swift:153 -->
     <string name="mk_app_untitled_design_default_name">تصميم بلا عنوان %1$d</string>
-    <!-- Makhtoot/AppShell/Scenes/Browser/ProjectBrowserView.swift:672 -->
-    <string name="mk_app_upgrade_action">الترقية</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SyncSettingsView.swift:141 -->
-    <string name="mk_app_upgrade_for_sync">الترقية لتفعيل المزامنة</string>
-    <!-- Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift:255 -->
-    <string name="mk_app_upgrade_to_premium_action">الترقية إلى مخطوط مميز</string>
     <!-- Makhtoot/AppShell/Scenes/Browser/NewProjectSheet.swift:307 -->
     <string name="mk_app_use_a_photo_as_the_background">استخدم صورة كخلفية</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ArrangeToolbarView.swift:163 -->
@@ -824,20 +716,12 @@
     <string name="mk_app_view_options">خيارات العرض</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/PathEditToolbarView.swift:109 -->
     <string name="mk_app_warning_a_sharp_turn_on_the_path_may_distort_the_letters">تنبيه: انحناء حاد في المسار قد يشوّه الحروف</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:321 -->
-    <string name="mk_app_what_you_get_in_each_plan">ما الذي تحصل عليه في كل باقة</string>
     <!-- Makhtoot/AppShell/Scenes/Browser/NewProjectSheet.swift:311 -->
     <string name="mk_app_width_pixels_label">العرض (بكسل)</string>
     <!-- Makhtoot/AppShell/Support/MKArabicRelativeDate.swift:31 -->
     <string name="mk_app_yesterday">أمس</string>
     <!-- Makhtoot/AppShell/Scenes/Settings/FontManagementView.swift:239 -->
     <string name="mk_app_you_can_import_ttf_or_otf_files_compliance_with_the_imported">يمكنك استيراد ملفات TTF أو OTF. الالتزام بترخيص الخط المستورد مسؤوليتك ، راجع صفحة التراخيص.</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:369 -->
-    <string name="mk_app_you_can_keep_designing_for_free_premium_only_adds">يمكنك الاستمرار في التصميم مجانًا ، الاشتراك يضيف فقط خطوطًا وصيغ تصدير وخلفيات إضافية</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:420 -->
-    <string name="mk_app_you_now_have_makhtoot_lifetime">أصبح لديك الآن مخطوط مدى الحياة</string>
-    <!-- Makhtoot/AppShell/Scenes/Paywall/PaywallView.swift:426 -->
-    <string name="mk_app_your_subscription_is_no_longer_needed_cancel_it">لم تعد بحاجة إلى اشتراكك ، يمكنك إلغاءه من الإعدادات حتى لا يتم خصم مبلغ إضافي.</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/TextInsertSheet.swift:363 -->
     <string name="mk_app_your_text_here">نصك هنا</string>
     <!-- Makhtoot/AppShell/Scenes/Editor/ZoomControlsView.swift:107 -->

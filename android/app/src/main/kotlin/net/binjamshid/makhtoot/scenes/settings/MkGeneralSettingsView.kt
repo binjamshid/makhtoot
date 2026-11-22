@@ -1,10 +1,9 @@
 package net.binjamshid.makhtoot.scenes.settings
 
 import net.binjamshid.makhtoot.mk.foundation.MkNotYetPorted
-import net.binjamshid.makhtoot.mk.foundation.entitlement.MkEntitlementState
 
 @androidx.compose.runtime.Composable
-fun MkGeneralSettingsView(onResetOnboarding: () -> Unit, showAutosaveIndicator: Boolean = true, defaultCanvasPreset: String = "social.square", themeIDRaw: String? = null, brandMarkStyleRaw: String? = null, colorSchemeRaw: String = "system", currentIconName: String? = null, isSwitchingIcon: Boolean = false, iconSwitchErrorText: String? = null, showsIconPaywall: Boolean = false, entitlementState: MkEntitlementState? = null, canvasPresets: List<Pair<String, String>>? = null, appIconOptions: List<AppIconOption>? = null, isCurrent: Any? = null, isLocked: Any? = null) { }
+fun MkGeneralSettingsView(onResetOnboarding: () -> Unit, showAutosaveIndicator: Boolean = true, defaultCanvasPreset: String = "social.square", themeIDRaw: String? = null, brandMarkStyleRaw: String? = null, colorSchemeRaw: String = "system", currentIconName: String? = null, isSwitchingIcon: Boolean = false, iconSwitchErrorText: String? = null, canvasPresets: List<Pair<String, String>>? = null, appIconOptions: List<AppIconOption>? = null, isCurrent: Any? = null) { }
 @androidx.compose.runtime.Composable
 fun MkGeneralSettingsView_appIconRow(option: AppIconOption) { }
 fun MkGeneralSettingsView_switchIcon(name: String?) { throw MkNotYetPorted("app.MkGeneralSettingsView.switchIcon") }

@@ -4,7 +4,7 @@ import net.binjamshid.makhtoot.mk.foundation.MkNotYetPorted
 import net.binjamshid.makhtoot.mk.model.MkBackgroundImageFit
 
 @androidx.compose.runtime.Composable
-fun MkBackgroundImageSheet(viewModel: MkEditorViewModel, onRequestPaywall: () -> Unit, pickerItem: PhotosPickerItem? = null, showsPhotosPicker: Boolean = false, showsFileImporter: Boolean = false, isIngesting: Boolean = false, ingestErrorText: String? = null, previewIconSize: Double = 32.0, outcome: Any? = null) { }
+fun MkBackgroundImageSheet(viewModel: MkEditorViewModel, pickerItem: PhotosPickerItem? = null, showsPhotosPicker: Boolean = false, showsFileImporter: Boolean = false, isIngesting: Boolean = false, ingestErrorText: String? = null, previewIconSize: Double = 32.0, outcome: Any? = null) { }
 fun MkBackgroundImageSheet_requestPhotosPicker() { throw MkNotYetPorted("app.MkBackgroundImageSheet.requestPhotosPicker") }
 suspend fun MkBackgroundImageSheet_ingest(photosPickerItem: PhotosPickerItem) { throw MkNotYetPorted("app.MkBackgroundImageSheet.ingest") }
 suspend fun MkBackgroundImageSheet_ingest(fileURL: java.net.URI) { throw MkNotYetPorted("app.MkBackgroundImageSheet.ingest") }

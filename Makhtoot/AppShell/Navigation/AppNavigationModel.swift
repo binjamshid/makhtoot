@@ -7,13 +7,10 @@ import Observation
 ///
 /// - **iPhone / compact:** `NavigationStack` rooted at the browser; editor
 ///   pushes onto `path` (full-screen by construction of `NavigationStack`);
-///   settings/paywall present as sheets.
+///   settings presents as a sheet.
 /// - **iPad / regular:** `NavigationSplitView` (sidebar = browser/settings
 ///   switch, content = the selected scene); editor presents as a
-///   `fullScreenCover` with its own internal panel layout (deferred to the
-///   editor slice); paywall presents as a sheet (packet's `formSheet` note
-///   is a presentation-detent refinement for the later paywall-content
-///   slice, not a routing concern).
+///   `fullScreenCover` with its own internal panel layout.
 ///
 /// `RootShellView` is the sole owner of one `AppNavigationModel` instance
 /// per window (single-window app, D-100/FILE_MAP §3.1) and injects it via
@@ -26,7 +23,7 @@ final class AppNavigationModel {
     /// the implicit root and never appears in `path`.
     var path: [MKRoute] = []
 
-    /// Sheet-presented routes (settings on iPhone, paywall on both idioms).
+    /// Settings sheet on iPhone.
     var presentedSheet: MKRoute?
 
     /// iPad-only full-screen-cover route for the editor (T3: "editor =
@@ -54,10 +51,7 @@ final class AppNavigationModel {
     /// carries the picked photo across that gap: `ProjectBrowserView` sets
     /// it right before navigating, `EditorScene.open()` consumes (and
     /// clears) it once the matching project's `EditorViewModel` is ready,
-    /// calling the SAME `EditorViewModel.setBackgroundImage(data:
-    /// entitlement:)` command-layer entry point the in-editor "صورة
-    /// الخلفية" sheet uses ، no separate ingestion path, no way for this
-    /// one to skip the entitlement gate that method already enforces.
+    /// using the same background image import path as the editor.
     struct PendingBackgroundImageImport {
         let projectID: MKProjectID
         let data: Data
@@ -67,11 +61,7 @@ final class AppNavigationModel {
     private static let hasCompletedOnboardingKey = "MKHasCompletedOnboarding"
     private static let lastOpenProjectIDKey = "MKLastOpenProjectID"
 
-    /// First-launch onboarding gate (WS-13 packet §5 T9). Persisted in
-    /// `UserDefaults` ، a UI-only "have we shown the intro" flag, distinct
-    /// from D-123's trial record (which WS-10 will persist in Keychain once
-    /// it exists; this slice never fabricates a trial state, see
-    /// `AppContainer`'s stub-matrix comment).
+    /// First-launch onboarding completion, persisted in `UserDefaults`.
     var hasCompletedOnboarding: Bool {
         didSet {
             UserDefaults.standard.set(hasCompletedOnboarding, forKey: Self.hasCompletedOnboardingKey)
@@ -131,10 +121,6 @@ final class AppNavigationModel {
         presentedSheet = .settings
     }
 
-    func presentPaywall(_ context: PaywallContext) {
-        presentedSheet = .paywall(context)
-    }
-
     func completeOnboarding() {
         hasCompletedOnboarding = true
     }
@@ -142,7 +128,7 @@ final class AppNavigationModel {
     /// EU-7 (AUDIT_2026-07-28.md): clears the one-way `hasCompletedOnboarding`
     /// latch (the mirror image of `completeOnboarding()` above) so a user
     /// who tapped «تخطى» (skip) on first launch ، the common case, per the
-    /// finding ، can replay the four onboarding screens from
+    /// finding ، can replay the onboarding screens from
     /// `GeneralSettingsView`. Also unwinds whatever navigation is currently
     /// showing back to the root: `RootShellView.normalContent` switches to
     /// `OnboardingView` purely off `hasCompletedOnboarding`, independent of

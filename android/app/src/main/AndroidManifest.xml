@@ -1,41 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  work item 1.1 (ANDROID_SPINE.md §2 D-300, D-312, D-318, D-321;
-  ANDROID_TASK_PACKETS/BATCH-1.md Agent 1.1 task 6).
-
-  android:supportsRtl — D-318, RTL-first (mirrors D-100's Arabic-only
-  intent). android:localeConfig — D-318, per-app locale pinned to `ar`
-  regardless of device locale (API 33+; AppCompatDelegate.setApplicationLocales
-  covers API 29-32, a runtime call in the app-shell code Batch 7 lands, not a
-  manifest concern). android:allowBackup="true" with BOTH
-  fullBackupContent (Android 11-) and dataExtractionRules (Android 12+,
-  required separately at targetSdk 36) restricted to exactly the D-312 trial
-  DataStore blob — specifying only one leaves the whole project tree backed
-  up on whichever API range the missing file doesn't cover.
-
-  No <activity> is declared yet: :app has no Kotlin source in Batch 1 (Agent
-  1.4's `src/` scope is empty this batch by design — contract-first stubs,
-  spine §4 mechanism (b)). The app-shell agent that lands the launcher
-  Activity/MkAppContainer composition root (Batch 7 · Agent 7.1 per spine
-  §17) adds the <activity> element here and must declare that takeover in
-  its own packet's Owns list, per spine §17's ownership-rule restatement —
-  this file has no other batch listed against it in spine §17's four
-  conflicts, so 7.1 is the expected (not yet formally declared) owner of
-  that addition.
-
-  android:icon and android:theme are deliberately omitted: no adaptive
-  launcher icon (mipmap set derived from Makhtoot/Resources/Assets.xcassets/
-  AppIcon.appiconset) and no MkTheme-derived Android `Theme.*` style exist
-  yet in Batch 1's scope — neither is in this agent's Owns list, and
-  referencing either would break aapt2 resource linking today. Follow-up for
-  whichever agent lands the launcher icon set and the Compose/View theme
-  (Batch 7 app-shell territory).
--->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- The Arabic scaffold has no launcher activity. Auto Backup is disabled
+         and the extraction rules exclude device transfers on Android 12+. -->
     <application
-        android:allowBackup="true"
-        android:fullBackupContent="@xml/backup_rules"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:supportsRtl="true"
         android:localeConfig="@xml/locales_config"

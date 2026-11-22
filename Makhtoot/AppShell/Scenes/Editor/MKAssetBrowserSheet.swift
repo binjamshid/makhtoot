@@ -2,24 +2,7 @@ import MKAssets
 import MKDesignSystem
 import SwiftUI
 
-/// P3.2: the asset browser sheet ، a view over `MKAssetBrowserModel`
-/// (`MakhtootKit/Sources/MKAssets/Browser/MKAssetBrowserModel.swift`), a
-/// complete, already-tested backend with zero UI before this file. Ships
-/// all FIVE BRIEF-locked categories (`MKAssetCategory.browserOrder`:
-/// أشكال أساسية/زخارف/إطارات/حليات خطية/خلفيات زخرفية ، the model's own
-/// `nameAr` is the source of truth for these titles, not re-typed here),
-/// plus favorites/recents, search, and premium lock badges.
-///
-/// Presentation follows Pattern B (`ToolRailView.swift`'s own
-/// `showFontSettings`/`showTextInsertSheet` precedent): the trigger
-/// (`ToolRailView`) and presenter (this view, via `.sheet(isPresented:)`)
-/// are the same view; `ToolRailView` owns `$showAssetBrowser` and passes
-/// `onRequestPaywall` down so a `.premiumRequired` outcome can dismiss THIS
-/// sheet before routing to the app-level paywall sheet, mirroring
-/// `ProjectBrowserView.swift`'s `NewProjectSheet(onRequestPaywall:)` call
-/// site exactly (same "set the local flag false, THEN call
-/// `nav.presentPaywall(...)`" order ، two sheets driven by two different
-/// presenters must not fight over being frontmost).
+/// Browses the bundled asset categories, favorites and recents with search.
 ///
 /// **Thumbnails (57 assets, packet risk "thumbnails for 57 assets on sheet
 /// open").** Nothing renders eagerly here: each `AssetCell` below renders
@@ -40,7 +23,6 @@ struct MKAssetBrowserSheet: View {
     let viewModel: EditorViewModel
     let model: MKAssetBrowserModel
     let thumbnailRenderer: MKAssetThumbnailRenderer
-    var onRequestPaywall: () -> Void
 
     private enum Filter: Hashable {
         case recent
@@ -51,6 +33,7 @@ struct MKAssetBrowserSheet: View {
     @State private var selectedFilter: Filter = .category(.basicShapes)
     @State private var searchText: String = ""
     @State private var isLoadingMetadata = true
+    @State private var showsPlacementError = false
 
     private var currentDescriptors: [MKAssetDescriptor] {
         switch selectedFilter {
@@ -89,6 +72,9 @@ struct MKAssetBrowserSheet: View {
             .onChange(of: searchText) { _, newValue in model.setSearchQuery(newValue) }
         }
         .presentationDetents([.medium, .large])
+        .alert("تعذّر إضافة العنصر", isPresented: $showsPlacementError) {
+            Button("حسنًا", role: .cancel) {}
+        }
         .task {
             await model.loadMetadata()
             isLoadingMetadata = false
@@ -128,7 +114,6 @@ struct MKAssetBrowserSheet: View {
                 ForEach(currentDescriptors) { descriptor in
                     AssetCell(
                         descriptor: descriptor,
-                        isLocked: model.isLocked(descriptor),
                         isFavorite: model.isFavorite(descriptor.assetID),
                         thumbnailRenderer: thumbnailRenderer,
                         onSelect: { select(descriptor) },
@@ -165,7 +150,8 @@ struct MKAssetBrowserSheet: View {
             case .placed, .placedPattern:
                 dismiss()
             case .premiumRequired:
-                onRequestPaywall()
+                // The model also reports this outcome for missing pattern data.
+                showsPlacementError = true
             }
         }
     }
@@ -198,20 +184,12 @@ struct MKAssetBrowserSheet: View {
     }
 }
 
-/// One grid cell: lazily-rendered thumbnail + Arabic name + favorite
-/// toggle + (when locked) a lock badge. Tapping a LOCKED cell still calls
-/// `onSelect` rather than being a dead disabled control ، the plan
-/// explicitly rejects a silent grey-out; `EditorViewModel.placeAsset`'s
-/// underlying `MKAssetBrowserModel.select(_:)` call returns
-/// `.premiumRequired` for a locked asset, which routes straight to the
-/// paywall (the paywall screen IS the "why" explanation), so the lock icon
-/// here is a preview of that outcome, not a dead end.
+/// Lazy thumbnail with selection and a separate favorite control.
 private struct AssetCell: View {
     @Environment(\.mkTheme) private var theme
     @Environment(\.displayScale) private var displayScale
 
     let descriptor: MKAssetDescriptor
-    let isLocked: Bool
     let isFavorite: Bool
     let thumbnailRenderer: MKAssetThumbnailRenderer
     let onSelect: () -> Void
@@ -221,7 +199,7 @@ private struct AssetCell: View {
 
     var body: some View {
         VStack(spacing: theme.spacing.xs) {
-            ZStack(alignment: .topLeading) {
+            ZStack {
                 RoundedRectangle(cornerRadius: theme.radius.card, style: theme.radius.style)
                     .fill(theme.surfaceMuted)
                 if let thumbnail {
@@ -232,21 +210,12 @@ private struct AssetCell: View {
                 } else {
                     ProgressView()
                 }
-                if isLocked {
-                    Image(systemName: "lock.fill")
-                        .font(.caption2)
-                        .foregroundStyle(.white)
-                        .padding(4)
-                        .background(.black.opacity(0.55), in: Circle())
-                        .padding(4)
-                }
             }
             .frame(height: 84)
             .contentShape(RoundedRectangle(cornerRadius: theme.radius.card, style: theme.radius.style))
             .onTapGesture(perform: onSelect)
             .accessibilityAddTraits(.isButton)
             .accessibilityLabel(descriptor.nameAr)
-            .accessibilityHint(isLocked ? lockedHint : "")
 
             HStack(spacing: theme.spacing.xs) {
                 Text(descriptor.nameAr)
@@ -271,10 +240,6 @@ private struct AssetCell: View {
         }
     }
 
-    private var lockedHint: String {
-        // Latin gloss: premium element — tapping opens the subscription screen
-        "عنصر مميز — يفتح النقر شاشة الاشتراك"
-    }
     // UX-7: catalog-extractable accessibility labels ، feed
     // `.accessibilityLabel(_:)` directly.
     private var addFavoriteLabel: LocalizedStringResource {

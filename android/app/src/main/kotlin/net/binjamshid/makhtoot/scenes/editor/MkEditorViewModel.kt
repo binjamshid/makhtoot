@@ -256,8 +256,8 @@ class MkEditorViewModel(
     fun insertSingleLiveText(text: String, style: MkTextStyle, position: MkPoint): MkNodeId? { throw MkNotYetPorted("app.MkEditorViewModel.insertSingleLiveText") }
     fun addRectangleAtCenter(): MkNodeId? { throw MkNotYetPorted("app.MkEditorViewModel.addRectangleAtCenter") }
     suspend fun placeAsset(descriptor: MkAssetDescriptor, model: MkAssetBrowserModel): MkAssetBrowserModel.PlacementOutcome { throw MkNotYetPorted("app.MkEditorViewModel.placeAsset") }
-    suspend fun setBackgroundImage(data: ByteArray, entitlement: MkEntitlementProviding): BackgroundImageOutcome { throw MkNotYetPorted("app.MkEditorViewModel.setBackgroundImage") }
-    fun toggleBackgroundImageFit(entitlement: MkEntitlementProviding) { throw MkNotYetPorted("app.MkEditorViewModel.toggleBackgroundImageFit") }
+    suspend fun setBackgroundImage(data: ByteArray): BackgroundImageOutcome { throw MkNotYetPorted("app.MkEditorViewModel.setBackgroundImage") }
+    fun toggleBackgroundImageFit() { throw MkNotYetPorted("app.MkEditorViewModel.toggleBackgroundImageFit") }
     fun removeBackgroundImage() { throw MkNotYetPorted("app.MkEditorViewModel.removeBackgroundImage") }
     fun groupSelection() { throw MkNotYetPorted("app.MkEditorViewModel.groupSelection") }
     fun ungroupSelection() { throw MkNotYetPorted("app.MkEditorViewModel.ungroupSelection") }
@@ -349,7 +349,7 @@ class MkEditorViewModel(
         RIGHT, CENTER, LEFT
     }
     enum class BackgroundImageOutcome {
-        SET, PREMIUM_REQUIRED, FAILED
+        SET, FAILED
     }
     enum class PathTextPreset {
         ARC, CIRCLE, WAVE, FREEFORM

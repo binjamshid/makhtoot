@@ -18,7 +18,6 @@ class MkAppNavigationModel(
         get() = throw MkNotYetPorted("app.MkAppNavigationModel.uuid")
     fun openEditor(id: MkProjectId, isRegularWidth: Boolean) { throw MkNotYetPorted("app.MkAppNavigationModel.openEditor") }
     fun presentSettings() { throw MkNotYetPorted("app.MkAppNavigationModel.presentSettings") }
-    fun presentPaywall(context: MkPaywallContext) { throw MkNotYetPorted("app.MkAppNavigationModel.presentPaywall") }
     fun completeOnboarding() { throw MkNotYetPorted("app.MkAppNavigationModel.completeOnboarding") }
     fun resetOnboarding() { throw MkNotYetPorted("app.MkAppNavigationModel.resetOnboarding") }
     companion object {

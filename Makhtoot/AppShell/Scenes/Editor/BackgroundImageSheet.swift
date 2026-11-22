@@ -6,28 +6,11 @@ import PhotosUI
 import SwiftUI
 import UniformTypeIdentifiers
 
-/// P5.3 (Bug 2): the missing background-image entry point. `PhotosPicker`
-/// ONLY (system out-of-process picker, per this session's brief: needs no
-/// `NSPhotoLibraryUsageDescription`, grants no library access, triggers no
-/// permission prompt) plus a `.fileImporter` for Files/iCloud Drive ،
-/// deliberately never `UIImagePickerController`/raw `PHPhotoLibrary` (those
-/// WOULD require the usage string this sheet adds neither of).
-///
-/// Presentation via `.photosPicker(isPresented:selection:matching:)`
-/// (not the simpler `PhotosPicker(selection:label:)` initializer) is
-/// deliberate: the simpler form opens the system picker the INSTANT its
-/// label is tapped, with no interception point ، gating entitlement
-/// BEFORE the picker ever appears (§12.5/D-119: photo backgrounds are
-/// premium) needs a plain `Button` whose action decides paywall-vs-picker
-/// first. `EditorViewModel.setBackgroundImage` gates again, independently,
-/// at the command layer (this UI-level check only saves a wasted picker
-/// round-trip for a free user; it is not the load-bearing gate).
+/// Canvas background controls backed by the system Photos and Files pickers.
 struct BackgroundImageSheet: View {
     @Environment(\.mkTheme) private var theme
     @Environment(\.dismiss) private var dismiss
-    @Environment(AppContainer.self) private var container
     let viewModel: EditorViewModel
-    var onRequestPaywall: () -> Void
 
     @State private var pickerItem: PhotosPickerItem?
     @State private var showsPhotosPicker = false
@@ -36,7 +19,6 @@ struct BackgroundImageSheet: View {
     @State private var ingestErrorText: String?
     @ScaledMetric(relativeTo: .body) private var previewIconSize: CGFloat = 32
 
-    private var isEntitled: Bool { container.entitlementProvider.isEntitled(.photoBackgrounds) }
     private var hasImage: Bool { viewModel.inspector.backgroundImageRef != nil }
     private var currentFit: MKBackgroundImageFit { viewModel.inspector.backgroundImageFitValue ?? .cover }
 
@@ -46,7 +28,7 @@ struct BackgroundImageSheet: View {
                 previewArea
 
                 Button {
-                    requestPhotosPicker()
+                    showsPhotosPicker = true
                 } label: {
                     Label(hasImage ? editLabel : chooseFromPhotosLabel, systemImage: "photo.on.rectangle")
                         .frame(maxWidth: .infinity)
@@ -56,7 +38,6 @@ struct BackgroundImageSheet: View {
                 .frame(minHeight: 44)
 
                 Button {
-                    guard isEntitled else { onRequestPaywall(); return }
                     showsFileImporter = true
                 } label: {
                     Label(chooseFromFilesLabel, systemImage: "folder")
@@ -68,7 +49,7 @@ struct BackgroundImageSheet: View {
                 VStack(alignment: .leading, spacing: theme.spacing.xs) {
                     HStack(spacing: theme.spacing.md) {
                         Button {
-                            viewModel.toggleBackgroundImageFit(entitlement: container.entitlementProvider)
+                            viewModel.toggleBackgroundImageFit()
                         } label: {
                             Label(currentFit == .cover ? fitCoverLabel : fitContainLabel, systemImage: "aspectratio")
                                 .frame(maxWidth: .infinity)
@@ -138,14 +119,6 @@ struct BackgroundImageSheet: View {
         }
     }
 
-    private func requestPhotosPicker() {
-        guard isEntitled else {
-            onRequestPaywall()
-            return
-        }
-        showsPhotosPicker = true
-    }
-
     @ViewBuilder
     private var previewArea: some View {
         ZStack {
@@ -205,13 +178,11 @@ struct BackgroundImageSheet: View {
     }
 
     private func commitIngest(data: Data) async {
-        let outcome = await viewModel.setBackgroundImage(data: data, entitlement: container.entitlementProvider)
+        let outcome = await viewModel.setBackgroundImage(data: data)
         switch outcome {
         case .set:
             ingestErrorText = nil
             viewModel.refreshCanvasChrome()
-        case .premiumRequired:
-            onRequestPaywall()
         case .failed:
             ingestErrorText = ingestFailureText
         }

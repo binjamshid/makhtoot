@@ -1,14 +1,10 @@
 import MKDesignSystem
-import MKFoundation
-import MKStore
 import SwiftUI
 
 struct SyncSettingsView: View {
     @Environment(\.mkTheme) private var theme
-    @Environment(\.dismiss) private var dismiss
     @Environment(AppContainer.self) private var container
 
-    @State private var entitlementState: MKEntitlementState = .free
     /// UX-5: `globalState` only ever carries `.zoneNotFound`, and even that
     /// reverts to `.idle`/`.syncing` moments later once the engine's own
     /// event flow continues ، `MKSyncEngineController.lastError` (this
@@ -24,24 +20,7 @@ struct SyncSettingsView: View {
                     get: { container.isProjectSyncEnabled },
                     set: { container.setProjectSyncEnabled($0) }
                 )) {
-                    HStack {
-                        Label(syncToggleLabel, systemImage: "icloud.and.arrow.up")
-                        if !hasPremium {
-                            Spacer()
-                            Image(systemName: "lock.fill")
-                                .foregroundStyle(theme.inkMuted)
-                        }
-                    }
-                }
-                .disabled(!hasPremium && !container.isProjectSyncEnabled)
-
-                if !hasPremium {
-                    NavigationLink {
-                        PaywallView(context: .premiumFeatureTap(.cloudSync)) { dismiss() }
-                    } label: {
-                        Label(upgradeForSyncLabel, systemImage: "arrow.up.circle")
-                            .foregroundStyle(theme.primary)
-                    }
+                    Label(syncToggleLabel, systemImage: "icloud.and.arrow.up")
                 }
             } header: {
                 Text(syncSectionHeader)
@@ -92,11 +71,7 @@ struct SyncSettingsView: View {
         .navigationBarTitleDisplayMode(.inline)
         #endif
         .task {
-            entitlementState = container.entitlementProvider.state
             lastSyncErrorMessage = await container.syncEngineController?.lastError?.localizedMessage
-            for await state in await container.entitlementResolver.states() {
-                entitlementState = state
-            }
         }
         // Event-driven refresh (not a poll loop): `globalState` is already
         // `@Observable` and already re-renders this view on every engine
@@ -108,18 +83,13 @@ struct SyncSettingsView: View {
         }
     }
 
-    private var hasPremium: Bool {
-        entitlementState.grantsPremiumAccess
-    }
-
     // MARK: - Strings (ar only ، D-100)
 
     private var navTitle: String { "المزامنة" }
     private var syncSectionHeader: String { "المزامنة عبر iCloud" }
     private var syncToggleLabel: String { "مزامنة المشاريع عبر iCloud" }
-    private var upgradeForSyncLabel: String { "الترقية لتفعيل المزامنة" }
     private var syncSectionFooter: String {
-        "المزامنة معطّلة افتراضيًا. عند تفعيلها مع توفر صلاحية بريميوم، تُزامَن مشاريعك عبر حساب iCloud الخاص بك."
+        "المزامنة معطّلة افتراضيًا. عند تفعيلها، تُزامَن مشاريعك عبر حساب iCloud الخاص بك."
     }
     private var syncStatusLabel: String { "الحالة:" }
     private var lastSyncErrorLabel: String { "آخر خطأ:" }

@@ -2,16 +2,13 @@ package net.binjamshid.makhtoot.scenes.browser
 
 import net.binjamshid.makhtoot.mk.foundation.MkNotYetPorted
 import net.binjamshid.makhtoot.mk.foundation.MkProjectId
-import net.binjamshid.makhtoot.mk.foundation.entitlement.MkEntitlementState
 import net.binjamshid.makhtoot.mk.foundation.geometry.MkSize
 import net.binjamshid.makhtoot.mk.model.MkCanvasSpec
 import net.binjamshid.makhtoot.mk.persistence.metadata.MkProjectSummary
 import net.binjamshid.makhtoot.stubs.MkProjectFolderSummary
 
 @androidx.compose.runtime.Composable
-fun MkProjectBrowserView(viewModel: MkProjectBrowserViewModel? = null, pendingDeletion: MkProjectSummary? = null, pendingFolderDeletion: MkProjectFolderSummary? = null, renamingProject: MkProjectSummary? = null, thumbnailReloadToken: Int = 0, showsNewProjectSheet: Boolean = false, showsNewFolderPrompt: Boolean = false, newFolderName: String = "", exportHistorySheet: ExportHistoryTarget? = null, emptyStateIconSize: Double = 40.0, syncErrorAlertTarget: SyncErrorAlertTarget? = null, entitlementState: MkEntitlementState? = null, onOpenSettings: () -> Unit, columns: List<String>? = null, vm: Any? = null, fixtures: List<Pair<String, MkSize>>? = null, name: Any = newFolderName, ordinal: Any? = null, signpostState: Any? = null, entries: Any? = null, state: Any? = null, id: Any? = null) { }
-@androidx.compose.runtime.Composable
-fun MkProjectBrowserView_trialChip(daysLeft: Int) { }
+fun MkProjectBrowserView(viewModel: MkProjectBrowserViewModel? = null, pendingDeletion: MkProjectSummary? = null, pendingFolderDeletion: MkProjectFolderSummary? = null, renamingProject: MkProjectSummary? = null, thumbnailReloadToken: Int = 0, showsNewProjectSheet: Boolean = false, showsNewFolderPrompt: Boolean = false, newFolderName: String = "", exportHistorySheet: ExportHistoryTarget? = null, emptyStateIconSize: Double = 40.0, syncErrorAlertTarget: SyncErrorAlertTarget? = null, onOpenSettings: () -> Unit, columns: List<String>? = null, vm: Any? = null, fixtures: List<Pair<String, MkSize>>? = null, name: Any = newFolderName, ordinal: Any? = null, signpostState: Any? = null, entries: Any? = null, state: Any? = null, id: Any? = null) { }
 @androidx.compose.runtime.Composable
 fun MkProjectBrowserView_folderChips(viewModel: MkProjectBrowserViewModel) { }
 @androidx.compose.runtime.Composable
@@ -27,26 +24,12 @@ fun MkProjectBrowserView_presentSyncStatusDetail(id: MkProjectId) { throw MkNotY
 fun MkProjectBrowserView_createProject(canvas: MkCanvasSpec) { throw MkNotYetPorted("app.MkProjectBrowserView.createProject") }
 fun MkProjectBrowserView_createProjectFromPhoto(canvas: MkCanvasSpec, data: ByteArray) { throw MkNotYetPorted("app.MkProjectBrowserView.createProjectFromPhoto") }
 fun MkProjectBrowserView_deleteProject(id: MkProjectId) { throw MkNotYetPorted("app.MkProjectBrowserView.deleteProject") }
-val MkProjectBrowserView_isPremium: Boolean
-    get() = throw MkNotYetPorted("app.MkProjectBrowserView.isPremium")
 @androidx.compose.runtime.Composable
 fun MkProjectBrowserView_content() { }
 @androidx.compose.runtime.Composable
 fun MkProjectBrowserView_titleHeading() { }
-@androidx.compose.runtime.Composable
-fun MkProjectBrowserView_entitlementBanner() { }
-@androidx.compose.runtime.Composable
-fun MkProjectBrowserView_gracePeriodBanner() { }
-@androidx.compose.runtime.Composable
-fun MkProjectBrowserView_billingRetryBanner() { }
 val MkProjectBrowserView_browserTitle: String
     get() = throw MkNotYetPorted("app.MkProjectBrowserView.browserTitle")
-val MkProjectBrowserView_upgradeChipLabel: String
-    get() = throw MkNotYetPorted("app.MkProjectBrowserView.upgradeChipLabel")
-val MkProjectBrowserView_gracePeriodBannerCopy: String
-    get() = throw MkNotYetPorted("app.MkProjectBrowserView.gracePeriodBannerCopy")
-val MkProjectBrowserView_billingRetryBannerCopy: String
-    get() = throw MkNotYetPorted("app.MkProjectBrowserView.billingRetryBannerCopy")
 val MkProjectBrowserView_newProjectLabel: String
     get() = throw MkNotYetPorted("app.MkProjectBrowserView.newProjectLabel")
 val MkProjectBrowserView_settingsLabel: String

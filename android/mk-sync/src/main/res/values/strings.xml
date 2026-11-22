@@ -19,7 +19,7 @@
     <string name="mk_sync_status_disabled">المزامنة معطّلة</string>
     <string name="mk_sync_status_icloud_temporarily_unavailable">iCloud غير متاح مؤقتًا ، ستُستأنف المزامنة تلقائيًا</string>
     <string name="mk_sync_status_last_synced">آخر مزامنة: %1$s</string>
-    <string name="mk_sync_status_paused_entitlement">المزامنة عبر iCloud ميزة مميزة ، اشترك لاستئنافها</string>
+    <string name="mk_sync_status_paused_entitlement">المزامنة متوقفة مؤقتًا</string>
     <string name="mk_sync_status_sign_in_required">سجّل الدخول إلى iCloud من الإعدادات لتفعيل المزامنة</string>
     <string name="mk_sync_status_syncing_progress">جارٍ المزامنة (%1$d/%2$d)</string>
 </resources>

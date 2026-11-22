@@ -14,6 +14,25 @@ Inputs: `_input/BRIEF.md` (locked requirements digest), `docs/founder Q&A.pdf`,
 
 ---
 
+## Current access policy (D-328)
+
+All implemented features are free to use. The iPhone and iPad app supplies that access
+through the existing editor, font, export, and sync contracts at startup. The contracts
+retain their legacy state and flag names for compatibility. StoreKit and app-managed
+trials are inactive in the app, and the paywall and referral trial rewards are removed
+from its user experience. Apple Account settings remain available for managing
+subscriptions from earlier versions. Project sync is off by default and requires a
+saved opt-in and an available iCloud account. Font licenses, import validation, and
+exporter resource limits still apply.
+
+The Android scaffold follows the free-access policy without Play Billing, an app
+trial, or a paywall. The editor and project-sync implementation are still pending.
+
+D-328 takes precedence over the paid access, trial, and referral requirements in the
+original decisions, planning and release documents. Those records, including the
+original product requirements and Android spine, preserve their historical
+context. [Read D-328](DECISIONS_LOG.md#d-328--free-access-for-all-implemented-features).
+
 ## 0. Naming, identifiers, vocabulary
 
 | Item | Value |
@@ -25,10 +44,10 @@ Inputs: `_input/BRIEF.md` (locked requirements digest), `docs/founder Q&A.pdf`,
 | Module prefix | `MK` |
 | Document package extension | `.makhtoot` (UTI `net.binjamshid.makhtoot.project`, FD-01 confirmed) |
 | Scene schema version key | `schemaVersion` (integer, starts at 1) |
-| IAP product ids | `net.binjamshid.makhtoot.premium.monthly` / `.premium.annual` / `.premium.lifetime` (FD-01 confirmed) |
-| Subscription group | `Makhtoot Premium` |
+| Historical IAP product ids | `net.binjamshid.makhtoot.premium.monthly` / `.premium.annual` / `.premium.lifetime` (FD-01 confirmed) |
+| Historical subscription group | `Makhtoot Premium` |
 | CloudKit container | `iCloud.net.binjamshid.makhtoot` (FD-01 confirmed) |
-| Feature flags | `MKFeatureFlags` (compile-time + local runtime); `referralProgram` defaults **OFF** |
+| Feature flags | `MKFeatureFlags` (compile-time + local runtime) |
 
 Canonical glossary (use these exact terms everywhere):
 - **Live Text object** — reflowable, Core-Text-shaped text bound to a source string.
@@ -39,8 +58,9 @@ Canonical glossary (use these exact terms everywhere):
 - **Glyph Node / Mark Node / Ligature Group** — independently transformable scene nodes.
 - **Joining Form** — isolated / initial / medial / final contextual form of a letter.
 - **Path Text object** — live text laid on a Bézier path (still reflowable) until arranged.
-- **Entitlement state** — one of `lifetime`, `subscribed`, `inGracePeriod`,
-  `inBillingRetry`, `trial`, `free` (precedence in that order; see D-113).
+- **Entitlement state** — legacy module contract with `lifetime`, `subscribed`,
+  `inGracePeriod`, `inBillingRetry`, `trial`, and `free` states (D-113). The free-access
+  app uses its unrestricted capabilities (D-328).
 
 ---
 
@@ -74,17 +94,17 @@ Canonical glossary (use these exact terms everywhere):
 | `MKCanvas` | UIKit canvas view (UIScrollView + CALayer tree), gestures, selection, marquee, handles, guides, snapping, group transforms, zoom/pan, text-editing overlay (UITextView) | MKModel, MKRender |
 | `MKRender` | scene renderer (Core Graphics), layer-backed preview, tile/bitmap caches, degradation ladder, hit testing geometry | MKModel, MKTextEngine |
 | `MKColor` | color model (sRGB working space + P3 display), ICC profile handling, RGB→CMYK conversion, export color pipelines | MKFoundation |
-| `MKExport` | JPEG/PNG(opaque+alpha)/SVG writer/PDF (vector, print CMYK), presets, 2 MP gating, tiled huge-raster rendering, export history records | MKModel, MKRender, MKColor, MKFonts, MKStore (entitlement queries via protocol) |
-| `MKFonts` | bundled-font registry, premium catalog + downloads, user import (validation, sandbox copy, process registration), favorites/tags/search, character coverage, license metadata, expiry locking | MKFoundation, MKPersistence (catalog store) |
+| `MKExport` | JPEG/PNG(opaque+alpha)/SVG writer/PDF (vector, print CMYK), presets, tiled huge-raster rendering, export history records | MKModel, MKRender, MKColor, MKFonts, MKFoundation (access protocol) |
+| `MKFonts` | bundled-font registry, optional hosted catalog and downloads, user import (validation, sandbox copy, process registration), favorites/tags/search, character coverage, license metadata, legacy access state | MKFoundation, MKPersistence (catalog store) |
 | `MKPersistence` | `.makhtoot` file-package documents, atomic autosave + journaling, crash recovery, undo/redo command stack, SwiftData metadata index (projects, folders, search, export history, font catalog state, analytics counters), asset store | MKModel, MKFoundation |
-| `MKSync` | CKSyncEngine-based premium project sync, conflict policy, account state, quota/errors | MKPersistence, MKStore (protocol) |
-| `MKStore` | StoreKit 2 products/purchase/restore, entitlement resolution + precedence, app-side trial (Keychain + iCloud KVS), paywall state, referral module (flag-isolated) | MKFoundation |
+| `MKSync` | opt-in CKSyncEngine project sync, conflict policy, account state, quota/errors | MKPersistence, MKFoundation (access protocol) |
+| `MKStore` | legacy StoreKit 2 and trial contracts, implementations, and test fixtures | MKFoundation |
 | `MKAnalytics` | opt-in consent, on-device aggregation of font-usage counters, anonymous batched upload via CloudKit public DB, kill switch | MKFoundation, MKPersistence |
 | `MKDesignSystem` | theme protocol + default theme, semantic colors, Arabic type ramp, spacing/radius/motion tokens, RTL-first components (panels, inspector fields, sliders, chips) | MKFoundation |
 | `MKAssets` | bundled shapes, Arabic ornaments, frames, calligraphic elements, pattern backgrounds (vector, license-clear), asset browser model | MKModel |
-| App target `Makhtoot` | scenes, navigation (project browser, editor, settings, paywall, onboarding), panel/inspector UI, Settings→Support→Licensing | everything above |
+| App target `Makhtoot` | scenes, navigation (project browser, editor, settings, onboarding), panel/inspector UI, Settings→Support→Licensing | everything above |
 
-### 2.1 Android module map (D-301, added 2026-07-30 — iOS module map above is unchanged)
+### 2.1 Android module map (D-301, added 2026-07-30)
 
 18 Gradle modules under `android/`, mirroring the 16 `MakhtootKit` targets above 1:1 plus
 `:mk-native` (JNI facade, no Swift equivalent) and `:app`. Kotlin package root
@@ -98,7 +118,7 @@ module boundary without leaving this document.
 | `:mk-foundation` | MKFoundation | — |
 | `:mk-model` | MKModel | `:mk-foundation` |
 | `:mk-color` | MKColor | `:mk-foundation`, `:mk-native` |
-| `:mk-store` | MKStore → Play Billing | `:mk-foundation` |
+| `:mk-store` | MKStore legacy interfaces and stubs | `:mk-foundation` |
 | `:mk-persistence` | MKPersistence | `:mk-model`, `:mk-foundation` |
 | `:mk-fonts` | MKFonts | `:mk-foundation`, `:mk-persistence`, `:mk-native` |
 | `:mk-textengine` | MKTextEngine | `:mk-foundation`, `:mk-fonts`, `:mk-model`, `:mk-native` |
@@ -111,7 +131,7 @@ module boundary without leaving this document.
 | `:mk-analytics` | MKAnalytics | `:mk-foundation`, `:mk-persistence` |
 | `:mk-designsystem` | MKDesignSystem | `:mk-foundation` |
 | `:mk-assets` | MKAssets | `:mk-foundation`, `:mk-model` |
-| `:app` | `Makhtoot` app target | everything above |
+| `:app` | `Makhtoot` app target | feature modules, with free access from `:mk-foundation` |
 
 Entitlement access from any module (including `:mk-export`) is via the `MKEntitlementProviding`
 protocol in `:mk-foundation` — there is **no** `:mk-export → :mk-store` edge and **no**
@@ -186,15 +206,15 @@ protocol in `:mk-foundation` — there is **no** `:mk-export → :mk-store` edge
   - SwiftData store (app support dir) holds ONLY metadata: project list, folders, names,
     search text (project titles + layer names only — never scene text content), export
     history, font catalog/favorites/download state, analytics
-    counters, trial/consent records. Never the scene graph.
-  - CloudKit sync (premium): CKSyncEngine; one record per project (manifest+scene as
+    counters, and consent records. Never the scene graph.
+  - Optional CloudKit sync: CKSyncEngine, one record per project (manifest+scene as
     encrypted-asset payloads, assets as CKAssets); last-writer-wins per project with
     conflict copy fallback ("(نسخة متعارضة)").
   - Rejected alternatives (full rationale in DECISIONS_LOG D-112): pure SwiftData/Core
     Data scene storage (object-graph churn vs undo/value semantics, migration risk,
     poor huge-blob behavior), GRDB/SQLite scene rows (adds dependency, no benefit at v1
     scale), NSDocument/UIDocument+iCloud Drive (weaker control than CKSyncEngine for
-    selective premium sync).
+    selective project sync).
 
 ## 5. Rendering, canvas, performance
 
@@ -231,20 +251,19 @@ protocol in `:mk-foundation` — there is **no** `:mk-export → :mk-store` edge
   documented as lower fidelity). **RESOLVED 2026-07-19: Apple Generic CMYK for v1
   (licensed profile = v1.1 seam)**. v1 has no on-screen soft-proofing; documented limitation
   + verification via external tooling in TEST_MATRIX.
-- **D-118 Export matrix**: single render path from the scene snapshot (never screen
-  capture). Free: JPEG, rasterized PDF, both ≤2 MP effective. Premium: opaque PNG,
-  transparent PNG, SVG, vector print PDF (300 DPI raster assets floor, CMYK). Raster
-  export uses tiled CGBitmapContext strips. PDF: vector paths + live-text runs; live text
+- **D-118 Export matrix (access amended by D-328)**: single render path from the scene
+  snapshot (never screen capture). The app makes all implemented formats and resolutions
+  available for free, including JPEG, opaque and transparent PNG, SVG, vector and
+  raster PDF, and CMYK print PDF. The print preset uses 300 DPI for raster content.
+  Raster export uses tiled CGBitmapContext strips. PDF: vector paths + live-text runs; live text
   in OFL fonts draws as text with subset embedding, otherwise outlines (per-license
   switch). SVG: custom serializer; Live Text → `<text>` (+`@font-face` embed only when
   license allows); Arranged/transformed glyphs → `<g><path>` with
   `data-mk-*` provenance attributes (source text, codepoints, font name) so editability
   intent is preserved; every outline fallback is per-feature documented, never silent.
-- **D-119 Gating**: entitlement checks at export time + content gating (premium fonts,
-  photo backgrounds, premium assets mark the project "premium content present"); free
-  tier exporting a premium-content project is blocked with replace-or-subscribe flow.
-  Expired premium: fonts lock (render with last cached shaping for display + lock badge,
-  re-shape blocked), photo backgrounds locked, export limited to free matrix.
+- **D-119 Gating (superseded by D-328)**: the app makes implemented import, editing,
+  and export features available for free, including for projects carrying legacy paid
+  content flags. Technical and font-license checks still apply.
 
 ## 7. Fonts
 
@@ -258,43 +277,21 @@ protocol in `:mk-foundation` — there is **no** `:mk-export → :mk-store` edge
   verification it must also pass the arrange-fidelity block (T-AR-31/32/33 +
   decompose/recompose round-trip T-AR-36..38), not just the reduced sweep T-AR-58,
   before it ships.
-- **D-121 Premium catalog delivery**: fonts are data, not code → direct HTTPS download
-  after entitlement confirmation is App-Store-compliant; v1 premium catalog is hosted as
-  a static JSON manifest + font files on founder-controlled storage (FD-04 hosting
-  decision); fallback documented: bundle premium fonts in-app behind entitlement if
-  hosting is not ready at submission. On-Demand Resources rejected (version-coupled,
-  size limits, weaker control).
+- **D-121 Catalog delivery (access amended by D-328)**: the checked-in configuration
+  uses bundled delivery. The catalog module supports a hosted HTTPS manifest and
+  font files for deployments configured with an endpoint and distribution rights.
 - **D-122 Registration & import (amended by D-219)**: all non-system fonts register per-process via
-  `CTFontManagerRegisterFontURLs(.process)` at launch/on-demand. User import
-  (premium): Files picker → sfnt table validation (accept ttf/otf/ttc/variable; reject
-  woff/woff2/bitmap-only/corrupt with specific Arabic error messages) → content-addressed
-  copy into container → register → catalog entry flagged `userImported` (locks on
-  expiry).
+  `CTFontManagerRegisterFontURLs(.process)` at launch/on-demand. User import is free.
+  The Files picker leads to sfnt validation (accept ttf/otf/ttc/variable, reject
+  woff/woff2/bitmap-only/corrupt with specific Arabic errors), then content-addressed
+  copying to the container, registration, and a catalog entry flagged `userImported`.
 
-## 8. Store, sync, analytics
+## 8. Feature access, sync, analytics
 
-- **D-113 Entitlement precedence**: lifetime > subscribed > grace > billingRetry >
-  trial > free. Grace/billingRetry retain premium + banner. Single source:
-  `MKEntitlementResolver` observing `Transaction.currentEntitlements` +
-  `Product.SubscriptionInfo.Status`; on-device StoreKit 2 verification in v1 (Apple's
-  JWS check via `VerificationResult`); App Store Server API integration is a documented
-  extension seam, not v1 (no backend exists). Restore purchases mandatory UI.
-- **D-123 Trial**: app-side 7-day trial from first launch for everyone; persisted in
-  Keychain (`kSecAttrAccessibleAfterFirstUnlock`, survives reinstall) + mirrored to
-  iCloud KVS; earliest timestamp wins across devices; clock-rollback guard (monotonic
-  check, never extends). No App Store Connect introductory offer in v1 (avoids
-  double-trial/eligibility divergence); differences documented in ARCHITECTURE §StoreKit
-  and APP_STORE_CHECKLIST. Trial state machine: `active(daysLeft)` → `expired`.
-- **D-124 Referral (flag OFF)**: `MKStore/Referral` module compiled but inert without
-  `MKFeatureFlags.referralProgram`. Design: referrer-only reward, +7 days trial per
-  qualifying event, local code generation + manual code entry attribution (no server in
-  v1 → attribution is honor-based code exchange, documented weakness), abuse caps
-  (max 4 extensions), full review-risk memo, removal = delete folder + flag. Must be
-  reconfirmed against current guidelines before any activation (FD-05).
-  **FOUNDER-CONFIRMED 2026-07-17 (D-225):** dormancy mechanism changes from runtime flag to
-  compile-time exclusion from Release (`#if MAKHTOOT_REFERRAL_ENABLED`, set only in
-  Debug/internal configs) — the module and its strings are absent from the shipped
-  binary entirely, not merely flagged off.
+- **D-113 Entitlement precedence (historical)**, **D-123 Trial (superseded)** and
+  **D-124 Referral (superseded)** describe the earlier access model. D-328 governs
+  the app's access and subscription settings. Earlier trial records may still exist
+  in Keychain or iCloud key-value storage.
 - **D-125 Analytics**: default OFF; explicit opt-in switch in Settings (consent record
   versioned). On-device counters: (fontID → usage count buckets). Upload: anonymous
   batches to CloudKit **public** database with random ephemeral batch UUID, no user
@@ -311,16 +308,16 @@ protocol in `:mk-foundation` — there is **no** `:mk-export → :mk-store` edge
   (madder red family), generous whitespace, calligraphy-forward previews. Chosen for
   contrast with competitor skeuomorphism and neutrality for later re-theme.
 
-## 10. Founder Decisions (the only open blockers)
+## 10. Founder decision register
 
 | ID | Decision needed | Blocking |
 |---|---|---|
 | FD-01 | Real bundle id, team, repo name/org (`git init` by founder) | Distribution phase |
 | FD-02 | Approve/edit baseline aesthetic "حبر ورق" after design run | Visual polish phase |
 | FD-03 | CMYK ICC profile selection + license verification (or Apple Generic CMYK fallback) | Print-PDF export QA |
-| FD-04 | Premium font hosting location (any static HTTPS) or bundle-fallback election | Font catalog phase |
-| FD-05 | Referral activation (requires guideline recheck) — default stays OFF | Never blocks v1 |
-| FD-06 | Family Sharing ON/OFF for lifetime + subscriptions (irreversible per product) | App Store Connect setup |
+| FD-04 | Font hosting location (static HTTPS) or bundled delivery | Optional hosted catalog |
+| FD-05 | Referral activation | Historical (superseded by D-328) |
+| FD-06 | Family Sharing ON/OFF for lifetime + subscriptions (irreversible per product) | Historical App Store product setup |
 | FD-07 | Paid commercial foundry licensing budget/process (v1.1+; v1 = OFL only) | Post-v1 |
 
 ### 10.1 Android founder decisions (FDA-01…FDA-08, added 2026-07-30)
@@ -332,11 +329,11 @@ without invalidating completed work.
 
 | ID | Decision | Blocking |
 |---|---|---|
-| FDA-01 | Premium sync mechanism on Android: Google Drive `appDataFolder` (D-310). Android↔Android only — never iOS↔Android | Batch 6 (G6) |
+| FDA-01 | Planned project sync mechanism on Android: Google Drive `appDataFolder` (D-310). Android↔Android only — never iOS↔Android | Batch 6 (G6) |
 | FDA-02 | Android code lives in `android/` inside this monorepo (D-301) | Batch 1 (G1) |
 | FDA-03 | CMYK ICC profile for Android: lcms2 synthetic generic CMYK default (D-315); Apple Generic CMYK is not redistributable in an Android APK | Print-PDF export QA (G5) |
 | FDA-04 | Analytics upload endpoint: no-op uploader by default, never a third-party SDK (D-320) | Never blocks v1 |
-| FDA-05 | Play product ids: `net.binjamshid.makhtoot.premium` with base plans `monthly`/`annual`; lifetime INAPP `net.binjamshid.makhtoot.premium.lifetime` (D-311) | Play Console setup (G9) |
+| FDA-05 | Play product ids: `net.binjamshid.makhtoot.premium` with base plans `monthly`/`annual`; lifetime INAPP `net.binjamshid.makhtoot.premium.lifetime` (D-311) | Historical (superseded by D-328) |
 | FDA-06 | Play Console + merchant account — founder-only | First blocks G6 (OAuth consent screen), binds fully at G9 |
 | FDA-07 | minSdk 29 (Android 10) — deletes the API 26–28 render fallback entirely (D-305) | Batch 1 (G1) |
 | FDA-08 | iOS gains zipped-`.makhtoot` import/export (D-309), one iOS-side agent in Batch 9 | Batch 9 (G9) |
@@ -422,21 +419,16 @@ engine, mirroring D-104 (D-307).
 **Persistence, interchange, sync.** `.makhtoot` as a directory, byte-identical layout to iOS;
 Room replaces SwiftData for metadata only, never the scene graph (D-308, mirrors D-112).
 Zipped `.makhtoot` is the cross-platform interchange format; iOS gains zip import/export in
-Batch 9 (D-309, FDA-08). Premium sync is Google Drive `appDataFolder` — Credential Manager for
+Batch 9 (D-309, FDA-08). Planned project sync uses Google Drive `appDataFolder` — Credential Manager for
 identity, a separate GIS `AuthorizationClient` step for the Drive scope; Android↔Android only,
 never iOS↔Android (D-310, replaces the CloudKit clause of D-112 on Android only; FDA-01).
 
-**Store, trial, fonts, colour, export.** Google Play Billing 7+, D-113's precedence mapped to
-Play's states; Play cannot distinguish grace from billing-retry client-side, a documented,
-permanent limitation, not a gap (D-311, mirrors D-113; FDA-05). 7-day trial as an unencrypted,
-HMAC-signed DataStore blob mirrored to Android Auto Backup — no cross-device propagation at
-all, corrected from an earlier Keystore-wrapped formulation that gave zero reinstall survival
-(D-312, mirrors D-123). Bundled fonts opened directly from `AssetManager` via HarfBuzz/FreeType
-blobs, no OS registration needed; SAF import with the same ported sfnt validator (D-316,
-mirrors D-122). lcms2 via NDK replaces Core Graphics' CMS for sRGB→CMYK (D-315, mirrors D-117;
-FDA-03). Raster export mirrors D-118's raster half at the same 2 MP free-tier clamp (D-313);
-print-PDF is an in-house writer in `:mk-export` since Android's `PdfDocument` cannot meet the
-CMYK/OutputIntent bar (D-314, mirrors D-118's PDF half).
+**Access, fonts, colour, export.** D-328 supersedes the original Play Billing (D-311),
+trial (D-312), and 2 MP access cap in the raster export design (D-313).
+The port's design opens bundled fonts directly from `AssetManager` via HarfBuzz/FreeType
+blobs and imports fonts through SAF with the same sfnt validator (D-316). The design
+uses lcms2 via NDK for sRGB→CMYK (D-315) and an in-house print PDF writer in
+`:mk-export` for CMYK output intents (D-314).
 
 **Design system, localisation, accessibility, analytics, referral, distribution.** `MkTheme`
 via Compose `CompositionLocal`s, not `MaterialTheme`; all 5 themes ported with identical
@@ -445,8 +437,8 @@ of device locale — a new platform for the same Arabic-only product, not a new 
 (D-318). TalkBack replaces VoiceOver, 48dp touch-target floor replacing 44pt (D-319, Android
 elaboration of this document's accessibility quality bar). Analytics ports verbatim: default
 OFF, on-device counters, kill switch; only the upload transport differs (D-320, mirrors
-D-125; FDA-04). Referral gets the same compile-time exclusion from the release AAB as D-225
-gives iOS (D-321, mirrors D-225). Distribution is AAB + Play App Signing + Play Data Safety
+D-125; FDA-04). D-328 supersedes the referral trial-reward design. Distribution is
+AAB + Play App Signing + Play Data Safety
 form, an internal → closed → production track ladder (D-322; FDA-06).
 
 **Verification.** Parity is enforced by golden fixtures exported from the iOS engine, not by

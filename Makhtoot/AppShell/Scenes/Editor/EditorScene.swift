@@ -53,14 +53,14 @@ struct EditorScene: View {
             // this is the project it was created for ، see
             // `AppNavigationModel.pendingBackgroundImageImport`'s own doc
             // comment. Cleared immediately (not just on success) so a
-            // failed/blocked ingest never re-fires on a later re-open of
+            // failed ingest never re-fires on a later re-open of
             // the SAME project (`.task` only runs once per `EditorScene`
             // instance, but this guard also protects a fresh instance from
             // ever picking up a stale pending import left over from a
             // different, unrelated project).
             if let pending = nav.pendingBackgroundImageImport, pending.projectID == projectID {
                 nav.pendingBackgroundImageImport = nil
-                Task { await vm.setBackgroundImage(data: pending.data, entitlement: container.entitlementProvider) }
+                Task { await vm.setBackgroundImage(data: pending.data) }
             }
             #if DEBUG
             // See `ProjectBrowserView.swift`'s matching DEBUG `.task` header
@@ -166,16 +166,13 @@ private struct EditorOpenErrorView: View {
 private struct EditorContentView: View {
     @Environment(\.mkTheme) private var theme
     @Environment(AppContainer.self) private var container
-    @Environment(AppNavigationModel.self) private var nav
     let viewModel: EditorViewModel
     let fontRegistry: MKFontRegistry
     let isRegularWidth: Bool
     var onDone: () -> Void
     @State private var tourModel = EditorTourModel()
     @State private var exportURL: URL?
-    /// EU-4 (AUDIT_2026-07-28.md): drives the new export sheet ، replaces
-    /// the old flat `Menu` of five bare format buttons (see
-    /// `toolbarContent` and `ExportFormatSheet` below).
+    @State private var completedExportURL: URL?
     @State private var showsExportSheet = false
 
     var body: some View {
@@ -231,20 +228,6 @@ private struct EditorContentView: View {
         } message: {
             Text(viewModel.decomposeFidelityNotice ?? "")
         }
-        // EU-4 (AUDIT_2026-07-28.md): every export method used to
-        // `catch { return nil }` ، a failed export silently did nothing.
-        // `EditorViewModel.exportFailureMessage` (set from each export
-        // method's `catch` block, via `runExport(_:coordinator:
-        // entitlement:)`) now drives this alert instead, same
-        // Optional-property convention as `decomposeFidelityNotice` above.
-        .alert(
-            exportFailedTitle,
-            isPresented: Binding(get: { viewModel.exportFailureMessage != nil }, set: { if !$0 { viewModel.exportFailureMessage = nil } })
-        ) {
-            Button(okLabel) { viewModel.exportFailureMessage = nil }
-        } message: {
-            Text(viewModel.exportFailureMessage ?? "")
-        }
         // R-7.5: armed mark re-attach ، long-press-to-cancel affordance
         // shown as a lightweight dismissible banner via the same alert
         // primitive (kept minimal ، this is a transient mode indicator,
@@ -282,16 +265,17 @@ private struct EditorContentView: View {
                 ShareSheet(items: [exportURL])
             }
         }
-        // EU-4: the new export sheet ، one row per format with a purpose
-        // string, premium lock badge, and resolved output dimensions,
-        // replacing the old flat `Menu` (see `toolbarContent` below).
-        .sheet(isPresented: $showsExportSheet) {
+        .sheet(isPresented: $showsExportSheet, onDismiss: {
+            exportURL = completedExportURL
+            completedExportURL = nil
+        }) {
             ExportFormatSheet(
                 viewModel: viewModel,
                 entitlementProvider: container.entitlementProvider,
-                canvasSize: viewModel.session.scene.canvas.size,
-                onPaywall: { nav.presentPaywall(.premiumFeatureTap(.exportFormat)) },
-                onExported: { url in exportURL = url }
+                onExported: { url in
+                    completedExportURL = url
+                    showsExportSheet = false
+                }
             )
         }
     }
@@ -610,14 +594,6 @@ private struct EditorContentView: View {
             }
             .accessibilityLabel(viewOptionsLabel)
 
-            // EU-4 (AUDIT_2026-07-28.md): the flat five-button `Menu` this
-            // used to be gave no explanation of when to use which format,
-            // no premium indication before tapping, no export progress, and
-            // no way to cancel a long export. Replaced with a sheet (see
-            // the `.sheet(isPresented: $showsExportSheet)` modifier above
-            // and `ExportFormatSheet` below) that owns all five formats'
-            // pre-check + paywall + export + share-sheet-handoff logic in
-            // one place instead of duplicating it per button.
             Button {
                 showsExportSheet = true
             } label: {
@@ -720,14 +696,6 @@ private struct EditorContentView: View {
         // Latin gloss: export
         "تصدير"
     }
-    // EU-4: per-format labels (`exportJPEGLabel`/`exportPNGLabel`/etc.)
-    // moved into `ExportFormatSheet`'s own `ExportFormatOption.displayName`
-    // below ، this file's old flat `Menu` (five bare buttons) is gone, so
-    // these lived nowhere else.
-    private var exportFailedTitle: String {
-        // Latin gloss: export failed
-        "فشل التصدير"
-    }
     private var debugMenuLabel: LocalizedStringResource { "DEBUG" }
     private var debugTypeArabicLabel: String {
         // Latin gloss: DEBUG: type sample Arabic text into the active overlay
@@ -803,21 +771,20 @@ private struct EditorContentView: View {
     }
 }
 
-/// EU-4 (AUDIT_2026-07-28.md): the five export formats, in a fixed display
-/// order, each carrying a one-line Arabic purpose string and premium-gate
-/// status. A small UI-only enum (not the underlying `MKExportFormat`,
-/// whose `.jpeg(quality:)` associated value doesn't give a free
-/// `CaseIterable`/`Identifiable`/fixed-order row list) that mirrors D-118's
-/// free/premium split exactly (`MKExportFormat.isFreeTierFormat`: JPEG +
-/// raster PDF free; PNG + SVG + vector PDF premium).
-private enum ExportFormatOption: CaseIterable, Identifiable {
-    case jpeg, png, pdfRaster, svg, pdfVector
+/// Export formats in display order, with guidance for each format.
+private enum ExportFormatOption: String, CaseIterable, Identifiable {
+    case jpeg, png, pngAlpha, pdfRaster, svg, pdfVector, pdfPrintCMYK
     var id: Self { self }
 
-    var isPremium: Bool {
+    var format: MKExportFormat {
         switch self {
-        case .jpeg, .pdfRaster: return false
-        case .png, .svg, .pdfVector: return true
+        case .jpeg: return .jpegDefault
+        case .png: return .pngOpaque
+        case .pngAlpha: return .pngAlpha
+        case .pdfRaster: return .pdfRaster
+        case .svg: return .svg
+        case .pdfVector: return .pdfVectorRGB
+        case .pdfPrintCMYK: return .pdfVectorCMYK
         }
     }
 
@@ -825,19 +792,14 @@ private enum ExportFormatOption: CaseIterable, Identifiable {
         switch self {
         case .jpeg: return "JPEG"
         case .png: return "PNG"
+        case .pngAlpha: return "PNG (شفاف)"
         case .pdfRaster: return "PDF (نقطية)"
         case .svg: return "SVG"
         case .pdfVector: return "PDF (متجه)"
+        case .pdfPrintCMYK: return "PDF (CMYK)"
         }
     }
 
-    /// One-line purpose guidance, EU-4's exact three-way vocabulary
-    /// («للطباعة»/«للنشر»/«للتحرير»). JPEG's fixed social-square preset
-    /// maps to «للنشر» (publishing/sharing); PNG/SVG's native-canvas-size,
-    /// further-editable output both map to «للتحرير» (editing elsewhere);
-    /// the two PDF formats map to «للطباعة» (printing), matching PDF's
-    /// conventional print role — raster for a quick print, vector for a
-    /// professional one.
     var purposeText: String {
         switch self {
         case .jpeg:
@@ -846,6 +808,9 @@ private enum ExportFormatOption: CaseIterable, Identifiable {
         case .png:
             // Latin gloss: for editing in another app
             return "للتحرير في تطبيق آخر"
+        case .pngAlpha:
+            // Latin gloss: for logos and elements without a background
+            return "للشعارات والعناصر دون خلفية"
         case .pdfRaster:
             // Latin gloss: for quick printing
             return "للطباعة السريعة"
@@ -855,49 +820,32 @@ private enum ExportFormatOption: CaseIterable, Identifiable {
         case .pdfVector:
             // Latin gloss: for professional printing
             return "للطباعة الاحترافية"
+        case .pdfPrintCMYK:
+            // Latin gloss: raster for color printing at 300 dpi
+            return "نقطي للطباعة الملونة بدقة ٣٠٠ نقطة في البوصة"
         }
     }
 
-    /// JPEG/PDF-raster resolve through the fixed `"social.square"` preset
-    /// (mirrors `EditorViewModel.exportForSharing()`/
-    /// `exportPDFRasterForSharing()`'s own request construction exactly);
-    /// PNG/SVG/vector-PDF resolve to the canvas's own native size (mirrors
-    /// those methods' `.custom(pixelSize: canvasSize)` target). Falls back
-    /// to `canvasSize` if the preset catalog is ever missing the id (never
-    /// true in production ، `MKExportPresetCatalog.standard` traps at
-    /// process start on a malformed bundle, see that type's own doc
-    /// comment), purely so this stays a total function.
-    func resolvedPixelSize(canvasSize: CGSize) -> CGSize {
-        switch self {
-        case .jpeg, .pdfRaster:
-            return MKExportPresetCatalog.standard.preset(id: "social.square")?.pixelSize ?? canvasSize
-        case .png, .svg, .pdfVector:
-            return canvasSize
-        }
+    func request(canvasSize: CGSize) -> MKExportRequest {
+        MKExportRequest(
+            format: format,
+            target: .custom(pixelSize: canvasSize),
+            dpi: self == .pdfPrintCMYK ? 300 : 72,
+            background: self == .pngAlpha ? .transparent : .canvas,
+            colorTarget: self == .pdfPrintCMYK ? .cmykPrint : .srgb
+        )
     }
 }
 
-/// EU-4: the export sheet ، one row per format with a purpose string, a
-/// premium lock badge shown BEFORE tapping (not discovered only after
-/// hitting the paywall), and the resolved output pixel dimensions.
-/// Replaces the old flat `Menu` of five bare buttons
-/// (`EditorContentView.toolbarContent`). While an export is in flight
-/// (`viewModel.isExporting`), the row list is replaced by a progress view +
-/// Cancel button bound to `viewModel.cancelActiveExport()` ،
-/// `viewModel.exportProgress` drives a DETERMINATE bar once the
-/// tiled-raster/CMYK-PDF path starts reporting real fractions
-/// (`MKExportCoordinator.progressUpdates()`); every other path (SVG, vector
-/// PDF, or any raster export small enough to take the untiled fast path)
-/// shows an indeterminate spinner instead, since it never populates
-/// `exportProgress`.
+/// Format selection, dimensions, progress and cancellation for sharing.
 private struct ExportFormatSheet: View {
     @Environment(\.mkTheme) private var theme
     @Environment(\.dismiss) private var dismiss
     let viewModel: EditorViewModel
     let entitlementProvider: any MKEntitlementProviding
-    let canvasSize: CGSize
-    var onPaywall: () -> Void
     var onExported: (URL) -> Void
+
+    private var canvasSize: CGSize { viewModel.session.scene.canvas.size }
 
     var body: some View {
         NavigationStack {
@@ -924,6 +872,17 @@ private struct ExportFormatSheet: View {
         // button (above) AND swipe-to-dismiss, so a stray swipe can't leave
         // the user unsure whether their export is still running.
         .interactiveDismissDisabled(viewModel.isExporting)
+        .alert(
+            "فشل التصدير",
+            isPresented: Binding(
+                get: { viewModel.exportFailureMessage != nil },
+                set: { if !$0 { viewModel.exportFailureMessage = nil } }
+            )
+        ) {
+            Button("حسنًا") { viewModel.exportFailureMessage = nil }
+        } message: {
+            Text(viewModel.exportFailureMessage ?? "")
+        }
     }
 
     private var formList: some View {
@@ -934,27 +893,20 @@ private struct ExportFormatSheet: View {
                 row(for: kind)
             }
             .buttonStyle(.plain)
+            .accessibilityIdentifier("export-format-\(kind.rawValue)")
         }
     }
 
     @ViewBuilder
     private func row(for kind: ExportFormatOption) -> some View {
         VStack(alignment: .leading, spacing: theme.spacing.xs) {
-            HStack(spacing: theme.spacing.xs) {
-                Text(kind.displayName)
-                    .mkTypeStyle(theme.typeRamp.style(for: .body))
-                    .foregroundStyle(theme.ink)
-                if kind.isPremium {
-                    Image(systemName: "lock.fill")
-                        .font(.caption)
-                        .foregroundStyle(theme.inkMuted)
-                        .accessibilityLabel(premiumLockLabel)
-                }
-            }
+            Text(kind.displayName)
+                .mkTypeStyle(theme.typeRamp.style(for: .body))
+                .foregroundStyle(theme.ink)
             Text(kind.purposeText)
                 .mkTypeStyle(theme.typeRamp.style(for: .footnote))
                 .foregroundStyle(theme.inkMuted)
-            Text(dimensionsText(for: kind))
+            Text(dimensionsText)
                 .mkTypeStyle(theme.typeRamp.style(for: .caption))
                 .foregroundStyle(theme.inkMuted)
         }
@@ -988,10 +940,9 @@ private struct ExportFormatSheet: View {
         .frame(maxWidth: .infinity)
     }
 
-    private func dimensionsText(for kind: ExportFormatOption) -> String {
-        let size = kind.resolvedPixelSize(canvasSize: canvasSize)
-        let width = Int(size.width.rounded())
-        let height = Int(size.height.rounded())
+    private var dimensionsText: String {
+        let width = Int(canvasSize.width.rounded())
+        let height = Int(canvasSize.height.rounded())
         // Latin gloss: "<width>×<height> px"
         return "\(width)×\(height) بكسل"
     }
@@ -1003,28 +954,9 @@ private struct ExportFormatSheet: View {
     }
 
     private func perform(_ kind: ExportFormatOption) {
-        if kind.isPremium, !entitlementProvider.isEntitled(.premiumExportFormats) {
-            dismiss()
-            onPaywall()
-            return
-        }
+        let request = kind.request(canvasSize: canvasSize)
         Task {
-            let url: URL?
-            switch kind {
-            case .jpeg: url = await viewModel.exportForSharing(entitlement: entitlementProvider)
-            case .png: url = await viewModel.exportPNGForSharing(entitlement: entitlementProvider)
-            case .pdfRaster: url = await viewModel.exportPDFRasterForSharing(entitlement: entitlementProvider)
-            case .svg: url = await viewModel.exportSVGForSharing(entitlement: entitlementProvider)
-            case .pdfVector: url = await viewModel.exportPDFVectorForSharing(entitlement: entitlementProvider)
-            }
-            // EU-4: a `nil` result no longer means silent failure ، the
-            // export method already populated `viewModel.exportFailureMessage`
-            // in its `catch` block (`EditorViewModel.runExport(_:coordinator:
-            // entitlement:)`), and `EditorContentView`'s `.alert` (bound to
-            // that property, an ancestor of this sheet) shows it on top of
-            // whatever this sheet is doing by then.
-            if let url {
-                dismiss()
+            if let url = await viewModel.exportForSharing(request, entitlement: entitlementProvider) {
                 onExported(url)
             }
         }
@@ -1045,10 +977,6 @@ private struct ExportFormatSheet: View {
     private var exportingText: String {
         // Latin gloss: exporting…
         "جارٍ التصدير…"
-    }
-    private var premiumLockLabel: LocalizedStringResource {
-        // Latin gloss: requires Makhtoot Premium
-        "يتطلب اشتراك مخطوط المميز"
     }
 }
 

@@ -17,7 +17,7 @@
     <string name="mk_fonts_error_font_locked">هذا الخط مُقفل ، اشترك لإلغاء القفل</string>
     <string name="mk_fonts_error_license_record_missing">لا يوجد سجل ترخيص لهذا الخط</string>
     <string name="mk_fonts_error_offline">لا يتوفر اتصال بالإنترنت ، الخطوط المميزة تتطلب اتصالًا للتنزيل</string>
-    <string name="mk_fonts_error_premium_required">هذا الخط يتطلب الاشتراك المميز</string>
+    <string name="mk_fonts_error_premium_required">هذا الخط غير متاح</string>
     <string name="mk_fonts_error_registration_failed">فشل تسجيل الخط</string>
     <string name="mk_fonts_error_unknown_font">الخط غير موجود في القائمة</string>
     <string name="mk_fonts_error_unsupported_format">صيغة هذا الخط غير مدعومة</string>

@@ -254,10 +254,7 @@ struct RootShellView: View {
         if nav.hasCompletedOnboarding {
             shell
         } else {
-            OnboardingView(
-                onFinished: { nav.completeOnboarding() },
-                onShowPaywall: { nav.presentPaywall(.onboardingTrialIntro) }
-            )
+            OnboardingView(onFinished: { nav.completeOnboarding() })
         }
     }
 
@@ -353,15 +350,8 @@ struct RootShellView: View {
             }
         case .settings:
             SettingsPlaceholderView(showsCloseButton: false, onResetOnboarding: { nav.resetOnboarding() })
-        case .paywall(let context):
-            PaywallView(context: context) {
-                if !nav.path.isEmpty { nav.path.removeLast() }
-            }
         case .onboarding:
-            OnboardingView(
-                onFinished: { nav.completeOnboarding() },
-                onShowPaywall: { nav.presentPaywall(.onboardingTrialIntro) }
-            )
+            OnboardingView(onFinished: { nav.completeOnboarding() })
         }
     }
 
@@ -371,10 +361,6 @@ struct RootShellView: View {
         case .settings:
             NavigationStack {
                 SettingsPlaceholderView(showsCloseButton: true, onResetOnboarding: { nav.resetOnboarding() })
-            }
-        case .paywall(let context):
-            PaywallView(context: context) {
-                nav.presentedSheet = nil
             }
         default:
             EmptyView()
