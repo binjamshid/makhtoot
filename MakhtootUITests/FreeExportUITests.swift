@@ -10,21 +10,17 @@ final class FreeExportUITests: XCTestCase {
         let app = XCUIApplication()
         app.launchArguments += ["-MKHasCompletedOnboarding", "YES", "-MKEditorTourCompleted", "YES"]
         app.launch()
-        // The editor may restore the last project after an earlier test.
-        let done = app.navigationBars.buttons["تم"]
-        if done.exists { done.tap() }
-
-
         let create = app.navigationBars.buttons["مشروع جديد"]
-        XCTAssertTrue(create.waitForExistence(timeout: 15))
-        create.tap()
-
-        let square = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "مربع")).firstMatch
-        XCTAssertTrue(square.waitForExistence(timeout: 10))
-        square.tap()
-
+        let undo = app.buttons["تراجع"]
+        if create.waitForExistence(timeout: 5) {
+            create.tap()
+            let square = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "مربع")).firstMatch
+            XCTAssertTrue(square.waitForExistence(timeout: 10))
+            square.tap()
+        }
+        // The editor can also restore an open project from an earlier launch.
+        XCTAssertTrue(undo.waitForExistence(timeout: 15), app.debugDescription)
         let export = app.buttons["تصدير"]
-        XCTAssertTrue(app.buttons["تراجع"].waitForExistence(timeout: 15))
         if !export.exists {
             // Compact iPhone toolbars can move Export into iOS's overflow menu.
             let overflow = app.navigationBars.buttons.matching(

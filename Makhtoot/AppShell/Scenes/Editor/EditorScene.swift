@@ -555,6 +555,13 @@ private struct EditorContentView: View {
             .disabled(!viewModel.canRedo)
             .accessibilityLabel(redoLabel)
 
+            Button {
+                showsExportSheet = true
+            } label: {
+                Image(systemName: "square.and.arrow.up")
+            }
+            .accessibilityLabel(exportLabel)
+
             // P1.5 (§2.2): surfaces "Actual Size" (100% zoom) outside the
             // undiscoverable tap-the-percentage-badge gesture
             // (`ZoomControlsView`'s own `onTapGesture`, left as-is ، it
@@ -593,13 +600,6 @@ private struct EditorContentView: View {
                 Image(systemName: "viewfinder")
             }
             .accessibilityLabel(viewOptionsLabel)
-
-            Button {
-                showsExportSheet = true
-            } label: {
-                Image(systemName: "square.and.arrow.up")
-            }
-            .accessibilityLabel(exportLabel)
 
             #if DEBUG
             Menu {
