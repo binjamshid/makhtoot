@@ -910,8 +910,9 @@ private struct ExportFormatSheet: View {
                 .mkTypeStyle(theme.typeRamp.style(for: .caption))
                 .foregroundStyle(theme.inkMuted)
         }
-        .contentShape(Rectangle())
+        .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.vertical, theme.spacing.xs)
+        .contentShape(Rectangle())
     }
 
     private var exportingView: some View {
