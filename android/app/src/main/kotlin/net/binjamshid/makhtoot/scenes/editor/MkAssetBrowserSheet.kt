@@ -6,7 +6,7 @@ import net.binjamshid.makhtoot.mk.assets.model.MkAssetDescriptor
 import net.binjamshid.makhtoot.mk.assets.rendering.MkAssetThumbnailRenderer
 
 @androidx.compose.runtime.Composable
-fun MkAssetBrowserSheet(viewModel: MkEditorViewModel, model: MkAssetBrowserModel, thumbnailRenderer: MkAssetThumbnailRenderer, onRequestPaywall: () -> Unit, selectedFilter: Filter? = null, searchText: String = "", isLoadingMetadata: Boolean = true, columns: List<String>? = null, emptyStateIconSize: Double = 32.0, outcome: Any? = null) { }
+fun MkAssetBrowserSheet(viewModel: MkEditorViewModel, model: MkAssetBrowserModel, thumbnailRenderer: MkAssetThumbnailRenderer, selectedFilter: Filter? = null, searchText: String = "", isLoadingMetadata: Boolean = true, columns: List<String>? = null, emptyStateIconSize: Double = 32.0, outcome: Any? = null) { }
 fun MkAssetBrowserSheet_select(descriptor: MkAssetDescriptor) { throw MkNotYetPorted("app.MkAssetBrowserSheet.select") }
 val MkAssetBrowserSheet_currentDescriptors: List<MkAssetDescriptor>
     get() = throw MkNotYetPorted("app.MkAssetBrowserSheet.currentDescriptors")
@@ -30,9 +30,7 @@ val MkAssetBrowserSheet_emptyStateLabel: String
     get() = throw MkNotYetPorted("app.MkAssetBrowserSheet.emptyStateLabel")
 
 @androidx.compose.runtime.Composable
-fun MkAssetCell(descriptor: MkAssetDescriptor, isLocked: Boolean, isFavorite: Boolean, thumbnailRenderer: MkAssetThumbnailRenderer, onSelect: () -> Unit, onToggleFavorite: () -> Unit, thumbnail: Any? = null) { }
-val MkAssetCell_lockedHint: String
-    get() = throw MkNotYetPorted("app.MkAssetCell.lockedHint")
+fun MkAssetCell(descriptor: MkAssetDescriptor, isFavorite: Boolean, thumbnailRenderer: MkAssetThumbnailRenderer, onSelect: () -> Unit, onToggleFavorite: () -> Unit, thumbnail: Any? = null) { }
 val MkAssetCell_addFavoriteLabel: String
     get() = throw MkNotYetPorted("app.MkAssetCell.addFavoriteLabel")
 val MkAssetCell_removeFavoriteLabel: String

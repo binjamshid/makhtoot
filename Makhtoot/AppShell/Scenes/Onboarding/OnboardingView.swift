@@ -1,34 +1,13 @@
 import MKDesignSystem
-import MKFoundation
-import MKStore
 import SwiftUI
 
-/// First-launch onboarding (WS-13 packet §5 T9 structure; WS-10 T6/T7 adds
-/// the real trial-start screen this session). Four screens ، the Arrange
-/// Mode differentiator, a typing/tashkeel teaser, the real D-123 trial-
-/// start moment, and a closing screen ، end in "ابدأ التصميم" (always
-/// skips straight to the browser, no purchase) and an optional "عرض
-/// الباقات" that opens the real paywall.
-///
-/// **The trial-start screen is now real, not fabricated.** WS-13 explicitly
-/// deferred this ("Showing that copy today would mean fabricating a trial
-/// date with no `MKStore`/Keychain record behind it ، a paywall-compliance
-/// honesty violation"): `MKTrialManager.peek()` reads the actual merged
-/// Keychain+iCloud-KVS record (the trial itself already started at process
-/// launch ، D-123/Q37, `AppContainer.init` kicks off the first
-/// `MKEntitlementResolver.resolve()`, which resolves the trial as a side
-/// effect ، this screen never STARTS the trial, only reads its already-
-/// true state). `peek()` (not `resolve()`) is deliberate: this is a
-/// read-only display, so it doesn't perturb the D-224 high-water mark.
+/// Introduces the editing tools on first launch or when replayed from Settings.
 struct OnboardingView: View {
     @Environment(\.mkTheme) private var theme
-    @Environment(AppContainer.self) private var container
     @State private var pageIndex = 0
-    @State private var trialDaysLeft: Int?
     @ScaledMetric(relativeTo: .body) private var pageIconSize: CGFloat = 52
 
     var onFinished: () -> Void
-    var onShowPaywall: () -> Void
 
     private struct Page {
         let symbol: String
@@ -37,15 +16,11 @@ struct OnboardingView: View {
     }
 
     private var pages: [Page] {
-        var result = [
+        [
             Page(symbol: "wand.and.stars", title: page1Title, subtitle: page1Subtitle),
             Page(symbol: "textformat", title: page2Title, subtitle: page2Subtitle),
+            Page(symbol: "sparkles", title: page3Title, subtitle: page3Subtitle),
         ]
-        if let trialDaysLeft {
-            result.append(Page(symbol: "clock.badge.checkmark", title: trialTitle, subtitle: trialSubtitle(daysLeft: trialDaysLeft)))
-        }
-        result.append(Page(symbol: "sparkles", title: page3Title, subtitle: page3Subtitle))
-        return result
     }
 
     var body: some View {
@@ -77,12 +52,6 @@ struct OnboardingView: View {
                 actions
                     .padding(.horizontal, theme.spacing.xl)
                     .padding(.bottom, theme.spacing.xl)
-            }
-        }
-        .task {
-            let state = await container.trialManager.peek()
-            if case .active(let daysLeft) = state {
-                trialDaysLeft = daysLeft
             }
         }
     }
@@ -133,25 +102,16 @@ struct OnboardingView: View {
     }
 
     private var actions: some View {
-        VStack(spacing: theme.spacing.md) {
+        Button(pageIndex < pages.count - 1 ? nextLabel : startDesigningLabel) {
             if pageIndex < pages.count - 1 {
-                Button(nextLabel) {
-                    withAnimation(.easeInOut(duration: 0.3)) { pageIndex += 1 }
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(theme.primary)
-                .frame(maxWidth: .infinity)
+                withAnimation(.easeInOut(duration: 0.3)) { pageIndex += 1 }
             } else {
-                Button(startDesigningLabel, action: onFinished)
-                    .buttonStyle(.borderedProminent)
-                    .tint(theme.primary)
-                    .frame(maxWidth: .infinity)
-
-                Button(showPlansLabel, action: onShowPaywall)
-                    .mkTypeStyle(theme.typeRamp.style(for: .footnote))
-                    .foregroundStyle(theme.inkMuted)
+                onFinished()
             }
         }
+        .buttonStyle(.borderedProminent)
+        .tint(theme.primary)
+        .frame(maxWidth: .infinity)
     }
 
     // MARK: - Strings
@@ -160,23 +120,14 @@ struct OnboardingView: View {
     private var page1Subtitle: String { "ميزة مخطوط الفريدة: حوّل نصك العربي إلى تشكيل حر تحرّكه حرفًا حرفًا" }
     private var page2Title: String { "كتابة عربية طبيعية" }
     private var page2Subtitle: String { "التشكيل والحروف المتصلة تمامًا كما تتوقعها" }
-    private var trialTitle: String { "بدأت تجربتك المجانية لأسبوع" }
-
-    private func trialSubtitle(daysLeft: Int) -> String {
-        let ordinal = MKRTLUtilities.toArabicIndicDigits(String(daysLeft))
-        return "كل المزايا المميزة مجانًا لمدة \(ordinal) أيام أخرى ، بدون أي عملية شراء"
-    }
-
     private var page3Title: String { "ابدأ رحلتك مع مخطوط" }
     private var page3Subtitle: String { "استكشف الأدوات وابدأ أول تصميم لك" }
     private var skipLabel: String { "تخطى" }
     private var nextLabel: String { "التالي" }
     private var startDesigningLabel: String { "ابدأ التصميم" }
-    private var showPlansLabel: String { "عرض الباقات" }
 }
 
 #Preview {
-    OnboardingView(onFinished: {}, onShowPaywall: {})
+    OnboardingView(onFinished: {})
         .environment(\.mkTheme, HibrTheme.default)
-        .environment(AppContainer())
 }

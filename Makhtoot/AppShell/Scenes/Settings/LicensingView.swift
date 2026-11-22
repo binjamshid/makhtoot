@@ -8,7 +8,7 @@ import SwiftUI
 ///
 /// Renders `MKLicensingDataSource.sections()` grouped as:
 /// - الخطوط المدمجة (bundled, origin = 0)
-/// - خطوط مميزة (premium downloaded, origin = 1)
+/// - الخطوط المنزّلة (downloaded, origin = 1)
 /// - خطوط مستوردة (user imported, origin = 2)
 ///
 /// Per-font row: family name, foundry, license badge.
@@ -51,7 +51,7 @@ struct LicensingView: View {
     private var licenseList: some View {
         List {
             let bundled  = sections.filter { $0.origin == .bundled }
-            let premium  = sections.filter { $0.origin == .premiumDownloaded }
+            let downloaded = sections.filter { $0.origin == .premiumDownloaded }
             let imported = sections.filter { $0.origin == .userImported }
 
             if !bundled.isEmpty {
@@ -66,9 +66,9 @@ struct LicensingView: View {
                 }
             }
 
-            if !premium.isEmpty {
-                Section(header: Text(premiumHeader)) {
-                    ForEach(premium, id: \.fontID) { section in
+            if !downloaded.isEmpty {
+                Section(header: Text(downloadedHeader)) {
+                    ForEach(downloaded, id: \.fontID) { section in
                         NavigationLink {
                             LicenseFontDetailView(section: section)
                         } label: {
@@ -115,7 +115,7 @@ struct LicensingView: View {
 
     private var navTitle: String { "التراخيص" }
     private var bundledHeader: String { "الخطوط المدمجة" }
-    private var premiumHeader: String { "خطوط مميزة" }
+    private var downloadedHeader: String { "الخطوط المنزّلة" }
     private var importedHeader: String { "خطوط مستوردة" }
     private var nothingToShowLabel: String { "لا توجد خطوط مسجّلة." }
 }

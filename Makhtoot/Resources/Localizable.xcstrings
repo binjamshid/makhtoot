@@ -144,28 +144,6 @@
         }
       }
     },
-    "الاشتراك": {
-      "comment": "Settings row title (Latin gloss: subscription)",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "الاشتراك"
-          }
-        }
-      }
-    },
-    "الباقات المميزة": {
-      "comment": "Paywall placeholder title (Latin gloss: premium plans)",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "الباقات المميزة"
-          }
-        }
-      }
-    },
     "البحث في المشاريع": {
       "comment": "Browser search field prompt (Latin gloss: search projects)",
       "localizations": {
@@ -419,17 +397,6 @@
         }
       }
     },
-    "عرض الباقات": {
-      "comment": "Onboarding secondary link opening the paywall placeholder (Latin gloss: view plans)",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "عرض الباقات"
-          }
-        }
-      }
-    },
     "غير متاح على هذا الجهاز": {
       "comment": "Orphaned-project label — package missing on disk, record still indexed (Latin gloss: not available on this device)",
       "localizations": {
@@ -547,17 +514,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "منشور ٤:٥"
-          }
-        }
-      }
-    },
-    "ميزة مميزة": {
-      "comment": "Custom-dimensions subtitle for free-tier users, routes to paywall on tap (Latin gloss: premium feature)",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ميزة مميزة"
           }
         }
       }

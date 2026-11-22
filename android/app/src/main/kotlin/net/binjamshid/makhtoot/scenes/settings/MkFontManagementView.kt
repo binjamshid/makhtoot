@@ -5,7 +5,7 @@ import net.binjamshid.makhtoot.mk.fonts.MkFontRecord
 import net.binjamshid.makhtoot.mk.fonts.MkFontId
 
 @androidx.compose.runtime.Composable
-fun MkFontManagementView(records: List<MkFontRecord> = emptyList(), systemInstalledIDs: Set<MkFontId> = emptyList(), showsFileImporter: Boolean = false, isImporting: Boolean = false, importErrorText: String? = null, showsPaywall: Boolean = false, installErrorText: String? = null, installingFontID: MkFontId? = null, isInstalled: Any? = null, isBusy: Any? = null) { }
+fun MkFontManagementView(records: List<MkFontRecord> = emptyList(), systemInstalledIDs: Set<MkFontId> = emptyList(), showsFileImporter: Boolean = false, isImporting: Boolean = false, importErrorText: String? = null, installErrorText: String? = null, installingFontID: MkFontId? = null, isInstalled: Any? = null, isBusy: Any? = null) { }
 @androidx.compose.runtime.Composable
 fun MkFontManagementView_installRow(record: MkFontRecord) { }
 suspend fun MkFontManagementView_refresh() { throw MkNotYetPorted("app.MkFontManagementView.refresh") }

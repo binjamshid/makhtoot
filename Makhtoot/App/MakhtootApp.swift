@@ -15,19 +15,6 @@ import SwiftUI
 /// here (WS-01 packet §5 task 16: forced RTL follows the `ar` locale
 /// naturally, it is not hacked in via `semanticContentAttribute`).
 ///
-/// **Bootstrap ordering note (WS-13 packet §5 T2), updated this
-/// P1-COMPLETION session:** `AppContainer.init` remains synchronous and
-/// `<1 ms` (still true even with the real `MKPersistenceProjectLibrary`
-/// wired in ، its `init` only captures URLs, see that type's header
-/// comment for why the actual `MetadataStore`/`LaunchReconciler` I/O is
-/// deferred to first use rather than done here). Font registration kickoff,
-/// entitlement resolver start, sync controller, and analytics init still
-/// have no real subsystems to order (WS-09/WS-10/WS-11/WS-12 not yet
-/// landed) ، a `TaskGroup` bootstrap scaffold with only those stubs behind
-/// it remains dead ceremony, per the previous session's reasoning. Only the
-/// persistence leg of T2's ordering is now real, and it deliberately does
-/// NOT block first paint (see `MKPersistenceProjectLibrary`'s lazy
-/// bootstrap).
 @main
 struct MakhtootApp: App {
     /// Design-system theme selection (`MKThemeID`) and the light/dark/

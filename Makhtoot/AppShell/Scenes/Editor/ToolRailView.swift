@@ -24,7 +24,6 @@ struct MKTourFramePreferenceKey: PreferenceKey {
 struct ToolRailView: View {
     @Environment(\.mkTheme) private var theme
     @Environment(AppContainer.self) private var container
-    @Environment(AppNavigationModel.self) private var nav
     let viewModel: EditorViewModel
     let fontRegistry: MKFontRegistry
     let axis: Axis
@@ -113,17 +112,7 @@ struct ToolRailView: View {
             MKAssetBrowserSheet(
                 viewModel: viewModel,
                 model: container.assetBrowserModel,
-                thumbnailRenderer: container.assetThumbnailRenderer,
-                onRequestPaywall: {
-                    // Matches `ProjectBrowserView.swift`'s
-                    // `NewProjectSheet(onRequestPaywall:)` call site order:
-                    // drop THIS sheet's own presented flag first, then route
-                    // to the app-level paywall sheet, so the two
-                    // `.sheet(...)` presenters (this view vs. `nav
-                    // .presentedSheet`) never fight over being frontmost.
-                    showAssetBrowser = false
-                    nav.presentPaywall(.premiumFeatureTap(.premiumAsset))
-                }
+                thumbnailRenderer: container.assetThumbnailRenderer
             )
         }
         .sheet(isPresented: $showBackgroundColorPicker) {
@@ -137,13 +126,7 @@ struct ToolRailView: View {
             }
         }
         .sheet(isPresented: $showBackgroundImageSheet) {
-            BackgroundImageSheet(viewModel: viewModel) {
-                // Same presenter-handoff order as `MKAssetBrowserSheet`'s
-                // own `onRequestPaywall` call site above: drop this sheet
-                // first, then route to the app-level paywall sheet.
-                showBackgroundImageSheet = false
-                nav.presentPaywall(.premiumFeatureTap(.photoBackground))
-            }
+            BackgroundImageSheet(viewModel: viewModel)
         }
         .sheet(isPresented: $showMergeDesignSheet) {
             MergeDesignSheet(excludingProjectID: viewModel.projectID) { pickedProjectID in

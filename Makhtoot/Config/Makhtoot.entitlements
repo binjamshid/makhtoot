@@ -36,8 +36,6 @@
 	     unbounded retention in MKCanvas/MKRender. -->
 	<key>com.apple.developer.kernel.increased-memory-limit</key>
 	<true/>
-	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
-	<string>$(TeamIdentifierPrefix)net.binjamshid.makhtoot</string>
 	<!-- ⚠️ DO NOT ADD "font-enumeration" TO THIS ARRAY. It has been added twice and
 	     broken signing twice, with this exact error:
 	         Provisioning profile "iOS Team Provisioning Profile: net.binjamshid.makhtoot"

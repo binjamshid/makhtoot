@@ -1,7 +1,5 @@
 package net.binjamshid.makhtoot.mk.foundation.entitlement
 
-import net.binjamshid.makhtoot.mk.foundation.MkNotYetPorted
-
 /**
  * The premium capabilities gated by entitlement state (D-118, D-119, D-121).
  * Ports `Sources/MKFoundation/Entitlement/MKEntitlementProviding.swift`.
@@ -32,5 +30,5 @@ interface MkEntitlementProviding {
      * capability (ports the `public extension MKEntitlementProviding` default).
      */
     fun isEntitled(capability: MkPremiumCapability): Boolean =
-        throw MkNotYetPorted("MkEntitlementProviding.isEntitled")
+        state.grantsPremiumAccess
 }

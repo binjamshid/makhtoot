@@ -8,7 +8,7 @@ import UniformTypeIdentifiers
 ///
 /// Two responsibilities that both belong at the device/account scope, not
 /// inside a per-selection editor sheet:
-/// - **Import** (Bug 18): premium-gated user font import via `.fileImporter`
+/// - **Import** (Bug 18): user font import via `.fileImporter`
 ///   → `MKFontImporter`, surfacing every `MKFontError` (validator
 ///   rejection, corrupt file, checksum mismatch, …) instead of a generic or
 ///   silently-swallowed failure. `MKFontValidator` is a HARD gate here ،
@@ -33,11 +33,8 @@ struct FontManagementView: View {
     @State private var showsFileImporter = false
     @State private var isImporting = false
     @State private var importErrorText: String?
-    @State private var showsPaywall = false
     @State private var installErrorText: String?
     @State private var installingFontID: MKFontID?
-
-    private var isEntitledToImport: Bool { container.entitlementProvider.isEntitled(.fontImport) }
 
     var body: some View {
         List {
@@ -58,9 +55,6 @@ struct FontManagementView: View {
             case .failure: importErrorText = genericImportFailureText
             }
         }
-        .sheet(isPresented: $showsPaywall) {
-            PaywallView(context: .settingsUpgrade) { showsPaywall = false }
-        }
     }
 
     // MARK: - Import section
@@ -69,20 +63,14 @@ struct FontManagementView: View {
     private var importSection: some View {
         Section {
             Button {
-                guard isEntitledToImport else { showsPaywall = true; return }
                 importErrorText = nil
                 showsFileImporter = true
             } label: {
-                HStack {
+                Group {
                     if isImporting {
                         ProgressView()
                     } else {
                         Label(importActionLabel, systemImage: "square.and.arrow.down")
-                    }
-                    Spacer()
-                    if !isEntitledToImport {
-                        Image(systemName: "lock.fill")
-                            .foregroundStyle(theme.primary)
                     }
                 }
                 .frame(minHeight: 44)

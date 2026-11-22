@@ -2,7 +2,6 @@ package net.binjamshid.makhtoot.persistence
 
 import net.binjamshid.makhtoot.mk.foundation.MkNotYetPorted
 import net.binjamshid.makhtoot.mk.foundation.MkProjectId
-import net.binjamshid.makhtoot.mk.foundation.entitlement.MkEntitlementProviding
 import net.binjamshid.makhtoot.mk.model.MkCanvasSpec
 import net.binjamshid.makhtoot.mk.persistence.metadata.MkExportSummary
 import net.binjamshid.makhtoot.mk.persistence.metadata.MkFolderSummary
@@ -68,7 +67,7 @@ class MkPersistenceProjectLibrary(
     override suspend fun duplicate(id: MkProjectId): MkProjectSummary? { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.duplicate") }
     override suspend fun exportHistory(id: MkProjectId): List<MkProjectExportHistoryEntry> { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.exportHistory") }
     override suspend fun packageRootURL(id: MkProjectId): java.net.URI? { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.packageRootURL") }
-    suspend fun makeSyncEngineController(entitlementProvider: MkEntitlementProviding, statusPublisher: MkSyncStatusPublisher): MkSyncEngineController? { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.makeSyncEngineController") }
+    suspend fun makeSyncEngineController(statusPublisher: MkSyncStatusPublisher): MkSyncEngineController? { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.makeSyncEngineController") }
     override suspend fun importExternalPackage(url: java.net.URI): MkProjectSummary { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.importExternalPackage") }
     companion object {
         fun renderTemplateThumbnail(canvas: MkCanvasSpec): ByteArray? { throw MkNotYetPorted("app.MkPersistenceProjectLibrary.renderTemplateThumbnail") }

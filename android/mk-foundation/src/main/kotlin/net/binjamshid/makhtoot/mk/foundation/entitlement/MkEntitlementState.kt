@@ -24,7 +24,7 @@ sealed class MkEntitlementState : Comparable<MkEntitlementState> {
 
     /** Whether this state currently grants premium access. */
     val grantsPremiumAccess: Boolean
-        get() = throw MkNotYetPorted("MkEntitlementState.grantsPremiumAccess")
+        get() = this != Free
 
     /**
      * Ports the `MKEntitlementState: Comparable` conformance's `static func <`.

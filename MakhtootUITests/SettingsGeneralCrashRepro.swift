@@ -11,6 +11,23 @@ final class SettingsGeneralCrashRepro: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
+    func testSettingsHasNoPurchaseControls() {
+        let app = XCUIApplication()
+        app.launchArguments += ["-MKHasCompletedOnboarding", "YES"]
+        app.launch()
+        // The editor may restore the last project after an earlier test.
+        let done = app.navigationBars.buttons["تم"]
+        if done.exists { done.tap() }
+
+
+        let settingsButton = app.navigationBars.buttons["الإعدادات"]
+        XCTAssertTrue(settingsButton.waitForExistence(timeout: 15))
+        settingsButton.tap()
+        XCTAssertTrue(app.buttons["عام"].waitForExistence(timeout: 10))
+        XCTAssertFalse(app.buttons["استعادة المشتريات"].exists)
+    }
+
     func testOpeningGeneralSettingsDoesNotCrash() throws {
         let app = XCUIApplication()
         app.launchArguments += ["-MKHasCompletedOnboarding", "YES", "-MKEditorTourCompleted", "YES"]
