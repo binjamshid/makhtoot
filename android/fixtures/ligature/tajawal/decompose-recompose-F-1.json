@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Tajawal-Regular",
+          "postScriptName" : "Tajawal-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Tajawal-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          -0.8999999999999999,
+          -23.148193359375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Tajawal-Regular",
+          "postScriptName" : "Tajawal-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Tajawal-Regular@36.0",
+        "glyphID" : 267
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.892,
+          0
+        ],
+        "position" : [
+          13.104000000000001,
+          -23.148193359375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "tajawal",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8532951836543614,
+  "postScriptName" : "Tajawal-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

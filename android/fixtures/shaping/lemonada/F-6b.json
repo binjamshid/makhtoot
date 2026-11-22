@@ -1,0 +1,348 @@
+{
+  "corpusID" : "F-6b",
+  "familyDir" : "Lemonada",
+  "familyID" : "lemonada",
+  "fontFile" : "Lemonada[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 48.42004394531249,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 10,
+          "utf16Start" : 7,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 4,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 2
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1615
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1614
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1585,
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 1
+            }
+          ],
+          "kind" : "baseWithMarks(1)",
+          "ordinal" : 4,
+          "utf16End" : 6,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 5,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1614
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 7,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1577
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        }
+      ],
+      "descent" : 23.50799560546875,
+      "glyphCount" : 9,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              37.116,
+              2.1599999999999997
+            ],
+            [
+              -11.952,
+              -2.1599999999999997
+            ],
+            [
+              32.76,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            531,
+            800,
+            435
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              37.116,
+              2.1599999999999997
+            ],
+            [
+              25.163999999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            9,
+            8,
+            7
+          ],
+          "stringRangeEnd" : 10,
+          "stringRangeStart" : 7,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              9.395999999999999,
+              0
+            ],
+            [
+              12.744,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            811,
+            424
+          ],
+          "isNonMonotonic" : true,
+          "isRTL" : true,
+          "positions" : [
+            [
+              57.92399999999999,
+              0
+            ],
+            [
+              67.32,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            4
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 4,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              -4.824,
+              -4.68
+            ],
+            [
+              32.256,
+              6.768
+            ],
+            [
+              -8.027999999999999,
+              -6.768
+            ],
+            [
+              25.2,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            800,
+            419,
+            801,
+            505
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              84.88799999999999,
+              4.68
+            ],
+            [
+              80.064,
+              0
+            ],
+            [
+              112.32,
+              6.768
+            ],
+            [
+              104.29199999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 10,
+      "sourceRangeStart" : 0,
+      "width" : 129.492
+    }
+  ],
+  "note" : "Shadda + kasra ordering, multiple marks on one base",
+  "pointSize" : 36,
+  "postScriptName" : "Lemonada-Light",
+  "sourceText" : "مُدَرِّسَة"
+}

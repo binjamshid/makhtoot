@@ -1,0 +1,24 @@
+# Scripts/android/no-stubs-allowlist.txt
+#
+# Batch 1 · Agent 1.1 (ANDROID_SPINE.md §4 ground rule 3, §11).
+# Scripts/android/check-no-stubs.sh greps the tree for TODO(, NotImplementedError,
+# notYetPorted, قريبًا, "coming soon", Placeholder. Two matches are legitimate and
+# permanent, not stub debt — without this allowlist, G8's blocking check could
+# never pass, because both files below will always match one of those patterns
+# by construction.
+#
+# Format: one path (relative to repo root) per line, `#` comments allowed.
+# check-no-stubs.sh must skip any match whose file path is listed here before
+# it fails the run.
+
+# Extends NotImplementedError by construction (spine §3.3) — this IS the
+# stub-exception type every Batch 1 contract stub's body throws
+# (`throw MkNotYetPorted("<module>.<symbol>")`). Matching `NotImplementedError`
+# here is the mechanism working as designed, not stub debt.
+android/mk-foundation/src/main/kotlin/net/binjamshid/makhtoot/mk/foundation/MkNotYetPorted.kt
+
+# Pre-existing iOS placeholder screen's Android port (mirrors
+# Makhtoot/AppShell/Scenes/Settings/SettingsPlaceholderView.swift, already
+# named as a legitimate permanent match in ANDROID_SPINE.md §11). Matching
+# `Placeholder` in its own file/type name is expected and permanent.
+android/app/src/main/kotlin/net/binjamshid/makhtoot/MkSettingsPlaceholderView.kt

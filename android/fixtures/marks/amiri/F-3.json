@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : -3.959999999999999
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "amiri",
+  "postScriptName" : "Amiri-Regular",
+  "sourceText" : "محمّد"
+}

@@ -1,0 +1,9 @@
+# Maintaining a public source release
+
+**Owner and review.** The repository owner is @binjamshid. Triage general reports in issues and use the [security policy](../SECURITY.md) for vulnerabilities. Check the contributor's evidence, resolve review threads and merge through a pull request. Changes to the document format need a compatibility note and a fixture. Font and artwork changes need traceable permissions and notices in the proposed distribution.
+
+**Choose the release contents.** Identify the exact revision and the history to be made visible. Review tracked founder inputs, original design handoffs, browser captures, configuration and signing references for redistribution rights and private data. Check source files as well as attachments, logs, PDF metadata, archives, screenshots and embedded fonts or color profiles. Address private data in history before making a repository public. Review the exceptions and unresolved evidence in [asset rights](asset-rights.md) and [third-party notices](../THIRD_PARTY_NOTICES.md).
+
+**Verify the edition.** Confirm that LICENSE matches the owner-approved text. Read the public [README](../README.md) from a fresh checkout, follow the build instructions for the advertised platforms and record exactly which target, simulator or device ran. Check source and packaged notices separately. Test fork-specific service behavior against [privacy and services](privacy-and-services.md). Treat dated development notes as historical evidence.
+
+**Describe what is released.** Update the [changelog](../CHANGELOG.md), record the revision and list build, device and distribution evidence separately. If a platform is a scaffold, say which operations work. Source publication, a signed binary, a store upload and public store availability each need their own evidence. Use the existing [App Store checklist](../APP_STORE_CHECKLIST.md) for an authorized iOS submission.

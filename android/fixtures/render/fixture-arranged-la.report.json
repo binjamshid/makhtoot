@@ -1,0 +1,7 @@
+{
+  "nodeCount" : 2,
+  "substitutionCount" : 1,
+  "substitutionReasons" : [
+    "MKRenderSubstitution(nodeID: DB2B85FC-D163-41C4-9A0A-E20BEFA0E45B, kind: MKRender.MKRenderSubstitution.Kind.missingOutline, detail: \"arranged child 48953997-AE7D-4AFE-8ACD-01DC5905C64C has no persisted outline (INV-13: never re-extracted at render time)\")"
+  ]
+}

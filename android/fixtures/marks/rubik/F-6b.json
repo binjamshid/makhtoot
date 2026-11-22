@@ -1,0 +1,77 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 4.248000000000005
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -0.10799999999999998,
+      "relativeOffsetWidth" : 4.212000000000003
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 4
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 0
+    },
+    {
+      "baseClusterIndex" : 6,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 7,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.10799999999999998,
+      "relativeOffsetWidth" : 8.928
+    }
+  ],
+  "caseID" : "F-6b",
+  "familyID" : "rubik",
+  "postScriptName" : "Rubik-Light",
+  "sourceText" : "مُدَرِّسَة"
+}

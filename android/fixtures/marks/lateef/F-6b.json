@@ -1,0 +1,77 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -6.1171875,
+      "relativeOffsetWidth" : 4.21875
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -1.86328125,
+      "relativeOffsetWidth" : 5.34375
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 4
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -5.818359375,
+      "relativeOffsetWidth" : 4.921875
+    },
+    {
+      "baseClusterIndex" : 6,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 7,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -5.853515625,
+      "relativeOffsetWidth" : 7.259765625
+    }
+  ],
+  "caseID" : "F-6b",
+  "familyID" : "lateef",
+  "postScriptName" : "Lateef-Regular",
+  "sourceText" : "مُدَرِّسَة"
+}

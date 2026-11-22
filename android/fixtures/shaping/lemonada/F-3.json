@@ -1,0 +1,187 @@
+{
+  "corpusID" : "F-3",
+  "familyDir" : "Lemonada",
+  "familyID" : "lemonada",
+  "fontFile" : "Lemonada[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 48.42004394531249,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 5,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        }
+      ],
+      "descent" : 23.50799560546875,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              31.715999999999998,
+              4.859999999999999
+            ],
+            [
+              -7.4879999999999995,
+              -4.859999999999999
+            ],
+            [
+              25.811999999999998,
+              0
+            ],
+            [
+              33.66,
+              0
+            ],
+            [
+              25.2,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            419,
+            803,
+            504,
+            412,
+            505
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              31.715999999999998,
+              4.859999999999999
+            ],
+            [
+              24.227999999999998,
+              0
+            ],
+            [
+              50.03999999999999,
+              0
+            ],
+            [
+              83.69999999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 5,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 5,
+      "sourceRangeStart" : 0,
+      "width" : 108.89999999999999
+    }
+  ],
+  "note" : "Shadda on a medial base inside a joined word",
+  "pointSize" : 36,
+  "postScriptName" : "Lemonada-Light",
+  "sourceText" : "محمّد"
+}

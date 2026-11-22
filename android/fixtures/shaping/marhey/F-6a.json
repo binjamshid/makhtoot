@@ -1,0 +1,161 @@
+{
+  "corpusID" : "F-6a",
+  "familyDir" : "Marhey",
+  "familyID" : "marhey",
+  "fontFile" : "Marhey[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 39.6002197265625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 23.03997802734375,
+      "glyphCount" : 4,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -27.035999999999998,
+              0.288
+            ],
+            [
+              55.943999999999996,
+              -1.44
+            ],
+            [
+              -10.223999999999998,
+              1.44
+            ],
+            [
+              21.599999999999998,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Marhey-Light",
+          "glyphs" : [
+            1183,
+            344,
+            1182,
+            316
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              27.035999999999998,
+              -0.288
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              55.943999999999996,
+              -1.44
+            ],
+            [
+              45.72,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 67.32
+    }
+  ],
+  "note" : "Shadda + kasra ordering, multiple marks on one base",
+  "pointSize" : 36,
+  "postScriptName" : "Marhey-Light",
+  "sourceText" : "حِسّ"
+}

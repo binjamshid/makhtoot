@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -3.0599999999999996,
+      "relativeOffsetWidth" : 5.795999999999999
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 4.715999999999999,
+      "relativeOffsetWidth" : 25.488
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "cairo",
+  "postScriptName" : "Cairo-Regular_ExtraLight",
+  "sourceText" : "حِسّ"
+}

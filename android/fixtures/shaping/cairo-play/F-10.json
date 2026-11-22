@@ -1,0 +1,447 @@
+{
+  "corpusID" : "F-10",
+  "familyDir" : "CairoPlay",
+  "familyID" : "cairo-play",
+  "fontFile" : "CairoPlay[slnt,wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 46.90777587890625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 15,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 14,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 12,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        }
+      ],
+      "descent" : 20.55596923828125,
+      "glyphCount" : 15,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              23.58,
+              0
+            ],
+            [
+              8.459999999999999,
+              0
+            ],
+            [
+              22.895999999999997,
+              0
+            ],
+            [
+              19.548,
+              0
+            ],
+            [
+              7.919999999999999,
+              0
+            ],
+            [
+              31.067999999999998,
+              0
+            ],
+            [
+              8.1,
+              0
+            ],
+            [
+              10.043999999999999,
+              0
+            ],
+            [
+              21.456,
+              0
+            ],
+            [
+              7.919999999999999,
+              0
+            ],
+            [
+              26.531999999999996,
+              0
+            ],
+            [
+              19.548,
+              0
+            ],
+            [
+              25.919999999999998,
+              0
+            ],
+            [
+              20.988,
+              0
+            ],
+            [
+              22.176,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "CairoPlay-Regular_ExtraLight",
+          "glyphs" : [
+            403,
+            446,
+            408,
+            309,
+            1,
+            445,
+            287,
+            331,
+            365,
+            1,
+            354,
+            439,
+            356,
+            322,
+            409
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              23.58,
+              0
+            ],
+            [
+              32.04,
+              0
+            ],
+            [
+              54.93599999999999,
+              0
+            ],
+            [
+              74.484,
+              0
+            ],
+            [
+              82.404,
+              0
+            ],
+            [
+              113.472,
+              0
+            ],
+            [
+              121.57199999999999,
+              0
+            ],
+            [
+              131.61599999999999,
+              0
+            ],
+            [
+              153.07199999999997,
+              0
+            ],
+            [
+              160.99199999999996,
+              0
+            ],
+            [
+              187.52399999999994,
+              0
+            ],
+            [
+              207.07199999999995,
+              0
+            ],
+            [
+              232.99199999999993,
+              0
+            ],
+            [
+              253.97999999999993,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 15,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 15,
+      "sourceRangeStart" : 0,
+      "width" : 276.156
+    }
+  ],
+  "note" : "Path-text fixture, three words",
+  "pointSize" : 36,
+  "postScriptName" : "CairoPlay-Regular_ExtraLight",
+  "sourceText" : "مخطوط عربي جميل"
+}

@@ -1,0 +1,367 @@
+{
+  "corpusID" : "F-10",
+  "curvatureWarning" : false,
+  "familyID" : "amiri",
+  "options" : {
+    "alignment" : "start",
+    "side" : "center",
+    "spacingMode" : "natural"
+  },
+  "overflow" : {
+    "continuedStraight" : false,
+    "isOverflowing" : false
+  },
+  "pathID" : "closed-circle",
+  "pathLength" : 2513.2165225676213,
+  "penEndArcLength" : 173.01200000000003,
+  "penStartArcLength" : 0,
+  "placements" : [
+    {
+      "address" : {
+        "glyph" : 14,
+        "run" : 0
+      },
+      "arcLength" : 7.7,
+      "clusterOrdinal" : 0,
+      "codepoints" : [
+        1605
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.9259380572646,
+        457.70183752563054
+      ],
+      "rotation" : 1.5900298156660453,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 13,
+        "run" : 0
+      },
+      "arcLength" : 16.17,
+      "clusterOrdinal" : 1,
+      "codepoints" : [
+        1582
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.6734314341513,
+        466.16863108569436
+      ],
+      "rotation" : 1.61119322487699,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 12,
+        "run" : 0
+      },
+      "arcLength" : 24.654000000000003,
+      "clusterOrdinal" : 2,
+      "codepoints" : [
+        1591
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.24093999598,
+        474.6416196043399
+      ],
+      "rotation" : 1.6323993087179025,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 11,
+        "run" : 0
+      },
+      "arcLength" : 37.198,
+      "clusterOrdinal" : 3,
+      "codepoints" : [
+        1608
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        848.272536686209,
+        487.14712511529325
+      ],
+      "rotation" : 1.6637630220212742,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 10,
+        "run" : 0
+      },
+      "arcLength" : 53.11600000000001,
+      "clusterOrdinal" : 4,
+      "codepoints" : [
+        1591
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        846.4797029868664,
+        502.963275742636
+      ],
+      "rotation" : 1.7035764786015926,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 9,
+        "run" : 0
+      },
+      "arcLength" : 68.292,
+      "clusterOrdinal" : 5,
+      "codepoints" : [
+        32
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        844.185718809921,
+        517.9630525861498
+      ],
+      "rotation" : 1.7415334022161364,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 8,
+        "run" : 0
+      },
+      "arcLength" : 79.058,
+      "clusterOrdinal" : 6,
+      "codepoints" : [
+        1593
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        842.2139004009641,
+        528.5464466031193
+      ],
+      "rotation" : 1.7684598723840184,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 7,
+        "run" : 0
+      },
+      "arcLength" : 92.358,
+      "clusterOrdinal" : 7,
+      "codepoints" : [
+        1585
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        839.3853784358033,
+        541.5429227909112
+      ],
+      "rotation" : 1.8017235919379297,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 6,
+        "run" : 0
+      },
+      "arcLength" : 102.592,
+      "clusterOrdinal" : 8,
+      "codepoints" : [
+        1576
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        836.9157840308085,
+        551.4743155159706
+      ],
+      "rotation" : 1.8273129347631782,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 5,
+        "run" : 0
+      },
+      "arcLength" : 112.86800000000001,
+      "clusterOrdinal" : 9,
+      "codepoints" : [
+        1610
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        834.1812182156507,
+        561.3795911544045
+      ],
+      "rotation" : 1.8530036115802668,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 4,
+        "run" : 0
+      },
+      "arcLength" : 123.62,
+      "clusterOrdinal" : 10,
+      "codepoints" : [
+        32
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        831.0486097325846,
+        571.6648686269664
+      ],
+      "rotation" : 1.8798806181442484,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "arcLength" : 134.90400000000002,
+      "clusterOrdinal" : 11,
+      "codepoints" : [
+        1580
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        827.4650418163569,
+        582.3643448373955
+      ],
+      "rotation" : 1.9080839796237887,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "arcLength" : 145.12400000000002,
+      "clusterOrdinal" : 12,
+      "codepoints" : [
+        1605
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        823.9601255053784,
+        591.9643534852341
+      ],
+      "rotation" : 1.9336259885057636,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "arcLength" : 151.56400000000002,
+      "clusterOrdinal" : 13,
+      "codepoints" : [
+        1610
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        821.6260545407748,
+        597.9665063178664
+      ],
+      "rotation" : 1.9497203642431646,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "arcLength" : 163.996,
+      "clusterOrdinal" : 14,
+      "codepoints" : [
+        1604
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        816.8484728104183,
+        609.443456896136
+      ],
+      "rotation" : 1.9807890955005212,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    }
+  ],
+  "postScriptName" : "Amiri-Regular",
+  "sourceText" : "مخطوط عربي جميل"
+}

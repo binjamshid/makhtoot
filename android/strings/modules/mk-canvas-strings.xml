@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_canvas_arrange_conflict_duplicate_then_edit">نسخ ثم تعديل</string>
+    <string name="mk_canvas_arrange_conflict_revert_and_edit">العودة والتعديل</string>
+    <string name="mk_canvas_arrange_conflict_title">تعديل النص يتطلب العودة إلى النص ، ستفقد التنسيق اليدوي</string>
+    <string name="mk_canvas_arrange_derive_failed">تعذّر تحويل هذا النص إلى تنسيق حر</string>
+    <string name="mk_canvas_arrange_derive_too_long">هذا النص طويل جدًا لتحويله إلى تنسيق حر</string>
+    <string name="mk_canvas_arrange_engine_unavailable">محرّك الترتيب غير متاح</string>
+    <string name="mk_canvas_arrange_multiple_selected">الترتيب الحر يعمل على عنصر نص واحد في كل مرة</string>
+    <string name="mk_canvas_arrange_no_mode_for_kind">هذا النوع من العناصر لا يملك وضع تنسيق حر</string>
+    <string name="mk_canvas_arrange_node_not_found">تعذّر العثور على العنصر المحدد</string>
+    <string name="mk_canvas_arrange_nothing_selected">اختر عنصر نص أولًا، ثم اضغط العصا لترتيب كل حرف وحركة على حدة</string>
+    <string name="mk_canvas_arrange_recompose_confirmation_body">ستفقد تعديلات مكوّنات الوصلة</string>
+    <string name="mk_canvas_arrange_revert_confirm_action">العودة</string>
+    <string name="mk_canvas_arrange_revert_confirmation_body">سيؤدي هذا إلى حذف جميع التعديلات اليدوية على الحروف والحركات. النص الأصلي سيُستعاد كما كان.</string>
+    <string name="mk_canvas_arrange_revert_confirmation_title">العودة إلى النص؟</string>
+    <string name="mk_canvas_arranged_child_glyph">حرف</string>
+    <string name="mk_canvas_arranged_child_ligature">رباط</string>
+    <string name="mk_canvas_arranged_child_mark">تشكيل</string>
+    <string name="mk_canvas_dialog_cancel">إلغاء</string>
+    <string name="mk_canvas_done_button">تم</string>
+    <string name="mk_canvas_kind_background">خلفية</string>
+    <string name="mk_canvas_kind_free_arrangement">تشكيل حر</string>
+    <string name="mk_canvas_kind_group">مجموعة</string>
+    <string name="mk_canvas_kind_image">صورة</string>
+    <string name="mk_canvas_kind_path_text">نص على مسار</string>
+    <string name="mk_canvas_kind_shape">شكل</string>
+    <string name="mk_canvas_kind_text">نص</string>
+    <string name="mk_canvas_ligature_component_label">جزء من الرباط</string>
+    <string name="mk_canvas_pathtext_not_editable">لا يمكن تحرير المسار لهذا العنصر</string>
+    <string name="mk_canvas_tashkeel_damma">ضمة</string>
+    <string name="mk_canvas_tashkeel_disabled_hint">ضع المؤشر بعد حرف عربي لإضافة حركة</string>
+    <string name="mk_canvas_tashkeel_fatha">فتحة</string>
+    <string name="mk_canvas_tashkeel_kasra">كسرة</string>
+    <string name="mk_canvas_tashkeel_shadda">شدة</string>
+    <string name="mk_canvas_tashkeel_sukun">سكون</string>
+    <string name="mk_canvas_tashkeel_tanween_damm">تنوين ضم</string>
+    <string name="mk_canvas_tashkeel_tanween_fath">تنوين فتح</string>
+    <string name="mk_canvas_tashkeel_tanween_kasr">تنوين كسر</string>
+</resources>

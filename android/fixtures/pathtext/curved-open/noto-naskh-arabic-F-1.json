@@ -1,0 +1,68 @@
+{
+  "corpusID" : "F-1",
+  "curvatureWarning" : false,
+  "familyID" : "noto-naskh-arabic",
+  "options" : {
+    "alignment" : "start",
+    "side" : "center",
+    "spacingMode" : "natural"
+  },
+  "overflow" : {
+    "continuedStraight" : false,
+    "isOverflowing" : false
+  },
+  "pathID" : "curved-open",
+  "pathLength" : 1106.9080698239886,
+  "penEndArcLength" : 14.504000000000001,
+  "penStartArcLength" : 0,
+  "placements" : [
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "arcLength" : 3.052,
+      "clusterOrdinal" : 0,
+      "codepoints" : [
+        1604
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        3.051631378912571,
+        0.04120156919869935
+      ],
+      "rotation" : 0.02693514682054396,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "arcLength" : 10.304,
+      "clusterOrdinal" : 1,
+      "codepoints" : [
+        1575
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        10.2902663046373,
+        0.46344582673428136
+      ],
+      "rotation" : 0.08914053035649294,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    }
+  ],
+  "postScriptName" : "NotoNaskhArabic-Regular",
+  "sourceText" : "لا"
+}

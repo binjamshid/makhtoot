@@ -1,0 +1,161 @@
+{
+  "corpusID" : "F-6a",
+  "familyDir" : "ScheherazadeNew",
+  "familyID" : "scheherazade-new",
+  "fontFile" : "ScheherazadeNew-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 48.33984375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 25.083984375,
+      "glyphCount" : 4,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -8.12109375,
+              13.201171875
+            ],
+            [
+              43.646484375,
+              10.44140625
+            ],
+            [
+              -7.787109375,
+              -10.44140625
+            ],
+            [
+              24.908203125,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ScheherazadeNew-Regular",
+          "glyphs" : [
+            1348,
+            589,
+            1346,
+            443
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              8.12109375,
+              -13.201171875
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              43.646484375,
+              10.44140625
+            ],
+            [
+              35.859375,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 60.767578125
+    }
+  ],
+  "note" : "Shadda + kasra ordering, multiple marks on one base",
+  "pointSize" : 36,
+  "postScriptName" : "ScheherazadeNew-Regular",
+  "sourceText" : "حِسّ"
+}

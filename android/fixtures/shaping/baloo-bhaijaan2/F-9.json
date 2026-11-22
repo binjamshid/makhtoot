@@ -1,0 +1,265 @@
+{
+  "corpusID" : "F-9",
+  "familyDir" : "BalooBhaijaan2",
+  "familyID" : "baloo-bhaijaan2",
+  "fontFile" : "BalooBhaijaan2[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 38.88006591796875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 22.75213623046875,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              19.907999999999998,
+              0
+            ],
+            [
+              7.236,
+              0
+            ],
+            [
+              7.236,
+              0
+            ],
+            [
+              7.236,
+              0
+            ],
+            [
+              7.236,
+              0
+            ],
+            [
+              21.311999999999998,
+              0
+            ],
+            [
+              24.119999999999997,
+              0
+            ],
+            [
+              19.872,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BalooBhaijaan2-Regular",
+          "glyphs" : [
+            855,
+            988,
+            988,
+            988,
+            988,
+            936,
+            848,
+            937
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              19.907999999999998,
+              0
+            ],
+            [
+              27.144,
+              0
+            ],
+            [
+              34.379999999999995,
+              0
+            ],
+            [
+              41.61599999999999,
+              0
+            ],
+            [
+              48.85199999999999,
+              0
+            ],
+            [
+              70.16399999999999,
+              0
+            ],
+            [
+              94.28399999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 114.156
+    }
+  ],
+  "note" : "Kashida/tatweel U+0640 as a real, shapeable glyph",
+  "pointSize" : 36,
+  "postScriptName" : "BalooBhaijaan2-Regular",
+  "sourceText" : "محمــــد"
+}

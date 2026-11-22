@@ -1,0 +1,265 @@
+{
+  "corpusID" : "F-8",
+  "familyDir" : "Lalezar",
+  "familyID" : "lalezar",
+  "fontFile" : "Lalezar-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 35.244140625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1611
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1612
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1613
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1614
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1615
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1618
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 21.16790771484375,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              0,
+              -8.568000000000001
+            ],
+            [
+              5.904,
+              -35.64
+            ],
+            [
+              -5.795999999999999,
+              31.104
+            ],
+            [
+              0.3599999999999999,
+              -7.596
+            ],
+            [
+              0.504,
+              -14.508
+            ],
+            [
+              -0.8999999999999999,
+              9.828
+            ],
+            [
+              4.103999999999999,
+              -9.828
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lalezar-Regular",
+          "glyphs" : [
+            1198,
+            1197,
+            1196,
+            1195,
+            1194,
+            1193,
+            1192,
+            1191
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              -4.176,
+              35.208
+            ],
+            [
+              -4.176,
+              26.639999999999997
+            ],
+            [
+              1.7279999999999998,
+              -9
+            ],
+            [
+              -4.068,
+              22.104
+            ],
+            [
+              -3.7079999999999997,
+              14.508
+            ],
+            [
+              -3.2039999999999997,
+              0
+            ],
+            [
+              -4.103999999999999,
+              9.828
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 3.2039999999999997
+    }
+  ],
+  "note" : "Tashkeel-only input, no base letters (dotted-circle fallback)",
+  "pointSize" : 36,
+  "postScriptName" : "Lalezar-Regular",
+  "sourceText" : "ًٌٍَُِّْ"
+}

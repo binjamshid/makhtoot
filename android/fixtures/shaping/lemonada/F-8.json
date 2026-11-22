@@ -1,0 +1,265 @@
+{
+  "corpusID" : "F-8",
+  "familyDir" : "Lemonada",
+  "familyID" : "lemonada",
+  "fontFile" : "Lemonada[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 48.42004394531249,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1611
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1612
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1613
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1614
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1615
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1618
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 23.50799560546875,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -1.476,
+              -10.043999999999997
+            ],
+            [
+              -3.5279999999999996,
+              -38.916
+            ],
+            [
+              3.096,
+              30.06
+            ],
+            [
+              -0.32400000000000007,
+              -5.004000000000001
+            ],
+            [
+              -1.5839999999999999,
+              -19.836
+            ],
+            [
+              -0.18,
+              9.18
+            ],
+            [
+              0.18,
+              -9.18
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            804,
+            803,
+            802,
+            801,
+            800,
+            799,
+            798,
+            797
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              3.816,
+              43.739999999999995
+            ],
+            [
+              2.34,
+              33.696
+            ],
+            [
+              -1.188,
+              -5.22
+            ],
+            [
+              1.908,
+              24.84
+            ],
+            [
+              1.5839999999999999,
+              19.836
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -0.18,
+              9.18
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 0
+    }
+  ],
+  "note" : "Tashkeel-only input, no base letters (dotted-circle fallback)",
+  "pointSize" : 36,
+  "postScriptName" : "Lemonada-Light",
+  "sourceText" : "ًٌٍَُِّْ"
+}

@@ -1,0 +1,187 @@
+{
+  "corpusID" : "F-3",
+  "familyDir" : "Alkalami",
+  "familyID" : "alkalami",
+  "fontFile" : "Alkalami-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 37.2601318359375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 5,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        }
+      ],
+      "descent" : 30.851806640624996,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              20.772,
+              -0.828
+            ],
+            [
+              -3.6719999999999997,
+              0.828
+            ],
+            [
+              16.488,
+              0
+            ],
+            [
+              14.508,
+              7.451999999999999
+            ],
+            [
+              14.687999999999999,
+              -7.451999999999999
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Alkalami-Regular",
+          "glyphs" : [
+            394,
+            796,
+            603,
+            374,
+            604
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              20.772,
+              -0.828
+            ],
+            [
+              17.099999999999998,
+              0
+            ],
+            [
+              33.587999999999994,
+              0
+            ],
+            [
+              48.09599999999999,
+              7.451999999999999
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 5,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 5,
+      "sourceRangeStart" : 0,
+      "width" : 62.78399999999999
+    }
+  ],
+  "note" : "Shadda on a medial base inside a joined word",
+  "pointSize" : 36,
+  "postScriptName" : "Alkalami-Regular",
+  "sourceText" : "محمّد"
+}

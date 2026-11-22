@@ -1,0 +1,77 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : 0.6479999999999999,
+      "relativeOffsetWidth" : 6.768000000000001
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : 0.576,
+      "relativeOffsetWidth" : 4.212000000000003
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 4
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : 1.0799999999999998,
+      "relativeOffsetWidth" : 2.700000000000003
+    },
+    {
+      "baseClusterIndex" : 6,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 7,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.8639999999999999,
+      "relativeOffsetWidth" : 15.191999999999997
+    }
+  ],
+  "caseID" : "F-6b",
+  "familyID" : "tajawal",
+  "postScriptName" : "Tajawal-Regular",
+  "sourceText" : "مُدَرِّسَة"
+}

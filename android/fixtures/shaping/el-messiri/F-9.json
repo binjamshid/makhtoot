@@ -1,0 +1,265 @@
+{
+  "corpusID" : "F-9",
+  "familyDir" : "ElMessiri",
+  "familyID" : "el-messiri",
+  "fontFile" : "ElMessiri[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 36.68389892578125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 19.584228515625,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              20.124,
+              0
+            ],
+            [
+              5.508,
+              0
+            ],
+            [
+              5.508,
+              0
+            ],
+            [
+              5.508,
+              0
+            ],
+            [
+              5.508,
+              0
+            ],
+            [
+              20.555999999999997,
+              0
+            ],
+            [
+              21.924,
+              0
+            ],
+            [
+              18.395999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ElMessiri-Regular",
+          "glyphs" : [
+            280,
+            417,
+            417,
+            417,
+            417,
+            365,
+            273,
+            366
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              20.124,
+              0
+            ],
+            [
+              25.631999999999998,
+              0
+            ],
+            [
+              31.139999999999997,
+              0
+            ],
+            [
+              36.647999999999996,
+              0
+            ],
+            [
+              42.156,
+              0
+            ],
+            [
+              62.711999999999996,
+              0
+            ],
+            [
+              84.636,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 103.03199999999998
+    }
+  ],
+  "note" : "Kashida/tatweel U+0640 as a real, shapeable glyph",
+  "pointSize" : 36,
+  "postScriptName" : "ElMessiri-Regular",
+  "sourceText" : "محمــــد"
+}

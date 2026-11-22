@@ -1,0 +1,91 @@
+name: Android CI
+
+# Batch 1 · Agent 1.1 (ANDROID_SPINE.md §5 Batch 1, ANDROID_TASK_PACKETS/BATCH-1.md
+# task 12). Mirrors .github/workflows/ci.yml's header discipline: every job
+# below was run locally on this machine and confirmed green before this file
+# was written. Do NOT add a job that has not been run locally and confirmed
+# passing — a red gate that ships with the workflow is worse than no gate
+# (house standard, restated from ci.yml).
+#
+# Deliberately NOT included yet:
+#   - `./gradlew assembleDebug` (full, all 18 modules): genuinely red right
+#     now, not because of this agent's scaffold, but because Batch 1 ·
+#     Agents 1.2/1.3/1.4 are still landing files concurrently (a missing
+#     `MkNotYetPorted.kt`/`MkProjectId` in :mk-foundation, an unclosed-comment
+#     syntax error in :mk-native's MkFontBlob.kt, and a native CMake/ninja
+#     build failure in the vendored HarfBuzz build — see
+#     android/docs/impl-log/BATCH-1.1.md "Blockers"). Add this job once a
+#     full `assembleDebug` has actually been run green locally.
+#   - `Scripts/android/gate.sh 1` (the full G1 gate): same reason — it shells
+#     out to `assembleDebug` internally.
+#   - `Scripts/android/referral-release-grep.sh` with a real artifact path:
+#     no built AAB exists until Batch 9 (matches the iOS script's own
+#     "not runnable pre-archive" note in ci.yml). The no-argument "skip"
+#     invocation below IS runnable and IS included.
+#   - `check-no-stubs.sh` in blocking (`--gate 8`) mode: not blocking until
+#     G8 per spine ground rule 3; only the advisory invocation runs here.
+#
+# NDK note: this workflow assumes a macOS runner with the Android SDK/NDK
+# already provisioned (matching this repo's iOS CI runner convention,
+# macos-15) — CI-side SDK/NDK provisioning itself was not exercised locally
+# (it can't be, outside an actual CI runner) and is a known gap for whoever
+# next touches this file, not a claim that it is proven to work.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "android/**"
+      - "MakhtootKit/Sources/MKFonts/Resources/Fonts/**"
+      - "MakhtootKit/Sources/MKFonts/Resources/LicenseRecords/**"
+      - "Scripts/android/**"
+      - ".github/workflows/android-ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "android/**"
+      - "MakhtootKit/Sources/MKFonts/Resources/Fonts/**"
+      - "MakhtootKit/Sources/MKFonts/Resources/LicenseRecords/**"
+      - "Scripts/android/**"
+      - ".github/workflows/android-ci.yml"
+
+jobs:
+  hygiene:
+    name: Android hygiene ratchets (fast, ordered before the build)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify bundled fonts and their original notices
+        run: python3 Scripts/android/check-font-assets.py
+      - name: Stub burn-down counter (publish only, never fails before G8)
+        run: bash Scripts/android/stub-count.sh
+      - name: No-stubs ratchet (advisory pre-G8)
+        run: bash Scripts/android/check-no-stubs.sh
+      - name: Localization ratchet (Arabic-only UI, BASELINE=0)
+        run: bash Scripts/android/check-localization.sh
+      - name: Design-token ratchet (no raw colors bypassing MkTheme, BASELINE=0)
+        run: bash Scripts/android/check-design-tokens.sh
+      - name: Referral release grep (pre-Batch-9 skip)
+        run: bash Scripts/android/referral-release-grep.sh
+
+  gate0:
+    name: G0 — parity matrix / decisions / API surface / strings
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: gate.sh 0
+        run: bash Scripts/android/gate.sh 0
+
+  gradle-configure:
+    name: Gradle scaffold configures (help + projects)
+    runs-on: macos-15
+    env:
+      JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+    steps:
+      - uses: actions/checkout@v4
+      - name: ./gradlew help
+        working-directory: android
+        run: ./gradlew help --no-daemon
+      - name: ./gradlew projects
+        working-directory: android
+        run: ./gradlew projects --no-daemon

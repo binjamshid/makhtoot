@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Katibeh-Regular",
+          "postScriptName" : "Katibeh-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Katibeh-Regular@36.0",
+        "glyphID" : 737
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          7.236,
+          0
+        ],
+        "position" : [
+          3.06,
+          -17.64019775390625
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Katibeh-Regular",
+          "postScriptName" : "Katibeh-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Katibeh-Regular@36.0",
+        "glyphID" : 679
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.244,
+          0
+        ],
+        "position" : [
+          8.279999999999998,
+          -17.60419775390625
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "katibeh",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8879999999999999,
+  "postScriptName" : "Katibeh-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

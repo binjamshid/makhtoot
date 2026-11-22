@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -6.1171875,
+      "relativeOffsetWidth" : 5.326171875
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "lateef",
+  "postScriptName" : "Lateef-Regular",
+  "sourceText" : "محمّد"
+}

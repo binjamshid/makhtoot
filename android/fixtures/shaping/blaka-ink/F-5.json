@@ -1,0 +1,691 @@
+{
+  "corpusID" : "F-5",
+  "familyDir" : "BlakaInk",
+  "familyID" : "blaka-ink",
+  "fontFile" : "BlakaInk-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 33.55224609375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 19,
+          "utf16Start" : 16,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 16,
+          "utf16Start" : 15,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 15,
+          "utf16Start" : 12,
+          "visualOrdinal" : 2
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 12,
+          "utf16Start" : 11,
+          "visualOrdinal" : 3
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 11,
+          "utf16Start" : 6,
+          "visualOrdinal" : 4
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 6,
+          "utf16Start" : 0,
+          "visualOrdinal" : 5
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            72
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            101
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            108
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            108
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            111
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 3
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1633
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1634
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1635
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            49
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            50
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        },
+        {
+          "codepoints" : [
+            51
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 18,
+          "utf16End" : 19,
+          "utf16Start" : 18
+        }
+      ],
+      "descent" : 8.46002197265625,
+      "glyphCount" : 19,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              10.008,
+              0
+            ],
+            [
+              16.991999999999997,
+              0
+            ],
+            [
+              16.308,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            534,
+            539,
+            537
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              10.008,
+              0
+            ],
+            [
+              26.999999999999996,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            16,
+            17,
+            18
+          ],
+          "stringRangeEnd" : 19,
+          "stringRangeStart" : 16,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              5.3999999999999995,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            607
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              43.30799999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            15
+          ],
+          "stringRangeEnd" : 16,
+          "stringRangeStart" : 15,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              7.595999999999999,
+              0
+            ],
+            [
+              12.995999999999999,
+              0
+            ],
+            [
+              18.575999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            581,
+            583,
+            586
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              48.70799999999999,
+              0
+            ],
+            [
+              56.30399999999999,
+              0
+            ],
+            [
+              69.29999999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            12,
+            13,
+            14
+          ],
+          "stringRangeEnd" : 15,
+          "stringRangeStart" : 12,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              5.3999999999999995,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            607
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              87.87599999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            11
+          ],
+          "stringRangeEnd" : 12,
+          "stringRangeStart" : 11,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              17.747999999999998,
+              0
+            ],
+            [
+              14.363999999999999,
+              0
+            ],
+            [
+              8.459999999999999,
+              0
+            ],
+            [
+              8.459999999999999,
+              0
+            ],
+            [
+              15.227999999999998,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            478,
+            136,
+            175,
+            175,
+            187
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              93.27599999999998,
+              0
+            ],
+            [
+              111.02399999999997,
+              0
+            ],
+            [
+              125.38799999999998,
+              0
+            ],
+            [
+              133.84799999999998,
+              0
+            ],
+            [
+              142.308,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "stringRangeEnd" : 11,
+          "stringRangeStart" : 6,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              5.3999999999999995,
+              0
+            ],
+            [
+              6.731999999999999,
+              0
+            ],
+            [
+              7.092,
+              0
+            ],
+            [
+              19.043999999999997,
+              0
+            ],
+            [
+              5.976,
+              0
+            ],
+            [
+              15.084,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BlakaInk-Regular",
+          "glyphs" : [
+            607,
+            379,
+            383,
+            395,
+            402,
+            438
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              157.536,
+              0
+            ],
+            [
+              162.936,
+              0
+            ],
+            [
+              169.668,
+              0
+            ],
+            [
+              176.76000000000002,
+              0
+            ],
+            [
+              195.80400000000003,
+              0
+            ],
+            [
+              201.78000000000003,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 6,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 19,
+      "sourceRangeStart" : 0,
+      "width" : 216.864
+    }
+  ],
+  "note" : "Mixed bidi: RTL base, embedded LTR run, Arabic-Indic + European digits",
+  "pointSize" : 36,
+  "postScriptName" : "BlakaInk-Regular",
+  "sourceText" : "مرحبا Hello ١٢٣ 123"
+}

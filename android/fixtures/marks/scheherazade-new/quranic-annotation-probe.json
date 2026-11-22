@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "quranicAnnotation",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -8.666015625,
+      "relativeOffsetWidth" : 4.341796875
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "quranicAnnotation",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -5.501953125,
+      "relativeOffsetWidth" : 14.2734375
+    }
+  ],
+  "caseID" : "quranic-annotation-probe",
+  "familyID" : "scheherazade-new",
+  "postScriptName" : "ScheherazadeNew-Regular",
+  "sourceText" : "بۖبۭ"
+}

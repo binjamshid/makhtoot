@@ -1,0 +1,1207 @@
+{
+  "corpusID" : "F-11",
+  "familyDir" : "NotoNaskhArabic",
+  "familyID" : "noto-naskh-arabic",
+  "fontFile" : "NotoNaskhArabic[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 38.4840087890625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 35,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1571
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 49,
+              "run" : 0
+            },
+            {
+              "glyph" : 50,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 47,
+              "run" : 0
+            },
+            {
+              "glyph" : 48,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 45,
+              "run" : 0
+            },
+            {
+              "glyph" : 46,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 44,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 43,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 42,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 41,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1586
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 39,
+              "run" : 0
+            },
+            {
+              "glyph" : 40,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 38,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 37,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 36,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 34,
+              "run" : 0
+            },
+            {
+              "glyph" : 35,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 33,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1603
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 32,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 31,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 30,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1606
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 28,
+              "run" : 0
+            },
+            {
+              "glyph" : 29,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 27,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 26,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 18,
+          "utf16End" : 19,
+          "utf16Start" : 18
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 25,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 19,
+          "utf16End" : 20,
+          "utf16Start" : 19
+        },
+        {
+          "codepoints" : [
+            1601
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 23,
+              "run" : 0
+            },
+            {
+              "glyph" : 24,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 20,
+          "utf16End" : 21,
+          "utf16Start" : 20
+        },
+        {
+          "codepoints" : [
+            1589
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 22,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 21,
+          "utf16End" : 22,
+          "utf16Start" : 21
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 21,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 22,
+          "utf16End" : 23,
+          "utf16Start" : 22
+        },
+        {
+          "codepoints" : [
+            1602
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 19,
+              "run" : 0
+            },
+            {
+              "glyph" : 20,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 23,
+          "utf16End" : 24,
+          "utf16Start" : 23
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 18,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 24,
+          "utf16End" : 25,
+          "utf16Start" : 24
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 16,
+              "run" : 0
+            },
+            {
+              "glyph" : 17,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 25,
+          "utf16End" : 26,
+          "utf16Start" : 25
+        },
+        {
+          "codepoints" : [
+            1578
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 14,
+              "run" : 0
+            },
+            {
+              "glyph" : 15,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 26,
+          "utf16End" : 27,
+          "utf16Start" : 26
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 27,
+          "utf16End" : 28,
+          "utf16Start" : 27
+        },
+        {
+          "codepoints" : [
+            1579
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            },
+            {
+              "glyph" : 12,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 28,
+          "utf16End" : 29,
+          "utf16Start" : 28
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 0
+            },
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 29,
+          "utf16End" : 30,
+          "utf16Start" : 29
+        },
+        {
+          "codepoints" : [
+            1584
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            },
+            {
+              "glyph" : 8,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 30,
+          "utf16End" : 31,
+          "utf16Start" : 30
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 31,
+          "utf16End" : 32,
+          "utf16Start" : 31
+        },
+        {
+          "codepoints" : [
+            1590
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            },
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 32,
+          "utf16End" : 33,
+          "utf16Start" : 32
+        },
+        {
+          "codepoints" : [
+            1592
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            },
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 33,
+          "utf16End" : 34,
+          "utf16Start" : 33
+        },
+        {
+          "codepoints" : [
+            1594
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            },
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 34,
+          "utf16End" : 35,
+          "utf16Start" : 34
+        }
+      ],
+      "descent" : 22.8240966796875,
+      "glyphCount" : 51,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -6.372,
+              11.123999999999999
+            ],
+            [
+              29.807999999999996,
+              -10.44
+            ],
+            [
+              -12.636,
+              10.44
+            ],
+            [
+              34.199999999999996,
+              -10.799999999999999
+            ],
+            [
+              -11.556,
+              10.799999999999999
+            ],
+            [
+              28.296,
+              0
+            ],
+            [
+              13.463999999999999,
+              -10.404
+            ],
+            [
+              -5.508,
+              10.404
+            ],
+            [
+              25.128,
+              -11.879999999999999
+            ],
+            [
+              -8.064,
+              11.879999999999999
+            ],
+            [
+              26.387999999999998,
+              -11.664
+            ],
+            [
+              -2.412,
+              11.664
+            ],
+            [
+              12.347999999999999,
+              0
+            ],
+            [
+              16.2,
+              -15.623999999999999
+            ],
+            [
+              -8.244,
+              15.623999999999999
+            ],
+            [
+              37.727999999999994,
+              -15.695999999999998
+            ],
+            [
+              -8.315999999999999,
+              15.695999999999998
+            ],
+            [
+              23.688,
+              0
+            ],
+            [
+              16.092,
+              -8.748
+            ],
+            [
+              -1.5479999999999998,
+              8.748
+            ],
+            [
+              15.12,
+              0
+            ],
+            [
+              7.9559999999999995,
+              0
+            ],
+            [
+              44.244,
+              -11.411999999999999
+            ],
+            [
+              -4.68,
+              11.411999999999999
+            ],
+            [
+              13.931999999999999,
+              0
+            ],
+            [
+              14.903999999999998,
+              0
+            ],
+            [
+              23.688,
+              0
+            ],
+            [
+              15.299999999999999,
+              -18.54
+            ],
+            [
+              -7.343999999999999,
+              18.54
+            ],
+            [
+              21.06,
+              0
+            ],
+            [
+              14.867999999999999,
+              0
+            ],
+            [
+              8.819999999999999,
+              0
+            ],
+            [
+              14.94,
+              0
+            ],
+            [
+              13.643999999999998,
+              -9.144
+            ],
+            [
+              -5.688,
+              9.144
+            ],
+            [
+              24.732,
+              0
+            ],
+            [
+              22.644,
+              0
+            ],
+            [
+              22.895999999999997,
+              0
+            ],
+            [
+              12.671999999999999,
+              -12.6
+            ],
+            [
+              -4.715999999999999,
+              12.6
+            ],
+            [
+              13.895999999999999,
+              0
+            ],
+            [
+              16.848,
+              0
+            ],
+            [
+              18.288,
+              0
+            ],
+            [
+              7.9559999999999995,
+              0
+            ],
+            [
+              27.252,
+              -0.288
+            ],
+            [
+              -10.187999999999999,
+              0.288
+            ],
+            [
+              26.496,
+              -1.1159999999999999
+            ],
+            [
+              -2.52,
+              1.1159999999999999
+            ],
+            [
+              11.556,
+              -0.5399999999999999
+            ],
+            [
+              -1.656,
+              0.5399999999999999
+            ],
+            [
+              8.568,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "NotoNaskhArabic-Regular",
+          "glyphs" : [
+            288,
+            45,
+            288,
+            42,
+            288,
+            39,
+            3,
+            288,
+            27,
+            288,
+            24,
+            299,
+            21,
+            3,
+            294,
+            15,
+            299,
+            35,
+            29,
+            294,
+            51,
+            3,
+            37,
+            288,
+            50,
+            46,
+            35,
+            3,
+            288,
+            79,
+            76,
+            68,
+            59,
+            3,
+            325,
+            100,
+            42,
+            25,
+            3,
+            288,
+            28,
+            96,
+            83,
+            3,
+            27,
+            323,
+            24,
+            323,
+            19,
+            305,
+            8
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              6.372,
+              -11.123999999999999
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              29.807999999999996,
+              -10.44
+            ],
+            [
+              17.171999999999997,
+              0
+            ],
+            [
+              51.37199999999999,
+              -10.799999999999999
+            ],
+            [
+              39.815999999999995,
+              0
+            ],
+            [
+              68.112,
+              0
+            ],
+            [
+              81.576,
+              -10.404
+            ],
+            [
+              76.068,
+              0
+            ],
+            [
+              101.196,
+              -11.879999999999999
+            ],
+            [
+              93.132,
+              0
+            ],
+            [
+              119.52000000000001,
+              -11.664
+            ],
+            [
+              117.108,
+              0
+            ],
+            [
+              129.45600000000002,
+              0
+            ],
+            [
+              145.656,
+              -15.623999999999999
+            ],
+            [
+              137.412,
+              0
+            ],
+            [
+              175.14000000000001,
+              -15.695999999999998
+            ],
+            [
+              166.824,
+              0
+            ],
+            [
+              190.512,
+              0
+            ],
+            [
+              206.604,
+              -8.748
+            ],
+            [
+              205.056,
+              0
+            ],
+            [
+              220.17600000000002,
+              0
+            ],
+            [
+              228.132,
+              0
+            ],
+            [
+              272.37600000000003,
+              -11.411999999999999
+            ],
+            [
+              267.696,
+              0
+            ],
+            [
+              281.62800000000004,
+              0
+            ],
+            [
+              296.53200000000004,
+              0
+            ],
+            [
+              320.22,
+              0
+            ],
+            [
+              335.52000000000004,
+              -18.54
+            ],
+            [
+              328.17600000000004,
+              0
+            ],
+            [
+              349.23600000000005,
+              0
+            ],
+            [
+              364.10400000000004,
+              0
+            ],
+            [
+              372.92400000000004,
+              0
+            ],
+            [
+              387.86400000000003,
+              0
+            ],
+            [
+              401.50800000000004,
+              -9.144
+            ],
+            [
+              395.82000000000005,
+              0
+            ],
+            [
+              420.552,
+              0
+            ],
+            [
+              443.196,
+              0
+            ],
+            [
+              466.09200000000004,
+              0
+            ],
+            [
+              478.76400000000007,
+              -12.6
+            ],
+            [
+              474.04800000000006,
+              0
+            ],
+            [
+              487.9440000000001,
+              0
+            ],
+            [
+              504.7920000000001,
+              0
+            ],
+            [
+              523.08,
+              0
+            ],
+            [
+              531.0360000000001,
+              0
+            ],
+            [
+              558.288,
+              -0.288
+            ],
+            [
+              548.1,
+              0
+            ],
+            [
+              574.596,
+              -1.1159999999999999
+            ],
+            [
+              572.076,
+              0
+            ],
+            [
+              583.632,
+              -0.5399999999999999
+            ],
+            [
+              581.976,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            34,
+            34,
+            33,
+            33,
+            32,
+            32,
+            31,
+            30,
+            30,
+            29,
+            29,
+            28,
+            28,
+            27,
+            26,
+            26,
+            25,
+            25,
+            24,
+            23,
+            23,
+            22,
+            21,
+            20,
+            20,
+            19,
+            18,
+            17,
+            16,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            11,
+            10,
+            9,
+            8,
+            7,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "stringRangeEnd" : 35,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 35,
+      "sourceRangeStart" : 0,
+      "width" : 590.5439999999999
+    }
+  ],
+  "note" : "Full-alphabet joining sweep",
+  "pointSize" : 36,
+  "postScriptName" : "NotoNaskhArabic-Regular",
+  "sourceText" : "أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ"
+}

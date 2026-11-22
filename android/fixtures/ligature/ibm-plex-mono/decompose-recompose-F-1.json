@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.CourierNewPSMT",
+          "postScriptName" : "CourierNewPSMT",
+          "userImported" : false
+        },
+        "fontChecksum" : "CourierNewPSMT@36.0",
+        "glyphID" : 991
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          21.603515625,
+          0
+        ],
+        "position" : [
+          0,
+          -29.970703125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.CourierNewPSMT",
+          "postScriptName" : "CourierNewPSMT",
+          "userImported" : false
+        },
+        "fontChecksum" : "CourierNewPSMT@36.0",
+        "glyphID" : 909
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          21.603515625,
+          0
+        ],
+        "position" : [
+          21.603515625,
+          -29.970703125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "ibm-plex-mono",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.2383845255254669,
+  "postScriptName" : "IBMPlexMono-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_assets_category_basic_shapes">أشكال أساسية</string>
+    <string name="mk_assets_category_calligraphic_elements">حليات خطية</string>
+    <string name="mk_assets_category_frames">إطارات</string>
+    <string name="mk_assets_category_ornaments">زخارف</string>
+    <string name="mk_assets_category_pattern_backgrounds">خلفيات زخرفية</string>
+</resources>

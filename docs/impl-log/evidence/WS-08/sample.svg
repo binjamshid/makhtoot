@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:mk="https://makhtoot.app/ns/mk" viewBox="0 0 600 500" width="1200" height="1000" data-mk-schema="1">
+  <rect data-mk-kind="background" x="0" y="0" width="600" height="500" fill="#f7f2e6"/>
+  <g data-mk-kind="group" data-mk-node-id="95ADB30E-AF09-460B-8267-58A8607FADF1" transform="matrix(1,0,0,1,0,0)">
+    <path data-mk-kind="shape" data-mk-node-id="21F9274B-9B3C-4541-8EDA-41F1615D00AA" transform="matrix(320,0,0,160,200,320)" d="M0.5 0 L0.5 0.42 C0.5 0.464 0.464 0.5 0.42 0.5 L-0.42 0.5 C-0.464 0.5 -0.5 0.464 -0.5 0.42 L-0.5 -0.42 C-0.5 -0.464 -0.464 -0.5 -0.42 -0.5 L0.42 -0.5 C0.464 -0.5 0.5 -0.464 0.5 -0.42 Z" fill="#bf332e" stroke="#000000" stroke-width="0.01" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path data-mk-kind="shape" data-mk-node-id="BCC64E46-4E83-41F0-82AE-08832F7DA3B5" transform="matrix(130,0,0,130,480,320)" d="M0.5 0 C0.5 0.276 0.276 0.5 0 0.5 C-0.276 0.5 -0.5 0.276 -0.5 0 C-0.5 -0.276 -0.276 -0.5 0 -0.5 C0.276 -0.5 0.5 -0.276 0.5 0 Z" fill="#264d8c"/>
+  </g>
+  <g data-mk-kind="liveText" data-mk-node-id="335C043E-25D2-4100-896F-2439BBC6A561" data-mk-source-text="بسم الله الرحمن الرحيم" data-mk-font="Helvetica" transform="matrix(1,0,0,1,60,90)">
+    <text x="0" y="30.434" direction="rtl" unicode-bidi="plaintext" text-anchor="end" font-family="Helvetica" font-size="34" fill="#1d1916">بسم الله الرحمن الرحيم</text>
+  </g>
+  <g data-mk-kind="liveText" data-mk-node-id="F17AE688-D5EC-42EA-ADD4-48E0E71E1FF3" data-mk-source-text="عام ٢٠٢٦ Design 123" data-mk-font="Helvetica" transform="matrix(1,0,0,1,60,150)">
+    <text x="0" y="19.692" direction="rtl" unicode-bidi="plaintext" text-anchor="end" font-family="Helvetica" font-size="22" fill="#000000">عام ٢٠٢٦ Design 123</text>
+  </g>
+</svg>

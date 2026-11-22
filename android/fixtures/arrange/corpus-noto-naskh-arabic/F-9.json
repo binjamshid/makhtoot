@@ -1,0 +1,587 @@
+{
+  "fixtureName" : "corpus-noto-naskh-arabic",
+  "nodeCount" : 8,
+  "nodeIndexInScene" : 0,
+  "nodes" : [
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 77
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "initial",
+          "joinsNext" : true,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            16.416,
+            0
+          ],
+          "position" : [
+            86.148,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 0,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 0,
+          "codepoints" : [
+            1605
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 0,
+          "utf16Length" : 1,
+          "utf16Start" : 0,
+          "visualIndex" : 7
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 24
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "medial",
+          "joinsNext" : true,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            23.976,
+            0
+          ],
+          "position" : [
+            62.172,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 1,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 1,
+          "codepoints" : [
+            1581
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 1,
+          "utf16Length" : 1,
+          "utf16Start" : 1,
+          "visualIndex" : 6
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 1
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 76
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "medial",
+          "joinsNext" : true,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            14.867999999999999,
+            0
+          ],
+          "position" : [
+            47.304,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 2,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 2,
+          "codepoints" : [
+            1605
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 2,
+          "utf16Length" : 1,
+          "utf16Start" : 2,
+          "visualIndex" : 5
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 2
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 107
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "isolated",
+          "joinsNext" : false,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            7.56,
+            0
+          ],
+          "position" : [
+            39.744,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 3,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 3,
+          "codepoints" : [
+            1600
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 3,
+          "utf16Length" : 1,
+          "utf16Start" : 3,
+          "visualIndex" : 4
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 3
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 107
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "isolated",
+          "joinsNext" : false,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            7.56,
+            0
+          ],
+          "position" : [
+            32.184,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 4,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 4,
+          "codepoints" : [
+            1600
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 4,
+          "utf16Length" : 1,
+          "utf16Start" : 4,
+          "visualIndex" : 3
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 4
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 107
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "isolated",
+          "joinsNext" : false,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            7.56,
+            0
+          ],
+          "position" : [
+            24.624,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 5,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 5,
+          "codepoints" : [
+            1600
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 5,
+          "utf16Length" : 1,
+          "utf16Start" : 5,
+          "visualIndex" : 2
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 5
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 107
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "isolated",
+          "joinsNext" : false,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            7.56,
+            0
+          ],
+          "position" : [
+            17.064,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 6,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 6,
+          "codepoints" : [
+            1600
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 6,
+          "utf16Length" : 1,
+          "utf16Start" : 6,
+          "visualIndex" : 1
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 6
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.NotoNaskhArabic-Regular",
+            "postScriptName" : "NotoNaskhArabic-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "NotoNaskhArabic-Regular@36.0",
+          "glyphID" : 27
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "final",
+          "joinsNext" : false,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            17.064,
+            0
+          ],
+          "position" : [
+            0,
+            -38.4840087890625
+          ]
+        },
+        "ordinal" : 7,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 7,
+          "codepoints" : [
+            1583
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 7,
+          "utf16Length" : 1,
+          "utf16Start" : 7,
+          "visualIndex" : 0
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 7
+    }
+  ],
+  "originFrame" : [
+    [
+      0,
+      -78.4840087890625
+    ],
+    [
+      102.564,
+      40
+    ]
+  ],
+  "sourceContentHash" : "1385498b9e5ce05f",
+  "sourceString" : "محمــــد"
+}

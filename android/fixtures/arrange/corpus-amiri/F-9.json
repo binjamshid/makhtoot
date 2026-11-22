@@ -1,0 +1,380 @@
+{
+  "fixtureName" : "corpus-amiri",
+  "nodeCount" : 5,
+  "nodeIndexInScene" : 0,
+  "nodes" : [
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.Amiri-Regular",
+            "postScriptName" : "Amiri-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "Amiri-Regular@36.0",
+          "glyphID" : 2904
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "initial",
+          "joinsNext" : true,
+          "joinsPrevious" : false
+        },
+        "layout" : {
+          "advance" : [
+            11.484,
+            0
+          ],
+          "position" : [
+            58.464,
+            -40.4637451171875
+          ]
+        },
+        "ordinal" : 0,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 0,
+          "codepoints" : [
+            1605
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 0,
+          "utf16Length" : 1,
+          "utf16Start" : 0,
+          "visualIndex" : 4
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.Amiri-Regular",
+            "postScriptName" : "Amiri-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "Amiri-Regular@36.0",
+          "glyphID" : 2906
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "medial",
+          "joinsNext" : true,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            7.02,
+            0
+          ],
+          "position" : [
+            51.444,
+            -40.4637451171875
+          ]
+        },
+        "ordinal" : 1,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 1,
+          "codepoints" : [
+            1581
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 1,
+          "utf16Length" : 1,
+          "utf16Start" : 1,
+          "visualIndex" : 3
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 1
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.Amiri-Regular",
+            "postScriptName" : "Amiri-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "Amiri-Regular@36.0",
+          "glyphID" : 4487
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "medial",
+          "joinsNext" : true,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            7.776,
+            0
+          ],
+          "position" : [
+            43.668,
+            -40.4637451171875
+          ]
+        },
+        "ordinal" : 2,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 2,
+          "codepoints" : [
+            1605
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 2,
+          "utf16Length" : 1,
+          "utf16Start" : 2,
+          "visualIndex" : 2
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 2
+    },
+    {
+      "kind" : "ligature",
+      "ligature" : {
+        "attachedMarkOrdinals" : [
+
+        ],
+        "isHidden" : false,
+        "isLocked" : false,
+        "ordinal" : 3,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 3,
+          "codepoints" : [
+            1600,
+            1600,
+            1600,
+            1600
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 3,
+          "utf16Length" : 4,
+          "utf16Start" : 3,
+          "visualIndex" : 1
+        },
+        "state" : {
+          "composed" : {
+            "decomposable" : false,
+            "glyph" : {
+              "font" : {
+                "fontID" : "system.Amiri-Regular",
+                "postScriptName" : "Amiri-Regular",
+                "userImported" : false
+              },
+              "fontChecksum" : "Amiri-Regular@36.0",
+              "glyphID" : 5481
+            },
+            "hasOutline" : true,
+            "layout" : {
+              "advance" : [
+                26.712,
+                0
+              ],
+              "position" : [
+                16.956,
+                -40.4637451171875
+              ]
+            }
+          },
+          "kind" : "composed"
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "ordinal" : 3
+    },
+    {
+      "glyph" : {
+        "glyph" : {
+          "font" : {
+            "fontID" : "system.Amiri-Regular",
+            "postScriptName" : "Amiri-Regular",
+            "userImported" : false
+          },
+          "fontChecksum" : "Amiri-Regular@36.0",
+          "glyphID" : 1678
+        },
+        "hasOutline" : true,
+        "isHidden" : false,
+        "isLocked" : false,
+        "joining" : {
+          "brokenByUser" : false,
+          "form" : "final",
+          "joinsNext" : false,
+          "joinsPrevious" : true
+        },
+        "layout" : {
+          "advance" : [
+            16.956,
+            0
+          ],
+          "position" : [
+            0,
+            -40.4637451171875
+          ]
+        },
+        "ordinal" : 4,
+        "provenance" : {
+          "bidiLevel" : 1,
+          "clusterOrdinal" : 4,
+          "codepoints" : [
+            1583
+          ],
+          "cursiveAttached" : false,
+          "logicalIndex" : 4,
+          "utf16Length" : 1,
+          "utf16Start" : 7,
+          "visualIndex" : 0
+        },
+        "style" : {
+          "fill" : {
+            "solid" : {
+              "_0" : {
+                "a" : 1,
+                "b" : 0.086,
+                "g" : 0.098,
+                "r" : 0.114,
+                "space" : "srgb"
+              }
+            }
+          }
+        },
+        "transform" : {
+          "position" : [
+            0,
+            0
+          ],
+          "rotation" : 0,
+          "scale" : [
+            1,
+            1
+          ]
+        }
+      },
+      "kind" : "glyph",
+      "ordinal" : 4
+    }
+  ],
+  "originFrame" : [
+    [
+      0,
+      -80.4637451171875
+    ],
+    [
+      69.948,
+      40
+    ]
+  ],
+  "sourceContentHash" : "23954aacc998a17d",
+  "sourceString" : "محمــــد"
+}

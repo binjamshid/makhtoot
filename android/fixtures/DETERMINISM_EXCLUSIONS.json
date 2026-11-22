@@ -1,0 +1,25 @@
+{
+  "frozenCategoryList" : [
+    "shaping",
+    "joining",
+    "ligature",
+    "marks",
+    "arrange",
+    "pathtext",
+    "scenecodec",
+    "render",
+    "export",
+    "canvas",
+    "assets"
+  ],
+  "generator" : "swift run MKGoldenExport",
+  "nonDeterministicExclusions" : [
+    {
+      "category" : "export",
+      "deterministic" : false,
+      "pathGlob" : "export/*.jpg",
+      "reason" : "ImageIO JPEG encoder is not contractually bit-stable across process invocations."
+    }
+  ],
+  "note" : "Every category not listed in `nonDeterministicExclusions` below regenerates byte-identically on a second `swift run MKGoldenExport` — recorded in the BATCH-0.2 implementation log. gate.sh should diff every fixture file EXCEPT one whose path matches a `pathGlob` entry below."
+}

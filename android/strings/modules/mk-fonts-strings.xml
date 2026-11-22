@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_fonts_catalog_offline_empty_state">لا يمكن تحميل قائمة الخطوط دون اتصال</string>
+    <string name="mk_fonts_category_bilingual">ثنائي اللغة</string>
+    <string name="mk_fonts_category_diwani">ديواني</string>
+    <string name="mk_fonts_category_handwriting">خط يدوي</string>
+    <string name="mk_fonts_category_kufi">كوفي</string>
+    <string name="mk_fonts_category_maghrebi">مغربي</string>
+    <string name="mk_fonts_category_modern_display">عرض حديث</string>
+    <string name="mk_fonts_category_naskh">نسخ</string>
+    <string name="mk_fonts_category_quranic_style">طراز قرآني</string>
+    <string name="mk_fonts_category_ruqah">رقعة</string>
+    <string name="mk_fonts_category_thuluth">ثلث</string>
+    <string name="mk_fonts_deleted_font_in_use_warning">هذا الخط مستخدم في مشاريع: %1$s ، سيحتفظ النص بمظهره الأخير، لكن التعديل عليه يتطلب الخط مجددًا.</string>
+    <string name="mk_fonts_error_checksum_mismatch">فشل التحقق من سلامة الخط</string>
+    <string name="mk_fonts_error_corrupt_file">ملف الخط تالف أو غير مكتمل</string>
+    <string name="mk_fonts_error_font_locked">هذا الخط مُقفل ، اشترك لإلغاء القفل</string>
+    <string name="mk_fonts_error_license_record_missing">لا يوجد سجل ترخيص لهذا الخط</string>
+    <string name="mk_fonts_error_offline">لا يتوفر اتصال بالإنترنت ، الخطوط المميزة تتطلب اتصالًا للتنزيل</string>
+    <string name="mk_fonts_error_premium_required">هذا الخط يتطلب الاشتراك المميز</string>
+    <string name="mk_fonts_error_registration_failed">فشل تسجيل الخط</string>
+    <string name="mk_fonts_error_unknown_font">الخط غير موجود في القائمة</string>
+    <string name="mk_fonts_error_unsupported_format">صيغة هذا الخط غير مدعومة</string>
+    <string name="mk_fonts_error_unsupported_woff">صيغة WOFF غير مدعومة ، استخدم TTF أو OTF</string>
+    <string name="mk_fonts_license_commercial_use_permitted">مسموح بالاستخدام التجاري (OFL 1.1)</string>
+    <string name="mk_fonts_license_status_unconfirmed">غير مؤكد</string>
+    <string name="mk_fonts_license_user_imported_notice">خط مستورد من المستخدم ، التزام الترخيص مسؤولية المستخدم</string>
+</resources>

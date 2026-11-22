@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 1.3679999999999999,
+      "relativeOffsetWidth" : 9.216000000000001
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "almarai",
+  "postScriptName" : "Almarai-Regular",
+  "sourceText" : "محمّد"
+}

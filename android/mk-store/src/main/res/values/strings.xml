@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_store_error_purchase_failed">تعذّرت عملية الشراء. حاول مرة أخرى.</string>
+    <string name="mk_store_error_requires_internet">يتطلب الاتصال بالإنترنت</string>
+    <string name="mk_store_error_restore_failed">تعذّرت استعادة المشتريات. حاول مرة أخرى.</string>
+    <string name="mk_store_error_verification_failed">تعذّر التحقق من عملية الشراء.</string>
+    <string name="mk_store_pending_family_approval">بانتظار موافقة العائلة</string>
+    <string name="mk_store_period_day_plural">%1$d أيام</string>
+    <string name="mk_store_period_day_singular">يوم</string>
+    <string name="mk_store_period_month_plural">%1$d أشهر</string>
+    <string name="mk_store_period_month_singular">شهر</string>
+    <string name="mk_store_period_week_plural">%1$d أسابيع</string>
+    <string name="mk_store_period_week_singular">أسبوع</string>
+    <string name="mk_store_period_year_plural">%1$d سنوات</string>
+    <string name="mk_store_period_year_singular">سنة</string>
+    <string name="mk_store_referral_already_redeemed">تم استخدام هذا الرمز من قبل.</string>
+    <string name="mk_store_referral_invalid_format">رمز الدعوة غير صالح.</string>
+    <string name="mk_store_referral_self_referral">لا يمكنك استخدام رمز الدعوة الخاص بك.</string>
+</resources>

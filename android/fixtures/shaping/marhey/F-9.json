@@ -1,0 +1,265 @@
+{
+  "corpusID" : "F-9",
+  "familyDir" : "Marhey",
+  "familyID" : "marhey",
+  "fontFile" : "Marhey[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 39.6002197265625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 23.03997802734375,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              15.839999999999998,
+              0
+            ],
+            [
+              10.799999999999999,
+              0
+            ],
+            [
+              10.799999999999999,
+              0
+            ],
+            [
+              10.799999999999999,
+              0
+            ],
+            [
+              10.799999999999999,
+              0
+            ],
+            [
+              21.599999999999998,
+              0
+            ],
+            [
+              21.959999999999997,
+              0
+            ],
+            [
+              21.023999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Marhey-Light",
+          "glyphs" : [
+            322,
+            528,
+            528,
+            528,
+            528,
+            455,
+            315,
+            456
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              15.839999999999998,
+              0
+            ],
+            [
+              26.639999999999997,
+              0
+            ],
+            [
+              37.44,
+              0
+            ],
+            [
+              48.239999999999995,
+              0
+            ],
+            [
+              59.03999999999999,
+              0
+            ],
+            [
+              80.63999999999999,
+              0
+            ],
+            [
+              102.59999999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 123.62399999999998
+    }
+  ],
+  "note" : "Kashida/tatweel U+0640 as a real, shapeable glyph",
+  "pointSize" : 36,
+  "postScriptName" : "Marhey-Light",
+  "sourceText" : "محمــــد"
+}

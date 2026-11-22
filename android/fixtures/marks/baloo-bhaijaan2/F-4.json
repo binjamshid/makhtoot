@@ -1,0 +1,230 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 8,
+        "run" : 6
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 7,
+        "run" : 6
+      },
+      "relativeOffsetHeight" : -5.723999999999999,
+      "relativeOffsetWidth" : 0.07200000000000273
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 6,
+        "run" : 6
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 5,
+        "run" : 6
+      },
+      "relativeOffsetHeight" : -3.0599999999999996,
+      "relativeOffsetWidth" : 8.927999999999997
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 4,
+        "run" : 6
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 6
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 7.23599999999999
+    },
+    {
+      "baseClusterIndex" : 9,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 5
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 9
+    },
+    {
+      "baseClusterIndex" : 9,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 5
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 10,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 5
+      },
+      "relativeOffsetHeight" : 11.232,
+      "relativeOffsetWidth" : -1.0440000000000111
+    },
+    {
+      "baseClusterIndex" : 11,
+      "baseGlyph" : {
+        "glyph" : 4,
+        "run" : 4
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 12,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 4
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 2.843999999999994
+    },
+    {
+      "baseClusterIndex" : 16,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 3
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 16
+    },
+    {
+      "baseClusterIndex" : 16,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 3
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 17,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 3
+      },
+      "relativeOffsetHeight" : -2.916,
+      "relativeOffsetWidth" : 1.5480000000000018
+    },
+    {
+      "baseClusterIndex" : 18,
+      "baseGlyph" : {
+        "glyph" : 9,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 19,
+      "markGlyph" : {
+        "glyph" : 8,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : 0.36,
+      "relativeOffsetWidth" : 7.092000000000013
+    },
+    {
+      "baseClusterIndex" : 20,
+      "baseGlyph" : {
+        "glyph" : 7,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 21,
+      "markGlyph" : {
+        "glyph" : 6,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -0.10799999999999998,
+      "relativeOffsetWidth" : 5.724000000000004
+    },
+    {
+      "baseClusterIndex" : 20,
+      "baseGlyph" : {
+        "glyph" : 7,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 22,
+      "markGlyph" : {
+        "glyph" : 5,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : 4.968,
+      "relativeOffsetWidth" : 9.072000000000003
+    },
+    {
+      "baseClusterIndex" : 23,
+      "baseGlyph" : {
+        "glyph" : 4,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 24,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -7.811999999999999,
+      "relativeOffsetWidth" : 6.480000000000004
+    },
+    {
+      "baseClusterIndex" : 28,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 28
+    },
+    {
+      "baseClusterIndex" : 28,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 29,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -2.916,
+      "relativeOffsetWidth" : 1.5480000000000018
+    },
+    {
+      "baseClusterIndex" : 30,
+      "baseGlyph" : {
+        "glyph" : 4,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 31,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 5.003999999999998
+    },
+    {
+      "baseClusterIndex" : 33,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 34,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 0,
+      "relativeOffsetWidth" : 7.236
+    }
+  ],
+  "caseID" : "F-4",
+  "familyID" : "baloo-bhaijaan2",
+  "postScriptName" : "BalooBhaijaan2-Regular",
+  "sourceText" : "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+}

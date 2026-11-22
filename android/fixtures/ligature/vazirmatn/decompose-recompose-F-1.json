@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Vazirmatn-Regular_Thin",
+          "postScriptName" : "Vazirmatn-Regular_Thin",
+          "userImported" : false
+        },
+        "fontChecksum" : "Vazirmatn-Regular_Thin@36.0",
+        "glyphID" : 1262
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          9.84375,
+          0
+        ],
+        "position" : [
+          0,
+          -36.9140625
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Vazirmatn-Regular_Thin",
+          "postScriptName" : "Vazirmatn-Regular_Thin",
+          "userImported" : false
+        },
+        "fontChecksum" : "Vazirmatn-Regular_Thin@36.0",
+        "glyphID" : 1173
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.89453125,
+          0
+        ],
+        "position" : [
+          9.84375,
+          -36.9140625
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "vazirmatn",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7097523828922455,
+  "postScriptName" : "Vazirmatn-Regular_Thin",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

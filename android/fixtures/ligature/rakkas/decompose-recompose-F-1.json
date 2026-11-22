@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Rakkas-Regular",
+          "postScriptName" : "Rakkas-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Rakkas-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -37.65618896484375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Rakkas-Regular",
+          "postScriptName" : "Rakkas-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Rakkas-Regular@36.0",
+        "glyphID" : 240
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          7.632,
+          0
+        ],
+        "position" : [
+          15.984,
+          -36.93618896484375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "rakkas",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.9518870191635974,
+  "postScriptName" : "Rakkas-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

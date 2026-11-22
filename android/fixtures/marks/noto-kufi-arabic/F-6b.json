@@ -1,0 +1,83 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -8.388,
+      "relativeOffsetWidth" : 5.579999999999998
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -7.523999999999999,
+      "relativeOffsetWidth" : 3.4919999999999973
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -6.156,
+      "relativeOffsetWidth" : -0.6480000000000032
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 6,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -7.847999999999999,
+      "relativeOffsetWidth" : 1.9440000000000026
+    },
+    {
+      "baseClusterIndex" : 7,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 8,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -11.196,
+      "relativeOffsetWidth" : 11.916
+    }
+  ],
+  "caseID" : "F-6b",
+  "familyID" : "noto-kufi-arabic",
+  "postScriptName" : "NotoKufiArabic-Regular_Thin",
+  "sourceText" : "مُدَرِّسَة"
+}

@@ -1,0 +1,83 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -13.427999999999999,
+      "relativeOffsetWidth" : 8.928000000000004
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "relativeOffsetHeight" : -10.331999999999999,
+      "relativeOffsetWidth" : 9.036000000000001
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -3.0959999999999996,
+      "relativeOffsetWidth" : 1.764000000000003
+    },
+    {
+      "baseClusterIndex" : 4,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 1
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 6,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 1
+      },
+      "relativeOffsetHeight" : -15.695999999999998,
+      "relativeOffsetWidth" : 4.859999999999999
+    },
+    {
+      "baseClusterIndex" : 7,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 8,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -15.947999999999999,
+      "relativeOffsetWidth" : 10.08
+    }
+  ],
+  "caseID" : "F-6b",
+  "familyID" : "mirza",
+  "postScriptName" : "Mirza-Regular",
+  "sourceText" : "مُدَرِّسَة"
+}

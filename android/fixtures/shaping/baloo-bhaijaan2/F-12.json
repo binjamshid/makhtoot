@@ -1,0 +1,581 @@
+{
+  "corpusID" : "F-12",
+  "familyDir" : "BalooBhaijaan2",
+  "familyID" : "baloo-bhaijaan2",
+  "fontFile" : "BalooBhaijaan2[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 38.88006591796875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 18,
+          "utf16Start" : 16,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 16,
+          "utf16Start" : 12,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 12,
+          "utf16Start" : 0,
+          "visualOrdinal" : 2
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1569
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1633
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            1639
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        }
+      ],
+      "descent" : 22.75213623046875,
+      "glyphCount" : 18,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              7.236,
+              0
+            ],
+            [
+              20.555999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BalooBhaijaan2-Regular",
+          "glyphs" : [
+            988,
+            947
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              7.236,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            17,
+            16
+          ],
+          "stringRangeEnd" : 18,
+          "stringRangeStart" : 16,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              9.684,
+              0
+            ],
+            [
+              17.964,
+              0
+            ],
+            [
+              17.964,
+              0
+            ],
+            [
+              20.951999999999998,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BalooBhaijaan2-Regular",
+          "glyphs" : [
+            1001,
+            1004,
+            1004,
+            1007
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              27.791999999999998,
+              0
+            ],
+            [
+              37.476,
+              0
+            ],
+            [
+              55.44,
+              0
+            ],
+            [
+              73.404,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            12,
+            13,
+            14,
+            15
+          ],
+          "stringRangeEnd" : 16,
+          "stringRangeStart" : 12,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              16.38,
+              0
+            ],
+            [
+              9.144,
+              0
+            ],
+            [
+              9.216,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              20.915999999999997,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              24.912,
+              0
+            ],
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              19.872,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "BalooBhaijaan2-Regular",
+          "glyphs" : [
+            3,
+            945,
+            932,
+            933,
+            804,
+            3,
+            803,
+            805,
+            875,
+            3,
+            805,
+            937
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              94.356,
+              0
+            ],
+            [
+              101.556,
+              0
+            ],
+            [
+              117.93599999999999,
+              0
+            ],
+            [
+              127.08,
+              0
+            ],
+            [
+              136.296,
+              0
+            ],
+            [
+              145.296,
+              0
+            ],
+            [
+              152.49599999999998,
+              0
+            ],
+            [
+              173.41199999999998,
+              0
+            ],
+            [
+              182.41199999999998,
+              0
+            ],
+            [
+              207.32399999999998,
+              0
+            ],
+            [
+              214.52399999999997,
+              0
+            ],
+            [
+              223.52399999999997,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 12,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 18,
+      "sourceRangeStart" : 0,
+      "width" : 243.396
+    }
+  ],
+  "note" : "Ligatures + digits + heh-marker mixed content",
+  "pointSize" : 36,
+  "postScriptName" : "BalooBhaijaan2-Regular",
+  "sourceText" : "ما شاء الله ١٤٤٧هـ"
+}

@@ -1,0 +1,506 @@
+{
+  "corpusID" : "F-12",
+  "familyDir" : "MarkaziText",
+  "familyID" : "markazi-text",
+  "fontFile" : "MarkaziText[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 30.19921875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 18,
+          "utf16Start" : 16,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 16,
+          "utf16Start" : 12,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 12,
+          "utf16Start" : 0,
+          "visualOrdinal" : 2
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1569
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1575,
+            1604,
+            1604,
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 7,
+          "utf16End" : 11,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1633
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            1639
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        }
+      ],
+      "descent" : 13.0078125,
+      "glyphCount" : 15,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              4.7109375,
+              0
+            ],
+            [
+              19.142578125,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "MarkaziText-Regular",
+          "glyphs" : [
+            669,
+            632
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              4.7109375,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            17,
+            16
+          ],
+          "stringRangeEnd" : 18,
+          "stringRangeStart" : 16,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              15.8203125,
+              0
+            ],
+            [
+              15.8203125,
+              0
+            ],
+            [
+              15.8203125,
+              0
+            ],
+            [
+              15.8203125,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "MarkaziText-Regular",
+          "glyphs" : [
+            957,
+            960,
+            960,
+            963
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              23.853515625,
+              0
+            ],
+            [
+              39.673828125,
+              0
+            ],
+            [
+              55.494140625,
+              0
+            ],
+            [
+              71.314453125,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            12,
+            13,
+            14,
+            15
+          ],
+          "stringRangeEnd" : 16,
+          "stringRangeStart" : 12,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              5.9765625,
+              0
+            ],
+            [
+              31.763671875,
+              0
+            ],
+            [
+              5.9765625,
+              0
+            ],
+            [
+              11.390625,
+              0
+            ],
+            [
+              7.154296875,
+              0
+            ],
+            [
+              21.90234375,
+              0
+            ],
+            [
+              5.9765625,
+              0
+            ],
+            [
+              7.154296875,
+              0
+            ],
+            [
+              17.19140625,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "MarkaziText-Regular",
+          "glyphs" : [
+            1040,
+            874,
+            1040,
+            488,
+            490,
+            560,
+            1040,
+            490,
+            622
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              87.134765625,
+              0
+            ],
+            [
+              93.111328125,
+              0
+            ],
+            [
+              124.875,
+              0
+            ],
+            [
+              130.8515625,
+              0
+            ],
+            [
+              142.2421875,
+              0
+            ],
+            [
+              149.396484375,
+              0
+            ],
+            [
+              171.298828125,
+              0
+            ],
+            [
+              177.275390625,
+              0
+            ],
+            [
+              184.4296875,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            11,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 12,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 18,
+      "sourceRangeStart" : 0,
+      "width" : 201.62109375
+    }
+  ],
+  "note" : "Ligatures + digits + heh-marker mixed content",
+  "pointSize" : 36,
+  "postScriptName" : "MarkaziText-Regular",
+  "sourceText" : "ما شاء الله ١٤٤٧هـ"
+}

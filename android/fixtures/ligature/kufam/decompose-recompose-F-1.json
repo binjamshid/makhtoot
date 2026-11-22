@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Kufam-Regular",
+          "postScriptName" : "Kufam-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Kufam-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          -2.7359999999999998,
+          -32.3997802734375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Kufam-Regular",
+          "postScriptName" : "Kufam-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Kufam-Regular@36.0",
+        "glyphID" : 765
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          10.223999999999998,
+          0
+        ],
+        "position" : [
+          12.527999999999999,
+          -32.3997802734375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "kufam",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.9123092094246359,
+  "postScriptName" : "Kufam-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

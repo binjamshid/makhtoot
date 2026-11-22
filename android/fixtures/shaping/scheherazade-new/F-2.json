@@ -1,0 +1,176 @@
+{
+  "corpusID" : "F-2",
+  "familyDir" : "ScheherazadeNew",
+  "familyID" : "scheherazade-new",
+  "fontFile" : "ScheherazadeNew-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 48.33984375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            },
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 25.083984375,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              10.6875,
+              -4.78125
+            ],
+            [
+              3.41015625,
+              4.78125
+            ],
+            [
+              7.576171875,
+              0
+            ],
+            [
+              7.8046875,
+              0
+            ],
+            [
+              5.044921875,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ScheherazadeNew-Regular",
+          "glyphs" : [
+            1143,
+            1669,
+            1575,
+            1573,
+            1569
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              10.6875,
+              -4.78125
+            ],
+            [
+              14.09765625,
+              0
+            ],
+            [
+              21.673828125,
+              0
+            ],
+            [
+              29.478515625,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 34.5234375
+    }
+  ],
+  "note" : "Word-ligature candidate, multi-glyph cluster behavior",
+  "pointSize" : 36,
+  "postScriptName" : "ScheherazadeNew-Regular",
+  "sourceText" : "الله"
+}

@@ -1,0 +1,72 @@
+{
+  "canvasSize" : [
+    1080,
+    1080
+  ],
+  "fixtureName" : "fixture-arabic-basic",
+  "hitsAtCanvasCenter" : [
+
+  ],
+  "nodes" : [
+    {
+      "geometry" : {
+        "localBoundsHeight" : 29.8125,
+        "localBoundsWidth" : 213.22484064102173,
+        "localBoundsX" : 0,
+        "localBoundsY" : 0,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "DBEA43D9-4565-4B61-8778-2C6590AB0FBC",
+      "nodeKind" : "liveText",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            106.61242032051086,
+            14.90625
+          ]
+        },
+        {
+          "contains" : true,
+          "label" : "topLeft",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            213.22484064102173,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            0,
+            29.8125
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            213.22484064102173,
+            29.8125
+          ]
+        }
+      ]
+    }
+  ]
+}

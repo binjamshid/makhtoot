@@ -1,0 +1,68 @@
+{
+  "corpusID" : "F-1",
+  "curvatureWarning" : false,
+  "familyID" : "amiri",
+  "options" : {
+    "alignment" : "start",
+    "side" : "center",
+    "spacingMode" : "natural"
+  },
+  "overflow" : {
+    "continuedStraight" : false,
+    "isOverflowing" : false
+  },
+  "pathID" : "closed-circle",
+  "pathLength" : 2513.2165225676213,
+  "penEndArcLength" : 17.976,
+  "penStartArcLength" : 0,
+  "placements" : [
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "arcLength" : 4.228,
+      "clusterOrdinal" : 0,
+      "codepoints" : [
+        1604
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.9776523452318,
+        454.23102496549905
+      ],
+      "rotation" : 1.5813605060231226,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "arcLength" : 13.216,
+      "clusterOrdinal" : 1,
+      "codepoints" : [
+        1575
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.7818426620706,
+        463.2164420176025
+      ],
+      "rotation" : 1.6038112703141882,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    }
+  ],
+  "postScriptName" : "Amiri-Regular",
+  "sourceText" : "لا"
+}

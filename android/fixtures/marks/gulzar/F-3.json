@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 3.24,
+      "relativeOffsetWidth" : 2.880000000000001
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "gulzar",
+  "postScriptName" : "Gulzar-Regular",
+  "sourceText" : "محمّد"
+}

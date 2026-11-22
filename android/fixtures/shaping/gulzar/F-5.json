@@ -1,0 +1,706 @@
+{
+  "corpusID" : "F-5",
+  "familyDir" : "Gulzar",
+  "familyID" : "gulzar",
+  "fontFile" : "Gulzar-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 53.99999999999999,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 19,
+          "utf16Start" : 16,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 16,
+          "utf16Start" : 15,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 15,
+          "utf16Start" : 12,
+          "visualOrdinal" : 2
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 12,
+          "utf16Start" : 11,
+          "visualOrdinal" : 3
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 11,
+          "utf16Start" : 6,
+          "visualOrdinal" : 4
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 6,
+          "utf16Start" : 0,
+          "visualOrdinal" : 5
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 5
+            },
+            {
+              "glyph" : 3,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 5
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            72
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            101
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            108
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            108
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            111
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 4
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 3
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1633
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1634
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1635
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            49
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            50
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        },
+        {
+          "codepoints" : [
+            51
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 18,
+          "utf16End" : 19,
+          "utf16Start" : 18
+        }
+      ],
+      "descent" : 43.19989013671875,
+      "glyphCount" : 20,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              13.356,
+              0
+            ],
+            [
+              17.964,
+              0
+            ],
+            [
+              17.892,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            987,
+            1110,
+            1096
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              13.356,
+              0
+            ],
+            [
+              31.32,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            16,
+            17,
+            18
+          ],
+          "stringRangeEnd" : 19,
+          "stringRangeStart" : 16,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              6.4799999999999995,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            1072
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              49.212,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            15
+          ],
+          "stringRangeEnd" : 16,
+          "stringRangeStart" : 15,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              8.244,
+              0
+            ],
+            [
+              13.895999999999999,
+              0
+            ],
+            [
+              17.892,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            986,
+            1109,
+            1095
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              55.692,
+              0
+            ],
+            [
+              63.936,
+              0
+            ],
+            [
+              77.832,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            12,
+            13,
+            14
+          ],
+          "stringRangeEnd" : 15,
+          "stringRangeStart" : 12,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              6.4799999999999995,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            1072
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              95.72399999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            11
+          ],
+          "stringRangeEnd" : 12,
+          "stringRangeStart" : 11,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              27.791999999999998,
+              0
+            ],
+            [
+              16.523999999999997,
+              0
+            ],
+            [
+              9.684,
+              0
+            ],
+            [
+              9.684,
+              0
+            ],
+            [
+              18.936,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            234,
+            860,
+            952,
+            952,
+            980
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              102.204,
+              0
+            ],
+            [
+              129.99599999999998,
+              0
+            ],
+            [
+              146.51999999999998,
+              0
+            ],
+            [
+              156.20399999999998,
+              0
+            ],
+            [
+              165.88799999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "stringRangeEnd" : 11,
+          "stringRangeStart" : 6,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              7.4159999999999995,
+              -10.26
+            ],
+            [
+              -1.0799999999999998,
+              15.12
+            ],
+            [
+              5.4,
+              3.3840000000000003
+            ],
+            [
+              17.459999999999997,
+              -8.244
+            ],
+            [
+              10.223999999999998,
+              10.799999999999999
+            ],
+            [
+              13.463999999999999,
+              -10.799999999999999
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            1073,
+            48,
+            1045,
+            94,
+            364,
+            563,
+            510
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              184.82399999999998,
+              0
+            ],
+            [
+              192.02399999999997,
+              0
+            ],
+            [
+              199.44,
+              -10.26
+            ],
+            [
+              198.35999999999999,
+              4.859999999999999
+            ],
+            [
+              203.76,
+              8.244
+            ],
+            [
+              221.22,
+              0
+            ],
+            [
+              231.444,
+              10.799999999999999
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            5,
+            4,
+            3,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 6,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 19,
+      "sourceRangeStart" : 0,
+      "width" : 244.90800000000002
+    }
+  ],
+  "note" : "Mixed bidi: RTL base, embedded LTR run, Arabic-Indic + European digits",
+  "pointSize" : 36,
+  "postScriptName" : "Gulzar-Regular",
+  "sourceText" : "مرحبا Hello ١٢٣ 123"
+}

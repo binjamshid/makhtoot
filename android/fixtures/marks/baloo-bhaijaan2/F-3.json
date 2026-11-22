@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.10799999999999998,
+      "relativeOffsetWidth" : 5.256
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "baloo-bhaijaan2",
+  "postScriptName" : "BalooBhaijaan2-Regular",
+  "sourceText" : "محمّد"
+}

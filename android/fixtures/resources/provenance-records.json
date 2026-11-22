@@ -1,0 +1,629 @@
+[
+  {
+    "assetID" : "calligraphic.diamond-dot-divider",
+    "notes" : "فاصلة معينية منقطة (calligraphic.diamond-dot-divider): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.dot-cluster",
+    "notes" : "ثلاث نقاط (calligraphic.dot-cluster): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.knot-motif",
+    "notes" : "زخرفة عقدة (calligraphic.knot-motif): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 4 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.ornamental-rule",
+    "notes" : "فاصلة زخرفية بطول السطر (calligraphic.ornamental-rule): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.swash-flourish-left",
+    "notes" : "زخرفة تطريز يسرى (calligraphic.swash-flourish-left): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.swash-flourish-right",
+    "notes" : "زخرفة تطريز يمنى (calligraphic.swash-flourish-right): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.tarwisa-swash-divider",
+    "notes" : "فاصلة ترويسة (calligraphic.tarwisa-swash-divider): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.teardrop-finial",
+    "notes" : "زخرفة نهاية دمعية (calligraphic.teardrop-finial): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.vine-divider",
+    "notes" : "فاصلة نباتية متعرشة (calligraphic.vine-divider): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 4 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "calligraphic.wave-divider",
+    "notes" : "فاصلة متموجة (calligraphic.wave-divider): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within حليات خطية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.arch",
+    "notes" : "إطار عقد مدبب (frame.arch): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.cartouche",
+    "notes" : "إطار مخطوطة (كارتوش) (frame.cartouche): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.circular",
+    "notes" : "إطار دائري (frame.circular): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.corner-ornamented",
+    "notes" : "إطار بزخارف ركنية (frame.corner-ornamented): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 14 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.oval",
+    "notes" : "إطار بيضاوي (frame.oval): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.rect-double-rule",
+    "notes" : "إطار مستطيل بخطين (frame.rect-double-rule): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 4 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.rect-single-rule",
+    "notes" : "إطار مستطيل بخط واحد (frame.rect-single-rule): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "frame.rect-thick-thin",
+    "notes" : "إطار مستطيل سميك ورفيع (frame.rect-thick-thin): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within إطارات ، 4 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.arabesque-scroll-corner",
+    "notes" : "زخرفة أرابيسك ركنية (ornament.arabesque-scroll-corner): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.corner-fan-ornament",
+    "notes" : "زخرفة مروحية ركنية (ornament.corner-fan-ornament): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.floral-tawriq-spray",
+    "notes" : "باقة توريق نباتية (ornament.floral-tawriq-spray): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 5 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.girih-strapwork",
+    "notes" : "زخرفة قِرِيه المتشابكة (ornament.girih-strapwork): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 5 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.interlaced-band-unit",
+    "notes" : "وحدة شريط متشابك (ornament.interlaced-band-unit): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.mandorla-lozenge-medallion",
+    "notes" : "ميدالية لوزية (مندورلا) (ornament.mandorla-lozenge-medallion): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.medallion-circle",
+    "notes" : "ميدالية دائرية (ornament.medallion-circle): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 5 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.mihrab-arch-outline",
+    "notes" : "محراب زخرفي (عقد مدبب) (ornament.mihrab-arch-outline): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.muqarnas-frieze-element",
+    "notes" : "عنصر إفريز مقرنص (ornament.muqarnas-frieze-element): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.palmette-border-unit",
+    "notes" : "وحدة نخيلية حدّية (ornament.palmette-border-unit): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 6 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.quatrefoil-rosette",
+    "notes" : "زخرفة رباعية الفصوص (ornament.quatrefoil-rosette): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 5 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.star-cross-tessellation-unit",
+    "notes" : "وحدة تجانب نجمة وصليب هندسي (ornament.star-cross-tessellation-unit): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.star-rosette-10",
+    "notes" : "زخرفة نجمية عشارية (ornament.star-rosette-10): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 10-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 10, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.star-rosette-12",
+    "notes" : "وردة نجمية اثنا عشرية (ornament.star-rosette-12): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 12-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 12, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.star-rosette-6",
+    "notes" : "زخرفة نجمية سداسية (ornament.star-rosette-6): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 6-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 6, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "ornament.star-rosette-8",
+    "notes" : "خاتم (ornament.star-rosette-8): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within زخارف ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 8-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 8, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.chevron",
+    "notes" : "نمط متعرج (شيفرون) (pattern.chevron): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.diagonal-qanat-lines",
+    "notes" : "خطوط قناة قطرية (pattern.diagonal-qanat-lines): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.dot-grid",
+    "notes" : "شبكة نقاط (pattern.dot-grid): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.hexagonal-lattice",
+    "notes" : "شبكة سداسية (pattern.hexagonal-lattice): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.khatam-repeat",
+    "notes" : "تكرار ختامي (pattern.khatam-repeat): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 3 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.scallop",
+    "notes" : "نمط الفلس (pattern.scallop): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.star-8-tessellation",
+    "notes" : "تجانب نجمي ثماني (pattern.star-8-tessellation): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 8-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 8, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "pattern.zellij-interlock",
+    "notes" : "تشابك زليج (pattern.zellij-interlock): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within خلفيات زخرفية ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.arrow",
+    "notes" : "سهم (shape.arrow): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.crescent",
+    "notes" : "هلال (shape.crescent): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 2 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.ellipse",
+    "notes" : "بيضاوي (shape.ellipse): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.hexagon",
+    "notes" : "سداسي (shape.hexagon): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.line",
+    "notes" : "خط مستقيم (shape.line): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.octagon",
+    "notes" : "ثماني الأضلاع (shape.octagon): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.pentagon",
+    "notes" : "خماسي (shape.pentagon): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.rectangle",
+    "notes" : "مستطيل (shape.rectangle): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.rounded-rectangle",
+    "notes" : "مستطيل مستدير الزوايا (shape.rounded-rectangle): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.semicircle",
+    "notes" : "نصف دائرة (shape.semicircle): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.star-5",
+    "notes" : "نجمة خماسية (shape.star-5): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 5-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 5, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.star-6",
+    "notes" : "نجمة سداسية (shape.star-6): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 6-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 6, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.star-8",
+    "notes" : "نجمة ثمانية (shape.star-8): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference. Constructed as a 8-fold star-polygon rosette (MKAssetPathBuilder.starPolygon(points: 8, ...)), matching Islamic star-polygon construction convention ، the specific authored path data is original even though the underlying mathematical construction (a regular star polygon from N points) is not itself copyrightable, per this module's sourcing rules §1.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.teardrop",
+    "notes" : "دمعة (shape.teardrop): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  },
+  {
+    "assetID" : "shape.triangle",
+    "notes" : "مثلث (shape.triangle): original vector geometry authored procedurally for Makhtoot via MKAssetPathBuilder within أشكال أساسية ، 1 subpath(s), 1 styleable region(s). No external source consulted; no font file, no traced image, no AI-generated reference.",
+    "origin" : {
+      "originalWork" : {
+        "author" : "Procedurally generated",
+        "date" : "2026-07-18"
+      }
+    },
+    "verifiedBy" : "WS-14 provenance record"
+  }
+]

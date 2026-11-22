@@ -1,0 +1,596 @@
+{
+  "corpusID" : "F-12",
+  "familyDir" : "Mirza",
+  "familyID" : "mirza",
+  "fontFile" : "Mirza-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 19.69189453125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 18,
+          "utf16Start" : 16,
+          "visualOrdinal" : 0
+        },
+        {
+          "isRTL" : false,
+          "level" : 2,
+          "utf16End" : 16,
+          "utf16Start" : 12,
+          "visualOrdinal" : 1
+        },
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 12,
+          "utf16Start" : 0,
+          "visualOrdinal" : 2
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 12,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 2
+            },
+            {
+              "glyph" : 9,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1569
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 2
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1633
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1636
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            1639
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 1
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            1600
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        }
+      ],
+      "descent" : 16.30810546875,
+      "glyphCount" : 19,
+      "leading" : 7.199890136718749,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              6.731999999999999,
+              0
+            ],
+            [
+              15.011999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Mirza-Regular",
+          "glyphs" : [
+            249,
+            745
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              6.731999999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            17,
+            16
+          ],
+          "stringRangeEnd" : 18,
+          "stringRangeStart" : 16,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              7.595999999999999,
+              0
+            ],
+            [
+              12.203999999999999,
+              0
+            ],
+            [
+              12.203999999999999,
+              0
+            ],
+            [
+              15.084,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Mirza-Regular",
+          "glyphs" : [
+            281,
+            284,
+            284,
+            287
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : false,
+          "positions" : [
+            [
+              21.744,
+              0
+            ],
+            [
+              29.34,
+              0
+            ],
+            [
+              41.544,
+              0
+            ],
+            [
+              53.748,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            12,
+            13,
+            14,
+            15
+          ],
+          "stringRangeEnd" : 16,
+          "stringRangeStart" : 12,
+          "tracking" : 0
+        },
+        {
+          "advances" : [
+            [
+              9.18,
+              0
+            ],
+            [
+              15.588,
+              0
+            ],
+            [
+              10.584,
+              0
+            ],
+            [
+              7.847999999999999,
+              0
+            ],
+            [
+              5.544,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              12.203999999999999,
+              0
+            ],
+            [
+              19.548,
+              -16.272
+            ],
+            [
+              -10.116,
+              16.272
+            ],
+            [
+              19.08,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              9.431999999999999,
+              0
+            ],
+            [
+              14.759999999999998,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Mirza-Regular",
+          "glyphs" : [
+            3,
+            744,
+            737,
+            736,
+            224,
+            3,
+            218,
+            678,
+            596,
+            703,
+            3,
+            678,
+            739
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              68.832,
+              0
+            ],
+            [
+              78.012,
+              0
+            ],
+            [
+              93.6,
+              0
+            ],
+            [
+              104.184,
+              0
+            ],
+            [
+              112.032,
+              0
+            ],
+            [
+              117.576,
+              0
+            ],
+            [
+              126.756,
+              0
+            ],
+            [
+              138.96,
+              0
+            ],
+            [
+              158.50799999999998,
+              -16.272
+            ],
+            [
+              148.392,
+              0
+            ],
+            [
+              167.47199999999998,
+              0
+            ],
+            [
+              176.652,
+              0
+            ],
+            [
+              186.08399999999997,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 12,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 18,
+      "sourceRangeStart" : 0,
+      "width" : 200.844
+    }
+  ],
+  "note" : "Ligatures + digits + heh-marker mixed content",
+  "pointSize" : 36,
+  "postScriptName" : "Mirza-Regular",
+  "sourceText" : "ما شاء الله ١٤٤٧هـ"
+}

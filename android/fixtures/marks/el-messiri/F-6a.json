@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.504,
+      "relativeOffsetWidth" : 7.5959999999999965
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.612,
+      "relativeOffsetWidth" : 30.563999999999997
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "el-messiri",
+  "postScriptName" : "ElMessiri-Regular",
+  "sourceText" : "حِسّ"
+}

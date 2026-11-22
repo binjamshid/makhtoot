@@ -1,0 +1,35 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-7b",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 1,
+      "constituentScalars" : [
+        1604,
+        1573
+      ],
+      "glyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "kind" : "required"
+    },
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 3,
+      "constituentScalars" : [
+        1604,
+        1575
+      ],
+      "glyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "kind" : "required"
+    }
+  ],
+  "familyID" : "tajawal",
+  "postScriptName" : "Tajawal-Regular",
+  "sourceText" : "الإسلام"
+}

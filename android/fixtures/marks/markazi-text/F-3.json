@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 8.736328125,
+      "relativeOffsetWidth" : 3.8671875
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "markazi-text",
+  "postScriptName" : "MarkaziText-Regular",
+  "sourceText" : "محمّد"
+}

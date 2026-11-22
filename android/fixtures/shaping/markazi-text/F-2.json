@@ -1,0 +1,86 @@
+{
+  "corpusID" : "F-2",
+  "familyDir" : "MarkaziText",
+  "familyID" : "markazi-text",
+  "fontFile" : "MarkaziText[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 30.19921875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575,
+            1604,
+            1604,
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 4,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 13.0078125,
+      "glyphCount" : 1,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              31.763671875,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "MarkaziText-Regular",
+          "glyphs" : [
+            874
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 31.763671875
+    }
+  ],
+  "note" : "Word-ligature candidate, multi-glyph cluster behavior",
+  "pointSize" : 36,
+  "postScriptName" : "MarkaziText-Regular",
+  "sourceText" : "الله"
+}

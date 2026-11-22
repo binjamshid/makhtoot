@@ -1,0 +1,447 @@
+{
+  "corpusID" : "F-10",
+  "familyDir" : "Kufam",
+  "familyID" : "kufam",
+  "fontFile" : "Kufam[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 32.3997802734375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 15,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 14,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 12,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        }
+      ],
+      "descent" : 14.399780273437498,
+      "glyphCount" : 15,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              21.311999999999998,
+              0
+            ],
+            [
+              13.212,
+              0
+            ],
+            [
+              25.343999999999998,
+              0
+            ],
+            [
+              26.063999999999997,
+              0
+            ],
+            [
+              9.216,
+              0
+            ],
+            [
+              27.035999999999998,
+              0
+            ],
+            [
+              11.376,
+              0
+            ],
+            [
+              18.144,
+              0
+            ],
+            [
+              20.735999999999997,
+              0
+            ],
+            [
+              9.216,
+              0
+            ],
+            [
+              45.431999999999995,
+              0
+            ],
+            [
+              23.328,
+              0
+            ],
+            [
+              44.532,
+              0
+            ],
+            [
+              22.176,
+              0
+            ],
+            [
+              24.191999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Kufam-Regular",
+          "glyphs" : [
+            1243,
+            1369,
+            1269,
+            885,
+            1893,
+            1368,
+            791,
+            1015,
+            1110,
+            1893,
+            1089,
+            1329,
+            1091,
+            956,
+            1270
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              21.311999999999998,
+              0
+            ],
+            [
+              34.524,
+              0
+            ],
+            [
+              59.867999999999995,
+              0
+            ],
+            [
+              85.93199999999999,
+              0
+            ],
+            [
+              95.14799999999998,
+              0
+            ],
+            [
+              122.18399999999998,
+              0
+            ],
+            [
+              133.55999999999997,
+              0
+            ],
+            [
+              151.70399999999998,
+              0
+            ],
+            [
+              172.43999999999997,
+              0
+            ],
+            [
+              181.65599999999998,
+              0
+            ],
+            [
+              227.08799999999997,
+              0
+            ],
+            [
+              250.41599999999997,
+              0
+            ],
+            [
+              294.948,
+              0
+            ],
+            [
+              317.12399999999997,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 15,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 15,
+      "sourceRangeStart" : 0,
+      "width" : 341.316
+    }
+  ],
+  "note" : "Path-text fixture, three words",
+  "pointSize" : 36,
+  "postScriptName" : "Kufam-Regular",
+  "sourceText" : "مخطوط عربي جميل"
+}

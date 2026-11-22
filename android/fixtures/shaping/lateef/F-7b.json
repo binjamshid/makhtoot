@@ -1,0 +1,214 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "Lateef",
+  "familyID" : "lateef",
+  "fontFile" : "Lateef-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 34.048828125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 4,
+          "utf16End" : 6,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 18,
+      "glyphCount" : 6,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              9.755859375,
+              0
+            ],
+            [
+              18.4921875,
+              0
+            ],
+            [
+              20.408203125,
+              -4.5
+            ],
+            [
+              -5.484375,
+              4.5
+            ],
+            [
+              16.646484375,
+              0
+            ],
+            [
+              6.205078125,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lateef-Regular",
+          "glyphs" : [
+            1027,
+            932,
+            592,
+            1302,
+            931,
+            262
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              9.755859375,
+              0
+            ],
+            [
+              28.248046875,
+              0
+            ],
+            [
+              48.65625,
+              -4.5
+            ],
+            [
+              43.171875,
+              0
+            ],
+            [
+              59.818359375,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 66.0234375
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "Lateef-Regular",
+  "sourceText" : "الإسلام"
+}

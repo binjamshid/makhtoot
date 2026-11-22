@@ -1,0 +1,161 @@
+{
+  "corpusID" : "F-2",
+  "familyDir" : "ArefRuqaa",
+  "familyID" : "aref-ruqaa",
+  "fontFile" : "ArefRuqaa-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 43.95574951171875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 8.78411865234375,
+      "glyphCount" : 4,
+      "leading" : 3.5282592773437496,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              6.9479999999999995,
+              0
+            ],
+            [
+              8.892,
+              0
+            ],
+            [
+              11.988,
+              0
+            ],
+            [
+              8.927999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            true,
+            true,
+            true,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ArefRuqaa-Regular",
+          "glyphs" : [
+            165,
+            160,
+            159,
+            12
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              6.9479999999999995,
+              0
+            ],
+            [
+              15.84,
+              0
+            ],
+            [
+              27.828,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 36.756
+    }
+  ],
+  "note" : "Word-ligature candidate, multi-glyph cluster behavior",
+  "pointSize" : 36,
+  "postScriptName" : "ArefRuqaa-Regular",
+  "sourceText" : "الله"
+}

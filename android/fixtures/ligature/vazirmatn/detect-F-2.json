@@ -1,0 +1,24 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-2",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 0,
+      "constituentScalars" : [
+        1575,
+        1604,
+        1604,
+        1607
+      ],
+      "glyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "kind" : "contextual"
+    }
+  ],
+  "familyID" : "vazirmatn",
+  "postScriptName" : "Vazirmatn-Regular_Thin",
+  "sourceText" : "الله"
+}

@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.GeezaPro",
+          "postScriptName" : "GeezaPro",
+          "userImported" : false
+        },
+        "fontChecksum" : "GeezaPro@36.0",
+        "glyphID" : 341
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          8.381555153707053,
+          0
+        ],
+        "position" : [
+          0,
+          -32.2239990234375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.GeezaPro",
+          "postScriptName" : "GeezaPro",
+          "userImported" : false
+        },
+        "fontChecksum" : "GeezaPro@36.0",
+        "glyphID" : 240
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          10.52983725135624,
+          0
+        ],
+        "position" : [
+          8.381555153707053,
+          -32.2239990234375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "alef",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.18830550081562514,
+  "postScriptName" : "Alef-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

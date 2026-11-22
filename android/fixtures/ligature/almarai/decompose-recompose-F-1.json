@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Almarai-Regular",
+          "postScriptName" : "Almarai-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Almarai-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          1.656,
+          -32.5799560546875
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Almarai-Regular",
+          "postScriptName" : "Almarai-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Almarai-Regular@36.0",
+        "glyphID" : 272
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.027999999999999,
+          0
+        ],
+        "position" : [
+          15.947999999999997,
+          -32.5799560546875
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "almarai",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8781293365073275,
+  "postScriptName" : "Almarai-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

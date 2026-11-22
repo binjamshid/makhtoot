@@ -1,0 +1,1092 @@
+{
+  "corpusID" : "F-11",
+  "familyDir" : "Mirza",
+  "familyID" : "mirza",
+  "fontFile" : "Mirza-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 19.69189453125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 35,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1571
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 43,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 41,
+              "run" : 0
+            },
+            {
+              "glyph" : 42,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 39,
+              "run" : 0
+            },
+            {
+              "glyph" : 40,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 38,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 37,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 36,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 35,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1586
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 34,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 33,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 32,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 31,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 29,
+              "run" : 0
+            },
+            {
+              "glyph" : 30,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 28,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1603,
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 27,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 13,
+          "utf16End" : 15,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 26,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1606
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 24,
+              "run" : 0
+            },
+            {
+              "glyph" : 25,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 23,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 22,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 19,
+          "utf16Start" : 18
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 21,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 18,
+          "utf16End" : 20,
+          "utf16Start" : 19
+        },
+        {
+          "codepoints" : [
+            1601
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 19,
+              "run" : 0
+            },
+            {
+              "glyph" : 20,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 19,
+          "utf16End" : 21,
+          "utf16Start" : 20
+        },
+        {
+          "codepoints" : [
+            1589
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 18,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 20,
+          "utf16End" : 22,
+          "utf16Start" : 21
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 17,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 21,
+          "utf16End" : 23,
+          "utf16Start" : 22
+        },
+        {
+          "codepoints" : [
+            1602
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 15,
+              "run" : 0
+            },
+            {
+              "glyph" : 16,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 22,
+          "utf16End" : 24,
+          "utf16Start" : 23
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 14,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 23,
+          "utf16End" : 25,
+          "utf16Start" : 24
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 12,
+              "run" : 0
+            },
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 24,
+          "utf16End" : 26,
+          "utf16Start" : 25
+        },
+        {
+          "codepoints" : [
+            1578
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 25,
+          "utf16End" : 27,
+          "utf16Start" : 26
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 26,
+          "utf16End" : 28,
+          "utf16Start" : 27
+        },
+        {
+          "codepoints" : [
+            1579
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 0
+            },
+            {
+              "glyph" : 9,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 27,
+          "utf16End" : 29,
+          "utf16Start" : 28
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            },
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 28,
+          "utf16End" : 30,
+          "utf16Start" : 29
+        },
+        {
+          "codepoints" : [
+            1584
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 29,
+          "utf16End" : 31,
+          "utf16Start" : 30
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 30,
+          "utf16End" : 32,
+          "utf16Start" : 31
+        },
+        {
+          "codepoints" : [
+            1590
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            },
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 31,
+          "utf16End" : 33,
+          "utf16Start" : 32
+        },
+        {
+          "codepoints" : [
+            1592
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 32,
+          "utf16End" : 34,
+          "utf16Start" : 33
+        },
+        {
+          "codepoints" : [
+            1594
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 33,
+          "utf16End" : 35,
+          "utf16Start" : 34
+        }
+      ],
+      "descent" : 16.30810546875,
+      "glyphCount" : 44,
+      "leading" : 7.199890136718749,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              18.683999999999997,
+              0
+            ],
+            [
+              34.775999999999996,
+              -11.303999999999998
+            ],
+            [
+              -14.975999999999999,
+              11.303999999999998
+            ],
+            [
+              21.887999999999998,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              23.867999999999995,
+              -11.267999999999999
+            ],
+            [
+              -5.76,
+              11.267999999999999
+            ],
+            [
+              22.032,
+              -14.291999999999998
+            ],
+            [
+              0.252,
+              14.291999999999998
+            ],
+            [
+              8.027999999999999,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              42.263999999999996,
+              -16.272
+            ],
+            [
+              -10.116,
+              16.272
+            ],
+            [
+              19.08,
+              0
+            ],
+            [
+              18.107999999999997,
+              -7.8839999999999995
+            ],
+            [
+              -4.608,
+              7.8839999999999995
+            ],
+            [
+              10.475999999999999,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              45,
+              -11.771999999999998
+            ],
+            [
+              -6.4079999999999995,
+              11.771999999999998
+            ],
+            [
+              14.472,
+              0
+            ],
+            [
+              14.94,
+              0
+            ],
+            [
+              19.08,
+              0
+            ],
+            [
+              19.332,
+              -26.063999999999997
+            ],
+            [
+              -10.152,
+              26.063999999999997
+            ],
+            [
+              23.651999999999997,
+              0
+            ],
+            [
+              17.676,
+              0
+            ],
+            [
+              16.451999999999998,
+              0
+            ],
+            [
+              19.799999999999997,
+              -4.896
+            ],
+            [
+              -10.62,
+              4.896
+            ],
+            [
+              24.479999999999997,
+              0
+            ],
+            [
+              19.799999999999997,
+              0
+            ],
+            [
+              20.052,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              10.979999999999999,
+              0
+            ],
+            [
+              14.579999999999998,
+              0
+            ],
+            [
+              15.011999999999999,
+              0
+            ],
+            [
+              9.18,
+              0
+            ],
+            [
+              23.507999999999996,
+              4.896
+            ],
+            [
+              -5.3999999999999995,
+              -4.896
+            ],
+            [
+              22.68,
+              4.896
+            ],
+            [
+              -0.39599999999999996,
+              -4.896
+            ],
+            [
+              8.027999999999999,
+              0
+            ],
+            [
+              5.579999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Mirza-Regular",
+          "glyphs" : [
+            723,
+            719,
+            592,
+            709,
+            3,
+            699,
+            592,
+            694,
+            596,
+            790,
+            3,
+            683,
+            596,
+            703,
+            700,
+            594,
+            904,
+            3,
+            708,
+            592,
+            903,
+            722,
+            703,
+            3,
+            592,
+            580,
+            740,
+            646,
+            3,
+            595,
+            748,
+            716,
+            693,
+            3,
+            235,
+            747,
+            745,
+            3,
+            698,
+            593,
+            694,
+            593,
+            790,
+            220
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              18.683999999999997,
+              0
+            ],
+            [
+              53.459999999999994,
+              -11.303999999999998
+            ],
+            [
+              38.483999999999995,
+              0
+            ],
+            [
+              60.37199999999999,
+              0
+            ],
+            [
+              69.55199999999999,
+              0
+            ],
+            [
+              93.42,
+              -11.267999999999999
+            ],
+            [
+              87.66,
+              0
+            ],
+            [
+              109.692,
+              -14.291999999999998
+            ],
+            [
+              109.94399999999999,
+              0
+            ],
+            [
+              117.97199999999998,
+              0
+            ],
+            [
+              127.15199999999999,
+              0
+            ],
+            [
+              169.416,
+              -16.272
+            ],
+            [
+              159.29999999999998,
+              0
+            ],
+            [
+              178.38,
+              0
+            ],
+            [
+              196.488,
+              -7.8839999999999995
+            ],
+            [
+              191.88,
+              0
+            ],
+            [
+              202.356,
+              0
+            ],
+            [
+              211.536,
+              0
+            ],
+            [
+              256.536,
+              -11.771999999999998
+            ],
+            [
+              250.128,
+              0
+            ],
+            [
+              264.59999999999997,
+              0
+            ],
+            [
+              279.53999999999996,
+              0
+            ],
+            [
+              298.61999999999995,
+              0
+            ],
+            [
+              317.95199999999994,
+              -26.063999999999997
+            ],
+            [
+              307.79999999999995,
+              0
+            ],
+            [
+              331.45199999999994,
+              0
+            ],
+            [
+              349.12799999999993,
+              0
+            ],
+            [
+              365.5799999999999,
+              0
+            ],
+            [
+              385.37999999999994,
+              -4.896
+            ],
+            [
+              374.75999999999993,
+              0
+            ],
+            [
+              399.23999999999995,
+              0
+            ],
+            [
+              419.03999999999996,
+              0
+            ],
+            [
+              439.092,
+              0
+            ],
+            [
+              448.272,
+              0
+            ],
+            [
+              459.252,
+              0
+            ],
+            [
+              473.832,
+              0
+            ],
+            [
+              488.844,
+              0
+            ],
+            [
+              498.024,
+              0
+            ],
+            [
+              521.5319999999999,
+              4.896
+            ],
+            [
+              516.132,
+              0
+            ],
+            [
+              538.8119999999999,
+              4.896
+            ],
+            [
+              538.4159999999999,
+              0
+            ],
+            [
+              546.444,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            34,
+            33,
+            32,
+            32,
+            31,
+            30,
+            29,
+            29,
+            28,
+            28,
+            27,
+            26,
+            25,
+            25,
+            24,
+            23,
+            23,
+            22,
+            21,
+            20,
+            20,
+            19,
+            18,
+            17,
+            16,
+            16,
+            15,
+            13,
+            12,
+            11,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            2,
+            1,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 35,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 35,
+      "sourceRangeStart" : 0,
+      "width" : 552.024
+    }
+  ],
+  "note" : "Full-alphabet joining sweep",
+  "pointSize" : 36,
+  "postScriptName" : "Mirza-Regular",
+  "sourceText" : "أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ"
+}

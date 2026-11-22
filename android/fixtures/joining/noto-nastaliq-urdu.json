@@ -1,0 +1,1814 @@
+{
+  "familyDir" : "NotoNastaliqUrdu",
+  "familyID" : "noto-nastaliq-urdu",
+  "fontFile" : "NotoNastaliqUrdu-Regular.ttf",
+  "letters" : [
+    {
+      "character" : "ء",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 19.584,
+          "glyphID" : 310,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 19.584,
+          "glyphID" : 310,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 19.584,
+          "glyphID" : 310,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 19.584,
+          "glyphID" : 310,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "final",
+          "wasCoerced" : true
+        }
+      ],
+      "joiningType" : "nonJoining",
+      "scalar" : 1569
+    },
+    {
+      "character" : "آ",
+      "forms" : [
+        {
+          "advanceHeight" : -0.6479999999999999,
+          "advanceWidth" : -7.595999999999999,
+          "glyphID" : 29,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -0.6479999999999999,
+          "advanceWidth" : -7.595999999999999,
+          "glyphID" : 29,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0.972,
+          "advanceWidth" : -7.451999999999999,
+          "glyphID" : 29,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0.972,
+          "advanceWidth" : -7.451999999999999,
+          "glyphID" : 29,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1570
+    },
+    {
+      "character" : "أ",
+      "forms" : [
+        {
+          "advanceHeight" : -2.052,
+          "advanceWidth" : -7.595999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -2.052,
+          "advanceWidth" : -7.595999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : -0.43199999999999994,
+          "advanceWidth" : -7.451999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : -0.43199999999999994,
+          "advanceWidth" : -7.451999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1571
+    },
+    {
+      "character" : "ؤ",
+      "forms" : [
+        {
+          "advanceHeight" : 11.123999999999999,
+          "advanceWidth" : -7.776,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 11.123999999999999,
+          "advanceWidth" : -7.776,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 11.123999999999999,
+          "advanceWidth" : -6.372,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 11.123999999999999,
+          "advanceWidth" : -6.372,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1572
+    },
+    {
+      "character" : "إ",
+      "forms" : [
+        {
+          "advanceHeight" : -3.6719999999999997,
+          "advanceWidth" : -3.7079999999999997,
+          "glyphID" : 34,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -3.6719999999999997,
+          "advanceWidth" : -3.7079999999999997,
+          "glyphID" : 34,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0.5399999999999999,
+          "advanceWidth" : -5.436,
+          "glyphID" : 34,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0.5399999999999999,
+          "advanceWidth" : -5.436,
+          "glyphID" : 34,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1573
+    },
+    {
+      "character" : "ئ",
+      "forms" : [
+        {
+          "advanceHeight" : 13.463999999999999,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 15.335999999999999,
+          "advanceWidth" : -5.292,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 6.515999999999999,
+          "advanceWidth" : -6.8759999999999994,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 13.499999999999998,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 33,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1574
+    },
+    {
+      "character" : "ا",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 11.879999999999999,
+          "glyphID" : 218,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 11.879999999999999,
+          "glyphID" : 218,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 9.504,
+          "glyphID" : 225,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 9.504,
+          "glyphID" : 225,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1575
+    },
+    {
+      "character" : "ب",
+      "forms" : [
+        {
+          "advanceHeight" : 5.651999999999999,
+          "advanceWidth" : -20.735999999999997,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.9399999999999995,
+          "advanceWidth" : -2.6279999999999997,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 3.4919999999999995,
+          "advanceWidth" : -7.164,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.688,
+          "advanceWidth" : -20.628,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1576
+    },
+    {
+      "character" : "ة",
+      "forms" : [
+        {
+          "advanceHeight" : 8.927999999999999,
+          "advanceWidth" : -5.723999999999999,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 8.927999999999999,
+          "advanceWidth" : -5.723999999999999,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 20.483999999999998,
+          "advanceWidth" : -3.276,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 20.483999999999998,
+          "advanceWidth" : -3.276,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1577
+    },
+    {
+      "character" : "ت",
+      "forms" : [
+        {
+          "advanceHeight" : 11.484,
+          "advanceWidth" : -21.419999999999998,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 14.687999999999999,
+          "advanceWidth" : -5.292,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.867999999999999,
+          "advanceWidth" : -6.8759999999999994,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 11.556,
+          "advanceWidth" : -21.348,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1578
+    },
+    {
+      "character" : "ث",
+      "forms" : [
+        {
+          "advanceHeight" : 11.447999999999999,
+          "advanceWidth" : -21.419999999999998,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 14.652,
+          "advanceWidth" : -5.292,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.832,
+          "advanceWidth" : -6.8759999999999994,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 11.52,
+          "advanceWidth" : -21.348,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1579
+    },
+    {
+      "character" : "ج",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : -16.163999999999998,
+          "glyphID" : 18,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 2.268,
+          "advanceWidth" : -11.664,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 1.908,
+          "advanceWidth" : -11.988,
+          "glyphID" : 14,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0.072,
+          "advanceWidth" : -16.2,
+          "glyphID" : 18,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1580
+    },
+    {
+      "character" : "ح",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 31.355999999999998,
+          "glyphID" : 230,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 3.5639999999999996,
+          "glyphID" : 578,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 8.568,
+          "glyphID" : 283,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1581
+    },
+    {
+      "character" : "خ",
+      "forms" : [
+        {
+          "advanceHeight" : -3.5279999999999996,
+          "advanceWidth" : -15.155999999999999,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 8.027999999999999,
+          "advanceWidth" : -8.568,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 7.271999999999999,
+          "advanceWidth" : -6.372,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -3.4919999999999995,
+          "advanceWidth" : -7.4879999999999995,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1582
+    },
+    {
+      "character" : "د",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 10.799999999999999,
+          "glyphID" : 231,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 10.799999999999999,
+          "glyphID" : 231,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 13.031999999999998,
+          "glyphID" : 232,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 13.031999999999998,
+          "glyphID" : 232,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1583
+    },
+    {
+      "character" : "ذ",
+      "forms" : [
+        {
+          "advanceHeight" : 8.963999999999999,
+          "advanceWidth" : -4.752,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 8.963999999999999,
+          "advanceWidth" : -4.752,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 8.315999999999999,
+          "advanceWidth" : -10.008,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 8.315999999999999,
+          "advanceWidth" : -10.008,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1584
+    },
+    {
+      "character" : "ر",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 14.616,
+          "glyphID" : 233,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 14.616,
+          "glyphID" : 233,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 13.751999999999999,
+          "glyphID" : 282,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 13.751999999999999,
+          "glyphID" : 282,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1585
+    },
+    {
+      "character" : "ز",
+      "forms" : [
+        {
+          "advanceHeight" : 9.899999999999999,
+          "advanceWidth" : -11.303999999999998,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 9.899999999999999,
+          "advanceWidth" : -11.303999999999998,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 18.503999999999998,
+          "advanceWidth" : -6.012,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 18.503999999999998,
+          "advanceWidth" : -6.012,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1586
+    },
+    {
+      "character" : "س",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 40.068,
+          "glyphID" : 234,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 19.404,
+          "glyphID" : 397,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 37.476,
+          "glyphID" : 235,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1587
+    },
+    {
+      "character" : "ش",
+      "forms" : [
+        {
+          "advanceHeight" : 2.52,
+          "advanceWidth" : -30.563999999999997,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 12.527999999999999,
+          "advanceWidth" : -11.879999999999999,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 12.851999999999999,
+          "advanceWidth" : -11.196,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 2.5919999999999996,
+          "advanceWidth" : -30.779999999999998,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1588
+    },
+    {
+      "character" : "ص",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 44.675999999999995,
+          "glyphID" : 236,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 12.276,
+          "glyphID" : 599,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 30.419999999999998,
+          "glyphID" : 285,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1589
+    },
+    {
+      "character" : "ض",
+      "forms" : [
+        {
+          "advanceHeight" : 1.944,
+          "advanceWidth" : -34.272,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.688,
+          "advanceWidth" : -17.099999999999998,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 7.451999999999999,
+          "advanceWidth" : -13.499999999999998,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 1.944,
+          "advanceWidth" : -32.111999999999995,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1590
+    },
+    {
+      "character" : "ط",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 23.508,
+          "glyphID" : 237,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 2.448,
+          "glyphID" : 611,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 7.776,
+          "glyphID" : 284,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1591
+    },
+    {
+      "character" : "ظ",
+      "forms" : [
+        {
+          "advanceHeight" : -14.543999999999999,
+          "advanceWidth" : -17.459999999999997,
+          "glyphID" : 19,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -18.323999999999998,
+          "advanceWidth" : -11.988,
+          "glyphID" : 19,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -18.36,
+          "advanceWidth" : -11.988,
+          "glyphID" : 19,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -14.543999999999999,
+          "advanceWidth" : -17.459999999999997,
+          "glyphID" : 19,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1592
+    },
+    {
+      "character" : "ع",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 31.391999999999996,
+          "glyphID" : 238,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 9.395999999999999,
+          "glyphID" : 543,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 12.995999999999999,
+          "glyphID" : 239,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1593
+    },
+    {
+      "character" : "غ",
+      "forms" : [
+        {
+          "advanceHeight" : -2.88,
+          "advanceWidth" : -11.52,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 8.748,
+          "advanceWidth" : -7.271999999999999,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 10.511999999999999,
+          "advanceWidth" : -6.768,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 3.384,
+          "advanceWidth" : -8.351999999999999,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1594
+    },
+    {
+      "character" : "ػ",
+      "forms" : [
+        {
+          "advanceHeight" : -4.104,
+          "advanceWidth" : -28.368,
+          "glyphID" : 893,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -6.012,
+          "advanceWidth" : -3.6719999999999997,
+          "glyphID" : 893,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -6.012,
+          "advanceWidth" : -3.384,
+          "glyphID" : 893,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -4.752,
+          "advanceWidth" : -28.043999999999997,
+          "glyphID" : 893,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1595
+    },
+    {
+      "character" : "ؼ",
+      "forms" : [
+        {
+          "advanceHeight" : 6.084,
+          "advanceWidth" : -16.956,
+          "glyphID" : 16,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 2.6279999999999997,
+          "advanceWidth" : -4.787999999999999,
+          "glyphID" : 16,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 2.34,
+          "advanceWidth" : -8.783999999999999,
+          "glyphID" : 16,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 4.787999999999999,
+          "advanceWidth" : -17.099999999999998,
+          "glyphID" : 16,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1596
+    },
+    {
+      "character" : "ؽ",
+      "forms" : [
+        {
+          "advanceHeight" : 13.068,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 1194,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -9,
+          "advanceWidth" : 2.664,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -2.6279999999999997,
+          "advanceWidth" : -0.28800000000000026,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 13.104,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 1194,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1597
+    },
+    {
+      "character" : "ؾ",
+      "forms" : [
+        {
+          "advanceHeight" : 12.815999999999999,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -8.748,
+          "advanceWidth" : 2.664,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -2.376,
+          "advanceWidth" : -0.28800000000000026,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 12.851999999999999,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1598
+    },
+    {
+      "character" : "ؿ",
+      "forms" : [
+        {
+          "advanceHeight" : 12.78,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -8.712,
+          "advanceWidth" : 2.664,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : -2.3400000000000003,
+          "advanceWidth" : -0.28800000000000026,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 12.815999999999999,
+          "advanceWidth" : -9.863999999999999,
+          "glyphID" : 13,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1599
+    },
+    {
+      "character" : "ـ",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 828,
+          "hasOutline" : false,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 828,
+          "hasOutline" : false,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 828,
+          "hasOutline" : false,
+          "realizedForm" : "isolated",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 828,
+          "hasOutline" : false,
+          "realizedForm" : "isolated",
+          "requestedForm" : "final",
+          "wasCoerced" : true
+        }
+      ],
+      "joiningType" : "joinCausing",
+      "scalar" : 1600
+    },
+    {
+      "character" : "ف",
+      "forms" : [
+        {
+          "advanceHeight" : 2.5559999999999996,
+          "advanceWidth" : -34.163999999999994,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 9.575999999999999,
+          "advanceWidth" : -6.552,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 7.991999999999999,
+          "advanceWidth" : -5.4719999999999995,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 4.715999999999999,
+          "advanceWidth" : -36.071999999999996,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1601
+    },
+    {
+      "character" : "ق",
+      "forms" : [
+        {
+          "advanceHeight" : 6.983999999999999,
+          "advanceWidth" : -21.599999999999998,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 9.648,
+          "advanceWidth" : -6.552,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 8.064,
+          "advanceWidth" : -5.4719999999999995,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 3.348,
+          "advanceWidth" : -23.4,
+          "glyphID" : 12,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1602
+    },
+    {
+      "character" : "ك",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 41.724,
+          "glyphID" : 244,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 10.62,
+          "glyphID" : 701,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 34.452,
+          "glyphID" : 692,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1603
+    },
+    {
+      "character" : "ل",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 30.636,
+          "glyphID" : 245,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 10.62,
+          "glyphID" : 427,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 30.528,
+          "glyphID" : 246,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1604
+    },
+    {
+      "character" : "م",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 23.759999999999998,
+          "glyphID" : 247,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 10.943999999999999,
+          "glyphID" : 399,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 15.767999999999999,
+          "glyphID" : 276,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1605
+    },
+    {
+      "character" : "ن",
+      "forms" : [
+        {
+          "advanceHeight" : 0.036,
+          "advanceWidth" : -14.291999999999998,
+          "glyphID" : 18,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 14.616,
+          "advanceWidth" : -5.292,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.795999999999999,
+          "advanceWidth" : -6.8759999999999994,
+          "glyphID" : 11,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0.072,
+          "advanceWidth" : -14.255999999999998,
+          "glyphID" : 18,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1606
+    },
+    {
+      "character" : "ه",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 11.303999999999998,
+          "glyphID" : 274,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 13.823999999999998,
+          "glyphID" : 625,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 8.28,
+          "glyphID" : 273,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1607
+    },
+    {
+      "character" : "و",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 15.191999999999998,
+          "glyphID" : 243,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 15.191999999999998,
+          "glyphID" : 243,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "initial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 7.919999999999999,
+          "glyphID" : 291,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "medial",
+          "wasCoerced" : true
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 7.919999999999999,
+          "glyphID" : 291,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "rightJoining",
+      "scalar" : 1608
+    },
+    {
+      "character" : "ى",
+      "forms" : [
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 30.959999999999997,
+          "glyphID" : 269,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 0,
+          "glyphID" : 966,
+          "hasOutline" : false,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 7.199999999999999,
+          "glyphID" : 381,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 0,
+          "advanceWidth" : 18.756,
+          "glyphID" : 271,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1609
+    },
+    {
+      "character" : "ي",
+      "forms" : [
+        {
+          "advanceHeight" : 15.011999999999999,
+          "advanceWidth" : -9.972,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "isolated",
+          "requestedForm" : "isolated",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 5.9399999999999995,
+          "advanceWidth" : -2.6279999999999997,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "initial",
+          "requestedForm" : "initial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 3.4919999999999995,
+          "advanceWidth" : -7.164,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "medial",
+          "requestedForm" : "medial",
+          "wasCoerced" : false
+        },
+        {
+          "advanceHeight" : 15.011999999999999,
+          "advanceWidth" : -9.936,
+          "glyphID" : 15,
+          "hasOutline" : true,
+          "realizedForm" : "final",
+          "requestedForm" : "final",
+          "wasCoerced" : false
+        }
+      ],
+      "joiningType" : "dual",
+      "scalar" : 1610
+    }
+  ],
+  "postScriptName" : "NotoNastaliqUrdu-Regular"
+}

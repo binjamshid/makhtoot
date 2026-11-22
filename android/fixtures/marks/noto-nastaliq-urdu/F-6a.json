@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 16.02,
+      "relativeOffsetWidth" : 11.915999999999997
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -4.319999999999999,
+      "relativeOffsetWidth" : 30.779999999999998
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "noto-nastaliq-urdu",
+  "postScriptName" : "NotoNastaliqUrdu-Regular",
+  "sourceText" : "حِسّ"
+}

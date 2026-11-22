@@ -1,0 +1,11 @@
+{
+  "assetReferences" : [
+    {
+      "nodeID" : "DBEA43D9-4565-4B61-8778-2C6590AB0FBC",
+      "nodeKind" : "liveText"
+    }
+  ],
+  "fixtureName" : "fixture-arabic-basic",
+  "imageNodeCount" : 0,
+  "nodeCount" : 1
+}

@@ -1,0 +1,86 @@
+{
+  "corpusID" : "F-2",
+  "familyDir" : "Lemonada",
+  "familyID" : "lemonada",
+  "fontFile" : "Lemonada[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 48.42004394531249,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575,
+            1604,
+            1604,
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 4,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 23.50799560546875,
+      "glyphCount" : 1,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              56.16,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Lemonada-Light",
+          "glyphs" : [
+            567
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 56.16
+    }
+  ],
+  "note" : "Word-ligature candidate, multi-glyph cluster behavior",
+  "pointSize" : 36,
+  "postScriptName" : "Lemonada-Light",
+  "sourceText" : "الله"
+}

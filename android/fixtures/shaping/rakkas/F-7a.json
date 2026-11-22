@@ -1,0 +1,136 @@
+{
+  "corpusID" : "F-7a",
+  "familyDir" : "Rakkas",
+  "familyID" : "rakkas",
+  "fontFile" : "Rakkas-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 37.65618896484375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 1,
+          "utf16End" : 3,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 16.020263671875,
+      "glyphCount" : 3,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              15.983999999999998,
+              0
+            ],
+            [
+              21.924,
+              0.036
+            ],
+            [
+              15.552,
+              -0.036
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            true,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Rakkas-Regular",
+          "glyphs" : [
+            423,
+            497,
+            342
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              15.983999999999998,
+              0
+            ],
+            [
+              37.908,
+              0.036
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 53.459999999999994
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word",
+  "pointSize" : 36,
+  "postScriptName" : "Rakkas-Regular",
+  "sourceText" : "سلام"
+}

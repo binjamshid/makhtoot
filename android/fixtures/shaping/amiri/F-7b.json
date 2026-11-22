@@ -1,0 +1,239 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "Amiri",
+  "familyID" : "amiri",
+  "fontFile" : "Amiri-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 40.4637451171875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 22.8240966796875,
+      "glyphCount" : 7,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              16.272,
+              0
+            ],
+            [
+              16.055999999999997,
+              0
+            ],
+            [
+              8.819999999999999,
+              0
+            ],
+            [
+              20.447999999999997,
+              0
+            ],
+            [
+              12.239999999999998,
+              0
+            ],
+            [
+              10.872,
+              0
+            ],
+            [
+              7.811999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Amiri-Regular",
+          "glyphs" : [
+            85,
+            3080,
+            3075,
+            1919,
+            2517,
+            2513,
+            55
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              16.272,
+              0
+            ],
+            [
+              32.327999999999996,
+              0
+            ],
+            [
+              41.147999999999996,
+              0
+            ],
+            [
+              61.59599999999999,
+              0
+            ],
+            [
+              73.83599999999998,
+              0
+            ],
+            [
+              84.70799999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 92.51999999999998
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "Amiri-Regular",
+  "sourceText" : "الإسلام"
+}

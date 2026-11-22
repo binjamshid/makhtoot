@@ -1,0 +1,65 @@
+{
+  "scene": {
+    "background": {
+      "content": {
+        "solid": {
+          "_0": { "a": 1, "b": 1, "g": 1, "r": 1, "space": "srgb" }
+        }
+      },
+      "core": {
+        "id": "26F46178-ADD8-4742-BBCC-0F2CD55FE14E",
+        "isHidden": false,
+        "isLocked": false,
+        "name": "الخلفية",
+        "opacity": 1,
+        "style": { "fill": { "none": {} } },
+        "transform": { "position": [0, 0], "rotation": 0, "scale": [1, 1] },
+        "zOrder": 0
+      }
+    },
+    "canvas": {
+      "size": [1080, 1080]
+    },
+    "nodes": [
+      {
+        "kind": "liveText",
+        "payload": {
+          "core": {
+            "id": "97BCE233-D676-4664-9EDD-B7E58FCD168B",
+            "isHidden": false,
+            "isLocked": false,
+            "name": "نص",
+            "opacity": 1,
+            "style": {
+              "fill": {
+                "solid": {
+                  "_0": { "a": 1, "b": 0.086, "g": 0.098, "r": 0.114, "space": "srgb" }
+                }
+              }
+            },
+            "transform": { "position": [410, 410], "rotation": 0, "scale": [1, 1] },
+            "zOrder": 0
+          },
+          "frame": { "singleLine": {} },
+          "style": {
+            "baseDirection": "rightToLeft",
+            "baselineShift": 0,
+            "font": { "fontID": "amiri", "postScriptName": "Amiri-Regular", "userImported": false },
+            "isBold": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "isUnderline": false,
+            "kerningOverrides": [],
+            "ligatureSetting": "standard",
+            "lineHeightMultiple": 1.2,
+            "pointSize": 216,
+            "tracking": 0
+          },
+          "text": { "string": "مُحَمَّدٌ", "styleRuns": [] }
+        }
+      }
+    ],
+    "schemaVersion": 1
+  },
+  "schemaVersion": 1
+}

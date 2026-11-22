@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 0.298828125,
+      "relativeOffsetWidth" : -4.166015625
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -5.80078125,
+      "relativeOffsetWidth" : -4.7109375
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "ibm-plex-mono",
+  "postScriptName" : "IBMPlexMono-Regular",
+  "sourceText" : "حِسّ"
+}

@@ -1,0 +1,86 @@
+{
+  "corpusID" : "F-2",
+  "familyDir" : "Vazirmatn",
+  "familyID" : "vazirmatn",
+  "fontFile" : "Vazirmatn[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 36.9140625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575,
+            1604,
+            1604,
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 4,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 19.3359375,
+      "glyphCount" : 1,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              43.171875,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Vazirmatn-Regular_Thin",
+          "glyphs" : [
+            1142
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 43.171875
+    }
+  ],
+  "note" : "Word-ligature candidate, multi-glyph cluster behavior",
+  "pointSize" : 36,
+  "postScriptName" : "Vazirmatn-Regular_Thin",
+  "sourceText" : "الله"
+}

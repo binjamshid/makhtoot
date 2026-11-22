@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Zain-Regular",
+          "postScriptName" : "Zain-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Zain-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -39.104736328125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Zain-Regular",
+          "postScriptName" : "Zain-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Zain-Regular@36.0",
+        "glyphID" : 218
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.405,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -39.104736328125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "zain",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.831743186168758,
+  "postScriptName" : "Zain-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

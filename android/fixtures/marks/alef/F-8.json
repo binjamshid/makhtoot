@@ -1,0 +1,64 @@
+{
+  "attachments" : [
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 0,
+      "markGlyph" : {
+        "glyph" : 6,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 5,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 2,
+      "markGlyph" : {
+        "glyph" : 4,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 4,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 5,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      }
+    },
+    {
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 6,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      }
+    }
+  ],
+  "caseID" : "F-8",
+  "familyID" : "alef",
+  "postScriptName" : "Alef-Regular",
+  "sourceText" : "ًٌٍَُِّْ"
+}

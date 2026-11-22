@@ -1,0 +1,84 @@
+{
+  "corpusID" : "F-1",
+  "familyDir" : "Vazirmatn",
+  "familyID" : "vazirmatn",
+  "fontFile" : "Vazirmatn[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 36.9140625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 2,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 19.3359375,
+      "glyphCount" : 1,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              19.40625,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Vazirmatn-Regular_Thin",
+          "glyphs" : [
+            1301
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 2,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 2,
+      "sourceRangeStart" : 0,
+      "width" : 19.40625
+    }
+  ],
+  "note" : "Mandatory lam-alif ligature, isolated",
+  "pointSize" : 36,
+  "postScriptName" : "Vazirmatn-Regular_Thin",
+  "sourceText" : "لا"
+}

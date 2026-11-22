@@ -1,0 +1,254 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "Mada",
+  "familyID" : "mada",
+  "fontFile" : "Mada[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 34.19989013671875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            },
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 12.600219726562498,
+      "glyphCount" : 8,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              20.052,
+              0
+            ],
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              4.3919999999999995,
+              0
+            ],
+            [
+              23.003999999999998,
+              -3.5999999999999996
+            ],
+            [
+              -0.144,
+              3.5999999999999996
+            ],
+            [
+              7.199999999999999,
+              0
+            ],
+            [
+              5.832,
+              0
+            ],
+            [
+              6.911999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Mada-Regular_ExtraLight",
+          "glyphs" : [
+            467,
+            414,
+            464,
+            432,
+            873,
+            414,
+            466,
+            412
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              20.052,
+              0
+            ],
+            [
+              27.252,
+              0
+            ],
+            [
+              31.644,
+              0
+            ],
+            [
+              54.647999999999996,
+              -3.5999999999999996
+            ],
+            [
+              54.504,
+              0
+            ],
+            [
+              61.70399999999999,
+              0
+            ],
+            [
+              67.53599999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            5,
+            4,
+            3,
+            2,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 74.448
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "Mada-Regular_ExtraLight",
+  "sourceText" : "الإسلام"
+}

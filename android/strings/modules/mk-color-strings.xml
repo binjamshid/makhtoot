@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_color_icc_disclosure_bundled">تم استخدام ملف تعريف الألوان \"%1$s\" لتحويل الألوان إلى CMYK للطباعة</string>
+    <string name="mk_color_icc_disclosure_generic">تم استخدام ملف تعريف الألوان الافتراضي من نظام التشغيل (Generic CMYK)؛ قد تختلف الألوان المطبوعة عن ألوان الشاشة</string>
+</resources>

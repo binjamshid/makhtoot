@@ -1,0 +1,578 @@
+{
+  "sourceLanguage": "ar",
+  "strings": {
+    "أبعاد مخصصة": {
+      "comment": "New-project sheet: premium-gated custom canvas dimensions (Latin gloss: custom dimensions)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أبعاد مخصصة"
+          }
+        }
+      }
+    },
+    "أدخل العرض والارتفاع بدقة": {
+      "comment": "Custom-dimensions subtitle for premium users (Latin gloss: enter exact width and height)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أدخل العرض والارتفاع بدقة"
+          }
+        }
+      }
+    },
+    "إعادة تسمية": {
+      "comment": "Project context-menu action (Latin gloss: rename)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة تسمية"
+          }
+        }
+      }
+    },
+    "إعادة تسمية المشروع": {
+      "comment": "Rename-project prompt title (Latin gloss: rename project)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة تسمية المشروع"
+          }
+        }
+      }
+    },
+    "إغلاق": {
+      "comment": "Close button (settings sheet, paywall) (Latin gloss: close)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إغلاق"
+          }
+        }
+      }
+    },
+    "إلغاء": {
+      "comment": "Cancel button (delete-confirmation dialog) (Latin gloss: cancel)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إلغاء"
+          }
+        }
+      }
+    },
+    "إنشاء": {
+      "comment": "Create action (new folder prompt / custom canvas size)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنشاء"
+          }
+        }
+      }
+    },
+    "ابدأ أول تصميم لك": {
+      "comment": "Project browser empty-state title (Latin gloss: start your first design)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ابدأ أول تصميم لك"
+          }
+        }
+      }
+    },
+    "ابدأ التصميم": {
+      "comment": "Onboarding primary CTA — always skips to the browser without purchase (Latin gloss: start designing)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ابدأ التصميم"
+          }
+        }
+      }
+    },
+    "اسم المجلد": {
+      "comment": "New-folder prompt text field placeholder (Latin gloss: folder name)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسم المجلد"
+          }
+        }
+      }
+    },
+    "اسم المشروع": {
+      "comment": "Rename-project prompt text field placeholder (Latin gloss: project name)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسم المشروع"
+          }
+        }
+      }
+    },
+    "الإعدادات": {
+      "comment": "Settings screen title / sidebar item (Latin gloss: settings)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإعدادات"
+          }
+        }
+      }
+    },
+    "الارتفاع": {
+      "comment": "Custom canvas height field label (Latin gloss: height)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الارتفاع"
+          }
+        }
+      }
+    },
+    "الاشتراك": {
+      "comment": "Settings row title (Latin gloss: subscription)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاشتراك"
+          }
+        }
+      }
+    },
+    "الباقات المميزة": {
+      "comment": "Paywall placeholder title (Latin gloss: premium plans)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الباقات المميزة"
+          }
+        }
+      }
+    },
+    "البحث في المشاريع": {
+      "comment": "Browser search field prompt (Latin gloss: search projects)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "البحث في المشاريع"
+          }
+        }
+      }
+    },
+    "التراخيص": {
+      "comment": "Settings row title — Q66 licensing route (Latin gloss: licensing)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التراخيص"
+          }
+        }
+      }
+    },
+    "الدعم": {
+      "comment": "Settings row title (Latin gloss: support)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الدعم"
+          }
+        }
+      }
+    },
+    "العرض": {
+      "comment": "Custom canvas width field label (Latin gloss: width)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "العرض"
+          }
+        }
+      }
+    },
+    "الكل": {
+      "comment": "Folder chip for the unscoped \"every project\" view (Latin gloss: all)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الكل"
+          }
+        }
+      }
+    },
+    "المحرر": {
+      "comment": "Editor scene navigation title (Latin gloss: editor)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المحرر"
+          }
+        }
+      }
+    },
+    "المشاريع": {
+      "comment": "Project browser navigation title / sidebar item (Latin gloss: projects)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المشاريع"
+          }
+        }
+      }
+    },
+    "بطاقة طباعة A5": {
+      "comment": "New-project canvas preset: A5-ratio print card, 1240×1754 (Latin gloss: A5 print card)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بطاقة طباعة A5"
+          }
+        }
+      }
+    },
+    "بلا مجلد": {
+      "comment": "Move-to-folder menu option for the root/no-folder destination (Latin gloss: no folder)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بلا مجلد"
+          }
+        }
+      }
+    },
+    "تكرار": {
+      "comment": "Project context-menu action (Latin gloss: duplicate)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تكرار"
+          }
+        }
+      }
+    },
+    "تم": {
+      "comment": "Done button (editor placeholder toolbar) (Latin gloss: done)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم"
+          }
+        }
+      }
+    },
+    "توليد ٥٠٠ مشروع تجريبي": {
+      "comment": "DEBUG-only Settings action: seeds 500 fixture projects for the T17 browser-scroll perf gate (Latin gloss: seed 500 fixture projects)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توليد ٥٠٠ مشروع تجريبي"
+          }
+        }
+      }
+    },
+    "حالة رسائل": {
+      "comment": "New-project canvas preset: messaging status, 1080×1920 (Latin gloss: messaging status)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حالة رسائل"
+          }
+        }
+      }
+    },
+    "حبر ورق": {
+      "comment": "Baseline theme name (Latin gloss: Ink & Paper)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حبر ورق"
+          }
+        }
+      }
+    },
+    "حذف": {
+      "comment": "Delete action — context-menu row and confirmation-dialog button (Latin gloss: delete)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف"
+          }
+        }
+      }
+    },
+    "حذف المجلد؟": {
+      "comment": "Delete-folder confirmation dialog title (Latin gloss: delete the folder?)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف المجلد؟"
+          }
+        }
+      }
+    },
+    "حذف المشروع؟": {
+      "comment": "Delete-confirmation dialog title (Latin gloss: delete the project?)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف المشروع؟"
+          }
+        }
+      }
+    },
+    "حفظ": {
+      "comment": "Save action (rename prompt)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حفظ"
+          }
+        }
+      }
+    },
+    "خلفية هاتف": {
+      "comment": "New-project canvas preset: phone wallpaper, 1080×2340 (Latin gloss: phone wallpaper)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خلفية هاتف"
+          }
+        }
+      }
+    },
+    "ستوري ٩:١٦": {
+      "comment": "New-project canvas preset: story 9:16, 1080×1920 (Latin gloss: story 9:16)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستوري ٩:١٦"
+          }
+        }
+      }
+    },
+    "سجل التصدير": {
+      "comment": "Project context-menu action + export-history sheet title (Latin gloss: export history)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سجل التصدير"
+          }
+        }
+      }
+    },
+    "سيُحذف المجلد، وستنتقل مشاريعه إلى (الكل)": {
+      "comment": "Delete-folder confirmation message — projects move to \"all\", never deleted with the folder (Latin gloss: the folder will be deleted; its projects will move to \"all\")",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سيُحذف المجلد، وستنتقل مشاريعه إلى (الكل)"
+          }
+        }
+      }
+    },
+    "سيُحذف المشروع نهائيًا من هذا الجهاز": {
+      "comment": "Delete-confirmation dialog message — WS-13 packet §5 T7 exact copy (Latin gloss: the project will be permanently deleted from this device)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سيُحذف المشروع نهائيًا من هذا الجهاز"
+          }
+        }
+      }
+    },
+    "عرض الباقات": {
+      "comment": "Onboarding secondary link opening the paywall placeholder (Latin gloss: view plans)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عرض الباقات"
+          }
+        }
+      }
+    },
+    "غير متاح على هذا الجهاز": {
+      "comment": "Orphaned-project label — package missing on disk, record still indexed (Latin gloss: not available on this device)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غير متاح على هذا الجهاز"
+          }
+        }
+      }
+    },
+    "فتح": {
+      "comment": "Project context-menu action (Latin gloss: open)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح"
+          }
+        }
+      }
+    },
+    "لا توجد نتائج": {
+      "comment": "Search empty-state title (Latin gloss: no results)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا توجد نتائج"
+          }
+        }
+      }
+    },
+    "لم يتم تصدير هذا المشروع بعد": {
+      "comment": "Export-history sheet empty state (Latin gloss: no exports have been made from this project yet)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يتم تصدير هذا المشروع بعد"
+          }
+        }
+      }
+    },
+    "مجلد جديد": {
+      "comment": "New-folder prompt title (Latin gloss: new folder)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجلد جديد"
+          }
+        }
+      }
+    },
+    "مجلد جديد +": {
+      "comment": "Trailing chip that opens the new-folder prompt (Latin gloss: new folder +)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجلد جديد +"
+          }
+        }
+      }
+    },
+    "مخطوط": {
+      "comment": "App name (Latin gloss: Makhtoot)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مخطوط"
+          }
+        }
+      }
+    },
+    "مربع ١:١": {
+      "comment": "New-project canvas preset: square 1:1, 1080×1080 (Latin gloss: square 1:1)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مربع ١:١"
+          }
+        }
+      }
+    },
+    "مشروع جديد": {
+      "comment": "New-project toolbar button / empty-state CTA (Latin gloss: new project)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مشروع جديد"
+          }
+        }
+      }
+    },
+    "معرض عناصر التصميم": {
+      "comment": "Debug-only gallery screen title/link (Latin gloss: design elements gallery)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "معرض عناصر التصميم"
+          }
+        }
+      }
+    },
+    "منشور ٤:٥": {
+      "comment": "New-project canvas preset: post 4:5, 1080×1350 (Latin gloss: post 4:5)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منشور ٤:٥"
+          }
+        }
+      }
+    },
+    "ميزة مميزة": {
+      "comment": "Custom-dimensions subtitle for free-tier users, routes to paywall on tap (Latin gloss: premium feature)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ميزة مميزة"
+          }
+        }
+      }
+    },
+    "نقل إلى مجلد": {
+      "comment": "Project context-menu action (Latin gloss: move to folder)",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقل إلى مجلد"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

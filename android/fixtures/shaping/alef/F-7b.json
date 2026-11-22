@@ -1,0 +1,189 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "Alef",
+  "familyID" : "alef",
+  "fontFile" : "Alef-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 32.2239990234375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604,
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 1,
+          "utf16End" : 3,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 3,
+          "utf16End" : 6,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 11.91302490234375,
+      "glyphCount" : 5,
+      "leading" : 4.88232421875,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              14.64737793851718,
+              0
+            ],
+            [
+              21.027124773960217,
+              0
+            ],
+            [
+              26.593128390596746,
+              0
+            ],
+            [
+              18.911392405063292,
+              0
+            ],
+            [
+              10.52983725135624,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "GeezaPro",
+          "glyphs" : [
+            344,
+            219,
+            277,
+            216,
+            240
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              14.64737793851718,
+              0
+            ],
+            [
+              35.6745027124774,
+              0
+            ],
+            [
+              62.267631103074145,
+              0
+            ],
+            [
+              81.17902350813743,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            4,
+            3,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 91.70886075949369
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "Alef-Regular",
+  "sourceText" : "الإسلام"
+}

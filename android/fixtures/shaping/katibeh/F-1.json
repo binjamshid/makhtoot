@@ -1,0 +1,84 @@
+{
+  "corpusID" : "F-1",
+  "familyDir" : "Katibeh",
+  "familyID" : "katibeh",
+  "fontFile" : "Katibeh-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 17.64019775390625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 2,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 18.35980224609375,
+      "glyphCount" : 1,
+      "leading" : 7.199890136718749,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              18.323999999999998,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Katibeh-Regular",
+          "glyphs" : [
+            759
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 2,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 2,
+      "sourceRangeStart" : 0,
+      "width" : 18.323999999999998
+    }
+  ],
+  "note" : "Mandatory lam-alif ligature, isolated",
+  "pointSize" : 36,
+  "postScriptName" : "Katibeh-Regular",
+  "sourceText" : "لا"
+}

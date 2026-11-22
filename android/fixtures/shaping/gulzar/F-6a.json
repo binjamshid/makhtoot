@@ -1,0 +1,161 @@
+{
+  "corpusID" : "F-6a",
+  "familyDir" : "Gulzar",
+  "familyID" : "gulzar",
+  "fontFile" : "Gulzar-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 53.99999999999999,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 4,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1616
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        }
+      ],
+      "descent" : 43.19989013671875,
+      "glyphCount" : 4,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -24.119999999999997,
+              -14.399999999999999
+            ],
+            [
+              35.99999999999999,
+              16.523999999999997
+            ],
+            [
+              -2.1599999999999997,
+              2.8800000000000026
+            ],
+            [
+              18.035999999999998,
+              -19.404
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            true,
+            false,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Gulzar-Regular",
+          "glyphs" : [
+            606,
+            610,
+            445,
+            366
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              24.119999999999997,
+              14.399999999999999
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              35.99999999999999,
+              16.523999999999997
+            ],
+            [
+              33.839999999999996,
+              19.404
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 4,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 4,
+      "sourceRangeStart" : 0,
+      "width" : 51.87599999999999
+    }
+  ],
+  "note" : "Shadda + kasra ordering, multiple marks on one base",
+  "pointSize" : 36,
+  "postScriptName" : "Gulzar-Regular",
+  "sourceText" : "حِسّ"
+}

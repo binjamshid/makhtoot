@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -5.292,
+      "relativeOffsetWidth" : 5.9985
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "readex-pro",
+  "postScriptName" : "ReadexPro-ExtraLight",
+  "sourceText" : "محمّد"
+}

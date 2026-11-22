@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.BalooBhaijaan2-Regular",
+          "postScriptName" : "BalooBhaijaan2-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "BalooBhaijaan2-Regular@36.0",
+        "glyphID" : 933
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          9.216,
+          0
+        ],
+        "position" : [
+          0,
+          -38.88006591796875
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.BalooBhaijaan2-Regular",
+          "postScriptName" : "BalooBhaijaan2-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "BalooBhaijaan2-Regular@36.0",
+        "glyphID" : 805
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9,
+          0
+        ],
+        "position" : [
+          9.216,
+          -38.88006591796875
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "baloo-bhaijaan2",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7556390977443611,
+  "postScriptName" : "BalooBhaijaan2-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

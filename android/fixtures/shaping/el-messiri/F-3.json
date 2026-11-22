@@ -1,0 +1,187 @@
+{
+  "corpusID" : "F-3",
+  "familyDir" : "ElMessiri",
+  "familyID" : "el-messiri",
+  "fontFile" : "ElMessiri[wght].ttf",
+  "lines" : [
+    {
+      "ascent" : 36.68389892578125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 5,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        }
+      ],
+      "descent" : 19.584228515625,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              27.503999999999998,
+              -0.612
+            ],
+            [
+              -7.379999999999999,
+              0.612
+            ],
+            [
+              20.555999999999997,
+              0
+            ],
+            [
+              21.924,
+              0
+            ],
+            [
+              18.395999999999997,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ElMessiri-Regular",
+          "glyphs" : [
+            280,
+            632,
+            365,
+            273,
+            366
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              27.503999999999998,
+              -0.612
+            ],
+            [
+              20.124,
+              0
+            ],
+            [
+              40.67999999999999,
+              0
+            ],
+            [
+              62.60399999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 5,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 5,
+      "sourceRangeStart" : 0,
+      "width" : 80.99999999999999
+    }
+  ],
+  "note" : "Shadda on a medial base inside a joined word",
+  "pointSize" : 36,
+  "postScriptName" : "ElMessiri-Regular",
+  "sourceText" : "محمّد"
+}

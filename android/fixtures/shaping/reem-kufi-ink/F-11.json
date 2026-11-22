@@ -1,0 +1,1207 @@
+{
+  "corpusID" : "F-11",
+  "familyDir" : "ReemKufiInk",
+  "familyID" : "reem-kufi-ink",
+  "fontFile" : "ReemKufiInk-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 39.6002197265625,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 35,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1571
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 49,
+              "run" : 0
+            },
+            {
+              "glyph" : 50,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1576
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 47,
+              "run" : 0
+            },
+            {
+              "glyph" : 48,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 45,
+              "run" : 0
+            },
+            {
+              "glyph" : 46,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 44,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 43,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1607
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 42,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 41,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1586
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 39,
+              "run" : 0
+            },
+            {
+              "glyph" : 40,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 38,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 8,
+          "utf16End" : 9,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 37,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 10,
+          "utf16Start" : 9
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 36,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 34,
+              "run" : 0
+            },
+            {
+              "glyph" : 35,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 33,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1603
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 32,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 31,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 14,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 30,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 15,
+          "utf16End" : 16,
+          "utf16Start" : 15
+        },
+        {
+          "codepoints" : [
+            1606
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 28,
+              "run" : 0
+            },
+            {
+              "glyph" : 29,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 16,
+          "utf16End" : 17,
+          "utf16Start" : 16
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 27,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 17,
+          "utf16End" : 18,
+          "utf16Start" : 17
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 26,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 18,
+          "utf16End" : 19,
+          "utf16Start" : 18
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 25,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 19,
+          "utf16End" : 20,
+          "utf16Start" : 19
+        },
+        {
+          "codepoints" : [
+            1601
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 23,
+              "run" : 0
+            },
+            {
+              "glyph" : 24,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 20,
+          "utf16End" : 21,
+          "utf16Start" : 20
+        },
+        {
+          "codepoints" : [
+            1589
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 22,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 21,
+          "utf16End" : 22,
+          "utf16Start" : 21
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 21,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 22,
+          "utf16End" : 23,
+          "utf16Start" : 22
+        },
+        {
+          "codepoints" : [
+            1602
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 19,
+              "run" : 0
+            },
+            {
+              "glyph" : 20,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 23,
+          "utf16End" : 24,
+          "utf16Start" : 23
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 18,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 24,
+          "utf16End" : 25,
+          "utf16Start" : 24
+        },
+        {
+          "codepoints" : [
+            1588
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 16,
+              "run" : 0
+            },
+            {
+              "glyph" : 17,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 25,
+          "utf16End" : 26,
+          "utf16Start" : 25
+        },
+        {
+          "codepoints" : [
+            1578
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 14,
+              "run" : 0
+            },
+            {
+              "glyph" : 15,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 26,
+          "utf16End" : 27,
+          "utf16Start" : 26
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 27,
+          "utf16End" : 28,
+          "utf16Start" : 27
+        },
+        {
+          "codepoints" : [
+            1579
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            },
+            {
+              "glyph" : 12,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 28,
+          "utf16End" : 29,
+          "utf16Start" : 28
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 0
+            },
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 29,
+          "utf16End" : 30,
+          "utf16Start" : 29
+        },
+        {
+          "codepoints" : [
+            1584
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            },
+            {
+              "glyph" : 8,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 30,
+          "utf16End" : 31,
+          "utf16Start" : 30
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 31,
+          "utf16End" : 32,
+          "utf16Start" : 31
+        },
+        {
+          "codepoints" : [
+            1590
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            },
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 32,
+          "utf16End" : 33,
+          "utf16Start" : 32
+        },
+        {
+          "codepoints" : [
+            1592
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            },
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 33,
+          "utf16End" : 34,
+          "utf16Start" : 33
+        },
+        {
+          "codepoints" : [
+            1594
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            },
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 34,
+          "utf16End" : 35,
+          "utf16Start" : 34
+        }
+      ],
+      "descent" : 14.399780273437498,
+      "glyphCount" : 51,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              -7.092,
+              -19.799999999999997
+            ],
+            [
+              32.291999999999994,
+              19.799999999999997
+            ],
+            [
+              -14.652,
+              -19.799999999999997
+            ],
+            [
+              51.192,
+              19.799999999999997
+            ],
+            [
+              -14.652,
+              -19.799999999999997
+            ],
+            [
+              33.839999999999996,
+              0
+            ],
+            [
+              18.252,
+              18
+            ],
+            [
+              -13.572,
+              -18
+            ],
+            [
+              37.152,
+              16.2
+            ],
+            [
+              -4.032,
+              -16.2
+            ],
+            [
+              8.387999999999998,
+              20.087999999999997
+            ],
+            [
+              16.272,
+              -20.087999999999997
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              14.219999999999999,
+              14.04
+            ],
+            [
+              -9.54,
+              -14.04
+            ],
+            [
+              40.5,
+              19.799999999999997
+            ],
+            [
+              -7.199999999999999,
+              -19.799999999999997
+            ],
+            [
+              22.5,
+              0
+            ],
+            [
+              14.579999999999998,
+              21.599999999999998
+            ],
+            [
+              -3.78,
+              -21.599999999999998
+            ],
+            [
+              15.299999999999999,
+              0
+            ],
+            [
+              4.68,
+              0
+            ],
+            [
+              51.73199999999999,
+              21.599999999999998
+            ],
+            [
+              -6.911999999999999,
+              -21.599999999999998
+            ],
+            [
+              18,
+              0
+            ],
+            [
+              16.56,
+              0
+            ],
+            [
+              22.5,
+              0
+            ],
+            [
+              10.872,
+              14.399999999999999
+            ],
+            [
+              -6.191999999999999,
+              -14.399999999999999
+            ],
+            [
+              17.639999999999997,
+              0
+            ],
+            [
+              17.639999999999997,
+              0
+            ],
+            [
+              10.799999999999999,
+              0
+            ],
+            [
+              33.3,
+              0
+            ],
+            [
+              8.1,
+              -10.799999999999999
+            ],
+            [
+              -3.42,
+              10.799999999999999
+            ],
+            [
+              24.479999999999997,
+              0
+            ],
+            [
+              36.54,
+              0
+            ],
+            [
+              24.659999999999997,
+              0
+            ],
+            [
+              7.991999999999999,
+              18
+            ],
+            [
+              -3.312,
+              -18
+            ],
+            [
+              8.1,
+              0
+            ],
+            [
+              14.399999999999999,
+              0
+            ],
+            [
+              15.084,
+              0
+            ],
+            [
+              4.68,
+              0
+            ],
+            [
+              39.672,
+              -5.3999999999999995
+            ],
+            [
+              -6.552,
+              5.3999999999999995
+            ],
+            [
+              17.243999999999996,
+              -3.5279999999999996
+            ],
+            [
+              7.4159999999999995,
+              3.5279999999999996
+            ],
+            [
+              -1.6199999999999999,
+              30.599999999999998
+            ],
+            [
+              1.6199999999999999,
+              -30.599999999999998
+            ],
+            [
+              7.919999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ReemKufiInk-Regular",
+          "glyphs" : [
+            649,
+            443,
+            649,
+            440,
+            649,
+            437,
+            1,
+            649,
+            427,
+            649,
+            424,
+            658,
+            413,
+            1,
+            655,
+            405,
+            658,
+            433,
+            429,
+            655,
+            451,
+            1,
+            435,
+            649,
+            450,
+            445,
+            433,
+            1,
+            649,
+            483,
+            479,
+            467,
+            462,
+            1,
+            656,
+            504,
+            440,
+            424,
+            1,
+            649,
+            428,
+            500,
+            493,
+            1,
+            427,
+            651,
+            424,
+            650,
+            413,
+            664,
+            397
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              7.092,
+              19.799999999999997
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              32.291999999999994,
+              19.799999999999997
+            ],
+            [
+              17.639999999999997,
+              0
+            ],
+            [
+              68.832,
+              19.799999999999997
+            ],
+            [
+              54.17999999999999,
+              0
+            ],
+            [
+              88.01999999999998,
+              0
+            ],
+            [
+              106.27199999999999,
+              18
+            ],
+            [
+              92.69999999999999,
+              0
+            ],
+            [
+              129.852,
+              16.2
+            ],
+            [
+              125.82,
+              0
+            ],
+            [
+              134.208,
+              20.087999999999997
+            ],
+            [
+              150.48,
+              0
+            ],
+            [
+              150.48,
+              0
+            ],
+            [
+              164.7,
+              14.04
+            ],
+            [
+              155.16,
+              0
+            ],
+            [
+              195.65999999999997,
+              19.799999999999997
+            ],
+            [
+              188.45999999999998,
+              0
+            ],
+            [
+              210.95999999999998,
+              0
+            ],
+            [
+              225.54,
+              21.599999999999998
+            ],
+            [
+              221.76,
+              0
+            ],
+            [
+              237.06,
+              0
+            ],
+            [
+              241.74,
+              0
+            ],
+            [
+              293.472,
+              21.599999999999998
+            ],
+            [
+              286.56,
+              0
+            ],
+            [
+              304.56,
+              0
+            ],
+            [
+              321.12,
+              0
+            ],
+            [
+              343.62,
+              0
+            ],
+            [
+              354.492,
+              14.399999999999999
+            ],
+            [
+              348.3,
+              0
+            ],
+            [
+              365.94,
+              0
+            ],
+            [
+              383.58,
+              0
+            ],
+            [
+              394.38,
+              0
+            ],
+            [
+              427.68,
+              0
+            ],
+            [
+              435.78000000000003,
+              -10.799999999999999
+            ],
+            [
+              432.36,
+              0
+            ],
+            [
+              456.84000000000003,
+              0
+            ],
+            [
+              493.38000000000005,
+              0
+            ],
+            [
+              518.0400000000001,
+              0
+            ],
+            [
+              526.032,
+              18
+            ],
+            [
+              522.72,
+              0
+            ],
+            [
+              530.82,
+              0
+            ],
+            [
+              545.22,
+              0
+            ],
+            [
+              560.304,
+              0
+            ],
+            [
+              564.9839999999999,
+              0
+            ],
+            [
+              604.656,
+              -5.3999999999999995
+            ],
+            [
+              598.1039999999999,
+              0
+            ],
+            [
+              615.3479999999998,
+              -3.5279999999999996
+            ],
+            [
+              622.7639999999999,
+              0
+            ],
+            [
+              621.1439999999999,
+              30.599999999999998
+            ],
+            [
+              622.7639999999999,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            34,
+            34,
+            33,
+            33,
+            32,
+            32,
+            31,
+            30,
+            30,
+            29,
+            29,
+            28,
+            28,
+            27,
+            26,
+            26,
+            25,
+            25,
+            24,
+            23,
+            23,
+            22,
+            21,
+            20,
+            20,
+            19,
+            18,
+            17,
+            16,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            11,
+            10,
+            9,
+            8,
+            7,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "stringRangeEnd" : 35,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 35,
+      "sourceRangeStart" : 0,
+      "width" : 630.6839999999999
+    }
+  ],
+  "note" : "Full-alphabet joining sweep",
+  "pointSize" : 36,
+  "postScriptName" : "ReemKufiInk-Regular",
+  "sourceText" : "أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ"
+}

@@ -1,0 +1,482 @@
+{
+  "corpusID" : "F-5",
+  "curvatureWarning" : false,
+  "familyID" : "noto-naskh-arabic",
+  "options" : {
+    "alignment" : "start",
+    "side" : "center",
+    "spacingMode" : "natural"
+  },
+  "overflow" : {
+    "continuedStraight" : false,
+    "isOverflowing" : false
+  },
+  "pathID" : "closed-circle",
+  "pathLength" : 2513.2165225676213,
+  "penEndArcLength" : 231.08399999999995,
+  "penStartArcLength" : 0,
+  "placements" : [
+    {
+      "address" : {
+        "glyph" : 6,
+        "run" : 5
+      },
+      "arcLength" : 6.384,
+      "clusterOrdinal" : 0,
+      "codepoints" : [
+        1605
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.9490749488558,
+        456.3866898825885
+      ],
+      "rotation" : 1.5867444949568739,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 5,
+        "run" : 5
+      },
+      "arcLength" : 18.424,
+      "clusterOrdinal" : 1,
+      "codepoints" : [
+        1585
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        849.5761137169171,
+        468.4193341952345
+      ],
+      "rotation" : 1.6168233123079885,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 4,
+        "run" : 5
+      },
+      "arcLength" : 32.983999999999995,
+      "clusterOrdinal" : 2,
+      "codepoints" : [
+        1581
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        848.6415975887426,
+        482.9496031910907
+      ],
+      "rotation" : 1.6532257972709905,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 2,
+        "run" : 5
+      },
+      "arcLength" : 40.628,
+      "clusterOrdinal" : 3,
+      "codepoints" : [
+        1576
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        847.9395596739564,
+        490.5600888311668
+      ],
+      "rotation" : 1.672338985267867,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 3,
+        "run" : 5
+      },
+      "arcLength" : 43.455999999999996,
+      "clusterOrdinal" : 3,
+      "codepoints" : [
+        1576
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        847.6428021332134,
+        493.3737788116652
+      ],
+      "rotation" : 1.6794150901287512,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 5
+      },
+      "arcLength" : 52.346,
+      "clusterOrdinal" : 4,
+      "codepoints" : [
+        1575
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        846.580936673797,
+        502.19974183324604
+      ],
+      "rotation" : 1.701649971927098,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 5
+      },
+      "arcLength" : 60.242,
+      "clusterOrdinal" : 5,
+      "codepoints" : [
+        32
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        845.4735445402885,
+        510.0167694497898
+      ],
+      "rotation" : 1.721398066474903,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 4
+      },
+      "arcLength" : 74.438,
+      "clusterOrdinal" : 6,
+      "codepoints" : [
+        72
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        843.0947375574904,
+        524.0125507291199
+      ],
+      "rotation" : 1.7569083543991624,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 4
+      },
+      "arcLength" : 93.02999999999999,
+      "clusterOrdinal" : 7,
+      "codepoints" : [
+        101
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        839.2310050333984,
+        542.1970235932357
+      ],
+      "rotation" : 1.8034041449053497,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 2,
+        "run" : 4
+      },
+      "arcLength" : 104.86,
+      "clusterOrdinal" : 8,
+      "codepoints" : [
+        108
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        836.334151986202,
+        553.666443526493
+      ],
+      "rotation" : 1.832983291721028,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 3,
+        "run" : 4
+      },
+      "arcLength" : 113.53999999999999,
+      "clusterOrdinal" : 9,
+      "codepoints" : [
+        108
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        833.9935372043619,
+        562.0248613923857
+      ],
+      "rotation" : 1.8546835432512254,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 4,
+        "run" : 4
+      },
+      "arcLength" : 125.958,
+      "clusterOrdinal" : 10,
+      "codepoints" : [
+        111
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        830.3309706452739,
+        573.8898246733208
+      ],
+      "rotation" : 1.8857240611476447,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 3
+      },
+      "arcLength" : 137.13,
+      "clusterOrdinal" : 11,
+      "codepoints" : [
+        32
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 1,
+      "position" : [
+        826.7226241563161,
+        584.4626687973804
+      ],
+      "rotation" : 1.9136468180074182,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 2
+      },
+      "arcLength" : 146.51,
+      "clusterOrdinal" : 12,
+      "codepoints" : [
+        1633
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        823.465984175827,
+        593.2592066600288
+      ],
+      "rotation" : 1.9370896088513148,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "arcLength" : 159.082,
+      "clusterOrdinal" : 13,
+      "codepoints" : [
+        1634
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        818.7795186015636,
+        604.9247177626249
+      ],
+      "rotation" : 1.9685084531050736,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 2,
+        "run" : 2
+      },
+      "arcLength" : 171.654,
+      "clusterOrdinal" : 14,
+      "codepoints" : [
+        1635
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        813.7289491693462,
+        616.4371656734165
+      ],
+      "rotation" : 1.9999273498602614,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 1
+      },
+      "arcLength" : 181.034,
+      "clusterOrdinal" : 15,
+      "codepoints" : [
+        32
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 2,
+      "position" : [
+        809.7264681197536,
+        624.9201933289341
+      ],
+      "rotation" : 2.023370299430322,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "arcLength" : 191.95399999999998,
+      "clusterOrdinal" : 16,
+      "codepoints" : [
+        49
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        804.817886206993,
+        634.6745262449147
+      ],
+      "rotation" : 2.050664488293226,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "arcLength" : 207.60599999999997,
+      "clusterOrdinal" : 17,
+      "codepoints" : [
+        50
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        797.3219934418746,
+        648.4142187808893
+      ],
+      "rotation" : 2.0897928621569837,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    },
+    {
+      "address" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "arcLength" : 223.25799999999995,
+      "clusterOrdinal" : 18,
+      "codepoints" : [
+        51
+      ],
+      "isMark" : false,
+      "occurrenceOrdinal" : 0,
+      "position" : [
+        789.2944721360593,
+        661.8498734573155
+      ],
+      "rotation" : 2.12892870027075,
+      "userOffset" : [
+        0,
+        0
+      ],
+      "userRotation" : 0
+    }
+  ],
+  "postScriptName" : "NotoNaskhArabic-Regular",
+  "sourceText" : "مرحبا Hello ١٢٣ 123"
+}

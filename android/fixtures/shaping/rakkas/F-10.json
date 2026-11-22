@@ -1,0 +1,422 @@
+{
+  "corpusID" : "F-10",
+  "familyDir" : "Rakkas",
+  "familyID" : "rakkas",
+  "fontFile" : "Rakkas-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 37.65618896484375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 15,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 13,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1582
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 12,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 11,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1608
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 10,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1591
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 9,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 8,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1593
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        },
+        {
+          "codepoints" : [
+            1585
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 7,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        },
+        {
+          "codepoints" : [
+            1576,
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 8,
+          "utf16End" : 10,
+          "utf16Start" : 8
+        },
+        {
+          "codepoints" : [
+            32
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 9,
+          "utf16End" : 11,
+          "utf16Start" : 10
+        },
+        {
+          "codepoints" : [
+            1580
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 10,
+          "utf16End" : 12,
+          "utf16Start" : 11
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 11,
+          "utf16End" : 13,
+          "utf16Start" : 12
+        },
+        {
+          "codepoints" : [
+            1610
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 12,
+          "utf16End" : 14,
+          "utf16Start" : 13
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 13,
+          "utf16End" : 15,
+          "utf16Start" : 14
+        }
+      ],
+      "descent" : 16.020263671875,
+      "glyphCount" : 14,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              18.216,
+              5.9399999999999995
+            ],
+            [
+              8.063999999999998,
+              0.8639999999999999
+            ],
+            [
+              11.052,
+              7.8839999999999995
+            ],
+            [
+              18.395999999999997,
+              -14.687999999999999
+            ],
+            [
+              6.119999999999999,
+              0
+            ],
+            [
+              22.284,
+              0
+            ],
+            [
+              16.056,
+              7.8839999999999995
+            ],
+            [
+              15.264,
+              -7.8839999999999995
+            ],
+            [
+              6.119999999999999,
+              0
+            ],
+            [
+              19.584,
+              0
+            ],
+            [
+              15.515999999999998,
+              8.568
+            ],
+            [
+              15.155999999999999,
+              0.8279999999999994
+            ],
+            [
+              13.139999999999999,
+              13.211999999999998
+            ],
+            [
+              13.031999999999998,
+              -22.607999999999997
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Rakkas-Regular",
+          "glyphs" : [
+            419,
+            471,
+            427,
+            303,
+            3,
+            511,
+            331,
+            379,
+            3,
+            368,
+            462,
+            370,
+            319,
+            430
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              18.216,
+              5.9399999999999995
+            ],
+            [
+              26.28,
+              6.803999999999999
+            ],
+            [
+              37.332,
+              14.687999999999999
+            ],
+            [
+              55.727999999999994,
+              0
+            ],
+            [
+              61.84799999999999,
+              0
+            ],
+            [
+              84.13199999999999,
+              0
+            ],
+            [
+              100.18799999999999,
+              7.8839999999999995
+            ],
+            [
+              115.45199999999998,
+              0
+            ],
+            [
+              121.57199999999999,
+              0
+            ],
+            [
+              141.15599999999998,
+              0
+            ],
+            [
+              156.67199999999997,
+              8.568
+            ],
+            [
+              171.82799999999997,
+              9.395999999999999
+            ],
+            [
+              184.96799999999996,
+              22.607999999999997
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            14,
+            13,
+            12,
+            11,
+            10,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 15,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 15,
+      "sourceRangeStart" : 0,
+      "width" : 198
+    }
+  ],
+  "note" : "Path-text fixture, three words",
+  "pointSize" : 36,
+  "postScriptName" : "Rakkas-Regular",
+  "sourceText" : "مخطوط عربي جميل"
+}

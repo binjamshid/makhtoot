@@ -1,0 +1,189 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "Blaka",
+  "familyID" : "blaka",
+  "fontFile" : "Blaka-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 33.55224609375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604,
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 1,
+          "utf16End" : 3,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 3,
+          "utf16End" : 6,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 8.46002197265625,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              16.74,
+              0
+            ],
+            [
+              14.328,
+              0
+            ],
+            [
+              22.392,
+              0
+            ],
+            [
+              21.528,
+              0
+            ],
+            [
+              7.8839999999999995,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Blaka-Regular",
+          "glyphs" : [
+            371,
+            422,
+            306,
+            425,
+            237
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              16.74,
+              0
+            ],
+            [
+              31.067999999999998,
+              0
+            ],
+            [
+              53.459999999999994,
+              0
+            ],
+            [
+              74.988,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            4,
+            3,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 82.872
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "Blaka-Regular",
+  "sourceText" : "الإسلام"
+}

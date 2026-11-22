@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -12.1640625,
+      "relativeOffsetWidth" : 2.689453125
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "harmattan",
+  "postScriptName" : "Harmattan-Regular",
+  "sourceText" : "محمّد"
+}

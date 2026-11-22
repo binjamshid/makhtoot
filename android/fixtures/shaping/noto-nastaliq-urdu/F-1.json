@@ -1,0 +1,124 @@
+{
+  "corpusID" : "F-1",
+  "familyDir" : "NotoNastaliqUrdu",
+  "familyID" : "noto-nastaliq-urdu",
+  "fontFile" : "NotoNastaliqUrdu-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 68.54425048828125,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            },
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        }
+      ],
+      "descent" : 21.45574951171875,
+      "glyphCount" : 3,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              10.691999999999998,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              7.379999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "NotoNastaliqUrdu-Regular",
+          "glyphs" : [
+            275,
+            966,
+            263
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              10.691999999999998,
+              0
+            ],
+            [
+              10.691999999999998,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            1,
+            0,
+            0
+          ],
+          "stringRangeEnd" : 2,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 2,
+      "sourceRangeStart" : 0,
+      "width" : 18.071999999999996
+    }
+  ],
+  "note" : "Mandatory lam-alif ligature, isolated",
+  "pointSize" : 36,
+  "postScriptName" : "NotoNastaliqUrdu-Regular",
+  "sourceText" : "لا"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  work item 1.1 (ANDROID_SPINE.md §2 D-318). Per-app locale pinned to
+  `ar` regardless of device locale — Arabic-only is the strategic bet
+  (CLAUDE.md), not a gap to close later. Referenced from
+  AndroidManifest.xml's android:localeConfig (API 33+); API 29-32 needs the
+  runtime equivalent, AppCompatDelegate.setApplicationLocales("ar"), which
+  Batch 7's app-shell agent calls at startup — not a manifest/resource
+  concern.
+
+  Per spine §17's declared cross-batch conflict: Agent 1.1 creates this file
+  in Batch 1; Agent 7.1 may take it over in Batch 7 only if app-shell
+  locale-picker wiring requires edits, and must declare that takeover in its
+  own packet's Owns list.
+-->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="ar" />
+</locale-config>

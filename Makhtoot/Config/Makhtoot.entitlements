@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- NOTE: Xcode's Signing & Capabilities editor rewrites this file and DELETES every
+	     comment in it whenever a capability is added or removed through its UI. If this file
+	     ever looks bare, the explanations were stripped, not deleted on purpose — restore them
+	     with `git checkout` or from the last commit that touched this file. The same reasoning
+	     is mirrored in APP_STORE_CHECKLIST.md, which survives those rewrites. -->
+
+	<!-- Universal links for shared .makhtoot projects and template links, so a link opens the
+	     document in Makhtoot instead of Safari.
+	     binjamshid.com is SHARED with masoon and mahdhar (portfolio namespace:
+	     binjamshid.com/<slug>/), so the single AASA at
+	     https://binjamshid.com/.well-known/apple-app-site-association must list all three
+	     appIDs with DISJOINT path components — /makhtoot/* for this one. That file is not
+	     deployed yet; until it is, this entitlement is inert. This is link routing only and
+	     introduces no server, no account and no network dependency for the app itself — the
+	     no-backend decision is untouched. -->
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:binjamshid.com</string>
+	</array>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>iCloud.net.binjamshid.makhtoot</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<!-- Arrange Mode is the memory-hungry case: a composition where every glyph, tashkeel mark
+	     and ligature component is an independently transformable object, rendered at export
+	     resolution on iPad. This raises the per-app ceiling on devices that support it and is a
+	     no-op elsewhere — a cap, not an allocation. It buys headroom; it does not excuse
+	     unbounded retention in MKCanvas/MKRender. -->
+	<key>com.apple.developer.kernel.increased-memory-limit</key>
+	<true/>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)net.binjamshid.makhtoot</string>
+	<!-- ⚠️ DO NOT ADD "font-enumeration" TO THIS ARRAY. It has been added twice and
+	     broken signing twice, with this exact error:
+	         Provisioning profile "iOS Team Provisioning Profile: net.binjamshid.makhtoot"
+	         doesn't match the entitlements file's value for the
+	         com.apple.developer.user-fonts entitlement.
+
+	     Verified against Xcode's own capability database
+	     (DVTPortal.framework/Resources/DVTPortalCachedPortalCapabilities.json): capability
+	     FONT_INSTALLATION ("Fonts") maps to profileKey com.apple.developer.user-fonts and
+	     defines EXACTLY TWO values —
+	         system-installation  ("Install Fonts")      install our fonts device-wide
+	         app-usage            ("Use Installed Fonts") use fonts other apps installed
+	     The string "font-enumeration" appears NOWHERE in that database. No profile can ever
+	     contain it, so it is a guaranteed mismatch. When Xcode reports "doesn't include the
+	     Font Enumeration capability" it is echoing this unknown string back as an invented
+	     capability name, not naming a real one.
+
+	     Font enumeration — listing the fonts the USER has installed — is a genuinely separate,
+	     request-gated entitlement with its own key, requested and awaiting Apple approval. Its
+	     key is absent from the capability database above precisely because request-gated
+	     entitlements are not published there. Take the exact key from Apple's approval mail and
+	     add it as its own <key>, never as a value in this array. Guessing it fails the archive
+	     the same way the healthkit .access key did in badan.
+
+	     Only system-installation is declared: that is what MKFontRegistry.installFontSystemWide
+	     needs. app-usage is self-serve and already granted on the App ID (the dev profile
+	     carries it) but no code reads another app's fonts yet — add it here the day something
+	     does, not before, so App Review is never asked to justify an unused entitlement. -->
+	<key>com.apple.developer.user-fonts</key>
+	<array>
+		<string>system-installation</string>
+	</array>
+</dict>
+</plist>

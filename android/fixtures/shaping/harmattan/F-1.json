@@ -1,0 +1,84 @@
+{
+  "corpusID" : "F-1",
+  "familyDir" : "Harmattan",
+  "familyID" : "harmattan",
+  "fontFile" : "Harmattan-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 38.07421875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1604,
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "ligature",
+          "ordinal" : 0,
+          "utf16End" : 2,
+          "utf16Start" : 0
+        }
+      ],
+      "descent" : 23.255859375,
+      "glyphCount" : 1,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              14.16796875,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Harmattan-Regular",
+          "glyphs" : [
+            981
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            0
+          ],
+          "stringRangeEnd" : 2,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 2,
+      "sourceRangeStart" : 0,
+      "width" : 14.16796875
+    }
+  ],
+  "note" : "Mandatory lam-alif ligature, isolated",
+  "pointSize" : 36,
+  "postScriptName" : "Harmattan-Regular",
+  "sourceText" : "لا"
+}

@@ -1,0 +1,187 @@
+{
+  "corpusID" : "F-3",
+  "familyDir" : "Rakkas",
+  "familyID" : "rakkas",
+  "fontFile" : "Rakkas-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 37.65618896484375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 5,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1581
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1583
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        }
+      ],
+      "descent" : 16.020263671875,
+      "glyphCount" : 5,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              23.616,
+              0.43199999999999994
+            ],
+            [
+              -4.643999999999999,
+              1.26
+            ],
+            [
+              11.052,
+              7.883999999999999
+            ],
+            [
+              13.139999999999999,
+              13.211999999999998
+            ],
+            [
+              13.031999999999998,
+              -22.787999999999997
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "Rakkas-Regular",
+          "glyphs" : [
+            325,
+            896,
+            427,
+            311,
+            430
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              23.616,
+              0.43199999999999994
+            ],
+            [
+              18.972,
+              1.692
+            ],
+            [
+              30.024,
+              9.575999999999999
+            ],
+            [
+              43.164,
+              22.787999999999997
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 5,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 5,
+      "sourceRangeStart" : 0,
+      "width" : 56.195999999999984
+    }
+  ],
+  "note" : "Shadda on a medial base inside a joined word",
+  "pointSize" : 36,
+  "postScriptName" : "Rakkas-Regular",
+  "sourceText" : "محمّد"
+}

@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 4,
+        "run" : 0
+      },
+      "markClass" : "quranicAnnotation",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 1.1159999999999999,
+      "relativeOffsetWidth" : -2.5199999999999996
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "quranicAnnotation",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -6.156,
+      "relativeOffsetWidth" : 0.28800000000000026
+    }
+  ],
+  "caseID" : "quranic-annotation-probe",
+  "familyID" : "noto-naskh-arabic",
+  "postScriptName" : "NotoNaskhArabic-Regular",
+  "sourceText" : "بۖبۭ"
+}

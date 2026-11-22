@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.ElMessiri-Regular",
+          "postScriptName" : "ElMessiri-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "ElMessiri-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -36.68389892578125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.ElMessiri-Regular",
+          "postScriptName" : "ElMessiri-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "ElMessiri-Regular@36.0",
+        "glyphID" : 225
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.819999999999999,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -36.68389892578125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "el-messiri",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7679649936459274,
+  "postScriptName" : "ElMessiri-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

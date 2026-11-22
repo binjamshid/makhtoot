@@ -1,0 +1,917 @@
+{
+  "_meta": {
+    "source": [
+      "MakhtootKit/Sources/MKDesignSystem/MKTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/MKTypeRamp.swift",
+      "MakhtootKit/Sources/MKDesignSystem/MKSpacing.swift",
+      "MakhtootKit/Sources/MKDesignSystem/MKMotion.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/HibrTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/KufiTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/NaqshTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/RamlTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/TayfTheme.swift",
+      "MakhtootKit/Sources/MKDesignSystem/Themes/MKThemeColorHelpers.swift"
+    ],
+    "note": "Staging output for Batch 2.4 (mk-designsystem tokens, D-317). Each of the 5 theme objects below (hibr/kufi/naqsh/raml/tayf) mirrors the MKTheme Swift protocol shape 1:1: colors, fonts, typeRamp, spacing, radii, elevation, motion. Colors are packed #RRGGBB hex, matching Color(hex:) in MKThemeColorHelpers.swift; a {ref: <role>} value means the Swift property is a computed passthrough to another semantic role on the SAME theme (e.g. Kufi secondary returns primary), not an independent color -- resolve within the same theme object. primaryPressed values are computed via Color.darkened(hex:, by: 0.12) = each RGB channel * 0.88 rounded to nearest int; there is no literal Swift hex constant for these, they are recomputed here to the same precision. spacing and motion are byte-identical across all 5 themes because every Swift theme conformer's `spacing`/`motion` property resolves to `.default` (MKSpacing.default / MKMotionTokens.default) -- duplicated per theme here intentionally so Batch 2.4 can consume one theme object without cross-referencing another. typeRamp role sizes (pointSize/lineHeightMultiplier/weight) are also theme-independent per MKTypeRamp.swift; only the resolved `face` (font PostScript name) differs per theme, via fonts.<faceRole>.",
+    "themeIdOrder": [
+      "hibr",
+      "kufi",
+      "naqsh",
+      "raml",
+      "tayf"
+    ]
+  },
+  "hibr": {
+    "displayName": "حِبر",
+    "colors": {
+      "bg": {
+        "light": "#F3EAD8",
+        "dark": "#16120C"
+      },
+      "bgAlt": {
+        "light": "#EFE4CF",
+        "dark": "#0F0C08"
+      },
+      "surface": {
+        "light": "#FBF5E7",
+        "dark": "#211A11"
+      },
+      "surfaceMuted": {
+        "light": "#E5D8BF",
+        "dark": "#221B11"
+      },
+      "border": {
+        "light": "#E6D9BF",
+        "dark": "#2E2415"
+      },
+      "ink": {
+        "light": "#1C1712",
+        "dark": "#EFE3CC"
+      },
+      "inkMuted": {
+        "light": "#6B5A44",
+        "dark": "#9A8A68"
+      },
+      "inkFaint": {
+        "light": "#9A8F78",
+        "dark": "#7A6C50"
+      },
+      "primary": {
+        "light": "#8A3324",
+        "dark": "#C89A56"
+      },
+      "primaryPressed": {
+        "light": "#792D20",
+        "dark": "#B0884C"
+      },
+      "onPrimary": {
+        "light": "#F1E7D3",
+        "dark": "#16120C"
+      },
+      "secondary": {
+        "light": "#B4894C",
+        "dark": "#B5462F"
+      },
+      "canvasBackdrop": {
+        "light": "#14110C",
+        "dark": "#FBF5E7"
+      },
+      "selectionStroke": {
+        "ref": "primary"
+      },
+      "warning": {
+        "light": "#C08A2E",
+        "dark": "#D9A94F"
+      },
+      "destructive": {
+        "light": "#B3261E",
+        "dark": "#E05C51"
+      }
+    },
+    "fonts": {
+      "display": "ArefRuqaa-Bold",
+      "ui": "IBMPlexSansArabic-Regular",
+      "accent": "Amiri-Regular",
+      "mono": "IBMPlexMono-Regular"
+    },
+    "typeRamp": {
+      "display": {
+        "face": "ArefRuqaa-Bold",
+        "faceRole": "display",
+        "pointSize": 74,
+        "lineHeightMultiplier": 1.2,
+        "weight": "bold"
+      },
+      "largeTitle": {
+        "face": "ArefRuqaa-Bold",
+        "faceRole": "display",
+        "pointSize": 34,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 28,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title2": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 22,
+        "lineHeightMultiplier": 1.3,
+        "weight": "semibold"
+      },
+      "headline": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "semibold"
+      },
+      "body": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "callout": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 16,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "footnote": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 13,
+        "lineHeightMultiplier": 1.4,
+        "weight": "regular"
+      },
+      "caption": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 11,
+        "lineHeightMultiplier": 1.4,
+        "weight": "medium"
+      },
+      "mono": {
+        "face": "IBMPlexMono-Regular",
+        "faceRole": "mono",
+        "pointSize": 10,
+        "lineHeightMultiplier": 1.3,
+        "weight": "regular"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "xxl": 32,
+      "xxxl": 48
+    },
+    "radii": {
+      "button": 11,
+      "card": 14,
+      "sheet": 18,
+      "pill": 999,
+      "style": "continuous"
+    },
+    "elevation": {
+      "panel": {
+        "radius": 12,
+        "yOffset": 4,
+        "opacity": 0.1
+      },
+      "floatingBar": {
+        "radius": 8,
+        "yOffset": 2,
+        "opacity": 0.16
+      }
+    },
+    "motion": {
+      "fastDuration": 0.15,
+      "standardDuration": 0.25,
+      "modalDuration": 0.35,
+      "curve": "easeInOut",
+      "reducesMotion": false
+    }
+  },
+  "kufi": {
+    "displayName": "كوفي",
+    "colors": {
+      "bg": {
+        "light": "#FFFFFF",
+        "dark": "#0A0A0A"
+      },
+      "bgAlt": {
+        "ref": "surface"
+      },
+      "surface": {
+        "light": "#F2F2EF",
+        "dark": "#161616"
+      },
+      "surfaceMuted": {
+        "ref": "surface"
+      },
+      "border": {
+        "light": "#0A0A0A",
+        "dark": "#FFFFFF"
+      },
+      "ink": {
+        "light": "#0A0A0A",
+        "dark": "#FFFFFF"
+      },
+      "inkMuted": {
+        "light": "#6E6E6E",
+        "dark": "#8A8A8A"
+      },
+      "inkFaint": {
+        "ref": "inkMuted"
+      },
+      "primary": {
+        "light": "#E23B2E",
+        "dark": "#FF5445"
+      },
+      "primaryPressed": {
+        "light": "#C73428",
+        "dark": "#E04A3D"
+      },
+      "onPrimary": {
+        "light": "#FFFFFF",
+        "dark": "#FFFFFF"
+      },
+      "secondary": {
+        "ref": "primary"
+      },
+      "canvasBackdrop": {
+        "light": "#0A0A0A",
+        "dark": "#F2F2EF"
+      },
+      "selectionStroke": {
+        "ref": "primary"
+      },
+      "warning": {
+        "light": "#C08A2E",
+        "dark": "#D9A94F"
+      },
+      "destructive": {
+        "ref": "primary"
+      }
+    },
+    "fonts": {
+      "display": "ReemKufi",
+      "ui": "ReemKufi",
+      "accent": null,
+      "mono": "IBMPlexMono-Regular"
+    },
+    "typeRamp": {
+      "display": {
+        "face": "ReemKufi",
+        "faceRole": "display",
+        "pointSize": 74,
+        "lineHeightMultiplier": 1.2,
+        "weight": "bold"
+      },
+      "largeTitle": {
+        "face": "ReemKufi",
+        "faceRole": "display",
+        "pointSize": 34,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 28,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title2": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 22,
+        "lineHeightMultiplier": 1.3,
+        "weight": "semibold"
+      },
+      "headline": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "semibold"
+      },
+      "body": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "callout": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 16,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "footnote": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 13,
+        "lineHeightMultiplier": 1.4,
+        "weight": "regular"
+      },
+      "caption": {
+        "face": "ReemKufi",
+        "faceRole": "ui",
+        "pointSize": 11,
+        "lineHeightMultiplier": 1.4,
+        "weight": "medium"
+      },
+      "mono": {
+        "face": "IBMPlexMono-Regular",
+        "faceRole": "mono",
+        "pointSize": 10,
+        "lineHeightMultiplier": 1.3,
+        "weight": "regular"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "xxl": 32,
+      "xxxl": 48
+    },
+    "radii": {
+      "button": 0,
+      "card": 0,
+      "sheet": 0,
+      "pill": 0,
+      "style": "circular"
+    },
+    "elevation": {
+      "panel": {
+        "radius": 0,
+        "yOffset": 0,
+        "opacity": 0
+      },
+      "floatingBar": {
+        "radius": 0,
+        "yOffset": 0,
+        "opacity": 0
+      }
+    },
+    "motion": {
+      "fastDuration": 0.15,
+      "standardDuration": 0.25,
+      "modalDuration": 0.35,
+      "curve": "easeInOut",
+      "reducesMotion": false
+    }
+  },
+  "naqsh": {
+    "displayName": "نَقش",
+    "colors": {
+      "bg": {
+        "light": "#FBFAF6",
+        "dark": "#0C0C0E"
+      },
+      "bgAlt": {
+        "light": "#F1EFE8",
+        "dark": "#000000"
+      },
+      "surface": {
+        "light": "#FFFFFF",
+        "dark": "#17171A"
+      },
+      "surfaceMuted": {
+        "ref": "surface"
+      },
+      "border": {
+        "light": "#E3E1D8",
+        "dark": "#232327"
+      },
+      "ink": {
+        "light": "#17171A",
+        "dark": "#F4F3EF"
+      },
+      "inkMuted": {
+        "light": "#8A8A8F",
+        "dark": "#8A8A8F"
+      },
+      "inkFaint": {
+        "ref": "inkMuted"
+      },
+      "primary": {
+        "light": "#B07E2E",
+        "dark": "#E0A64B"
+      },
+      "primaryPressed": {
+        "light": "#9B6F28",
+        "dark": "#C59242"
+      },
+      "onPrimary": {
+        "light": "#FFFFFF",
+        "dark": "#0C0C0E"
+      },
+      "secondary": {
+        "ref": "primary"
+      },
+      "canvasBackdrop": {
+        "light": "#17171A",
+        "dark": "#FFFFFF"
+      },
+      "selectionStroke": {
+        "ref": "primary"
+      },
+      "warning": {
+        "light": "#C08A2E",
+        "dark": "#D9A94F"
+      },
+      "destructive": {
+        "light": "#B3261E",
+        "dark": "#E05C51"
+      }
+    },
+    "fonts": {
+      "display": "ReemKufi",
+      "ui": "IBMPlexSansArabic-Regular",
+      "accent": null,
+      "mono": "IBMPlexMono-Regular"
+    },
+    "typeRamp": {
+      "display": {
+        "face": "ReemKufi",
+        "faceRole": "display",
+        "pointSize": 74,
+        "lineHeightMultiplier": 1.2,
+        "weight": "bold"
+      },
+      "largeTitle": {
+        "face": "ReemKufi",
+        "faceRole": "display",
+        "pointSize": 34,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 28,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title2": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 22,
+        "lineHeightMultiplier": 1.3,
+        "weight": "semibold"
+      },
+      "headline": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "semibold"
+      },
+      "body": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "callout": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 16,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "footnote": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 13,
+        "lineHeightMultiplier": 1.4,
+        "weight": "regular"
+      },
+      "caption": {
+        "face": "IBMPlexSansArabic-Regular",
+        "faceRole": "ui",
+        "pointSize": 11,
+        "lineHeightMultiplier": 1.4,
+        "weight": "medium"
+      },
+      "mono": {
+        "face": "IBMPlexMono-Regular",
+        "faceRole": "mono",
+        "pointSize": 10,
+        "lineHeightMultiplier": 1.3,
+        "weight": "regular"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "xxl": 32,
+      "xxxl": 48
+    },
+    "radii": {
+      "button": 11,
+      "card": 14,
+      "sheet": 18,
+      "pill": 999,
+      "style": "continuous"
+    },
+    "elevation": {
+      "panel": {
+        "radius": 12,
+        "yOffset": 4,
+        "opacity": 0.1
+      },
+      "floatingBar": {
+        "radius": 8,
+        "yOffset": 2,
+        "opacity": 0.16
+      }
+    },
+    "motion": {
+      "fastDuration": 0.15,
+      "standardDuration": 0.25,
+      "modalDuration": 0.35,
+      "curve": "easeInOut",
+      "reducesMotion": false
+    }
+  },
+  "raml": {
+    "displayName": "رمل",
+    "colors": {
+      "bg": {
+        "light": "#F5EFE6",
+        "dark": "#1E1913"
+      },
+      "bgAlt": {
+        "light": "#FBF7F0",
+        "dark": "#161009"
+      },
+      "surface": {
+        "light": "#FBF7F0",
+        "dark": "#282118"
+      },
+      "surfaceMuted": {
+        "light": "#F5EFE6",
+        "dark": "#352C20"
+      },
+      "border": {
+        "light": "#E7DCC8",
+        "dark": "#352C20"
+      },
+      "ink": {
+        "light": "#33291F",
+        "dark": "#EFE7D9"
+      },
+      "inkMuted": {
+        "light": "#9A9082",
+        "dark": "#9A9082"
+      },
+      "inkFaint": {
+        "ref": "inkMuted"
+      },
+      "primary": {
+        "light": "#C0603E",
+        "dark": "#D5744F"
+      },
+      "primaryPressed": {
+        "light": "#A95437",
+        "dark": "#BB6646"
+      },
+      "onPrimary": {
+        "light": "#FBF7F0",
+        "dark": "#1E1913"
+      },
+      "secondary": {
+        "ref": "primary"
+      },
+      "canvasBackdrop": {
+        "light": "#161009",
+        "dark": "#FBF7F0"
+      },
+      "selectionStroke": {
+        "ref": "primary"
+      },
+      "warning": {
+        "light": "#C08A2E",
+        "dark": "#D9A94F"
+      },
+      "destructive": {
+        "light": "#B3261E",
+        "dark": "#E05C51"
+      }
+    },
+    "fonts": {
+      "display": "ElMessiri-Regular",
+      "ui": "Tajawal-Regular",
+      "accent": null,
+      "mono": "IBMPlexMono-Regular"
+    },
+    "typeRamp": {
+      "display": {
+        "face": "ElMessiri-Regular",
+        "faceRole": "display",
+        "pointSize": 74,
+        "lineHeightMultiplier": 1.2,
+        "weight": "bold"
+      },
+      "largeTitle": {
+        "face": "ElMessiri-Regular",
+        "faceRole": "display",
+        "pointSize": 34,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 28,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title2": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 22,
+        "lineHeightMultiplier": 1.3,
+        "weight": "semibold"
+      },
+      "headline": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "semibold"
+      },
+      "body": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "callout": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 16,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "footnote": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 13,
+        "lineHeightMultiplier": 1.4,
+        "weight": "regular"
+      },
+      "caption": {
+        "face": "Tajawal-Regular",
+        "faceRole": "ui",
+        "pointSize": 11,
+        "lineHeightMultiplier": 1.4,
+        "weight": "medium"
+      },
+      "mono": {
+        "face": "IBMPlexMono-Regular",
+        "faceRole": "mono",
+        "pointSize": 10,
+        "lineHeightMultiplier": 1.3,
+        "weight": "regular"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "xxl": 32,
+      "xxxl": 48
+    },
+    "radii": {
+      "button": 12,
+      "card": 16,
+      "sheet": 20,
+      "pill": 999,
+      "style": "continuous"
+    },
+    "elevation": {
+      "panel": {
+        "radius": 14,
+        "yOffset": 4,
+        "opacity": 0.08
+      },
+      "floatingBar": {
+        "radius": 8,
+        "yOffset": 2,
+        "opacity": 0.12
+      }
+    },
+    "motion": {
+      "fastDuration": 0.15,
+      "standardDuration": 0.25,
+      "modalDuration": 0.35,
+      "curve": "easeInOut",
+      "reducesMotion": false
+    }
+  },
+  "tayf": {
+    "displayName": "طيف",
+    "colors": {
+      "bg": {
+        "light": "#FAFAFA",
+        "dark": "#0E0B16"
+      },
+      "bgAlt": {
+        "light": "#EFEBFF",
+        "dark": "#000000"
+      },
+      "surface": {
+        "light": "#EFEBFF",
+        "dark": "#1E1830"
+      },
+      "surfaceMuted": {
+        "ref": "surface"
+      },
+      "border": {
+        "light": "#EFEBFF",
+        "dark": "#1E1830"
+      },
+      "ink": {
+        "light": "#111114",
+        "dark": "#F3F1FF"
+      },
+      "inkMuted": {
+        "light": "#8F8F9C",
+        "dark": "#8F8AA5"
+      },
+      "inkFaint": {
+        "ref": "inkMuted"
+      },
+      "primary": {
+        "light": "#5B37F0",
+        "dark": "#7C5CFF"
+      },
+      "primaryPressed": {
+        "light": "#5030D3",
+        "dark": "#6D51E0"
+      },
+      "onPrimary": {
+        "light": "#FFFFFF",
+        "dark": "#FFFFFF"
+      },
+      "secondary": {
+        "light": "#F0379B",
+        "dark": "#FF4FA8"
+      },
+      "canvasBackdrop": {
+        "light": "#111114",
+        "dark": "#1E1830"
+      },
+      "selectionStroke": {
+        "ref": "primary"
+      },
+      "warning": {
+        "light": "#C08A2E",
+        "dark": "#D9A94F"
+      },
+      "destructive": {
+        "light": "#B3261E",
+        "dark": "#E05C51"
+      }
+    },
+    "fonts": {
+      "display": "Lalezar-Regular",
+      "ui": "Cairo-Regular",
+      "accent": null,
+      "mono": "IBMPlexMono-Regular"
+    },
+    "typeRamp": {
+      "display": {
+        "face": "Lalezar-Regular",
+        "faceRole": "display",
+        "pointSize": 74,
+        "lineHeightMultiplier": 1.2,
+        "weight": "bold"
+      },
+      "largeTitle": {
+        "face": "Lalezar-Regular",
+        "faceRole": "display",
+        "pointSize": 34,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 28,
+        "lineHeightMultiplier": 1.3,
+        "weight": "bold"
+      },
+      "title2": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 22,
+        "lineHeightMultiplier": 1.3,
+        "weight": "semibold"
+      },
+      "headline": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "semibold"
+      },
+      "body": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 17,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "callout": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 16,
+        "lineHeightMultiplier": 1.35,
+        "weight": "regular"
+      },
+      "footnote": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 13,
+        "lineHeightMultiplier": 1.4,
+        "weight": "regular"
+      },
+      "caption": {
+        "face": "Cairo-Regular",
+        "faceRole": "ui",
+        "pointSize": 11,
+        "lineHeightMultiplier": 1.4,
+        "weight": "medium"
+      },
+      "mono": {
+        "face": "IBMPlexMono-Regular",
+        "faceRole": "mono",
+        "pointSize": 10,
+        "lineHeightMultiplier": 1.3,
+        "weight": "regular"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "xxl": 32,
+      "xxxl": 48
+    },
+    "radii": {
+      "button": 12,
+      "card": 16,
+      "sheet": 16,
+      "pill": 999,
+      "style": "continuous"
+    },
+    "elevation": {
+      "panel": {
+        "radius": 16,
+        "yOffset": 6,
+        "opacity": 0.14
+      },
+      "floatingBar": {
+        "radius": 10,
+        "yOffset": 3,
+        "opacity": 0.2
+      }
+    },
+    "motion": {
+      "fastDuration": 0.15,
+      "standardDuration": 0.25,
+      "modalDuration": 0.35,
+      "curve": "easeInOut",
+      "reducesMotion": false
+    }
+  }
+}

@@ -1,0 +1,2945 @@
+[
+  {
+    "fontID": "almarai",
+    "familyName": "Almarai",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2019 The Almarai Project Authors (https://github.com/JuergenWillrodt/Almarai)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/JuergenWillrodt/Almarai",
+    "sourceCommit": "7307ede5d42bcb5b9f905736a7c6eb04347afa3b",
+    "licenseFileBundlePath": "Fonts/Almarai/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Boutros Fonts, Mourad Boutros",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/almarai",
+    "faces": [
+      {
+        "filename": "Almarai-Bold.ttf",
+        "postScriptName": "Almarai-Bold",
+        "fullName": "Almarai Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "06401391b5b39fbcf2bc0c6a6e03faf992435e7b011183a1861737e913af8613",
+        "sizeBytes": 156672,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 104
+      },
+      {
+        "filename": "Almarai-ExtraBold.ttf",
+        "postScriptName": "Almarai-ExtraBold",
+        "fullName": "Almarai ExtraBold",
+        "style": "normal",
+        "weight": 800,
+        "sha256": "9f8f72f1cb06db787a5b32e314a109267e53c505c9f9ab0dad5aa8ff8b219a07",
+        "sizeBytes": 168292,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 104
+      },
+      {
+        "filename": "Almarai-Light.ttf",
+        "postScriptName": "Almarai-Light",
+        "fullName": "Almarai Light",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "a57bca270340202a28899f7488ee76ed9b93115b89d7a81db92d68e29993da5a",
+        "sizeBytes": 149480,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 104
+      },
+      {
+        "filename": "Almarai-Regular.ttf",
+        "postScriptName": "Almarai-Regular",
+        "fullName": "Almarai",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "5b5cad33c8e5922083728d271cdcda91f96ba291f1307eccc4f4ef732dc19622",
+        "sizeBytes": 152824,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 104
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "amiri",
+    "familyName": "Amiri",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/aliftype/amiri.git",
+    "sourceCommit": "04d40ee68cc6b8cb6870eca81a8a7451165aa95a",
+    "licenseFileBundlePath": "Fonts/Amiri/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny, Sebastian Kosch",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/amiri",
+    "faces": [
+      {
+        "filename": "Amiri-Bold.ttf",
+        "postScriptName": "Amiri-Bold",
+        "fullName": "Amiri Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "cfccb794268e7d573d857e6d6a67f89cf8a053e8ffd85dfa0c8ec1bb36fc4827",
+        "sizeBytes": 413480,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 255
+      },
+      {
+        "filename": "Amiri-BoldItalic.ttf",
+        "postScriptName": "Amiri-BoldItalic",
+        "fullName": "Amiri Bold Italic",
+        "style": "italic",
+        "weight": 700,
+        "sha256": "241300e2dcb2c541ac3617872960d99683d261e4f526dc4691d0727e7bef130b",
+        "sizeBytes": 409692,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 255
+      },
+      {
+        "filename": "Amiri-Italic.ttf",
+        "postScriptName": "Amiri-Italic",
+        "fullName": "Amiri Italic",
+        "style": "italic",
+        "weight": 400,
+        "sha256": "770e4da44d0459c0ddd6484483d475b95f2d088dd27ce472427624081eb68c70",
+        "sizeBytes": 428532,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 255
+      },
+      {
+        "filename": "Amiri-Regular.ttf",
+        "postScriptName": "Amiri-Regular",
+        "fullName": "Amiri Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "ab391c4147d054c48976e98322ad0eefe1427aa0e0502a12a4c75d80a70cfcd7",
+        "sizeBytes": 431116,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 255
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "automated_twin_pass_manual_visual_pending",
+      "step7_note": "RESOLVED THIS SESSION (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A3). T-AR-31's AUTOMATED FUNCTIONAL TWIN (TEST_MATRIX.md §7.9: \"also automated as a pixel-diff FUNCTIONAL twin in MKArrange tests\") now runs against this font's real binary and PASSES: live-vs-arranged derivation is pixel-identical within the 0.5% D-222 bar for both plain and GPOS-cursive-attachment-affected text (MakhtootKit/Tests/WS16CursiveTests/AllFiveHeldFontsEvidenceTests.swift, CursiveDerivationFidelityTests.swift). T-AR-32/33's core invariant (moving/dragging a glyph never reshapes it or its neighbors) is verified at the code level: JoinController.breakJoin/restoreJoin leaves layout.position untouched by design, font-agnostically. What remains NOT done this session: (a) the full MANUAL-ARABIC human-visual sign-off for T-AR-31/32/33/36-38 (no human-in-the-loop pass requested, consistent with every other workstream's own gate disposition in this repo); (b) T-AR-36-38 (ligature decompose/recompose) were not specifically exercised against this font this session. A real, bounded, DOCUMENTED limitation was found and regression-tested: JoinController's D-107 ZWJ-synthetic-context reshape (used by join-break/restore) does not always reproduce the exact natural glyph id for this font -- for GPOS-cursive-attachment-affected letter pairs specifically because ZWJ cannot trigger the contextual GSUB substitution that feeds the font's 'curs' feature, AND more broadly (found empirically) for some non-cursive-attached pairs too, a general per-font D-107 fidelity variance WS03-A6 already anticipated as font-dependent. This is accepted-by-design per D-222's own established precedent for the analogous single-glyph-scale-inside-a-joined-word case (T-AR-60): a visual, non-crashing, non-corrupting fidelity limitation in a manual edit path, now identifiable via MKProvenance.cursiveAttached (once MKArrange threads it through -- see MakhtootKit/CONTRACTS.md's WS-16 follow-up section) rather than silently wrong.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs -- confirmed independently this session via a second, native-Swift GPOS coverage-table reader (MKTextEngine/CursiveAttachment.swift), not just fontTools. RESOLVED (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A2): probed empirically that CTRunGetPositions already bakes the cursive-adjusted position into capture (D-105's own 'the shaped positions already encode the answer' principle extends cleanly to cursive attachment, not just mark anchoring) and that MKArrange's D-220 affine chain (MKArrangedGeometry.localAffine/worldTransform) composes layout.position as an opaque translation regardless of what produced it -- so display, translate, rotate, and scale of cursive-attached glyphs all work correctly today with ZERO geometry changes. D-105's mark-capture model gained a per-glyph MKShapedRun.cursiveAttached / MKProvenance.cursiveAttached provenance flag (a GPOS-coverage-table membership read, never anchor values, never a recomputed position) so the one real gap -- D-107 ZWJ-harvest reshape fidelity for join-break/restore/decompose on a cursive-attachment-affected letter, see step7_note -- is identifiable and testable rather than an unknown risk. Per D-222 step 8's own text (\"if any shipped font uses it, D-105's mark-capture model needs a cursive-pair structure before that font ships\"), this is now satisfied: a provenance flag, not a full anchor-delta structure, per the probe evidence in docs/impl-log/WS-16-cursive.md ADR WS16-A1."
+    }
+  },
+  {
+    "fontID": "amiri-quran",
+    "familyName": "Amiri Quran",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2010-2022 The Amiri Quran Project Authors (https://github.com/aliftype/amiri).",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/aliftype/amiri",
+    "sourceCommit": "480bb746e99ea700bb0d6b4dbf96302d58192103",
+    "licenseFileBundlePath": "Fonts/AmiriQuran/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny, Sebastian Kosch",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/amiriquran",
+    "faces": [
+      {
+        "filename": "AmiriQuran-Regular.ttf",
+        "postScriptName": "AmiriQuran-Regular",
+        "fullName": "Amiri Quran Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "e2a47644762d16bdfb6d33e0d8db8c6ff30beae84150ef5a705316bbd829455c",
+        "sizeBytes": 136920,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 113
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "automated_twin_pass_manual_visual_pending",
+      "step7_note": "RESOLVED THIS SESSION (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A3). T-AR-31's AUTOMATED FUNCTIONAL TWIN (TEST_MATRIX.md §7.9: \"also automated as a pixel-diff FUNCTIONAL twin in MKArrange tests\") now runs against this font's real binary and PASSES: live-vs-arranged derivation is pixel-identical within the 0.5% D-222 bar for both plain and GPOS-cursive-attachment-affected text (MakhtootKit/Tests/WS16CursiveTests/AllFiveHeldFontsEvidenceTests.swift, CursiveDerivationFidelityTests.swift). T-AR-32/33's core invariant (moving/dragging a glyph never reshapes it or its neighbors) is verified at the code level: JoinController.breakJoin/restoreJoin leaves layout.position untouched by design, font-agnostically. What remains NOT done this session: (a) the full MANUAL-ARABIC human-visual sign-off for T-AR-31/32/33/36-38 (no human-in-the-loop pass requested, consistent with every other workstream's own gate disposition in this repo); (b) T-AR-36-38 (ligature decompose/recompose) were not specifically exercised against this font this session. A real, bounded, DOCUMENTED limitation was found and regression-tested: JoinController's D-107 ZWJ-synthetic-context reshape (used by join-break/restore) does not always reproduce the exact natural glyph id for this font -- for GPOS-cursive-attachment-affected letter pairs specifically because ZWJ cannot trigger the contextual GSUB substitution that feeds the font's 'curs' feature, AND more broadly (found empirically) for some non-cursive-attached pairs too, a general per-font D-107 fidelity variance WS03-A6 already anticipated as font-dependent. This is accepted-by-design per D-222's own established precedent for the analogous single-glyph-scale-inside-a-joined-word case (T-AR-60): a visual, non-crashing, non-corrupting fidelity limitation in a manual edit path, now identifiable via MKProvenance.cursiveAttached (once MKArrange threads it through -- see MakhtootKit/CONTRACTS.md's WS-16 follow-up section) rather than silently wrong.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs -- confirmed independently this session via a second, native-Swift GPOS coverage-table reader (MKTextEngine/CursiveAttachment.swift), not just fontTools. RESOLVED (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A2): probed empirically that CTRunGetPositions already bakes the cursive-adjusted position into capture (D-105's own 'the shaped positions already encode the answer' principle extends cleanly to cursive attachment, not just mark anchoring) and that MKArrange's D-220 affine chain (MKArrangedGeometry.localAffine/worldTransform) composes layout.position as an opaque translation regardless of what produced it -- so display, translate, rotate, and scale of cursive-attached glyphs all work correctly today with ZERO geometry changes. D-105's mark-capture model gained a per-glyph MKShapedRun.cursiveAttached / MKProvenance.cursiveAttached provenance flag (a GPOS-coverage-table membership read, never anchor values, never a recomputed position) so the one real gap -- D-107 ZWJ-harvest reshape fidelity for join-break/restore/decompose on a cursive-attachment-affected letter, see step7_note -- is identifiable and testable rather than an unknown risk. Per D-222 step 8's own text (\"if any shipped font uses it, D-105's mark-capture model needs a cursive-pair structure before that font ships\"), this is now satisfied: a provenance flag, not a full anchor-delta structure, per the probe evidence in docs/impl-log/WS-16-cursive.md ADR WS16-A1."
+    }
+  },
+  {
+    "fontID": "aref-ruqaa",
+    "familyName": "Aref Ruqaa",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.",
+    "reservedFontNames": [
+      "EURM10"
+    ],
+    "sourceRepoURL": "https://github.com/aliftype/aref-ruqaa",
+    "sourceCommit": "175e1ed565e75aba8059675b80dadc0a184d53e6",
+    "licenseFileBundlePath": "Fonts/ArefRuqaa/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Abdullah Aref, Khaled Hosny, Hermann Zapf",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/arefruqaa",
+    "faces": [
+      {
+        "filename": "ArefRuqaa-Bold.ttf",
+        "postScriptName": "ArefRuqaa-Bold",
+        "fullName": "Aref Ruqaa Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "247071015b7eefd63f94d6e47949c5d10294ed31bd432f809ba9a219d93f91bb",
+        "sizeBytes": 123852,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 111
+      },
+      {
+        "filename": "ArefRuqaa-Regular.ttf",
+        "postScriptName": "ArefRuqaa-Regular",
+        "fullName": "Aref Ruqaa Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "ceb786d83ba92f35e96efcd8623c2858d288e0c543c8761ba35b1020989464f9",
+        "sizeBytes": 110696,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 111
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "automated_twin_pass_manual_visual_pending",
+      "step7_note": "RESOLVED THIS SESSION (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A3). T-AR-31's AUTOMATED FUNCTIONAL TWIN (TEST_MATRIX.md §7.9: \"also automated as a pixel-diff FUNCTIONAL twin in MKArrange tests\") now runs against this font's real binary and PASSES: live-vs-arranged derivation is pixel-identical within the 0.5% D-222 bar for both plain and GPOS-cursive-attachment-affected text (MakhtootKit/Tests/WS16CursiveTests/AllFiveHeldFontsEvidenceTests.swift, CursiveDerivationFidelityTests.swift). T-AR-32/33's core invariant (moving/dragging a glyph never reshapes it or its neighbors) is verified at the code level: JoinController.breakJoin/restoreJoin leaves layout.position untouched by design, font-agnostically. What remains NOT done this session: (a) the full MANUAL-ARABIC human-visual sign-off for T-AR-31/32/33/36-38 (no human-in-the-loop pass requested, consistent with every other workstream's own gate disposition in this repo); (b) T-AR-36-38 (ligature decompose/recompose) were not specifically exercised against this font this session. A real, bounded, DOCUMENTED limitation was found and regression-tested: JoinController's D-107 ZWJ-synthetic-context reshape (used by join-break/restore) does not always reproduce the exact natural glyph id for this font -- for GPOS-cursive-attachment-affected letter pairs specifically because ZWJ cannot trigger the contextual GSUB substitution that feeds the font's 'curs' feature, AND more broadly (found empirically) for some non-cursive-attached pairs too, a general per-font D-107 fidelity variance WS03-A6 already anticipated as font-dependent. This is accepted-by-design per D-222's own established precedent for the analogous single-glyph-scale-inside-a-joined-word case (T-AR-60): a visual, non-crashing, non-corrupting fidelity limitation in a manual edit path, now identifiable via MKProvenance.cursiveAttached (once MKArrange threads it through -- see MakhtootKit/CONTRACTS.md's WS-16 follow-up section) rather than silently wrong.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs -- confirmed independently this session via a second, native-Swift GPOS coverage-table reader (MKTextEngine/CursiveAttachment.swift), not just fontTools. RESOLVED (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A2): probed empirically that CTRunGetPositions already bakes the cursive-adjusted position into capture (D-105's own 'the shaped positions already encode the answer' principle extends cleanly to cursive attachment, not just mark anchoring) and that MKArrange's D-220 affine chain (MKArrangedGeometry.localAffine/worldTransform) composes layout.position as an opaque translation regardless of what produced it -- so display, translate, rotate, and scale of cursive-attached glyphs all work correctly today with ZERO geometry changes. D-105's mark-capture model gained a per-glyph MKShapedRun.cursiveAttached / MKProvenance.cursiveAttached provenance flag (a GPOS-coverage-table membership read, never anchor values, never a recomputed position) so the one real gap -- D-107 ZWJ-harvest reshape fidelity for join-break/restore/decompose on a cursive-attachment-affected letter, see step7_note -- is identifiable and testable rather than an unknown risk. Per D-222 step 8's own text (\"if any shipped font uses it, D-105's mark-capture model needs a cursive-pair structure before that font ships\"), this is now satisfied: a provenance flag, not a full anchor-delta structure, per the probe evidence in docs/impl-log/WS-16-cursive.md ADR WS16-A1."
+    }
+  },
+  {
+    "fontID": "el-messiri",
+    "familyName": "El Messiri",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/Gue3bara/El-Messiri",
+    "sourceCommit": "553b98d8e374318694b50862849af666268fd278",
+    "licenseFileBundlePath": "Fonts/ElMessiri/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Mohamed Gaber, Jovanny Lemonad",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/elmessiri",
+    "faces": [
+      {
+        "filename": "ElMessiri[wght].ttf",
+        "postScriptName": "ElMessiri-Regular",
+        "fullName": "El Messiri Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "5d58d5259d2accccba39cffe12e1226e88b6afc5150e3605eb2a9c2fe06ccab0",
+        "sizeBytes": 138664,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 101
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "harmattan",
+    "familyName": "Harmattan",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;",
+    "reservedFontNames": [
+      "Fouta",
+      "Harmattan"
+    ],
+    "sourceRepoURL": "https://github.com/silnrsi/font-harmattan",
+    "sourceCommit": "b8d089bdb2cf97351cff63beaa9d68a6273dcc42",
+    "licenseFileBundlePath": "Fonts/Harmattan/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "SIL International",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/harmattan",
+    "faces": [
+      {
+        "filename": "Harmattan-Bold.ttf",
+        "postScriptName": "Harmattan-Bold",
+        "fullName": "Harmattan Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "eb9de49ecb72d34e14c768bea6f9a7831f6bd2c15b062fcc2bb17b0ac967bc67",
+        "sizeBytes": 559624,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Harmattan-Medium.ttf",
+        "postScriptName": "Harmattan-Medium",
+        "fullName": "Harmattan Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "e83a209c87145152dcc4df18ffdd50aad8407fb563135392e168c896e932d2d5",
+        "sizeBytes": 579456,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Harmattan-Regular.ttf",
+        "postScriptName": "Harmattan-Regular",
+        "fullName": "Harmattan",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "5fbaafc51ad21663729b168afaff5f28d3e3087f1fc736ada32d7cd99674c0e0",
+        "sizeBytes": 573500,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Harmattan-SemiBold.ttf",
+        "postScriptName": "Harmattan-SemiBold",
+        "fullName": "Harmattan SemiBold",
+        "style": "normal",
+        "weight": 600,
+        "sha256": "83479450450a50da78412f2f48b274883095a23a01d6bf36db54e769cb09b11d",
+        "sizeBytes": 561880,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "jomhuria",
+    "familyName": "Jomhuria",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/Tarobish/Jomhuria",
+    "sourceCommit": "d4b8f42eaf712178802609bfbe48127bd45be9c8",
+    "licenseFileBundlePath": "Fonts/Jomhuria/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "KB Studio",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/jomhuria",
+    "faces": [
+      {
+        "filename": "Jomhuria-Regular.ttf",
+        "postScriptName": "Jomhuria-Regular",
+        "fullName": "Jomhuria Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "17b4b0453acdaafb940a8be8acccc968713e223e5d03942347f6562ca3b1dec3",
+        "sizeBytes": 172276,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 252
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "katibeh",
+    "familyName": "Katibeh",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016 Eduardo Tunni(edu@tipo.net.ar).",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/Tarobish/Katibeh",
+    "sourceCommit": "3fde990dc2f1648d63b7fe2841902d268529c1c2",
+    "licenseFileBundlePath": "Fonts/Katibeh/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "KB Studio",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/katibeh",
+    "faces": [
+      {
+        "filename": "Katibeh-Regular.ttf",
+        "postScriptName": "Katibeh-Regular",
+        "fullName": "Katibeh Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "334eeadb58eb442734fe7dea87412cbbd8c3fd00294252723aadf19a850cf11f",
+        "sizeBytes": 189124,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 243
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "lateef",
+    "familyName": "Lateef",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright (c) 1994-2025, SIL Global (https://www.sil.org/), with",
+    "reservedFontNames": [
+      "Lateef"
+    ],
+    "sourceRepoURL": "https://github.com/silnrsi/font-lateef",
+    "sourceCommit": "d682ea7cc0305b592058255167c83d059aa640fa",
+    "licenseFileBundlePath": "Fonts/Lateef/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "SIL International",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/lateef",
+    "faces": [
+      {
+        "filename": "Lateef-Bold.ttf",
+        "postScriptName": "Lateef-Bold",
+        "fullName": "Lateef Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "eee405eeb4e81491b0b659fb40dc016765292022d74406c616f72501e160afe2",
+        "sizeBytes": 243260,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-ExtraBold.ttf",
+        "postScriptName": "Lateef-ExtraBold",
+        "fullName": "Lateef ExtraBold",
+        "style": "normal",
+        "weight": 800,
+        "sha256": "ee6406b63af32993054b1f7e2d6ff0fd7c91c409b0d4818bb1d686f709f0cdff",
+        "sizeBytes": 244116,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-ExtraLight.ttf",
+        "postScriptName": "Lateef-ExtraLight",
+        "fullName": "Lateef ExtraLight",
+        "style": "normal",
+        "weight": 200,
+        "sha256": "d22920471ea9305e50b18674a285975cd9856059dd1dccb088becb101090c328",
+        "sizeBytes": 240832,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-Light.ttf",
+        "postScriptName": "Lateef-Light",
+        "fullName": "Lateef Light",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "f5c18f8c66cc30a61cc009f86b31aeecc4d81804fe4ef847cef4d2288a1e6723",
+        "sizeBytes": 239892,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-Medium.ttf",
+        "postScriptName": "Lateef-Medium",
+        "fullName": "Lateef Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "b08e71723c6bdcc7855a1384ced2cc459f0fbbc65dfa0dfa0a94b9983d484ef1",
+        "sizeBytes": 242052,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-Regular.ttf",
+        "postScriptName": "Lateef-Regular",
+        "fullName": "Lateef",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "fcbd9e0227a4d7238880defa5fd74c012d69351150709e559a8577446145c2fc",
+        "sizeBytes": 241092,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "Lateef-SemiBold.ttf",
+        "postScriptName": "Lateef-SemiBold",
+        "fullName": "Lateef SemiBold",
+        "style": "normal",
+        "weight": 600,
+        "sha256": "ac0ba34269c19062340d942c5ad4ecc41ab8b9d21df92973372a7e1d7a421ff2",
+        "sizeBytes": 242260,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "mada",
+    "familyName": "Mada",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015-2022 The Mada Project Authors (https://github.com/aliftype/mada), with Reserved Font Name \"Source\".",
+    "reservedFontNames": [
+      "Source"
+    ],
+    "sourceRepoURL": "https://github.com/aliftype/mada",
+    "sourceCommit": "2f7dea3a2bad718583bfcc1dc2030cf15401c789",
+    "licenseFileBundlePath": "Fonts/Mada/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny, Paul D. Hunt",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/mada",
+    "faces": [
+      {
+        "filename": "Mada[wght].ttf",
+        "postScriptName": "Mada-Regular",
+        "fullName": "Mada Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "bf4d193ee78cea2fd8bdc9e64e5cb7e8a19ff76ab74f97a9a4a0e80f8f4cefde",
+        "sizeBytes": 181408,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "arabicCmapCount": 225
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "markazi-text",
+    "familyName": "Markazi Text",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/BornaIz/markazitext",
+    "sourceCommit": "51bb67cce0bb3609f8318077ab0f74b93d365007",
+    "licenseFileBundlePath": "Fonts/MarkaziText/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Borna Izadpanah, Florian Runge, Fiona Ross",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/markazitext",
+    "faces": [
+      {
+        "filename": "MarkaziText[wght].ttf",
+        "postScriptName": "MarkaziText-Regular",
+        "fullName": "Markazi Text Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "424b7331681160ff2a4b209bfc356ea9564d429a7daea43ee4dc28de8ff4f9fe",
+        "sizeBytes": 296896,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 100
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "mirza",
+    "familyName": "Mirza",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 The Mirza Project Authors (https://github.com/Tarobish/Mirza)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/Tarobish/Mirza",
+    "sourceCommit": "fa7b59c92953e7f437d079a8c118a7952c507f09",
+    "licenseFileBundlePath": "Fonts/Mirza/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "KB Studio",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/mirza",
+    "faces": [
+      {
+        "filename": "Mirza-Bold.ttf",
+        "postScriptName": "Mirza-Bold",
+        "fullName": "Mirza Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "306b412a39d9f93ca840c13ca62300eb5c7712e2afa94bd7ef2272b51131be6d",
+        "sizeBytes": 177052,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 243
+      },
+      {
+        "filename": "Mirza-Medium.ttf",
+        "postScriptName": "Mirza-Medium",
+        "fullName": "Mirza Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "423532407cc832ef84cc8f08a3359f26b50e721c8aa0e00221e4215cc83440b3",
+        "sizeBytes": 177352,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 243
+      },
+      {
+        "filename": "Mirza-Regular.ttf",
+        "postScriptName": "Mirza-Regular",
+        "fullName": "Mirza Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "5b1ac6cb285ca3492e313a53d5252b9784bf7607f2835a2d44cb3cbad0168539",
+        "sizeBytes": 177820,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 243
+      },
+      {
+        "filename": "Mirza-SemiBold.ttf",
+        "postScriptName": "Mirza-SemiBold",
+        "fullName": "Mirza SemiBold",
+        "style": "normal",
+        "weight": 600,
+        "sha256": "4225215d0df4ad389c4ac29d48fddc531703776591ade64c23f6f995669d4078",
+        "sizeBytes": 177188,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 243
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "noto-kufi-arabic",
+    "familyName": "Noto Kufi Arabic",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/notofonts/arabic",
+    "sourceCommit": "652edd9688496f88c4cf41706c892fe10f9f3c92",
+    "licenseFileBundlePath": "Fonts/NotoKufiArabic/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Google",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/notokufiarabic",
+    "faces": [
+      {
+        "filename": "NotoKufiArabic[wght].ttf",
+        "postScriptName": "NotoKufiArabic-Regular",
+        "fullName": "Noto Kufi Arabic Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "494f6b61469d7a02a2d63f0fc4930bb007388d8cfe551de5eb98354e100889f3",
+        "sizeBytes": 434204,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "noto-naskh-arabic",
+    "familyName": "Noto Naskh Arabic",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/notofonts/arabic",
+    "sourceCommit": "59f5a3fd985bf24858915c3dddfc51a537640965",
+    "licenseFileBundlePath": "Fonts/NotoNaskhArabic/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Google",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/notonaskharabic",
+    "faces": [
+      {
+        "filename": "NotoNaskhArabic[wght].ttf",
+        "postScriptName": "NotoNaskhArabic-Regular",
+        "fullName": "Noto Naskh Arabic Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "67b5a525a661b607971fbd3f96a81b89d3a768e74534fca84f18ac97e6fab72f",
+        "sizeBytes": 307592,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "noto-sans-arabic",
+    "familyName": "Noto Sans Arabic",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/notofonts/arabic",
+    "sourceCommit": "6c8320740db19efbb3127c3697b0ee5d0fa62319",
+    "licenseFileBundlePath": "Fonts/NotoSansArabic/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Google",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/notosansarabic",
+    "faces": [
+      {
+        "filename": "NotoSansArabic[wdth,wght].ttf",
+        "postScriptName": "NotoSansArabic-Regular",
+        "fullName": "Noto Sans Arabic Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+        "sizeBytes": 844676,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "qahiri",
+    "familyName": "Qahiri",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/alif-type/qahiri",
+    "sourceCommit": "2fbfe8ca2e5ed04b0455e15c717774766f174ad1",
+    "licenseFileBundlePath": "Fonts/Qahiri/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/qahiri",
+    "faces": [
+      {
+        "filename": "Qahiri-Regular.ttf",
+        "postScriptName": "Qahiri-Regular",
+        "fullName": "Qahiri Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "68e31a245a8613d8b49d55f7ceffdd88b26f2abace2a9dd094a076d78f53a203",
+        "sizeBytes": 35996,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8
+        ],
+        "arabicCmapCount": 88
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "automated_twin_pass_manual_visual_pending",
+      "step7_note": "RESOLVED THIS SESSION (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A3). T-AR-31's AUTOMATED FUNCTIONAL TWIN (TEST_MATRIX.md §7.9: \"also automated as a pixel-diff FUNCTIONAL twin in MKArrange tests\") now runs against this font's real binary and PASSES: live-vs-arranged derivation is pixel-identical within the 0.5% D-222 bar for both plain and GPOS-cursive-attachment-affected text (MakhtootKit/Tests/WS16CursiveTests/AllFiveHeldFontsEvidenceTests.swift, CursiveDerivationFidelityTests.swift). T-AR-32/33's core invariant (moving/dragging a glyph never reshapes it or its neighbors) is verified at the code level: JoinController.breakJoin/restoreJoin leaves layout.position untouched by design, font-agnostically. What remains NOT done this session: (a) the full MANUAL-ARABIC human-visual sign-off for T-AR-31/32/33/36-38 (no human-in-the-loop pass requested, consistent with every other workstream's own gate disposition in this repo); (b) T-AR-36-38 (ligature decompose/recompose) were not specifically exercised against this font this session. A real, bounded, DOCUMENTED limitation was found and regression-tested: JoinController's D-107 ZWJ-synthetic-context reshape (used by join-break/restore) does not always reproduce the exact natural glyph id for this font -- for GPOS-cursive-attachment-affected letter pairs specifically because ZWJ cannot trigger the contextual GSUB substitution that feeds the font's 'curs' feature, AND more broadly (found empirically) for some non-cursive-attached pairs too, a general per-font D-107 fidelity variance WS03-A6 already anticipated as font-dependent. This is accepted-by-design per D-222's own established precedent for the analogous single-glyph-scale-inside-a-joined-word case (T-AR-60): a visual, non-crashing, non-corrupting fidelity limitation in a manual edit path, now identifiable via MKProvenance.cursiveAttached (once MKArrange threads it through -- see MakhtootKit/CONTRACTS.md's WS-16 follow-up section) rather than silently wrong.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs -- confirmed independently this session via a second, native-Swift GPOS coverage-table reader (MKTextEngine/CursiveAttachment.swift), not just fontTools. RESOLVED (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A2): probed empirically that CTRunGetPositions already bakes the cursive-adjusted position into capture (D-105's own 'the shaped positions already encode the answer' principle extends cleanly to cursive attachment, not just mark anchoring) and that MKArrange's D-220 affine chain (MKArrangedGeometry.localAffine/worldTransform) composes layout.position as an opaque translation regardless of what produced it -- so display, translate, rotate, and scale of cursive-attached glyphs all work correctly today with ZERO geometry changes. D-105's mark-capture model gained a per-glyph MKShapedRun.cursiveAttached / MKProvenance.cursiveAttached provenance flag (a GPOS-coverage-table membership read, never anchor values, never a recomputed position) so the one real gap -- D-107 ZWJ-harvest reshape fidelity for join-break/restore/decompose on a cursive-attachment-affected letter, see step7_note -- is identifiable and testable rather than an unknown risk. Per D-222 step 8's own text (\"if any shipped font uses it, D-105's mark-capture model needs a cursive-pair structure before that font ships\"), this is now satisfied: a provenance flag, not a full anchor-delta structure, per the probe evidence in docs/impl-log/WS-16-cursive.md ADR WS16-A1."
+    }
+  },
+  {
+    "fontID": "rakkas",
+    "familyName": "Rakkas",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2016 Zeynep Akay",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/zeynepakay/Rakkas",
+    "sourceCommit": "3bdb0ba164c9e987a5ab4de7f7cc8842a04d267a",
+    "licenseFileBundlePath": "Fonts/Rakkas/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Zeynep Akay",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/rakkas",
+    "faces": [
+      {
+        "filename": "Rakkas-Regular.ttf",
+        "postScriptName": "Rakkas-Regular",
+        "fullName": "Rakkas Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "54278882e4774c14d50c3b555f127d0fe586366d5b787316ebbcbd8108829e60",
+        "sizeBytes": 146824,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 104
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "automated_twin_pass_manual_visual_pending",
+      "step7_note": "RESOLVED THIS SESSION (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A3). T-AR-31's AUTOMATED FUNCTIONAL TWIN (TEST_MATRIX.md §7.9: \"also automated as a pixel-diff FUNCTIONAL twin in MKArrange tests\") now runs against this font's real binary and PASSES: live-vs-arranged derivation is pixel-identical within the 0.5% D-222 bar for both plain and GPOS-cursive-attachment-affected text (MakhtootKit/Tests/WS16CursiveTests/AllFiveHeldFontsEvidenceTests.swift, CursiveDerivationFidelityTests.swift). T-AR-32/33's core invariant (moving/dragging a glyph never reshapes it or its neighbors) is verified at the code level: JoinController.breakJoin/restoreJoin leaves layout.position untouched by design, font-agnostically. What remains NOT done this session: (a) the full MANUAL-ARABIC human-visual sign-off for T-AR-31/32/33/36-38 (no human-in-the-loop pass requested, consistent with every other workstream's own gate disposition in this repo); (b) T-AR-36-38 (ligature decompose/recompose) were not specifically exercised against this font this session. A real, bounded, DOCUMENTED limitation was found and regression-tested: JoinController's D-107 ZWJ-synthetic-context reshape (used by join-break/restore) does not always reproduce the exact natural glyph id for this font -- for GPOS-cursive-attachment-affected letter pairs specifically because ZWJ cannot trigger the contextual GSUB substitution that feeds the font's 'curs' feature, AND more broadly (found empirically) for some non-cursive-attached pairs too, a general per-font D-107 fidelity variance WS03-A6 already anticipated as font-dependent. This is accepted-by-design per D-222's own established precedent for the analogous single-glyph-scale-inside-a-joined-word case (T-AR-60): a visual, non-crashing, non-corrupting fidelity limitation in a manual edit path, now identifiable via MKProvenance.cursiveAttached (once MKArrange threads it through -- see MakhtootKit/CONTRACTS.md's WS-16 follow-up section) rather than silently wrong.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs -- confirmed independently this session via a second, native-Swift GPOS coverage-table reader (MKTextEngine/CursiveAttachment.swift), not just fontTools. RESOLVED (WS-16, docs/impl-log/WS-16-cursive.md, ADR WS16-A2): probed empirically that CTRunGetPositions already bakes the cursive-adjusted position into capture (D-105's own 'the shaped positions already encode the answer' principle extends cleanly to cursive attachment, not just mark anchoring) and that MKArrange's D-220 affine chain (MKArrangedGeometry.localAffine/worldTransform) composes layout.position as an opaque translation regardless of what produced it -- so display, translate, rotate, and scale of cursive-attached glyphs all work correctly today with ZERO geometry changes. D-105's mark-capture model gained a per-glyph MKShapedRun.cursiveAttached / MKProvenance.cursiveAttached provenance flag (a GPOS-coverage-table membership read, never anchor values, never a recomputed position) so the one real gap -- D-107 ZWJ-harvest reshape fidelity for join-break/restore/decompose on a cursive-attachment-affected letter, see step7_note -- is identifiable and testable rather than an unknown risk. Per D-222 step 8's own text (\"if any shipped font uses it, D-105's mark-capture model needs a cursive-pair structure before that font ships\"), this is now satisfied: a provenance flag, not a full anchor-delta structure, per the probe evidence in docs/impl-log/WS-16-cursive.md ADR WS16-A1."
+    }
+  },
+  {
+    "fontID": "reem-kufi",
+    "familyName": "Reem Kufi",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi), with Reserved Font Name \"Josefin Sans\".",
+    "reservedFontNames": [
+      "Josefin Sans"
+    ],
+    "sourceRepoURL": "https://github.com/aliftype/reem-kufi",
+    "sourceCommit": "d304c9a381a4b005d9527312c8d51508e57ed0ed",
+    "licenseFileBundlePath": "Fonts/ReemKufi/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny, Santiago Orozco",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/reemkufi",
+    "faces": [
+      {
+        "filename": "ReemKufi[wght].ttf",
+        "postScriptName": "ReemKufi",
+        "fullName": "Reem Kufi",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "33ead1986cd48c138c4d906c9e5a6341877268461f97623409a2014de1cd4aa4",
+        "sizeBytes": 127152,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 118
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "scheherazade-new",
+    "familyName": "Scheherazade New",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright (c) 1994-2026, SIL Global (https://www.sil.org/),",
+    "reservedFontNames": [
+      "Scheherazade"
+    ],
+    "sourceRepoURL": "https://github.com/silnrsi/font-scheherazade",
+    "sourceCommit": "60e64560db425905f52149398403298747f5f684",
+    "licenseFileBundlePath": "Fonts/ScheherazadeNew/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "SIL International",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/scheherazadenew",
+    "faces": [
+      {
+        "filename": "ScheherazadeNew-Bold.ttf",
+        "postScriptName": "ScheherazadeNew-Bold",
+        "fullName": "Scheherazade New Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "91363517a63dbc7448b5814226d33d845b26b32a461cd159ea0b3f23c7effd2d",
+        "sizeBytes": 593472,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "ScheherazadeNew-Medium.ttf",
+        "postScriptName": "ScheherazadeNew-Medium",
+        "fullName": "Scheherazade New Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "060b801307ec55d996d635578fffba0d95169f63e1d0f6061402185eaf4fa6af",
+        "sizeBytes": 582492,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "ScheherazadeNew-Regular.ttf",
+        "postScriptName": "ScheherazadeNew-Regular",
+        "fullName": "Scheherazade New",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "794bac8dc9e83d1d620bc471ea694f5f31d0965ce8006490a79dfc51a2d283b3",
+        "sizeBytes": 331504,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      },
+      {
+        "filename": "ScheherazadeNew-SemiBold.ttf",
+        "postScriptName": "ScheherazadeNew-SemiBold",
+        "fullName": "Scheherazade New SemiBold",
+        "style": "normal",
+        "weight": 600,
+        "sha256": "155056d27ea5a34ab739170abeff8d45b44a494e39be329f0a4d1e6cbd173390",
+        "sizeBytes": 589896,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 256
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "tajawal",
+    "familyName": "Tajawal",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2018 Boutros International. (http://www.boutrosfonts.com)",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/googlefonts/tajawal",
+    "sourceCommit": "2085b8942f234e7afb83dc03c77713d0d5471cc9",
+    "licenseFileBundlePath": "Fonts/Tajawal/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-18",
+    "verifiedBy": "WS-09 Run 3 verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Boutros Fonts, Mourad Boutros, Soulaf Khalifeh",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/tajawal",
+    "faces": [
+      {
+        "filename": "Tajawal-Black.ttf",
+        "postScriptName": "Tajawal-Black",
+        "fullName": "Tajawal Black",
+        "style": "normal",
+        "weight": 900,
+        "sha256": "da582a579d3200869535dc994d2349608a8582042f8776b3679b157015db287c",
+        "sizeBytes": 59028,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-Bold.ttf",
+        "postScriptName": "Tajawal-Bold",
+        "fullName": "Tajawal Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "0342ab6b74b6bd1b4b5bf7beda45a9734a2b3147a31e8a3a45b6a3417a52d9d7",
+        "sizeBytes": 59988,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-ExtraBold.ttf",
+        "postScriptName": "Tajawal-ExtraBold",
+        "fullName": "Tajawal ExtraBold",
+        "style": "normal",
+        "weight": 800,
+        "sha256": "3d1298b747c22579f9e1bdeb0d4165064cb17f7e66145e2f43f9deb12ad7a2cf",
+        "sizeBytes": 59648,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-ExtraLight.ttf",
+        "postScriptName": "Tajawal-ExtraLight",
+        "fullName": "Tajawal ExtraLight",
+        "style": "normal",
+        "weight": 200,
+        "sha256": "a12ffbfaaec30ab8142edc60fa4727b104a90eb54c6a200a76988a1ec2ec11dc",
+        "sizeBytes": 55784,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-Light.ttf",
+        "postScriptName": "Tajawal-Light",
+        "fullName": "Tajawal Light",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "ab26ed3e0c5af2c71b469b5780decff8088d290ab91aa29b07321580136e813a",
+        "sizeBytes": 61864,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-Medium.ttf",
+        "postScriptName": "Tajawal-Medium",
+        "fullName": "Tajawal Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "1ff8bd943a261c9dd7906bdb1993cab87b6d925a7fb5f848cdb51ed301531090",
+        "sizeBytes": 62280,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      },
+      {
+        "filename": "Tajawal-Regular.ttf",
+        "postScriptName": "Tajawal-Regular",
+        "fullName": "Tajawal",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "6882892da3e03527d5db2bbab3b48bde6ef2e878a43f522d1a4eebda90010a19",
+        "sizeBytes": 60364,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 67
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "alef",
+    "familyName": "Alef",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2014 Avraham Cornfeld",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/alef",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Alef/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Avraham Cornfeld",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/alef",
+    "faces": [
+      {
+        "filename": "Alef-Regular.ttf",
+        "postScriptName": "Alef-Regular",
+        "fullName": "Alef Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "a32adcc953ac356906901778460083dc207d4560cb586fd9ea24ec5b186969ed",
+        "sizeBytes": 90996,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          4
+        ],
+        "arabicCmapCount": 0
+      },
+      {
+        "filename": "Alef-Bold.ttf",
+        "postScriptName": "Alef-Bold",
+        "fullName": "Alef 700",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "5dae0d7b2365288d8a34f5fb033d4278be96cef2547862cb93ceb8373e10bcf1",
+        "sizeBytes": 92312,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          4
+        ],
+        "arabicCmapCount": 0
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "aref-ruqaa-ink",
+    "familyName": "Aref Ruqaa Ink",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Aref Ruqaa Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/arefruqaaink",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/ArefRuqaaInk/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/arefruqaaink",
+    "faces": [
+      {
+        "filename": "ArefRuqaaInk-Regular.ttf",
+        "postScriptName": "ArefRuqaaInk-Regular",
+        "fullName": "Aref Ruqaa Ink Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "0415c2410b1e453f5d0ea0db114fb95d01f65ba2e9e2dc4ae67c5fb73c33e863",
+        "sizeBytes": 568056,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 113
+      },
+      {
+        "filename": "ArefRuqaaInk-Bold.ttf",
+        "postScriptName": "ArefRuqaaInk-Bold",
+        "fullName": "Aref Ruqaa Ink 700",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "601b5c607e7e20e7957673b92947d35eb87620cd406214037a140695221c31b4",
+        "sizeBytes": 631016,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 113
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships. Note: WS-16 (docs/impl-log/WS-16-cursive.md) established that CTRunGetPositions already bakes cursive-adjusted positions into capture and MKArrange's D-220 affine chain is font-agnostic — display/translate/rotate/scale of cursive-attached glyphs work correctly with no geometry changes required.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs via fontTools. Covered by WS-16 resolution (docs/impl-log/WS-16-cursive.md, ADR WS16-A2): CTRunGetPositions bakes cursive-adjusted positions into capture; MKArrange's D-220 affine chain composes layout.position as an opaque translation regardless of what produced it — display, translate, rotate, and scale work correctly with ZERO geometry changes."
+    }
+  },
+  {
+    "fontID": "baloo-bhaijaan-2",
+    "familyName": "Baloo Bhaijaan 2",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Baloo Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/baloobhaijaan2",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/BalooBhaijaan2/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Ek Type",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/baloobhaijaan2",
+    "faces": [
+      {
+        "filename": "BalooBhaijaan2[wght].ttf",
+        "postScriptName": "BalooBhaijaan2-Regular",
+        "fullName": "Baloo Bhaijaan 2",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "3e9f07fbc796c0ddcb3e6e0aa26f9c86741d9f5b7f5cb72f4ed3c06e55a19336",
+        "sizeBytes": 285508,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          9
+        ],
+        "arabicCmapCount": 164
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "blaka",
+    "familyName": "Blaka",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2020 The Blaka Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/blaka",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Blaka/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Tiro Typeworks",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/blaka",
+    "faces": [
+      {
+        "filename": "Blaka-Regular.ttf",
+        "postScriptName": "Blaka-Regular",
+        "fullName": "Blaka Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "5cd0ff67dcfbc371c6450afffe10f6e7027ffada0c31f436beb8865e57b781a3",
+        "sizeBytes": 58104,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 219
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "blaka-ink",
+    "familyName": "Blaka Ink",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2020 The Blaka Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/blakaink",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/BlakaInk/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Tiro Typeworks",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/blakaink",
+    "faces": [
+      {
+        "filename": "BlakaInk-Regular.ttf",
+        "postScriptName": "BlakaInk-Regular",
+        "fullName": "Blaka Ink Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "d745f0be7cf43f4e8998834ef730b3cab22a82db19d6a1737008b7b4a87112ea",
+        "sizeBytes": 391520,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 219
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "cairo",
+    "familyName": "Cairo",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2023 The Cairo Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/cairo",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Cairo/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Mohamed Gaber, Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/cairo",
+    "faces": [
+      {
+        "filename": "Cairo[slnt,wght].ttf",
+        "postScriptName": "Cairo-Regular",
+        "fullName": "Cairo",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "667c987182391c91f4e57a2f455b1794fb5e3ee6ca4ef3383e86bb690fa9c964",
+        "sizeBytes": 599548,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 297
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "cairo-play",
+    "familyName": "Cairo Play",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2023 The Cairo Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/cairoplay",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/CairoPlay/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Mohamed Gaber, Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/cairoplay",
+    "faces": [
+      {
+        "filename": "CairoPlay[slnt,wght].ttf",
+        "postScriptName": "CairoPlay-Regular",
+        "fullName": "Cairo Play",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "2c275b43ace54233a0960c3aa1d05b4e9e0e396a501cd3f8d446b16cc3362745",
+        "sizeBytes": 608152,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 297
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "changa",
+    "familyName": "Changa",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2023 The Changa Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/changa",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Changa/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Eduardo Tunni",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/changa",
+    "faces": [
+      {
+        "filename": "Changa[wght].ttf",
+        "postScriptName": "Changa-Regular",
+        "fullName": "Changa",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "7c4f7a14d4b70ac8816ea8df3a0b127aee4c5f5af7239aca2afecc84ddc7f4d3",
+        "sizeBytes": 132140,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 277
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "farsan",
+    "familyName": "Farsan",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2014 Sorkin Type Co",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/farsan",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Farsan/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Daniel Sabino",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/farsan",
+    "faces": [
+      {
+        "filename": "Farsan-Regular.ttf",
+        "postScriptName": "Farsan-Regular",
+        "fullName": "Farsan Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "7bb968454a2dde084c9fb0f99a9921e9a8f96b0cd28dedf8f545ec23d52c3550",
+        "sizeBytes": 243932,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4
+        ],
+        "arabicCmapCount": 0
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "gulzar",
+    "familyName": "Gulzar",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2021 The Gulzar Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/gulzar",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Gulzar/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Borna Izadpanah, Fiona Ross",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/gulzar",
+    "faces": [
+      {
+        "filename": "Gulzar-Regular.ttf",
+        "postScriptName": "Gulzar-Regular",
+        "fullName": "Gulzar Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "246337973ac64e8b70fe611405dcf32a395a8885c4497dc45dbc4975d3ac0831",
+        "sizeBytes": 963496,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          8,
+          9
+        ],
+        "arabicCmapCount": 123
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "kufam",
+    "familyName": "Kufam",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2019 The Kufam Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/kufam",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Kufam/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Borna Izadpanah",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/kufam",
+    "faces": [
+      {
+        "filename": "Kufam[wght].ttf",
+        "postScriptName": "Kufam-Regular",
+        "fullName": "Kufam",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "f17a89b518c833de289598d0662bb9a07d09cc7d75b7079a15f1305f624bbcda",
+        "sizeBytes": 428544,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "arabicCmapCount": 273
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "lalezar",
+    "familyName": "Lalezar",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2016 The Lalezar Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/lalezar",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Lalezar/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Borna Izadpanah",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/lalezar",
+    "faces": [
+      {
+        "filename": "Lalezar-Regular.ttf",
+        "postScriptName": "Lalezar-Regular",
+        "fullName": "Lalezar Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9",
+        "sizeBytes": 290016,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 379
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "lemonada",
+    "familyName": "Lemonada",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2021 The Lemonada Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/lemonada",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Lemonada/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Mohamed Gaber, Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/lemonada",
+    "faces": [
+      {
+        "filename": "Lemonada[wght].ttf",
+        "postScriptName": "Lemonada-Regular",
+        "fullName": "Lemonada",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "84134e9e1da7d593839073157980a4d38296d2be10b61469a8f3169204959ad9",
+        "sizeBytes": 189204,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 239
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "marhey",
+    "familyName": "Marhey",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Marhey Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/marhey",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Marhey/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/marhey",
+    "faces": [
+      {
+        "filename": "Marhey[wght].ttf",
+        "postScriptName": "Marhey-Light",
+        "fullName": "Marhey",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "19c30686157ec965797fae8c8feb7bb142b082217227562d1a809c067df447e9",
+        "sizeBytes": 198704,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 121
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "readex-pro",
+    "familyName": "Readex Pro",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2020 The Readex Pro Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/readexpro",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/ReadexPro/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Thomas Jockin, Nadine Chahine",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/readexpro",
+    "faces": [
+      {
+        "filename": "ReadexPro[HEXP,wght].ttf",
+        "postScriptName": "ReadexPro-Regular",
+        "fullName": "Readex Pro",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "268bba7e1e8f3b14d798b3fb0e40ebaa3fc39308c9ac0020e2faf6df181cc30e",
+        "sizeBytes": 278544,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 75
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "reem-kufi-fun",
+    "familyName": "Reem Kufi Fun",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 The Reem Kufi Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/reemkufifun",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/ReemKufiFun/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/reemkufifun",
+    "faces": [
+      {
+        "filename": "ReemKufiFun[wght].ttf",
+        "postScriptName": "ReemKufiFun-Regular",
+        "fullName": "Reem Kufi Fun",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "d1342cebd08afc04a51bf9a28e5ac6a8299c5716c47df9b7ea27f94653aaa40f",
+        "sizeBytes": 176328,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 118
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "reem-kufi-ink",
+    "familyName": "Reem Kufi Ink",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 The Reem Kufi Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/reemkufiink",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/ReemKufiInk/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Khaled Hosny",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/reemkufiink",
+    "faces": [
+      {
+        "filename": "ReemKufiInk-Regular.ttf",
+        "postScriptName": "ReemKufiInk-Regular",
+        "fullName": "Reem Kufi Ink Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "45fecf59cff786a23357b61d282e5ad383438be9507f3aa9ea00eb0534d0a87e",
+        "sizeBytes": 315764,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "arabicCmapCount": 118
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "rubik",
+    "familyName": "Rubik",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2023 The Rubik Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/rubik",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Rubik/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Meir Sadan, Cyreal",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/rubik",
+    "faces": [
+      {
+        "filename": "Rubik[wght].ttf",
+        "postScriptName": "Rubik-Light",
+        "fullName": "Rubik",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+        "sizeBytes": 359804,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6,
+          9
+        ],
+        "arabicCmapCount": 195
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "suez-one",
+    "familyName": "Suez One",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2017 The Suez One Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/suezone",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/SuezOne/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Michal Sahar",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/suezone",
+    "faces": [
+      {
+        "filename": "SuezOne-Regular.ttf",
+        "postScriptName": "SuezOne-Regular",
+        "fullName": "Suez One Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "3ef86844aad0cf9db7dcbda326f3d2f54cc4ccfe56db949e9e0c60a17031bd41",
+        "sizeBytes": 70856,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          6
+        ],
+        "arabicCmapCount": 0
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "vazirmatn",
+    "familyName": "Vazirmatn",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2015 The Vazir Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/vazirmatn",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Vazirmatn/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Rastikerdar",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/vazirmatn",
+    "faces": [
+      {
+        "filename": "Vazirmatn[wght].ttf",
+        "postScriptName": "Vazirmatn-Regular",
+        "fullName": "Vazirmatn",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "696249a2c74b39ffdef55de4df2809c5b639d3ff80d618d8160a095d2fd49dca",
+        "sizeBytes": 241328,
+        "isVariable": true,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          1,
+          2,
+          9
+        ],
+        "arabicCmapCount": 355
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "zain",
+    "familyName": "Zain",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2024 The Zain Project Authors",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/google/fonts/tree/main/ofl/zain",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Zain/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Boutros Fonts",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/zain",
+    "faces": [
+      {
+        "filename": "Zain-ExtraLight.ttf",
+        "postScriptName": "Zain-ExtraLight",
+        "fullName": "Zain 200",
+        "style": "normal",
+        "weight": 200,
+        "sha256": "0fed2aeaa4a13676ee9a8b518804d4ce904a0b812a85bcbf35ea657cd2d308ac",
+        "sizeBytes": 180536,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 252
+      },
+      {
+        "filename": "Zain-Light.ttf",
+        "postScriptName": "Zain-Light",
+        "fullName": "Zain 300",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "21ac8d8c63f1d037d7922a7e1343ad07d9fc60cc922f5c267d12cd75d93f1037",
+        "sizeBytes": 189212,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 252
+      },
+      {
+        "filename": "Zain-Regular.ttf",
+        "postScriptName": "Zain-Regular",
+        "fullName": "Zain Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "2a2b8af3804039c7f500c43f581a4145012728bc3109ef15d48371700f5e1f63",
+        "sizeBytes": 188468,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 252
+      },
+      {
+        "filename": "Zain-Bold.ttf",
+        "postScriptName": "Zain-Bold",
+        "fullName": "Zain 700",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "4dc98e7b1a9cac93bde1907271472ba9cf43ae5212e942cafe59a6d341f052e3",
+        "sizeBytes": 189816,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 252
+      },
+      {
+        "filename": "Zain-Black.ttf",
+        "postScriptName": "Zain-Black",
+        "fullName": "Zain 900",
+        "style": "normal",
+        "weight": 900,
+        "sha256": "fb9146db13654b0e75003e8db55508167782d70bb64d85c0b4a0e689f016939f",
+        "sizeBytes": 193168,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 252
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "ibm-plex-sans-arabic",
+    "familyName": "IBM Plex Sans Arabic",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2021 IBM Corp.",
+    "reservedFontNames": [],
+    "sourceRepoURL": "https://github.com/IBM/plex",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/IbmPlexSansArabic/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Bold Monday",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/ibmplexsansarabic",
+    "faces": [
+      {
+        "filename": "IBMPlexSansArabic-ExtraLight.ttf",
+        "postScriptName": "IBMPlexSansArabic-ExtraLight",
+        "fullName": "IBM Plex Sans Arabic ExtraLight",
+        "style": "normal",
+        "weight": 200,
+        "sha256": "4d4137f37a1acd61f1b7eba47c08d0996789596b1e535f9220914ad5daf0a198",
+        "sizeBytes": 241652,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      },
+      {
+        "filename": "IBMPlexSansArabic-Light.ttf",
+        "postScriptName": "IBMPlexSansArabic-Light",
+        "fullName": "IBM Plex Sans Arabic Light",
+        "style": "normal",
+        "weight": 300,
+        "sha256": "0af9d1effbb36ff74d13c64f752c771ecb9162a451cf151c5425f4d00d4daa7c",
+        "sizeBytes": 238564,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      },
+      {
+        "filename": "IBMPlexSansArabic-Regular.ttf",
+        "postScriptName": "IBMPlexSansArabic-Regular",
+        "fullName": "IBM Plex Sans Arabic Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+        "sizeBytes": 235924,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      },
+      {
+        "filename": "IBMPlexSansArabic-Medium.ttf",
+        "postScriptName": "IBMPlexSansArabic-Medium",
+        "fullName": "IBM Plex Sans Arabic Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "b8363ab9f733dfa4f8e96b8b2102c24b5cf4110fb96d1d3d9a9412f6fb49cf74",
+        "sizeBytes": 242100,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      },
+      {
+        "filename": "IBMPlexSansArabic-SemiBold.ttf",
+        "postScriptName": "IBMPlexSansArabic-SemiBold",
+        "fullName": "IBM Plex Sans Arabic SemiBold",
+        "style": "normal",
+        "weight": 600,
+        "sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467",
+        "sizeBytes": 244616,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      },
+      {
+        "filename": "IBMPlexSansArabic-Bold.ttf",
+        "postScriptName": "IBMPlexSansArabic-Bold",
+        "fullName": "IBM Plex Sans Arabic Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "691e0c891a38637ae6bbdb69700f8042cb0724a137bee615068ffdb92244f61f",
+        "sizeBytes": 246992,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "arabicCmapCount": 588
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  },
+  {
+    "fontID": "alkalami",
+    "familyName": "Alkalami",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2017-2022 SIL International (https://software.sil.org/alkalami/)",
+    "reservedFontNames": [
+      "Alkalami"
+    ],
+    "sourceRepoURL": "https://github.com/silnrsi/font-alkalami",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/Alkalami/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "SIL International",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/alkalami",
+    "faces": [
+      {
+        "filename": "Alkalami-Regular.ttf",
+        "postScriptName": "Alkalami-Regular",
+        "fullName": "Alkalami",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "4410dfc591b918dd4360b0252b079855a8a00250de363c8c0163b29ddfc56434",
+        "sizeBytes": 145540,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "arabicCmapCount": 115
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships. Note: WS-16 (docs/impl-log/WS-16-cursive.md) established that CTRunGetPositions already bakes cursive-adjusted positions into capture and MKArrange's D-220 affine chain is font-agnostic — display/translate/rotate/scale of cursive-attached glyphs work correctly with no geometry changes required.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs via fontTools. Covered by WS-16 resolution (docs/impl-log/WS-16-cursive.md, ADR WS16-A2): CTRunGetPositions bakes cursive-adjusted positions into capture; MKArrange's D-220 affine chain composes layout.position as an opaque translation regardless of what produced it — display, translate, rotate, and scale work correctly with ZERO geometry changes."
+    }
+  },
+  {
+    "fontID": "noto-nastaliq-urdu",
+    "familyName": "Noto Nastaliq Urdu",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright 2022 The Noto Project Authors",
+    "reservedFontNames": [
+      "Noto"
+    ],
+    "sourceRepoURL": "https://github.com/notofonts/noto-fonts",
+    "sourceCommit": "",
+    "licenseFileBundlePath": "Fonts/NotoNastaliqUrdu/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-20",
+    "verifiedBy": "Run 3 automated verification",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "Google",
+    "googleFontsEvidencePath": "https://fonts.google.com/noto/specimen/Noto+Nastaliq+Urdu",
+    "faces": [
+      {
+        "filename": "NotoNastaliqUrdu-Regular.ttf",
+        "postScriptName": "NotoNastaliqUrdu-Regular",
+        "fullName": "Noto Nastaliq Urdu Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "2fd7b78ce48768b4d7b251457191e0f6db4c85e966a8a10a1f04e196dad35bb6",
+        "sizeBytes": 1171972,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "arabicCmapCount": 213
+      },
+      {
+        "filename": "NotoNastaliqUrdu-Bold.ttf",
+        "postScriptName": "NotoNastaliqUrdu-Bold",
+        "fullName": "Noto Nastaliq Urdu Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "630d8e4ce83e76d468d6d4488179f96bf14540b31d35693bec4ec9a44bebd063",
+        "sizeBytes": 1173220,
+        "isVariable": false,
+        "gposCursiveAttachment": true,
+        "gposLookupTypes": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "arabicCmapCount": 213
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "blocked_pending_ws04",
+      "step7_note": "T-AR-31/32/33 + T-AR-36..38 are MANUAL-ARABIC manual-visual tests exercised against Arrange Mode (MKArrange, WS-04). MKArrange is an unimplemented placeholder in this repo snapshot (Sources/MKArrange/MKArrangePlaceholder.swift) — there is no Arrange Mode UI to run these tests against. Recorded as BLOCKED, not PASS — re-run required once WS-04 ships. Note: WS-16 (docs/impl-log/WS-16-cursive.md) established that CTRunGetPositions already bakes cursive-adjusted positions into capture and MKArrange's D-220 affine chain is font-agnostic — display/translate/rotate/scale of cursive-attached glyphs work correctly with no geometry changes required.",
+      "step8_gposCursiveAudit": "cursive_attachment_present",
+      "step8_note": "GPOS lookup type 3 (cursive attachment) detected on this font's base glyphs via fontTools. Covered by WS-16 resolution (docs/impl-log/WS-16-cursive.md, ADR WS16-A2): CTRunGetPositions bakes cursive-adjusted positions into capture; MKArrange's D-220 affine chain composes layout.position as an opaque translation regardless of what produced it — display, translate, rotate, and scale work correctly with ZERO geometry changes."
+    }
+  },
+  {
+    "fontID": "ibm-plex-mono",
+    "familyName": "IBM Plex Mono",
+    "licenseType": "OFL-1.1",
+    "copyrightNotice": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+    "reservedFontNames": [
+      "Plex"
+    ],
+    "sourceRepoURL": "https://github.com/IBM/plex",
+    "sourceCommit": null,
+    "licenseFileBundlePath": "Fonts/IbmPlexMono/LICENSE-OFL.txt",
+    "verificationDate": "2026-07-23",
+    "verifiedBy": "design-system-adoption-session",
+    "redistributionConfirmed": true,
+    "embeddingRights": [
+      "pdf",
+      "svg",
+      "commercialUse"
+    ],
+    "designer": "IBM Corp. (Mike Abbink, Bold Monday)",
+    "googleFontsEvidencePath": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono",
+    "faces": [
+      {
+        "filename": "IBMPlexMono-Regular.ttf",
+        "postScriptName": "IBMPlexMono-Regular",
+        "fullName": "IBM Plex Mono Regular",
+        "style": "normal",
+        "weight": 400,
+        "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "sizeBytes": 135580,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          4
+        ],
+        "arabicCmapCount": 0
+      },
+      {
+        "filename": "IBMPlexMono-Medium.ttf",
+        "postScriptName": "IBMPlexMono-Medium",
+        "fullName": "IBM Plex Mono Medium",
+        "style": "normal",
+        "weight": 500,
+        "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+        "sizeBytes": 136704,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          4
+        ],
+        "arabicCmapCount": 0
+      },
+      {
+        "filename": "IBMPlexMono-Bold.ttf",
+        "postScriptName": "IBMPlexMono-Bold",
+        "fullName": "IBM Plex Mono Bold",
+        "style": "normal",
+        "weight": 700,
+        "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be",
+        "sizeBytes": 137784,
+        "isVariable": false,
+        "gposCursiveAttachment": false,
+        "gposLookupTypes": [
+          4
+        ],
+        "arabicCmapCount": 0
+      }
+    ],
+    "verification": {
+      "step1_6_licenseCapture": "pass",
+      "step7_arrangeFidelityGate": "not_applicable",
+      "step7_note": "Latin-only UI/chrome font (zero Arabic cmap coverage); never routed through MKArrange/text-on-path rendering, so the Arrange-Mode manual-visual gate does not apply.",
+      "step8_gposCursiveAudit": "cursive_attachment_absent",
+      "step8_note": "No GPOS lookup type 3 (cursive attachment) found on base glyphs."
+    }
+  }
+]

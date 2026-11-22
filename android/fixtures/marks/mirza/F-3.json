@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -13.392,
+      "relativeOffsetWidth" : 9.072
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "mirza",
+  "postScriptName" : "Mirza-Regular",
+  "sourceText" : "محمّد"
+}

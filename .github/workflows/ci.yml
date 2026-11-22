@@ -1,0 +1,63 @@
+name: CI
+
+# Portfolio house standard, 2026-07-20 pass. This workflow cannot execute yet — no
+# git remote exists (repo was `git init`-ed locally this pass; pushing is a founder
+# decision, see PHASE-Z-PENDING candidates). It is checked in now so the gates are
+# defined and already proven to pass locally (see the commit message / session
+# report for each script's local run output), and so it starts running the moment
+# a remote + push happen — no separate "add CI" step needed later.
+#
+# Every job here was run locally before this file was written and is green. Do NOT
+# add a job you have not run locally and confirmed passes — a red gate that ships
+# with the workflow is worse than no gate (house standard: "every CI gate is green
+# the day it merges").
+#
+# Deliberately NOT included:
+#   - `xcodebuild` for the `Makhtoot` app target: only `MakhtootKit`'s SwiftPM
+#     package was verified this pass (`swift build`); the app target needs a
+#     simulator destination and was not run (see docs/assumptions.md — UNVERIFIED).
+#     Add this job once that command has actually been run and passes.
+#   - `Scripts/referral-release-grep.sh`: requires a built `.app`/archive as input,
+#     which only exists after WS-15 (distribution) starts. Not runnable pre-archive.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hygiene:
+    name: Repo hygiene (fast, ordered before the build)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generated PDF samples stay local
+        shell: bash
+        run: |
+          tracked_pdfs=$(git ls-files -- ':(icase,glob)android/fixtures/export/**/*.pdf' ':(icase,glob)docs/impl-log/evidence/WS-08/**/*.pdf')
+          if [ -n "$tracked_pdfs" ]; then
+            echo "Remove generated PDFs from the tracked source tree:"
+            printf '%s\n' "$tracked_pdfs"
+            exit 1
+          fi
+      - name: iCloud sync-conflict copies
+        run: bash Scripts/check-conflict-files.sh
+      - name: Localization ratchet (Arabic-only UI)
+        run: bash Scripts/check-localization.sh
+      - name: Design-token ratchet (no raw colors bypassing MKTheme)
+        run: bash Scripts/check-design-tokens.sh
+      - name: StoreKit product-id contract mirror
+        run: bash Scripts/check-storekit-ids.sh
+      - name: Stub-source audit (D-229(3))
+        run: bash Scripts/stub-source-audit.sh
+
+  makhtootkit:
+    name: MakhtootKit (SwiftPM package build)
+    runs-on: macos-15
+    needs: hygiene
+    steps:
+      - uses: actions/checkout@v4
+      - name: swift build
+        working-directory: MakhtootKit
+        run: swift build

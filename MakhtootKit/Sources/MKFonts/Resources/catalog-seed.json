@@ -1,0 +1,737 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20",
+  "categories": {
+    "naskh": "نسخ",
+    "ruqah": "رقعة",
+    "thuluth": "ثلث",
+    "diwani": "ديواني",
+    "kufi": "كوفي",
+    "maghrebi": "مغربي",
+    "modernDisplay": "عرض حديث",
+    "quranicStyle": "طراز قرآني",
+    "handwriting": "خط يدوي",
+    "bilingual": "ثنائي اللغة (عربي/لاتيني)"
+  },
+  "fonts": [
+    {
+      "fontID": "almarai",
+      "familyName": "Almarai",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "واجهات",
+        "عصري"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Almarai-Bold",
+        "Almarai-ExtraBold",
+        "Almarai-Light",
+        "Almarai-Regular"
+      ]
+    },
+    {
+      "fontID": "amiri",
+      "familyName": "Amiri",
+      "categories": [
+        "naskh"
+      ],
+      "tags": [
+        "نسخ كلاسيكي",
+        "قراءة"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Amiri-Bold",
+        "Amiri-BoldItalic",
+        "Amiri-Italic",
+        "Amiri-Regular"
+      ]
+    },
+    {
+      "fontID": "amiri-quran",
+      "familyName": "Amiri Quran",
+      "categories": [
+        "naskh",
+        "quranicStyle"
+      ],
+      "tags": [
+        "نسخ قرآني",
+        "مصحف"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "AmiriQuran-Regular"
+      ]
+    },
+    {
+      "fontID": "aref-ruqaa",
+      "familyName": "Aref Ruqaa",
+      "categories": [
+        "ruqah"
+      ],
+      "tags": [
+        "رقعة",
+        "خط يدوي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ArefRuqaa-Bold",
+        "ArefRuqaa-Regular"
+      ]
+    },
+    {
+      "fontID": "el-messiri",
+      "familyName": "El Messiri",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "عناوين",
+        "عصري"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ElMessiri-Regular"
+      ]
+    },
+    {
+      "fontID": "harmattan",
+      "familyName": "Harmattan",
+      "categories": [
+        "naskh"
+      ],
+      "tags": [
+        "غرب أفريقي",
+        "بسيط"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Harmattan-Bold",
+        "Harmattan-Medium",
+        "Harmattan-Regular",
+        "Harmattan-SemiBold"
+      ]
+    },
+    {
+      "fontID": "jomhuria",
+      "familyName": "Jomhuria",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "عناوين",
+        "ملصقات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Jomhuria-Regular"
+      ]
+    },
+    {
+      "fontID": "katibeh",
+      "familyName": "Katibeh",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "عناوين"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Katibeh-Regular"
+      ]
+    },
+    {
+      "fontID": "lateef",
+      "familyName": "Lateef",
+      "categories": [
+        "naskh"
+      ],
+      "tags": [
+        "بسيط",
+        "قابلية قراءة عالية"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Lateef-Bold",
+        "Lateef-ExtraBold",
+        "Lateef-ExtraLight",
+        "Lateef-Light",
+        "Lateef-Medium",
+        "Lateef-Regular",
+        "Lateef-SemiBold"
+      ]
+    },
+    {
+      "fontID": "mada",
+      "familyName": "Mada",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "واجهات",
+        "هندسي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Mada-Regular"
+      ]
+    },
+    {
+      "fontID": "markazi-text",
+      "familyName": "Markazi Text",
+      "categories": [
+        "naskh",
+        "bilingual"
+      ],
+      "tags": [
+        "نصوص طويلة",
+        "أكاديمي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "MarkaziText-Regular"
+      ]
+    },
+    {
+      "fontID": "mirza",
+      "familyName": "Mirza",
+      "categories": [
+        "handwriting"
+      ],
+      "tags": [
+        "نستعليق-الطابع",
+        "زخرفي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Mirza-Bold",
+        "Mirza-Medium",
+        "Mirza-Regular",
+        "Mirza-SemiBold"
+      ]
+    },
+    {
+      "fontID": "noto-kufi-arabic",
+      "familyName": "Noto Kufi Arabic",
+      "categories": [
+        "kufi"
+      ],
+      "tags": [
+        "حديث",
+        "هندسي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "NotoKufiArabic-Regular"
+      ]
+    },
+    {
+      "fontID": "noto-naskh-arabic",
+      "familyName": "Noto Naskh Arabic",
+      "categories": [
+        "naskh"
+      ],
+      "tags": [
+        "حديث",
+        "قابلية قراءة عالية"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "NotoNaskhArabic-Regular"
+      ]
+    },
+    {
+      "fontID": "noto-sans-arabic",
+      "familyName": "Noto Sans Arabic",
+      "categories": [
+        "modernDisplay",
+        "bilingual"
+      ],
+      "tags": [
+        "واجهات",
+        "حديث"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "NotoSansArabic-Regular"
+      ]
+    },
+    {
+      "fontID": "qahiri",
+      "familyName": "Qahiri",
+      "categories": [
+        "kufi"
+      ],
+      "tags": [
+        "كوفي مائل",
+        "تراثي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Qahiri-Regular"
+      ]
+    },
+    {
+      "fontID": "rakkas",
+      "familyName": "Rakkas",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "زخرفي",
+        "عناوين"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Rakkas-Regular"
+      ]
+    },
+    {
+      "fontID": "reem-kufi",
+      "familyName": "Reem Kufi",
+      "categories": [
+        "kufi"
+      ],
+      "tags": [
+        "هندسي",
+        "عصري"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ReemKufi"
+      ]
+    },
+    {
+      "fontID": "scheherazade-new",
+      "familyName": "Scheherazade New",
+      "categories": [
+        "naskh",
+        "quranicStyle"
+      ],
+      "tags": [
+        "تراثي",
+        "أكاديمي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ScheherazadeNew-Bold",
+        "ScheherazadeNew-Medium",
+        "ScheherazadeNew-Regular",
+        "ScheherazadeNew-SemiBold"
+      ]
+    },
+    {
+      "fontID": "tajawal",
+      "familyName": "Tajawal",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "واجهات",
+        "عصري"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Tajawal-Black",
+        "Tajawal-Bold",
+        "Tajawal-ExtraBold",
+        "Tajawal-ExtraLight",
+        "Tajawal-Light",
+        "Tajawal-Medium",
+        "Tajawal-Regular"
+      ]
+    },
+    {
+      "fontID": "alef",
+      "familyName": "Alef",
+      "categories": [
+        "modernDisplay",
+        "bilingual"
+      ],
+      "tags": [
+        "بسيط",
+        "واجهات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Alef-Regular",
+        "Alef-Bold"
+      ]
+    },
+    {
+      "fontID": "aref-ruqaa-ink",
+      "familyName": "Aref Ruqaa Ink",
+      "categories": [
+        "ruqah"
+      ],
+      "tags": [
+        "رقعة",
+        "حبر"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ArefRuqaaInk-Regular",
+        "ArefRuqaaInk-Bold"
+      ]
+    },
+    {
+      "fontID": "baloo-bhaijaan-2",
+      "familyName": "Baloo Bhaijaan 2",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "زخرفي",
+        "عناوين"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "BalooBhaijaan2-Regular"
+      ]
+    },
+    {
+      "fontID": "blaka",
+      "familyName": "Blaka",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "جريء",
+        "عناوين"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Blaka-Regular"
+      ]
+    },
+    {
+      "fontID": "blaka-ink",
+      "familyName": "Blaka Ink",
+      "categories": [
+        "handwriting"
+      ],
+      "tags": [
+        "حبر",
+        "خط يدوي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "BlakaInk-Regular"
+      ]
+    },
+    {
+      "fontID": "cairo",
+      "familyName": "Cairo",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "واجهات",
+        "عصري"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Cairo-Regular"
+      ]
+    },
+    {
+      "fontID": "cairo-play",
+      "familyName": "Cairo Play",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "عرض",
+        "عناوين"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "CairoPlay-Regular"
+      ]
+    },
+    {
+      "fontID": "changa",
+      "familyName": "Changa",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "هندسي",
+        "واجهات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Changa-Regular"
+      ]
+    },
+    {
+      "fontID": "farsan",
+      "familyName": "Farsan",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "فارسي الطابع",
+        "زخرفي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Farsan-Regular"
+      ]
+    },
+    {
+      "fontID": "gulzar",
+      "familyName": "Gulzar",
+      "categories": [
+        "handwriting"
+      ],
+      "tags": [
+        "ناعم",
+        "خط يدوي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Gulzar-Regular"
+      ]
+    },
+    {
+      "fontID": "kufam",
+      "familyName": "Kufam",
+      "categories": [
+        "kufi"
+      ],
+      "tags": [
+        "كوفي",
+        "حديث"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Kufam-Regular"
+      ]
+    },
+    {
+      "fontID": "lalezar",
+      "familyName": "Lalezar",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "جريء",
+        "ملصقات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Lalezar-Regular"
+      ]
+    },
+    {
+      "fontID": "lemonada",
+      "familyName": "Lemonada",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "مستدير",
+        "ودّي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Lemonada-Regular"
+      ]
+    },
+    {
+      "fontID": "marhey",
+      "familyName": "Marhey",
+      "categories": [
+        "modernDisplay"
+      ],
+      "tags": [
+        "عصري",
+        "كوفي مستحدث"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Marhey-Light"
+      ]
+    },
+    {
+      "fontID": "readex-pro",
+      "familyName": "Readex Pro",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "متعدد اللغات",
+        "واجهات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ReadexPro-Regular"
+      ]
+    },
+    {
+      "fontID": "reem-kufi-fun",
+      "familyName": "Reem Kufi Fun",
+      "categories": [
+        "kufi"
+      ],
+      "tags": [
+        "كوفي مرح",
+        "ألعاب"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ReemKufiFun-Regular"
+      ]
+    },
+    {
+      "fontID": "reem-kufi-ink",
+      "familyName": "Reem Kufi Ink",
+      "categories": [
+        "kufi",
+        "handwriting"
+      ],
+      "tags": [
+        "كوفي حبر",
+        "كاليغرافي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "ReemKufiInk-Regular"
+      ]
+    },
+    {
+      "fontID": "rubik",
+      "familyName": "Rubik",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "هندسي",
+        "واجهات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Rubik-Light"
+      ]
+    },
+    {
+      "fontID": "suez-one",
+      "familyName": "Suez One",
+      "categories": [
+        "modernDisplay",
+        "bilingual"
+      ],
+      "tags": [
+        "عناوين",
+        "ثريّ"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "SuezOne-Regular"
+      ]
+    },
+    {
+      "fontID": "vazirmatn",
+      "familyName": "Vazirmatn",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "فارسي-عربي",
+        "واجهات"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Vazirmatn-Regular"
+      ]
+    },
+    {
+      "fontID": "zain",
+      "familyName": "Zain",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "عصري",
+        "نظيف"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Zain-ExtraLight",
+        "Zain-Light",
+        "Zain-Regular",
+        "Zain-Bold",
+        "Zain-Black"
+      ]
+    },
+    {
+      "fontID": "ibm-plex-sans-arabic",
+      "familyName": "IBM Plex Sans Arabic",
+      "categories": [
+        "bilingual",
+        "modernDisplay"
+      ],
+      "tags": [
+        "واجهات",
+        "مؤسسي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "IBMPlexSansArabic-ExtraLight",
+        "IBMPlexSansArabic-Light",
+        "IBMPlexSansArabic-Regular",
+        "IBMPlexSansArabic-Medium",
+        "IBMPlexSansArabic-SemiBold",
+        "IBMPlexSansArabic-Bold"
+      ]
+    },
+    {
+      "fontID": "alkalami",
+      "familyName": "Alkalami",
+      "categories": [
+        "naskh",
+        "quranicStyle"
+      ],
+      "tags": [
+        "قرآني",
+        "نسخ"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "Alkalami-Regular"
+      ]
+    },
+    {
+      "fontID": "noto-nastaliq-urdu",
+      "familyName": "Noto Nastaliq Urdu",
+      "categories": [
+        "handwriting"
+      ],
+      "tags": [
+        "نستعليق",
+        "أردو-فارسي"
+      ],
+      "origin": "bundled",
+      "faces": [
+        "NotoNastaliqUrdu-Regular",
+        "NotoNastaliqUrdu-Bold"
+      ]
+    }
+  ],
+  "provisionalFonts": []
+}

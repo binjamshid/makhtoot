@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lateef-Regular",
+          "postScriptName" : "Lateef-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lateef-Regular@36.0",
+        "glyphID" : 900
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          6.1875,
+          0
+        ],
+        "position" : [
+          2.93544,
+          -34.048828125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lateef-Regular",
+          "postScriptName" : "Lateef-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lateef-Regular@36.0",
+        "glyphID" : 263
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          7.41796875,
+          0
+        ],
+        "position" : [
+          7.277399999999998,
+          -33.644548125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "lateef",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8808275701749287,
+  "postScriptName" : "Lateef-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

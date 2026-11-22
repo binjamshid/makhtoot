@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Rubik-Light",
+          "postScriptName" : "Rubik-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Rubik-Light@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -33.659912109375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Rubik-Light",
+          "postScriptName" : "Rubik-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Rubik-Light@36.0",
+        "glyphID" : 451
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          10.08,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -33.659912109375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "rubik",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8313362314660294,
+  "postScriptName" : "Rubik-Light",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

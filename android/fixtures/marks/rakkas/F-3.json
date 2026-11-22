@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -1.26,
+      "relativeOffsetWidth" : 4.643999999999998
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "rakkas",
+  "postScriptName" : "Rakkas-Regular",
+  "sourceText" : "محمّد"
+}

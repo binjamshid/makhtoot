@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-18",
+  "fonts": [
+    {
+      "fontID": "amiri-bold-premium-sample",
+      "family": "Amiri (premium catalog manifest schema fixture)",
+      "faces": [
+        {
+          "postScriptName": "Amiri-Regular",
+          "styleName": "normal",
+          "weight": 400,
+          "isVariable": false
+        }
+      ],
+      "categories": [
+        "naskh",
+        "quranicStyle"
+      ],
+      "tags": [
+        "كلاسيكي"
+      ],
+      "fileURL": "https://fonts.example-makhtoot.invalid/premium/amiri/Amiri-Regular.ttf",
+      "fileSHA256": "ab391c4147d054c48976e98322ad0eefe1427aa0e0502a12a4c75d80a70cfcd7",
+      "fileSizeBytes": 431116,
+      "licenseRecord": {
+        "fontID": "amiri",
+        "familyName": "Amiri",
+        "licenseType": "OFL-1.1",
+        "copyrightNotice": "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).",
+        "reservedFontNames": [],
+        "sourceRepoURL": "https://github.com/aliftype/amiri.git",
+        "licenseFileBundlePath": "Fonts/Amiri/LICENSE-OFL.txt",
+        "verificationDate": "2026-07-18",
+        "verifiedBy": "WS-09 Run 3 verification",
+        "redistributionConfirmed": true,
+        "embeddingRights": [
+          "pdf",
+          "svg",
+          "commercialUse"
+        ]
+      },
+      "minAppVersion": "1.0.0",
+      "previewImageURL": null
+    }
+  ]
+}

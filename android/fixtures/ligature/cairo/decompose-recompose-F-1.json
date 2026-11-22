@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Cairo-Regular_ExtraLight",
+          "postScriptName" : "Cairo-Regular_ExtraLight",
+          "userImported" : false
+        },
+        "fontChecksum" : "Cairo-Regular_ExtraLight@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -46.90777587890625
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Cairo-Regular_ExtraLight",
+          "postScriptName" : "Cairo-Regular_ExtraLight",
+          "userImported" : false
+        },
+        "fontChecksum" : "Cairo-Regular_ExtraLight@36.0",
+        "glyphID" : 265
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.459999999999999,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -46.90777587890625
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "cairo",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7506320577389407,
+  "postScriptName" : "Cairo-Regular_ExtraLight",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

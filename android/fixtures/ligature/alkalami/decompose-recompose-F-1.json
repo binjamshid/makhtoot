@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Alkalami-Regular",
+          "postScriptName" : "Alkalami-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Alkalami-Regular@36.0",
+        "glyphID" : 590
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          8.783999999999999,
+          0
+        ],
+        "position" : [
+          0,
+          -37.2601318359375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Alkalami-Regular",
+          "postScriptName" : "Alkalami-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Alkalami-Regular@36.0",
+        "glyphID" : 249
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.064,
+          0
+        ],
+        "position" : [
+          8.783999999999999,
+          -37.2601318359375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "alkalami",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.6910913872452336,
+  "postScriptName" : "Alkalami-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

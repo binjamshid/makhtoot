@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 2.794921875,
+      "relativeOffsetWidth" : 1.86328125
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -14.291015625,
+      "relativeOffsetWidth" : 15.978515625
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "harmattan",
+  "postScriptName" : "Harmattan-Regular",
+  "sourceText" : "حِسّ"
+}

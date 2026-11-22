@@ -1,0 +1,72 @@
+{
+  "canvasSize" : [
+    400,
+    400
+  ],
+  "fixtureName" : "fixture-arranged-la",
+  "hitsAtCanvasCenter" : [
+
+  ],
+  "nodes" : [
+    {
+      "geometry" : {
+        "localBoundsHeight" : 96,
+        "localBoundsWidth" : 80,
+        "localBoundsX" : 0,
+        "localBoundsY" : 0,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "DB2B85FC-D163-41C4-9A0A-E20BEFA0E45B",
+      "nodeKind" : "arranged",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            40,
+            48
+          ]
+        },
+        {
+          "contains" : true,
+          "label" : "topLeft",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : true,
+          "label" : "topRight",
+          "worldPoint" : [
+            80,
+            0
+          ]
+        },
+        {
+          "contains" : true,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            0,
+            96
+          ]
+        },
+        {
+          "contains" : true,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            80,
+            96
+          ]
+        }
+      ]
+    }
+  ]
+}

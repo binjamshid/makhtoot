@@ -1,0 +1,38 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 0,
+      "baseGlyph" : {
+        "glyph" : 3,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 1,
+      "markGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : 1.5119999999999998,
+      "relativeOffsetWidth" : 7.560000000000002
+    },
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -16.02,
+      "relativeOffsetWidth" : 21.996
+    }
+  ],
+  "caseID" : "F-6a",
+  "familyID" : "katibeh",
+  "postScriptName" : "Katibeh-Regular",
+  "sourceText" : "حِسّ"
+}

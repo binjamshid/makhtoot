@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	WS-01 packet §5 task 18 scope only originally. The `.makhtoot`
+	document-type declaration below was added by WS-13 (P1-COMPLETION
+	session) per ADR WS02-A7 (`docs/impl-log/WS-02.md`): WS-02 owns MKModel/
+	MKPersistence only and was scope-fenced out of `Makhtoot/Config/
+	Info.plist`, so it handed off the exact snippet for whichever
+	workstream owns this file (WS-13, per FOUNDATION §2's ownership table)
+	to apply once the `.makhtoot` document type actually exists — it does
+	now (`MKPersistence.DocumentPackage`). A full distribution-config pass
+	(export compliance, usage-description strings for features that exist
+	by then) remains WS-15's job (FILE_MAP §3.1 legend). Nothing below
+	requires network access.
+	-->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ar</string>
+	<key>CFBundleDisplayName</key>
+	<string>مخطوط</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<!-- FD-01 applied: real bundle ID net.binjamshid.makhtoot confirmed. -->
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ar</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>20260807.1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<!-- ITMS-90737 (surfaced on the first App Store Connect upload, WS-15
+	     session 3): a document-based app (CFBundleDocumentTypes below) must
+	     declare one of LSSupportsOpeningDocumentsInPlace/UISupportsDocumentBrowser.
+	     This app has no UIDocumentBrowserViewController — YES is Apple's
+	     recommended default and matches the ADR WS02-A7 comment's stated
+	     intent below (real Files.app integration, not just recognition).
+	     WS-15 session 6: the gap this key's declaration implies is now
+	     actually fulfilled — RootShellView.swift's `.onOpenURL` handler +
+	     ProjectLibraryProviding.importExternalPackage(at:) receive a
+	     `.makhtoot` package opened this way, import/register it if new
+	     (idempotent by the package's own durable id), and open it in the
+	     editor. Verified end-to-end on-simulator via `xcrun simctl openurl`,
+	     see docs/impl-log/WS-15.md session 6. -->
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<!-- ADR WS02-A7: the `.makhtoot` project package UTI, exported by this
+	     app (it is the sole producer/owner of the type), plus the document
+	     type declaration so Files.app/Quick Look/document-browser
+	     integrations recognize `.makhtoot` packages as ours. Uses the
+	     placeholder bundle-id-derived UTI (FD-01, FOUNDATION §0: "UTI
+	     net.binjamshid.makhtoot.project, FD-01 confirmed") — written out
+	     explicitly here (not derived from $(PRODUCT_BUNDLE_IDENTIFIER));
+	     UTIs must be stable across bundle-id changes to avoid orphaning
+	     already-created `.makhtoot` packages on a user's device, so this
+	     is intentionally NOT a build variable). -->
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>net.binjamshid.makhtoot.project</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.apple.package</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>مشروع مخطوط</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>makhtoot</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>مشروع مخطوط</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>net.binjamshid.makhtoot.project</string>
+			</array>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+		</dict>
+	</array>
+	<!-- P7.5 (§2.2 Bug 17, app icon switching): alternate icons, one per
+	     non-default design-system theme (حِبر/hibr is the PRIMARY
+	     asset-catalog icon, ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+	     `setAlternateIconName(nil)` always resets to it, so it needs no
+	     entry here). Each alternate is a LOOSE file set at the bundle root
+	     (`Makhtoot/AltIcons/*.png`, added to the target's Resources build
+	     phase directly ، NOT an .xcassets set, which alternate icons
+	     cannot use) named `AppIcon-<Name><size>@<scale>x.png` exactly
+	     matching each `CFBundleIconFiles` prefix below. `CTFontManager`-
+	     style entitlement-free API (`UIApplication.setAlternateIconName`,
+	     iOS 10.3+) ، no Info.plist capability key beyond this dictionary
+	     itself, no entitlement. -->
+	<!-- WS-15 icon-rejection fix (ITMS-90032, 2026-07-29): CFBundleIconFiles entries
+	     for loose (non-asset-catalog) icons resolve by exact string concatenation --
+	     "<entry>@2x.png"/"<entry>@3x.png" on disk, nothing else. A prior version of
+	     this file declared a single bare entry per icon name (e.g. "AppIcon-Naqsh")
+	     while the actual files on disk were named "AppIcon-Naqsh60x60@2x.png" (an
+	     extra WxH segment) -- that string never matches "AppIcon-Naqsh@2x.png", so
+	     Apple's validator reported "No image found" for all four sets on two
+	     consecutive uploads (20260728.2, 20260728.3). Fixed by renaming the files to
+	     drop the WxH segment (point size only, e.g. "AppIcon-Naqsh60@2x.png") and
+	     listing one CFBundleIconFiles entry per required point size instead of one
+	     bare name -- 60pt for iPhone (this dict), 76pt + 83.5pt (iPad Pro) for iPad
+	     (CFBundleIcons~ipad below). See Makhtoot/AltIcons/*.png for the actual files. -->
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Naqsh</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Naqsh60</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Raml</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Raml60</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Tayf</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Tayf60</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Kufi</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Kufi60</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Naqsh</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Naqsh76</string>
+					<string>AppIcon-Naqsh83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Raml</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Raml76</string>
+					<string>AppIcon-Raml83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Tayf</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Tayf76</string>
+					<string>AppIcon-Tayf83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Kufi</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon-Kufi76</string>
+					<string>AppIcon-Kufi83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>AccentColor</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

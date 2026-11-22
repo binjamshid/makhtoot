@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_persistence_undo_delete_element">حذف عنصر</string>
+    <string name="mk_persistence_undo_group">تجميع</string>
+    <string name="mk_persistence_undo_insert_element">إدراج عنصر</string>
+    <string name="mk_persistence_undo_lock_hide">قفل/إخفاء</string>
+    <string name="mk_persistence_undo_move">تحريك</string>
+    <string name="mk_persistence_undo_paste">لصق</string>
+    <string name="mk_persistence_undo_rename">إعادة تسمية</string>
+    <string name="mk_persistence_undo_reorder_layers">إعادة ترتيب الطبقات</string>
+    <string name="mk_persistence_undo_replace_element">استبدال عنصر</string>
+    <string name="mk_persistence_undo_resize_canvas">تغيير حجم اللوحة</string>
+    <string name="mk_persistence_undo_restore_previous_state">استعادة الحالة السابقة</string>
+    <string name="mk_persistence_undo_style">تنسيق</string>
+    <string name="mk_persistence_undo_type">كتابة</string>
+    <string name="mk_persistence_undo_ungroup">إلغاء التجميع</string>
+</resources>

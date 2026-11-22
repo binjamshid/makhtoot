@@ -1,0 +1,22 @@
+[
+  {
+    "caseID" : "identity-at-current-version",
+    "fromVersion" : 1,
+    "note" : "MKIdentityMigrator at MKSceneSchema.currentVersion is a documented no-op success.",
+    "outcome" : "success"
+  },
+  {
+    "caseID" : "empty-registry-no-path",
+    "errorDescription" : "migrationPathMissing(fromVersion: 0)",
+    "fromVersion" : 0,
+    "note" : "An empty migrator registry has no path from schemaVersion 0 to current and must throw.",
+    "outcome" : "threw"
+  },
+  {
+    "caseID" : "future-schema-version-rejected",
+    "errorDescription" : "schemaTooNew(found: 1001, supported: 1)",
+    "fromVersion" : 1001,
+    "note" : "MKSceneCodec.decode must reject a schemaVersion newer than MKSceneSchema.currentVersion.",
+    "outcome" : "threw"
+  }
+]

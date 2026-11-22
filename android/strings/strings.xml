@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Extracted verbatim from Makhtoot/Resources/Localizable.xcstrings for Android
+  port work item 0.4 (ANDROID_TASK_PACKETS/BATCH-0.md).
+  Staging output for work item 1.1 (ANDROID_SPINE.md sec11), installed in
+  android/app/src/main/res/values/strings.xml. Every key below is an Android-identifier-sanitized
+  rendering of the xcstrings Arabic source key (the key itself is not a valid Android
+  resource name); the full key-to-name mapping and iOS comment/Latin-gloss context is
+  recorded in android/docs/impl-log/BATCH-0.4.md. No plural variants exist in the source
+  catalog, so no plurals elements appear here.
+-->
+<resources>
+    <!-- New-project sheet: premium-gated custom canvas dimensions (Latin gloss: custom dimensions) -->
+    <string name="custom_dimensions_label">أبعاد مخصصة</string>
+    <!-- Custom-dimensions subtitle for premium users (Latin gloss: enter exact width and height) -->
+    <string name="custom_dimensions_subtitle_premium">أدخل العرض والارتفاع بدقة</string>
+    <!-- Project context-menu action (Latin gloss: rename) -->
+    <string name="rename">إعادة تسمية</string>
+    <!-- Rename-project prompt title (Latin gloss: rename project) -->
+    <string name="rename_project_title">إعادة تسمية المشروع</string>
+    <!-- Close button (settings sheet, paywall) (Latin gloss: close) -->
+    <string name="close">إغلاق</string>
+    <!-- Cancel button (delete-confirmation dialog) (Latin gloss: cancel) -->
+    <string name="cancel">إلغاء</string>
+    <!-- Create action (new folder prompt / custom canvas size) -->
+    <string name="create">إنشاء</string>
+    <!-- Project browser empty-state title (Latin gloss: start your first design) -->
+    <string name="empty_state_start_first_design">ابدأ أول تصميم لك</string>
+    <!-- Onboarding primary CTA — always skips to the browser without purchase (Latin gloss: start designing) -->
+    <string name="start_designing_cta">ابدأ التصميم</string>
+    <!-- New-folder prompt text field placeholder (Latin gloss: folder name) -->
+    <string name="folder_name_placeholder">اسم المجلد</string>
+    <!-- Rename-project prompt text field placeholder (Latin gloss: project name) -->
+    <string name="project_name_placeholder">اسم المشروع</string>
+    <!-- Settings screen title / sidebar item (Latin gloss: settings) -->
+    <string name="settings_title">الإعدادات</string>
+    <!-- Custom canvas height field label (Latin gloss: height) -->
+    <string name="height_label">الارتفاع</string>
+    <!-- Settings row title (Latin gloss: subscription) -->
+    <string name="subscription_row_title">الاشتراك</string>
+    <!-- Paywall placeholder title (Latin gloss: premium plans) -->
+    <string name="premium_plans_title">الباقات المميزة</string>
+    <!-- Browser search field prompt (Latin gloss: search projects) -->
+    <string name="search_projects_prompt">البحث في المشاريع</string>
+    <!-- Settings row title — Q66 licensing route (Latin gloss: licensing) -->
+    <string name="licensing_row_title">التراخيص</string>
+    <!-- Settings row title (Latin gloss: support) -->
+    <string name="support_row_title">الدعم</string>
+    <!-- Custom canvas width field label (Latin gloss: width) -->
+    <string name="width_label">العرض</string>
+    <!-- Folder chip for the unscoped "every project" view (Latin gloss: all) -->
+    <string name="folder_chip_all">الكل</string>
+    <!-- Editor scene navigation title (Latin gloss: editor) -->
+    <string name="editor_title">المحرر</string>
+    <!-- Project browser navigation title / sidebar item (Latin gloss: projects) -->
+    <string name="projects_title">المشاريع</string>
+    <!-- New-project canvas preset: A5-ratio print card, 1240×1754 (Latin gloss: A5 print card) -->
+    <string name="canvas_preset_a5_print_card">بطاقة طباعة A5</string>
+    <!-- Move-to-folder menu option for the root/no-folder destination (Latin gloss: no folder) -->
+    <string name="move_to_folder_none_option">بلا مجلد</string>
+    <!-- Project context-menu action (Latin gloss: duplicate) -->
+    <string name="duplicate">تكرار</string>
+    <!-- Done button (editor placeholder toolbar) (Latin gloss: done) -->
+    <string name="done">تم</string>
+    <!-- DEBUG-only Settings action: seeds 500 fixture projects for the T17 browser-scroll perf gate (Latin gloss: seed 500 fixture projects) -->
+    <string name="debug_seed_500_projects">توليد ٥٠٠ مشروع تجريبي</string>
+    <!-- New-project canvas preset: messaging status, 1080×1920 (Latin gloss: messaging status) -->
+    <string name="canvas_preset_messaging_status">حالة رسائل</string>
+    <!-- Baseline theme name (Latin gloss: Ink &amp; Paper) -->
+    <string name="theme_name_baseline_ink_paper">حبر ورق</string>
+    <!-- Delete action — context-menu row and confirmation-dialog button (Latin gloss: delete) -->
+    <string name="delete">حذف</string>
+    <!-- Delete-folder confirmation dialog title (Latin gloss: delete the folder?) -->
+    <string name="delete_folder_confirm_title">حذف المجلد؟</string>
+    <!-- Delete-confirmation dialog title (Latin gloss: delete the project?) -->
+    <string name="delete_project_confirm_title">حذف المشروع؟</string>
+    <!-- Save action (rename prompt) -->
+    <string name="save">حفظ</string>
+    <!-- New-project canvas preset: phone wallpaper, 1080×2340 (Latin gloss: phone wallpaper) -->
+    <string name="canvas_preset_phone_wallpaper">خلفية هاتف</string>
+    <!-- New-project canvas preset: story 9:16, 1080×1920 (Latin gloss: story 9:16) -->
+    <string name="canvas_preset_story_9x16">ستوري ٩:١٦</string>
+    <!-- Project context-menu action + export-history sheet title (Latin gloss: export history) -->
+    <string name="export_history_title">سجل التصدير</string>
+    <!-- Delete-folder confirmation message — projects move to "all", never deleted with the folder (Latin gloss: the folder will be deleted; its projects will move to "all") -->
+    <string name="delete_folder_confirm_message">سيُحذف المجلد، وستنتقل مشاريعه إلى (الكل)</string>
+    <!-- Delete-confirmation dialog message — WS-13 packet §5 T7 exact copy (Latin gloss: the project will be permanently deleted from this device) -->
+    <string name="delete_project_confirm_message">سيُحذف المشروع نهائيًا من هذا الجهاز</string>
+    <!-- Onboarding secondary link opening the paywall placeholder (Latin gloss: view plans) -->
+    <string name="view_plans_link">عرض الباقات</string>
+    <!-- Orphaned-project label — package missing on disk, record still indexed (Latin gloss: not available on this device) -->
+    <string name="not_available_on_device_label">غير متاح على هذا الجهاز</string>
+    <!-- Project context-menu action (Latin gloss: open) -->
+    <string name="open">فتح</string>
+    <!-- Search empty-state title (Latin gloss: no results) -->
+    <string name="no_results_title">لا توجد نتائج</string>
+    <!-- Export-history sheet empty state (Latin gloss: no exports have been made from this project yet) -->
+    <string name="export_history_empty_state">لم يتم تصدير هذا المشروع بعد</string>
+    <!-- New-folder prompt title (Latin gloss: new folder) -->
+    <string name="new_folder_title">مجلد جديد</string>
+    <!-- Trailing chip that opens the new-folder prompt (Latin gloss: new folder +) -->
+    <string name="new_folder_chip">مجلد جديد +</string>
+    <!-- App name (Latin gloss: Makhtoot) -->
+    <string name="app_name">مخطوط</string>
+    <!-- New-project canvas preset: square 1:1, 1080×1080 (Latin gloss: square 1:1) -->
+    <string name="canvas_preset_square_1x1">مربع ١:١</string>
+    <!-- New-project toolbar button / empty-state CTA (Latin gloss: new project) -->
+    <string name="new_project_button">مشروع جديد</string>
+    <!-- Debug-only gallery screen title/link (Latin gloss: design elements gallery) -->
+    <string name="debug_design_gallery_title">معرض عناصر التصميم</string>
+    <!-- New-project canvas preset: post 4:5, 1080×1350 (Latin gloss: post 4:5) -->
+    <string name="canvas_preset_post_4x5">منشور ٤:٥</string>
+    <!-- Custom-dimensions subtitle for free-tier users, routes to paywall on tap (Latin gloss: premium feature) -->
+    <string name="premium_feature_label">ميزة مميزة</string>
+    <!-- Project context-menu action (Latin gloss: move to folder) -->
+    <string name="move_to_folder_action">نقل إلى مجلد</string>
+</resources>

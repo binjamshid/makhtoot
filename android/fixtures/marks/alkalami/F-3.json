@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.828,
+      "relativeOffsetWidth" : 3.6720000000000006
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "alkalami",
+  "postScriptName" : "Alkalami-Regular",
+  "sourceText" : "محمّد"
+}

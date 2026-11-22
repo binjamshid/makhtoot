@@ -1,0 +1,31 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Simulator / test artifacts
+*.xcresult
+
+# Historical export sample locations
+/android/fixtures/export/*.pdf
+/docs/impl-log/evidence/WS-08/*.pdf
+
+# Archive/export output (regenerable via xcodebuild archive, WS-15)
+build/
+
+# Local tool caches (regenerable from source; not portable across machines)
+# Portfolio house-standard git-hygiene pass, 2026-07-20: _input/ was inspected
+# (12K, BRIEF.md only, no large binaries) and is intentionally NOT ignored —
+# it is small, real source material (the locked founder requirements digest).
+.codebase-memory/
+.impeccable/

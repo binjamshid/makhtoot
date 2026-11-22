@@ -1,0 +1,24 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-12",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 7,
+      "constituentScalars" : [
+        1575,
+        1604,
+        1604,
+        1607
+      ],
+      "glyph" : {
+        "glyph" : 1,
+        "run" : 2
+      },
+      "kind" : "contextual"
+    }
+  ],
+  "familyID" : "rakkas",
+  "postScriptName" : "Rakkas-Regular",
+  "sourceText" : "ما شاء الله ١٤٤٧هـ"
+}

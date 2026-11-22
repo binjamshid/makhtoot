@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Harmattan-Regular",
+          "postScriptName" : "Harmattan-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Harmattan-Regular@36.0",
+        "glyphID" : 950
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          6.9609375,
+          0
+        ],
+        "position" : [
+          0,
+          -38.07421875
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Harmattan-Regular",
+          "postScriptName" : "Harmattan-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Harmattan-Regular@36.0",
+        "glyphID" : 244
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          7.365234375,
+          0
+        ],
+        "position" : [
+          6.9609375,
+          -38.07421875
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "harmattan",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.790630899289353,
+  "postScriptName" : "Harmattan-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

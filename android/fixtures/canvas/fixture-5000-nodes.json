@@ -1,0 +1,1512 @@
+{
+  "canvasSize" : [
+    1080,
+    1350
+  ],
+  "fixtureName" : "fixture-5000-nodes",
+  "hitsAtCanvasCenter" : [
+
+  ],
+  "nodes" : [
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "796D9D93-DB8C-4515-8BA7-8B1958978C7C",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "813F9DEE-B82D-4DD8-91E4-9ECE51D27243",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "5FA6A2A9-1094-4FCB-A5EF-480D278A6A1C",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "B11FC2C5-4DBC-4335-B30D-5965E38E6B6D",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "A072E73B-0823-45EE-91A8-44677B554655",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "4EFB725B-EC60-4B08-8A67-062C57DD1583",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "92D5D06D-E0BF-4650-A36F-FB224AA7FFE8",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "8ABB6763-4A6C-4618-81C1-D1791534CB8F",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "F5843644-88AA-4059-828E-230FEC5DAFDD",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "251E43C5-BB22-4C8E-8925-98D56DBD9EA1",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "A49C21D5-0914-40D3-B394-6A1CDA826920",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "137896B2-893C-4B83-82E3-08BE49696DD9",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "4C47EBB6-35D6-41C9-B1DA-7F42F67CD5D1",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "9F20E1AE-31D3-48FC-B30D-654BAFD43A66",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "FC51E397-DAF3-4E81-B040-B6AD2B3C514A",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "A1EEE9AE-ABE1-4E14-A29E-1E25B2527ECF",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "FFF16CB6-5823-4AC3-B81D-D3F7AD093392",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "FCB4D552-503B-4C26-AEF6-70E5494DEB6E",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "3165BC2D-B226-471B-B1EC-D686D5549517",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "423C0E1C-5409-44A6-9958-6F4393B8B604",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "6031853B-AC40-4FE0-BAB5-D06CAC37FFBB",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "823900E7-C7F3-44C8-BE9E-816E5EFDA753",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "C0E5549A-4A86-4523-AE7F-49E94E02C25C",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "3220776D-060F-4C9F-98EA-ADF366C14ECA",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "geometry" : {
+        "localBoundsHeight" : 1,
+        "localBoundsWidth" : 1,
+        "localBoundsX" : -0.5,
+        "localBoundsY" : -0.5,
+        "worldTransform" : [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "nodeID" : "38B1C9DA-01D6-4AC6-B365-97B2D4A1DFD5",
+      "nodeKind" : "shape",
+      "probes" : [
+        {
+          "contains" : true,
+          "label" : "center",
+          "worldPoint" : [
+            0,
+            0
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topLeft",
+          "worldPoint" : [
+            -0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "topRight",
+          "worldPoint" : [
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomLeft",
+          "worldPoint" : [
+            -0.5,
+            0.5
+          ]
+        },
+        {
+          "contains" : false,
+          "label" : "bottomRight",
+          "worldPoint" : [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    }
+  ]
+}

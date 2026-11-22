@@ -1,0 +1,22 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-1",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 0,
+      "constituentScalars" : [
+        1604,
+        1575
+      ],
+      "glyph" : {
+        "glyph" : 0,
+        "run" : 0
+      },
+      "kind" : "required"
+    }
+  ],
+  "familyID" : "lalezar",
+  "postScriptName" : "Lalezar-Regular",
+  "sourceText" : "لا"
+}

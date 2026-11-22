@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Mirza-Regular",
+          "postScriptName" : "Mirza-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Mirza-Regular@36.0",
+        "glyphID" : 736
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          7.847999999999999,
+          0
+        ],
+        "position" : [
+          0,
+          -19.69189453125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Mirza-Regular",
+          "postScriptName" : "Mirza-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Mirza-Regular@36.0",
+        "glyphID" : 678
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.431999999999999,
+          0
+        ],
+        "position" : [
+          7.847999999999999,
+          -19.69189453125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "mirza",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.74,
+  "postScriptName" : "Mirza-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

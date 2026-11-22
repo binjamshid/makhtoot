@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.MarkaziText-Regular",
+          "postScriptName" : "MarkaziText-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "MarkaziText-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -30.19921875
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.MarkaziText-Regular",
+          "postScriptName" : "MarkaziText-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "MarkaziText-Regular@36.0",
+        "glyphID" : 489
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          7.154296875,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -30.19921875
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "markazi-text",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.6400687303522954,
+  "postScriptName" : "MarkaziText-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

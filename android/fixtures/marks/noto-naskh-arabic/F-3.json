@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -6.696,
+      "relativeOffsetWidth" : 3.9239999999999995
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "noto-naskh-arabic",
+  "postScriptName" : "NotoNaskhArabic-Regular",
+  "sourceText" : "محمّد"
+}

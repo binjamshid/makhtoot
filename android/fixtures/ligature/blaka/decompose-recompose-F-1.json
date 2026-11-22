@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Blaka-Regular",
+          "postScriptName" : "Blaka-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Blaka-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          -0.18000000000000005,
+          -33.55224609375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Blaka-Regular",
+          "postScriptName" : "Blaka-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Blaka-Regular@36.0",
+        "glyphID" : 237
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          7.8839999999999995,
+          0
+        ],
+        "position" : [
+          13.644,
+          -33.55224609375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "blaka",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.8617346406878424,
+  "postScriptName" : "Blaka-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

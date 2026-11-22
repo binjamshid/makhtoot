@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -17.567999999999998,
+      "relativeOffsetWidth" : 4.464
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "noto-nastaliq-urdu",
+  "postScriptName" : "NotoNastaliqUrdu-Regular",
+  "sourceText" : "محمّد"
+}

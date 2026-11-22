@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -7.8,
+      "relativeOffsetWidth" : 3.6000000000000014
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "jomhuria",
+  "postScriptName" : "Jomhuria-Regular",
+  "sourceText" : "محمّد"
+}

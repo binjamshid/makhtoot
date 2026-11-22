@@ -1,0 +1,254 @@
+{
+  "corpusID" : "F-7b",
+  "familyDir" : "ArefRuqaa",
+  "familyID" : "aref-ruqaa",
+  "fontFile" : "ArefRuqaa-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 43.95574951171875,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 7,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 7,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1573
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            },
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1587
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1604
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1575
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 5,
+          "utf16End" : 6,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1605
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "simple",
+          "ordinal" : 6,
+          "utf16End" : 7,
+          "utf16Start" : 6
+        }
+      ],
+      "descent" : 8.78411865234375,
+      "glyphCount" : 8,
+      "leading" : 3.5282592773437496,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              18.18,
+              0
+            ],
+            [
+              -0.9719999999999995,
+              0
+            ],
+            [
+              26.351999999999997,
+              0
+            ],
+            [
+              36.071999999999996,
+              -7.343999999999999
+            ],
+            [
+              -11.411999999999999,
+              7.343999999999999
+            ],
+            [
+              -0.9719999999999995,
+              0
+            ],
+            [
+              24.264,
+              0
+            ],
+            [
+              8.927999999999999,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ArefRuqaa-Regular",
+          "glyphs" : [
+            37,
+            430,
+            172,
+            140,
+            53,
+            430,
+            171,
+            12
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              0,
+              0
+            ],
+            [
+              18.18,
+              0
+            ],
+            [
+              17.208,
+              0
+            ],
+            [
+              43.559999999999995,
+              0
+            ],
+            [
+              79.632,
+              -7.343999999999999
+            ],
+            [
+              68.22,
+              0
+            ],
+            [
+              67.248,
+              0
+            ],
+            [
+              91.512,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            6,
+            5,
+            4,
+            3,
+            2,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 7,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 7,
+      "sourceRangeStart" : 0,
+      "width" : 100.43999999999997
+    }
+  ],
+  "note" : "Lam-alif ligature inside a joined word, hamza-on-alif",
+  "pointSize" : 36,
+  "postScriptName" : "ArefRuqaa-Regular",
+  "sourceText" : "الإسلام"
+}

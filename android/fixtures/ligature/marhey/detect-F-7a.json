@@ -1,0 +1,22 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-7a",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 1,
+      "constituentScalars" : [
+        1604,
+        1575
+      ],
+      "glyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "kind" : "required"
+    }
+  ],
+  "familyID" : "marhey",
+  "postScriptName" : "Marhey-Light",
+  "sourceText" : "سلام"
+}

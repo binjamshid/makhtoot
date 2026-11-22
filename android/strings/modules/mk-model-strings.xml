@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_model_error_schema_too_new">هذا المشروع أُنشئ بإصدار أحدث من مخطوط</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  work item 1.1 (ANDROID_SPINE.md §2 D-312, §11). Governs
+  `android:dataExtractionRules` on Android 12+ (required at targetSdk 36
+  alongside backup_rules.xml, which covers Android 11 and below only — see
+  that file's header for why both are required).
+
+  Same restriction as backup_rules.xml: exactly the D-312 trial DataStore
+  blob (datastore/mk_trial_state.preferences_pb), covering both the
+  cloud-backup path (Auto Backup to Drive) and the device-transfer path
+  (Android's "restore from old device" / D2D flow) — both are single-slot
+  restores at device setup, never a live sync channel (D-312's "no
+  cross-device propagation" clause).
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="file" path="datastore/mk_trial_state.preferences_pb" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="datastore/mk_trial_state.preferences_pb" />
+    </device-transfer>
+</data-extraction-rules>

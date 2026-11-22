@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lemonada-Light",
+          "postScriptName" : "Lemonada-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lemonada-Light@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          -2.2319999999999998,
+          -48.42004394531249
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lemonada-Light",
+          "postScriptName" : "Lemonada-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lemonada-Light@36.0",
+        "glyphID" : 364
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.828,
+          0
+        ],
+        "position" : [
+          16.523999999999997,
+          -48.42004394531249
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "lemonada",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 1.0702218259945067,
+  "postScriptName" : "Lemonada-Light",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

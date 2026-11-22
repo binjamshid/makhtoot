@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "presets": [
+    {
+      "id": "social.square",
+      "nameArabic": "مربع",
+      "category": "social",
+      "pixelWidth": 1080,
+      "pixelHeight": 1080,
+      "dpi": 72,
+      "freeTierEligible": true
+    },
+    {
+      "id": "social.storyReel",
+      "nameArabic": "قصة / ريل",
+      "category": "social",
+      "pixelWidth": 1080,
+      "pixelHeight": 1920,
+      "dpi": 72,
+      "freeTierEligible": true
+    },
+    {
+      "id": "social.messagingStatus",
+      "nameArabic": "حالة تطبيقات المراسلة",
+      "category": "social",
+      "pixelWidth": 1080,
+      "pixelHeight": 1920,
+      "dpi": 72,
+      "freeTierEligible": true
+    },
+    {
+      "id": "social.portrait",
+      "nameArabic": "عمودي",
+      "category": "social",
+      "pixelWidth": 1080,
+      "pixelHeight": 1350,
+      "dpi": 72,
+      "freeTierEligible": true
+    },
+    {
+      "id": "social.landscape",
+      "nameArabic": "أفقي",
+      "category": "social",
+      "pixelWidth": 1920,
+      "pixelHeight": 1080,
+      "dpi": 72,
+      "freeTierEligible": true
+    },
+    {
+      "id": "wallpaper.iphone",
+      "nameArabic": "خلفية آيفون",
+      "category": "wallpaper",
+      "pixelWidth": 1170,
+      "pixelHeight": 2532,
+      "dpi": 72,
+      "freeTierEligible": false
+    },
+    {
+      "id": "wallpaper.ipad",
+      "nameArabic": "خلفية آيباد",
+      "category": "wallpaper",
+      "pixelWidth": 2048,
+      "pixelHeight": 2732,
+      "dpi": 72,
+      "freeTierEligible": false
+    },
+    {
+      "id": "print.a5",
+      "nameArabic": "طباعة A5",
+      "category": "print",
+      "pixelWidth": 1748,
+      "pixelHeight": 2480,
+      "dpi": 300,
+      "widthMM": 148,
+      "heightMM": 210,
+      "freeTierEligible": false
+    },
+    {
+      "id": "print.a4",
+      "nameArabic": "طباعة A4",
+      "category": "print",
+      "pixelWidth": 2480,
+      "pixelHeight": 3508,
+      "dpi": 300,
+      "widthMM": 210,
+      "heightMM": 297,
+      "freeTierEligible": false
+    },
+    {
+      "id": "print.a3",
+      "nameArabic": "طباعة A3",
+      "category": "print",
+      "pixelWidth": 3508,
+      "pixelHeight": 4961,
+      "dpi": 300,
+      "widthMM": 297,
+      "heightMM": 420,
+      "freeTierEligible": false
+    },
+    {
+      "id": "print.businessCard",
+      "nameArabic": "بطاقة عمل",
+      "category": "print",
+      "pixelWidth": 1063,
+      "pixelHeight": 650,
+      "dpi": 300,
+      "widthMM": 90,
+      "heightMM": 55,
+      "freeTierEligible": false
+    }
+  ]
+}

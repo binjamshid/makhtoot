@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_designsystem_brandmark_circle">دائرة</string>
+    <string name="mk_designsystem_brandmark_diamond">معين</string>
+    <string name="mk_designsystem_brandmark_wordmark_only">الشعار النصي فقط</string>
+    <string name="mk_designsystem_theme_hibr">حِبر</string>
+    <string name="mk_designsystem_theme_kufi">كوفي</string>
+    <string name="mk_designsystem_theme_naqsh">نَقش</string>
+    <string name="mk_designsystem_theme_raml">رمل</string>
+    <string name="mk_designsystem_theme_tayf">طيف</string>
+</resources>

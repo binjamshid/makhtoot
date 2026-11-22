@@ -1,0 +1,35 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-9",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 3,
+      "constituentScalars" : [
+        1600,
+        1600
+      ],
+      "glyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "kind" : "contextual"
+    },
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 4,
+      "constituentScalars" : [
+        1600,
+        1600
+      ],
+      "glyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "kind" : "contextual"
+    }
+  ],
+  "familyID" : "noto-nastaliq-urdu",
+  "postScriptName" : "NotoNastaliqUrdu-Regular",
+  "sourceText" : "محمــــد"
+}

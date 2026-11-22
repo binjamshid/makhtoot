@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -0.369140625,
+      "relativeOffsetWidth" : 4.88671875
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "vazirmatn",
+  "postScriptName" : "Vazirmatn-Regular_Thin",
+  "sourceText" : "محمّد"
+}

@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lalezar-Regular",
+          "postScriptName" : "Lalezar-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lalezar-Regular@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -35.244140625
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Lalezar-Regular",
+          "postScriptName" : "Lalezar-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "Lalezar-Regular@36.0",
+        "glyphID" : 405
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          8.819999999999999,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -35.244140625
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "lalezar",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.62563673117397,
+  "postScriptName" : "Lalezar-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

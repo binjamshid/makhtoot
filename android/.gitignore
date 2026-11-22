@@ -1,0 +1,36 @@
+# Android / Gradle build output — regenerable, never committed.
+#
+# Added during the 2026-08-07 git-hygiene pass: `git add android` would
+# otherwise stage ~142 MB across 4,297 files, dominated by NDK build output
+# under mk-native/.cxx/ (four libfreetyped.a at ~4–5.5 MB each, four
+# liblcms2.a at ~1.7–2.3 MB each) and Gradle's own caches. The root
+# .gitignore's `build/` rule catches Gradle module output but NOT `.cxx/`
+# (externalNativeBuild's own tree) or `.gradle/`, which is why this file
+# exists rather than a couple of extra root-level lines.
+
+# Gradle
+.gradle/
+local.properties
+gradle-app.setting
+.gradletasknamecache
+
+# NDK / externalNativeBuild — mk-native's C/C++ artifacts (D-304 vendors
+# HarfBuzz, FreeType and lcms2 as source; their compiled .a files are not
+# source and rebuild from it).
+.cxx/
+obj/
+
+# Build output (belt-and-suspenders — root .gitignore already has `build/`,
+# repeated here so this file is self-contained if the module ever moves).
+build/
+captures/
+
+# Signing material — must never enter the repo. D-322 uses Play App Signing;
+# the upload keystore is a local secret.
+*.jks
+*.keystore
+keystore.properties
+
+# IDE
+.idea/
+*.iml

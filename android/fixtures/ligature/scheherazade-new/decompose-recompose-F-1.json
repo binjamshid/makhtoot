@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.ScheherazadeNew-Regular",
+          "postScriptName" : "ScheherazadeNew-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "ScheherazadeNew-Regular@36.0",
+        "glyphID" : 899
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          8.560546875,
+          0
+        ],
+        "position" : [
+          2.2849199999999996,
+          -48.33984375
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.ScheherazadeNew-Regular",
+          "postScriptName" : "ScheherazadeNew-Regular",
+          "userImported" : false
+        },
+        "fontChecksum" : "ScheherazadeNew-Regular@36.0",
+        "glyphID" : 243
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.228515625,
+          0
+        ],
+        "position" : [
+          9.914040000000002,
+          -44.36724375
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "scheherazade-new",
+  "fidelityAutoRefused" : false,
+  "fidelityMode" : "matchOriginal",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.9561358359415045,
+  "postScriptName" : "ScheherazadeNew-Regular",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_sync_badge_conflict_copy">نسخة متعارضة</string>
+    <string name="mk_sync_badge_error">خطأ في المزامنة</string>
+    <string name="mk_sync_badge_needs_app_update">يتطلب تحديث التطبيق</string>
+    <string name="mk_sync_badge_pending_upload">في الانتظار</string>
+    <string name="mk_sync_badge_syncing">جارٍ المزامنة</string>
+    <string name="mk_sync_conflict_copy_suffix">(نسخة متعارضة)</string>
+    <string name="mk_sync_error_asset_too_large">المشروع «%1$s» يحتوي على ملفات كبيرة ، تجري المزامنة لكن قد تستغرق وقتًا أطول</string>
+    <string name="mk_sync_error_network_unavailable">لا يوجد اتصال بالإنترنت ، ستُستأنف المزامنة عند توفّر الشبكة</string>
+    <string name="mk_sync_error_permission_failure">تحقّق من إعدادات iCloud وتأكّد من تفعيل iCloud Drive</string>
+    <string name="mk_sync_error_quota_exceeded">مساحة iCloud ممتلئة ، أفرغ مساحة أو عطّل مزامنة المشاريع الكبيرة</string>
+    <string name="mk_sync_error_server_rejected">رفض خادم iCloud الطلب ، يُرجى المحاولة لاحقًا</string>
+    <string name="mk_sync_error_throttled">يُحدّد iCloud سرعة المزامنة مؤقتًا ، ستُستأنف تلقائيًا</string>
+    <string name="mk_sync_error_unknown">حدث خطأ غير متوقع في المزامنة ، يُرجى المحاولة لاحقًا</string>
+    <string name="mk_sync_error_zone_not_found">تمت إعادة تعيين بيانات iCloud ، جارٍ إعادة رفع المشاريع</string>
+    <string name="mk_sync_status_account_restricted">المزامنة عبر iCloud مقيّدة على هذا الجهاز</string>
+    <string name="mk_sync_status_active">المزامنة مفعّلة</string>
+    <string name="mk_sync_status_disabled">المزامنة معطّلة</string>
+    <string name="mk_sync_status_icloud_temporarily_unavailable">iCloud غير متاح مؤقتًا ، ستُستأنف المزامنة تلقائيًا</string>
+    <string name="mk_sync_status_last_synced">آخر مزامنة: %1$s</string>
+    <string name="mk_sync_status_paused_entitlement">المزامنة عبر iCloud ميزة مميزة ، اشترك لاستئنافها</string>
+    <string name="mk_sync_status_sign_in_required">سجّل الدخول إلى iCloud من الإعدادات لتفعيل المزامنة</string>
+    <string name="mk_sync_status_syncing_progress">جارٍ المزامنة (%1$d/%2$d)</string>
+</resources>

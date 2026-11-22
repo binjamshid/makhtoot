@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Changa-ExtraLight",
+          "postScriptName" : "Changa-ExtraLight",
+          "userImported" : false
+        },
+        "fontChecksum" : "Changa-ExtraLight@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -44.17218017578125
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Changa-ExtraLight",
+          "postScriptName" : "Changa-ExtraLight",
+          "userImported" : false
+        },
+        "fontChecksum" : "Changa-ExtraLight@36.0",
+        "glyphID" : 272
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.828,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -44.17218017578125
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "changa",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7050218574580505,
+  "postScriptName" : "Changa-ExtraLight",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

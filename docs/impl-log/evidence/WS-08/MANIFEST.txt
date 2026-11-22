@@ -1,0 +1,9 @@
+WS-08 P10-COMPLETION evidence — generated 2026-07-18 20:11:44 +0000
+
+Historical manifest. The three PDF samples were removed from tracked source
+because redistribution terms for embedded components were unresolved.
+
+sample-pdfRaster.pdf: 43185 bytes
+sample-pdfVectorRGB.pdf: 11974 bytes
+sample-pdfVectorCMYK.pdf: 239845 bytes, fallbacks=["cmykContentRasterized"]
+sample.svg: 1830 bytes, fallbacks=["fontNotEmbedded", "fontNotEmbedded"]

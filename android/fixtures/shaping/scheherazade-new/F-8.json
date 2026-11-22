@@ -1,0 +1,240 @@
+{
+  "corpusID" : "F-8",
+  "familyDir" : "ScheherazadeNew",
+  "familyID" : "scheherazade-new",
+  "fontFile" : "ScheherazadeNew-Regular.ttf",
+  "lines" : [
+    {
+      "ascent" : 48.33984375,
+      "bidiBaseDirection" : "rightToLeft",
+      "bidiRuns" : [
+        {
+          "isRTL" : true,
+          "level" : 1,
+          "utf16End" : 8,
+          "utf16Start" : 0,
+          "visualOrdinal" : 0
+        }
+      ],
+      "clusters" : [
+        {
+          "codepoints" : [
+            1611
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 6,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 0,
+          "utf16End" : 1,
+          "utf16Start" : 0
+        },
+        {
+          "codepoints" : [
+            1612
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 5,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 1,
+          "utf16End" : 2,
+          "utf16Start" : 1
+        },
+        {
+          "codepoints" : [
+            1613
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 4,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 2,
+          "utf16End" : 3,
+          "utf16Start" : 2
+        },
+        {
+          "codepoints" : [
+            1614
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 3,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 3,
+          "utf16End" : 4,
+          "utf16Start" : 3
+        },
+        {
+          "codepoints" : [
+            1615
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 2,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 4,
+          "utf16End" : 5,
+          "utf16Start" : 4
+        },
+        {
+          "codepoints" : [
+            1616,
+            1617
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 1,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 5,
+          "utf16End" : 7,
+          "utf16Start" : 5
+        },
+        {
+          "codepoints" : [
+            1618
+          ],
+          "glyphs" : [
+            {
+              "glyph" : 0,
+              "run" : 0
+            }
+          ],
+          "kind" : "markOnly",
+          "ordinal" : 6,
+          "utf16End" : 8,
+          "utf16Start" : 7
+        }
+      ],
+      "descent" : 25.083984375,
+      "glyphCount" : 7,
+      "leading" : 0,
+      "lineIndexInParagraph" : 0,
+      "runs" : [
+        {
+          "advances" : [
+            [
+              0.369140625,
+              -16.03125
+            ],
+            [
+              1.705078125,
+              -13.130859375
+            ],
+            [
+              1.529296875,
+              -6.626953125
+            ],
+            [
+              3.041015625,
+              -20.77734375
+            ],
+            [
+              -2.28515625,
+              9.966796875
+            ],
+            [
+              3.568359375,
+              -9.966796875
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "baselineShift" : 0,
+          "cursiveAttached" : [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "fontPointSize" : 36,
+          "fontPostScriptName" : "ScheherazadeNew-Regular",
+          "glyphs" : [
+            1349,
+            1678,
+            1343,
+            1342,
+            1340,
+            1338,
+            1337
+          ],
+          "isNonMonotonic" : false,
+          "isRTL" : true,
+          "positions" : [
+            [
+              -7.927734375,
+              56.56640625
+            ],
+            [
+              -7.55859375,
+              40.53515625
+            ],
+            [
+              -5.853515625,
+              27.404296875
+            ],
+            [
+              -4.32421875,
+              20.77734375
+            ],
+            [
+              -1.283203125,
+              0
+            ],
+            [
+              -3.568359375,
+              9.966796875
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "standardLigaturesEnabled" : true,
+          "stringIndices" : [
+            7,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "stringRangeEnd" : 8,
+          "stringRangeStart" : 0,
+          "tracking" : 0
+        }
+      ],
+      "sourceRangeEnd" : 8,
+      "sourceRangeStart" : 0,
+      "width" : 1.283203125
+    }
+  ],
+  "note" : "Tashkeel-only input, no base letters (dotted-circle fallback)",
+  "pointSize" : 36,
+  "postScriptName" : "ScheherazadeNew-Regular",
+  "sourceText" : "ًٌٍَُِّْ"
+}

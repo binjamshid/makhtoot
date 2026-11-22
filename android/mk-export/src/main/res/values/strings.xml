@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_export_fallback_arranged_geometry">تم تحويل النص إلى مسارات للحفاظ على الشكل</string>
+    <string name="mk_export_fallback_asset_unresolved">تعذّر العثور على إحدى الصور؛ لم يتم تضمينها في الملف</string>
+    <string name="mk_export_fallback_cmyk_content_rasterized">تم تحويل الصفحة بالكامل إلى صورة نقطية عالية الدقة لتحويلها إلى CMYK؛ النص والأشكال لم تعد عناصر متجهية</string>
+    <string name="mk_export_fallback_color_glyph_rasterized">تم تصدير الرمز التعبيري كصورة نقطية</string>
+    <string name="mk_export_fallback_downscaled_free_tier">تم تصغير حجم التصدير ليتوافق مع الحد المجاني (٢ ميجابكسل)</string>
+    <string name="mk_export_fallback_font_embedding_restricted">تعذّر تضمين الخط \"%1$s\" بسبب قيود الترخيص؛ تم تحويل النص إلى مسارات</string>
+    <string name="mk_export_fallback_font_not_embedded">لم يتم تضمين الخط \"%1$s\" في الملف؛ قد يظهر النص بخط مختلف عند فتحه على جهاز آخر</string>
+    <string name="mk_export_fallback_locked_font_no_cache">الخط \"%1$s\" مقفل ولا توجد نسخة محفوظة من التنضيد؛ تم حظر التصدير</string>
+    <string name="mk_export_fallback_path_text_fidelity">تم تصدير النص على المسار كمسارات ثابتة للحفاظ على شكل التخطيط</string>
+    <string name="mk_export_fallback_pdf_asset_rasterized">تم تحويل صورة PDF إلى صورة نقطية داخل ملف SVG</string>
+    <string name="mk_export_fallback_raster_below_print_dpi">دقة إحدى الصور أقل من ٣٠٠ نقطة في البوصة عند الطباعة</string>
+    <string name="mk_export_fallback_user_fidelity_toggle">تم تحويل النص إلى مسارات حسب إعداد \"دقة المسار\"</string>
+</resources>

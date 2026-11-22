@@ -1,0 +1,24 @@
+{
+  "activeSetting" : "standard",
+  "corpusID" : "F-9",
+  "detected" : [
+    {
+      "activeSetting" : "standard",
+      "clusterOrdinal" : 3,
+      "constituentScalars" : [
+        1600,
+        1600,
+        1600,
+        1600
+      ],
+      "glyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "kind" : "contextual"
+    }
+  ],
+  "familyID" : "jomhuria",
+  "postScriptName" : "Jomhuria-Regular",
+  "sourceText" : "محمــــد"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mk_arrange_error_cannot_recompose_after_edit">لا يمكن إعادة الدمج بعد تعديل الأجزاء</string>
+    <string name="mk_arrange_error_cannot_reshape_after_arranging">لا يمكن تغيير هذا العنصر بعد تحويله إلى ترتيب حر</string>
+    <string name="mk_arrange_error_ligature_not_decomposable">لا يمكن تفكيك هذا المركّب</string>
+    <string name="mk_arrange_error_revert_backup_corrupted">تعذّر استرجاع النص الأصلي</string>
+    <string name="mk_arrange_revert_confirmation_message">استرجاع النص الأصلي سيلغي جميع التعديلات الحرة. متابعة؟</string>
+</resources>

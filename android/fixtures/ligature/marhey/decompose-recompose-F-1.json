@@ -1,0 +1,71 @@
+{
+  "componentCount" : 2,
+  "components" : [
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Marhey-Light",
+          "postScriptName" : "Marhey-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Marhey-Light@36.0",
+        "glyphID" : 340
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "initial",
+        "joinsNext" : true,
+        "joinsPrevious" : false
+      },
+      "layout" : {
+        "advance" : [
+          17.10488245931284,
+          0
+        ],
+        "position" : [
+          0,
+          -39.6002197265625
+        ]
+      },
+      "ordinal" : 0
+    },
+    {
+      "glyph" : {
+        "font" : {
+          "fontID" : "system.Marhey-Light",
+          "postScriptName" : "Marhey-Light",
+          "userImported" : false
+        },
+        "fontChecksum" : "Marhey-Light@36.0",
+        "glyphID" : 260
+      },
+      "joining" : {
+        "brokenByUser" : false,
+        "form" : "final",
+        "joinsNext" : false,
+        "joinsPrevious" : true
+      },
+      "layout" : {
+        "advance" : [
+          9.828,
+          0
+        ],
+        "position" : [
+          17.10488245931284,
+          -39.6002197265625
+        ]
+      },
+      "ordinal" : 1
+    }
+  ],
+  "corpusID" : "F-1",
+  "decomposable" : true,
+  "familyID" : "marhey",
+  "fidelityAutoRefused" : true,
+  "fidelityMode" : "defaultForms",
+  "fusedIntoOneCluster" : true,
+  "naturalScaleFactor" : 0.7751253625542648,
+  "postScriptName" : "Marhey-Light",
+  "recomposeRoundTripsExactly" : true,
+  "sourceText" : "لا"
+}

@@ -1,0 +1,23 @@
+{
+  "attachments" : [
+    {
+      "baseClusterIndex" : 2,
+      "baseGlyph" : {
+        "glyph" : 2,
+        "run" : 0
+      },
+      "markClass" : "tashkeel",
+      "markClusterIndex" : 3,
+      "markGlyph" : {
+        "glyph" : 1,
+        "run" : 0
+      },
+      "relativeOffsetHeight" : -8.748,
+      "relativeOffsetWidth" : 5.8679999999999986
+    }
+  ],
+  "caseID" : "F-3",
+  "familyID" : "noto-kufi-arabic",
+  "postScriptName" : "NotoKufiArabic-Regular_Thin",
+  "sourceText" : "محمّد"
+}
